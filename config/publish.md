@@ -1,7 +1,7 @@
 # Publishing settings (GitHub Pages)
 
-- **Site URL (`{{URL_SITIO}}`):** `PENDIENTE` — set to `https://<cuenta>.github.io/<repositorio>/` once the repository exists. Always end with `/`.
-- **Repository:** `PENDIENTE`
+- **Site URL (`{{URL_SITIO}}`):** `https://isacoli.github.io/radar-regional/` (always end with `/`).
+- **Repository:** `https://github.com/isacoli/radar-regional` (public)
 - **Pages source:** branch `main`, folder `/docs`.
 
 ## Site structure
