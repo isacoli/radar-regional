@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="x-apple-disable-message-reformatting">
+<meta name="color-scheme" content="light">
+<meta name="supported-color-schemes" content="light">
+<title>{{TITULAR}} · Boletín Oficina Andina ONUDI</title>
+<!--
+  PLANTILLA DEL BOLETÍN — Oficina Andina de ONUDI
+  - Todo el estilo va inline; este <style> solo mejora la vista en móviles.
+  - Reemplace cada {{MARCADOR}}. Duplique o elimine los bloques marcados REPETIBLE / OPCIONAL.
+  - Sin JavaScript, sin fuentes web, sin CSS externo.
+-->
+<style>
+  body { margin:0; padding:0; }
+  a { color:#0a5c99; }
+  @media only screen and (max-width:620px) {
+    .container { width:100% !important; }
+    .px { padding-left:20px !important; padding-right:20px !important; }
+    .stat { display:block !important; width:100% !important; padding:0 0 12px 0 !important; }
+    .h1 { font-size:26px !important; line-height:32px !important; }
+  }
+</style>
+</head>
+<body style="margin:0; padding:0; background-color:#eef2f6;">
+
+<!-- Preheader: texto de vista previa en la bandeja de entrada (oculto) -->
+<div style="display:none; max-height:0; overflow:hidden; mso-hide:all; font-size:1px; line-height:1px; color:#eef2f6;">
+  {{PREHEADER: una frase de 80–110 caracteres que resuma la edición}}
+</div>
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#eef2f6;">
+<tr><td align="center" style="padding:24px 12px;">
+
+<table role="presentation" class="container" width="600" cellpadding="0" cellspacing="0" border="0" style="width:600px; max-width:600px; background-color:#ffffff; border-radius:6px; overflow:hidden;">
+
+  <!-- BANNER DE BORRADOR: eliminar solo cuando la edición sea final -->
+  <tr>
+    <td style="background-color:#fff4d6; padding:10px 32px; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:18px; color:#7a5a00; text-align:center; border-bottom:1px solid #f0dca0;">
+      <strong>BORRADOR</strong> — documento interno en revisión; no constituye una posición oficial de ONUDI.
+    </td>
+  </tr>
+
+  <!-- ENCABEZADO -->
+  <tr>
+    <td class="px" style="background-color:#0b3d66; padding:28px 32px 24px 32px; font-family:Arial, Helvetica, sans-serif;">
+      <div style="font-size:12px; line-height:16px; letter-spacing:1.5px; text-transform:uppercase; color:#9cc7ea;">Oficina Andina de ONUDI · Colombia · Perú · Bolivia · Ecuador</div>
+      <div style="font-size:22px; line-height:28px; font-weight:bold; color:#ffffff; padding-top:6px;">Boletín de Desarrollo Industrial</div>
+      <div style="font-size:13px; line-height:18px; color:#cfe2f3; padding-top:6px;">Edición {{NÚMERO}} · {{MES AÑO}} · Tema: {{TEMA}}</div>
+    </td>
+  </tr>
+
+  <!-- TITULAR Y RESUMEN -->
+  <tr>
+    <td class="px" style="padding:32px 32px 8px 32px; font-family:Georgia, 'Times New Roman', serif;">
+      <h1 class="h1" style="margin:0; font-size:30px; line-height:36px; font-weight:bold; color:#0b3d66;">{{TITULAR}}</h1>
+      <p style="margin:16px 0 0 0; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:25px; color:#3a4a5a;">{{RESUMEN: 2–3 frases con la idea central de la edición}}</p>
+    </td>
+  </tr>
+
+  <!-- CIFRAS CLAVE (OPCIONAL): hasta 3 indicadores -->
+  <tr>
+    <td class="px" style="padding:24px 32px 8px 32px;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <!-- REPETIBLE: indicador -->
+          <td class="stat" width="33%" valign="top" style="padding:0 8px 0 0;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#eaf3fb; border-radius:6px;">
+              <tr><td style="padding:16px; font-family:Arial, Helvetica, sans-serif;">
+                <div style="font-size:26px; line-height:30px; font-weight:bold; color:#0a5c99;">{{CIFRA}}</div>
+                <div style="font-size:13px; line-height:18px; color:#3a4a5a; padding-top:6px;">{{DESCRIPCIÓN BREVE}}</div>
+                <div style="font-size:11px; line-height:15px; color:#6b7b8b; padding-top:6px;">{{PAÍS · AÑO}} [{{N}}]</div>
+              </td></tr>
+            </table>
+          </td>
+          <td class="stat" width="33%" valign="top" style="padding:0 4px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#eaf3fb; border-radius:6px;">
+              <tr><td style="padding:16px; font-family:Arial, Helvetica, sans-serif;">
+                <div style="font-size:26px; line-height:30px; font-weight:bold; color:#0a5c99;">{{CIFRA}}</div>
+                <div style="font-size:13px; line-height:18px; color:#3a4a5a; padding-top:6px;">{{DESCRIPCIÓN BREVE}}</div>
+                <div style="font-size:11px; line-height:15px; color:#6b7b8b; padding-top:6px;">{{PAÍS · AÑO}} [{{N}}]</div>
+              </td></tr>
+            </table>
+          </td>
+          <td class="stat" width="33%" valign="top" style="padding:0 0 0 8px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#eaf3fb; border-radius:6px;">
+              <tr><td style="padding:16px; font-family:Arial, Helvetica, sans-serif;">
+                <div style="font-size:26px; line-height:30px; font-weight:bold; color:#0a5c99;">{{CIFRA}}</div>
+                <div style="font-size:13px; line-height:18px; color:#3a4a5a; padding-top:6px;">{{DESCRIPCIÓN BREVE}}</div>
+                <div style="font-size:11px; line-height:15px; color:#6b7b8b; padding-top:6px;">{{PAÍS · AÑO}} [{{N}}]</div>
+              </td></tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  <!-- SECCIÓN PRINCIPAL (REPETIBLE): una por tema o país -->
+  <tr>
+    <td class="px" style="padding:28px 32px 4px 32px; font-family:Arial, Helvetica, sans-serif;">
+      <div style="font-size:11px; line-height:14px; font-weight:bold; letter-spacing:1.2px; text-transform:uppercase; color:#1a8a7a;">{{ETIQUETA: país o tema}}</div>
+      <h2 style="margin:6px 0 0 0; font-family:Georgia, 'Times New Roman', serif; font-size:21px; line-height:27px; color:#0b3d66;">{{TÍTULO DE LA SECCIÓN}}</h2>
+      <p style="margin:12px 0 0 0; font-size:15px; line-height:24px; color:#2b3a49;">{{PÁRRAFO con citas numeradas [1]}}</p>
+      <p style="margin:12px 0 0 0; font-size:15px; line-height:24px; color:#2b3a49;">{{PÁRRAFO}}</p>
+    </td>
+  </tr>
+  <!-- FIN SECCIÓN PRINCIPAL -->
+
+  <!-- QUÉ SIGNIFICA PARA ONUDI -->
+  <tr>
+    <td class="px" style="padding:28px 32px 4px 32px;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#f4f7fa; border-left:4px solid #1a8a7a;">
+        <tr><td style="padding:18px 20px; font-family:Arial, Helvetica, sans-serif;">
+          <div style="font-size:16px; line-height:22px; font-weight:bold; color:#0b3d66;">¿Qué significa para el trabajo de ONUDI en la región?</div>
+          <ul style="margin:10px 0 0 0; padding-left:20px; font-size:15px; line-height:23px; color:#2b3a49;">
+            <li style="margin-bottom:6px;">{{IMPLICACIÓN 1}}</li>
+            <li style="margin-bottom:6px;">{{IMPLICACIÓN 2}}</li>
+            <li>{{IMPLICACIÓN 3}}</li>
+          </ul>
+        </td></tr>
+      </table>
+    </td>
+  </tr>
+
+  <!-- NOTICIAS DE LA REGIÓN (OPCIONAL): breves de América Latina y el Caribe -->
+  <tr>
+    <td class="px" style="padding:28px 32px 4px 32px; font-family:Arial, Helvetica, sans-serif;">
+      <h2 style="margin:0; font-family:Georgia, 'Times New Roman', serif; font-size:19px; line-height:25px; color:#0b3d66;">En la región</h2>
+      <!-- REPETIBLE: noticia breve -->
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-bottom:1px solid #e1e7ed;">
+        <tr><td style="padding:14px 0;">
+          <div style="font-size:15px; line-height:21px; font-weight:bold; color:#2b3a49;">{{TITULAR BREVE}}</div>
+          <div style="font-size:14px; line-height:21px; color:#3a4a5a; padding-top:4px;">{{RESUMEN: párrafo breve de 2–3 frases}} <span style="color:#6b7b8b;">({{PAÍS}})</span></div>
+          <div style="font-size:13px; line-height:19px; padding-top:6px;"><a href="{{URL DE LA NOTICIA ORIGINAL}}" style="color:#0a5c99; font-weight:bold;">Leer más en {{FUENTE}} &rarr;</a></div>
+        </td></tr>
+      </table>
+    </td>
+  </tr>
+
+  <!-- AGENDA (OPCIONAL) -->
+  <tr>
+    <td class="px" style="padding:28px 32px 4px 32px; font-family:Arial, Helvetica, sans-serif;">
+      <h2 style="margin:0; font-family:Georgia, 'Times New Roman', serif; font-size:19px; line-height:25px; color:#0b3d66;">Agenda</h2>
+      <!-- REPETIBLE: evento -->
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top:12px;">
+        <tr>
+          <td width="72" valign="top" style="padding:0 12px 12px 0;">
+            <div style="background-color:#0b3d66; color:#ffffff; text-align:center; border-radius:4px; padding:6px 0; font-size:12px; line-height:16px; font-weight:bold;">{{DD MMM}}</div>
+          </td>
+          <td valign="top" style="padding:0 0 12px 0; font-size:14px; line-height:20px; color:#2b3a49;">
+            <strong>{{NOMBRE DEL EVENTO}}</strong><br>{{LUGAR o «En línea»}} · <a href="{{URL}}" style="color:#0a5c99;">Más información</a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  <!-- FUENTES -->
+  <tr>
+    <td class="px" style="padding:28px 32px 28px 32px; font-family:Arial, Helvetica, sans-serif;">
+      <div style="font-size:14px; line-height:20px; font-weight:bold; color:#0b3d66;">Fuentes</div>
+      <ol style="margin:8px 0 0 0; padding-left:20px; font-size:12px; line-height:18px; color:#5a6a7a;">
+        <!-- REPETIBLE: una fuente por línea, en el orden de las citas -->
+        <li style="margin-bottom:4px;">{{Organización / medio}}, «{{Título original}}» ({{idioma si no es español}}), {{fecha}}. <a href="{{URL}}" style="color:#0a5c99; word-break:break-all;">{{dominio}}</a></li>
+      </ol>
+    </td>
+  </tr>
+
+  <!-- PIE -->
+  <tr>
+    <td class="px" style="background-color:#0b3d66; padding:20px 32px; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:18px; color:#cfe2f3;">
+      Oficina Andina de la Organización de las Naciones Unidas para el Desarrollo Industrial (ONUDI)<br>
+      Contacto: {{CORREO DE CONTACTO}}<br>
+      <span style="color:#9cc7ea;">Las opiniones y cifras de terceros se citan con su fuente y no reflejan necesariamente la posición de ONUDI.</span>
+    </td>
+  </tr>
+
+</table>
+
+</td></tr>
+</table>
+</body>
+</html>

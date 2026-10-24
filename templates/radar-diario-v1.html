@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="x-apple-disable-message-reformatting">
+<meta name="color-scheme" content="light">
+<meta name="supported-color-schemes" content="light">
+<title>Radar Regional Diario · {{DÍA DD MES AÑO}}</title>
+<!--
+  PLANTILLA DEL RADAR DIARIO — Oficina Andina de ONUDI
+  - Todo el estilo va inline; este <style> solo mejora la vista en móviles.
+  - Reemplace cada {{MARCADOR}}. Duplique el bloque NOTICIA para cada titular (máx. 20), en orden de ranking.
+  - Etiquetas: incluya solo las que correspondan (🔥 Más difundida / ⭐ Más relevante). Si no aplica ninguna, elimine el <div> de etiquetas.
+  - Sin JavaScript, sin fuentes web, sin CSS externo.
+-->
+<style>
+  body { margin:0; padding:0; }
+  a { color:#0b3d66; }
+  @media only screen and (max-width:620px) {
+    .container { width:100% !important; }
+    .px { padding-left:20px !important; padding-right:20px !important; }
+  }
+</style>
+</head>
+<body style="margin:0; padding:0; background-color:#eef2f6;">
+
+<!-- Preheader: texto de vista previa en la bandeja de entrada (oculto) -->
+<div style="display:none; max-height:0; overflow:hidden; mso-hide:all; font-size:1px; line-height:1px; color:#eef2f6;">
+  {{PREHEADER: los 2–3 titulares principales del día en una frase}}
+</div>
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#eef2f6;">
+<tr><td align="center" style="padding:24px 12px;">
+
+<table role="presentation" class="container" width="600" cellpadding="0" cellspacing="0" border="0" style="width:600px; max-width:600px; background-color:#ffffff; border-radius:6px; overflow:hidden;">
+
+  <!-- BANNER DE BORRADOR: eliminar solo cuando el usuario indique que la edición es final -->
+  <tr>
+    <td style="background-color:#fff4d6; padding:10px 32px; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:18px; color:#7a5a00; text-align:center; border-bottom:1px solid #f0dca0;">
+      <strong>BORRADOR</strong> — documento interno en revisión; no constituye una posición oficial de ONUDI.
+    </td>
+  </tr>
+
+  <!-- ENCABEZADO -->
+  <tr>
+    <td class="px" style="background-color:#0b3d66; padding:24px 32px 20px 32px; font-family:Arial, Helvetica, sans-serif;">
+      <div style="font-size:12px; line-height:16px; letter-spacing:1.5px; text-transform:uppercase; color:#9cc7ea;">Oficina Andina de ONUDI · Uso interno</div>
+      <div style="font-size:24px; line-height:30px; font-weight:bold; color:#ffffff; padding-top:6px;">Radar Regional Diario</div>
+      <div style="font-size:13px; line-height:18px; color:#cfe2f3; padding-top:4px;">N.º {{NÚMERO}} · {{Día DD de mes de AAAA}} · {{N}} noticias</div>
+    </td>
+  </tr>
+
+  <!-- RESUMEN DEL DÍA -->
+  <tr>
+    <td class="px" style="padding:24px 32px 4px 32px; font-family:Arial, Helvetica, sans-serif;">
+      <div style="font-size:12px; line-height:16px; font-weight:bold; letter-spacing:1.2px; text-transform:uppercase; color:#1a7a6a;">Resumen del día</div>
+      <p style="margin:8px 0 0 0; font-size:15px; line-height:23px; color:#2b3a49;">{{RESUMEN: un párrafo de 4–6 frases, en español y con palabras propias, que sintetice lo más importante del día en la región: los temas dominantes, las cifras clave y qué conviene seguir}}</p>
+    </td>
+  </tr>
+
+  <!-- LEYENDA -->
+  <tr>
+    <td class="px" style="padding:14px 32px 4px 32px; font-family:Arial, Helvetica, sans-serif; font-size:11px; line-height:16px; color:#6b7b8b;">
+      <span style="background-color:#fdebd8; color:#9a4a00; padding:2px 6px; border-radius:3px; font-weight:bold;">🔥 Más difundida</span>&nbsp;cubierta por más fuentes&nbsp;&nbsp;
+      <span style="background-color:#e1eefa; color:#0b3d66; padding:2px 6px; border-radius:3px; font-weight:bold;">⭐ Más relevante</span>&nbsp;mayor interés para la oficina<br>
+      Ordenadas de mayor a menor difusión.
+    </td>
+  </tr>
+
+  <!-- TITULARES -->
+  <tr>
+    <td class="px" style="padding:14px 32px 8px 32px; font-family:Arial, Helvetica, sans-serif;">
+      <div style="font-size:12px; line-height:16px; font-weight:bold; letter-spacing:1.2px; text-transform:uppercase; color:#0b3d66; border-bottom:2px solid #0b3d66; padding-bottom:6px;">Titulares</div>
+
+      <!-- NOTICIA (REPETIBLE), en orden de ranking -->
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-bottom:1px solid #e1e7ed;">
+        <tr>
+          <td width="30" valign="top" style="padding:12px 8px 12px 0; font-family:Georgia, 'Times New Roman', serif; font-size:16px; line-height:22px; font-weight:bold; color:#9cb0c3;">{{N}}</td>
+          <td valign="top" style="padding:12px 0;">
+            <div style="font-size:11px; line-height:16px; padding-bottom:4px;">
+              <span style="background-color:#fdebd8; color:#9a4a00; padding:1px 6px; border-radius:3px; font-weight:bold;">🔥 Más difundida</span>
+              <span style="background-color:#e1eefa; color:#0b3d66; padding:1px 6px; border-radius:3px; font-weight:bold;">⭐ Más relevante</span>
+            </div>
+            <a href="{{URL DEL ARTÍCULO ORIGINAL}}" style="font-size:15px; line-height:21px; font-weight:bold; color:#0b3d66; text-decoration:none;">{{TITULAR EN ESPAÑOL}}</a>
+            <div style="font-size:12px; line-height:17px; color:#6b7b8b; padding-top:3px;">{{FUENTE}} · {{PAÍS}} · {{CATEGORÍA}}{{ · (en inglés/portugués) si aplica}}{{ · [pago] si aplica}}</div>
+          </td>
+        </tr>
+      </table>
+      <!-- FIN NOTICIA -->
+
+    </td>
+  </tr>
+
+  <!-- INVESTIGACIÓN DESTACADA (OPCIONAL): hasta 5 publicaciones; eliminar la sección si no hay ninguna -->
+  <tr>
+    <td class="px" style="padding:22px 32px 8px 32px; font-family:Arial, Helvetica, sans-serif;">
+      <div style="font-size:12px; line-height:16px; font-weight:bold; letter-spacing:1.2px; text-transform:uppercase; color:#1a7a6a; border-bottom:2px solid #1a7a6a; padding-bottom:6px;">Investigación destacada</div>
+      <div style="font-size:11px; line-height:16px; color:#6b7b8b; padding-top:6px;">Artículos en revistas de alto impacto (Q1) y documentos de trabajo de BID, Banco Mundial, CEPAL, ONUDI y NBER publicados en los últimos 7 días.</div>
+
+      <!-- PUBLICACIÓN (REPETIBLE), en orden de relevancia -->
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-bottom:1px solid #e1e7ed;">
+        <tr>
+          <td width="30" valign="top" style="padding:12px 8px 12px 0; font-family:Georgia, 'Times New Roman', serif; font-size:16px; line-height:22px; font-weight:bold; color:#9cc8bf;">{{N}}</td>
+          <td valign="top" style="padding:12px 0;">
+            <!-- Etiquetas: incluya solo las que correspondan -->
+            <div style="font-size:11px; line-height:16px; padding-bottom:4px;">
+              <span style="background-color:#e1eefa; color:#0b3d66; padding:1px 6px; border-radius:3px; font-weight:bold;">⭐ Más relevante</span>
+              <span style="background-color:#e3f2ef; color:#1a6a5c; padding:1px 6px; border-radius:3px; font-weight:bold;">{{Regional | Global}}</span>
+              <span style="background-color:#eef1f4; color:#4a5a6a; padding:1px 6px; border-radius:3px;">{{Acceso abierto | [pago]}}</span>
+              <span style="background-color:#eef1f4; color:#4a5a6a; padding:1px 6px; border-radius:3px;">Documento de trabajo</span>
+            </div>
+            <a href="{{https://doi.org/... o página oficial de la serie}}" style="font-size:15px; line-height:21px; font-weight:bold; color:#0b3d66; text-decoration:none;">{{TÍTULO EN ESPAÑOL}}</a>
+            <div style="font-size:11px; line-height:15px; color:#8a98a6; font-style:italic; padding-top:2px;">{{Título original (omitir si ya está en español)}}</div>
+            <div style="font-size:12px; line-height:17px; color:#6b7b8b; padding-top:4px;">{{Primer autor}} et al. · <em>{{Revista o serie}}</em> · {{Año}}</div>
+            <div style="font-size:13px; line-height:19px; color:#2b3a49; padding-top:5px;"><strong style="color:#1a7a6a;">Hallazgo principal:</strong> {{Una frase en español, con palabras propias, a partir del resumen}}</div>
+          </td>
+        </tr>
+      </table>
+      <!-- FIN PUBLICACIÓN -->
+
+    </td>
+  </tr>
+
+  <!-- NOTA DE MÉTODO -->
+  <tr>
+    <td class="px" style="padding:18px 32px 24px 32px; font-family:Arial, Helvetica, sans-serif; font-size:11px; line-height:17px; color:#6b7b8b;">
+      Noticias publicadas entre el {{día DD de mes, 07:01}} y el {{día DD de mes, 07:00}} (hora de Lima, Bogotá y Quito), identificadas mediante búsqueda asistida por IA en fuentes oficiales de gobierno, organismos nacionales e internacionales y medios verificados (español, inglés y portugués). Cada enlace fue comprobado. Titulares traducidos al español cuando la fuente está en otro idioma. La difusión indica cuántas fuentes independientes cubrieron la noticia.
+    </td>
+  </tr>
+
+  <!-- PIE -->
+  <tr>
+    <td class="px" style="background-color:#0b3d66; padding:18px 32px; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:18px; color:#cfe2f3;">
+      Radar Regional Diario — Oficina Andina de ONUDI (Colombia, Perú, Bolivia, Ecuador)<br>
+      ¿Tiene una noticia para el próximo número? Responda a este correo.<br>
+      <span style="color:#9cc7ea;">Las noticias de terceros se enlazan con su fuente y no reflejan necesariamente la posición de ONUDI.</span>
+    </td>
+  </tr>
+
+</table>
+
+</td></tr>
+</table>
+</body>
+</html>
