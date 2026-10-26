@@ -1,0 +1,73 @@
+# Radar Regional — actualización a pedido (botón "Run workflow" en GitHub Actions)
+#
+# Cómo usarlo: GitHub → pestaña Actions → "Radar Regional — actualizar ahora" → Run workflow.
+# Solo quienes tienen permiso de escritura en el repositorio pueden ejecutarlo.
+#
+# Requisito único: un secreto del repositorio llamado ANTHROPIC_API_KEY
+# (Settings → Secrets and variables → Actions → New repository secret).
+#
+# Resultado: Claude ejecuta /radar con la ventana "a pedido" (hasta el momento de la ejecución),
+# genera el borrador y abre un Pull Request para revisión. Nada se publica en el sitio ni en
+# Supabase hasta que el borrador se apruebe.
+
+name: Radar Regional — actualizar ahora
+
+on:
+  workflow_dispatch:
+    inputs:
+      nota:
+        description: "Instrucciones extra (opcional), p. ej. 'enfocarse en litio'"
+        required: false
+        default: ""
+  # Ejecución automática de lunes a viernes a las 07:00 de Lima (12:00 UTC).
+  # Descomentar para activarla (genera costo de API en cada ejecución).
+  # schedule:
+  #   - cron: "0 12 * * 1-5"
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+  id-token: write
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run Radar with Claude Code
+        uses: anthropics/claude-code-action@v1
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          prompt: |
+            Eres el editor del Radar Regional de la Oficina Andina de ONUDI. Repositorio: ${{ github.repository }}.
+            Ejecuta una actualización A PEDIDO siguiendo CLAUDE.md (Modo 1) y config/settings.md:
+            - La ventana empieza justo después del cierre de la última edición en output/radar/historial.md
+              y termina en el momento de esta ejecución (hora de Lima, UTC−5).
+            - Busca, filtra por fuentes confiables, verifica cada enlace, rankea y etiqueta (hasta 20 noticias),
+              y selecciona hasta 5 investigaciones (config/research.md).
+            - Escribe output/radar/<fecha>/datos.json y notas.md, y construye el borrador con:
+              python3 scripts/construir_boletin.py output/radar/<fecha>
+            - Registra la edición como "borrador" en output/radar/historial.md.
+            - NO copies nada a docs/ y NO cargues nada en Supabase.
+            - Crea una rama radar/<fecha>-<hora>, haz commit de los archivos y abre un Pull Request
+              con gh pr create, con un resumen de los titulares en la descripción.
+            Instrucciones extra del usuario: ${{ github.event.inputs.nota }}
+          claude_args: |
+            --model claude-opus-5-5
+            --max-turns 200
+            --allowedTools Bash,Read,Write,Edit,Glob,Grep,WebSearch,WebFetch
