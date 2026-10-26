@@ -12,6 +12,9 @@
   .pais:focus { outline:none; }
   .pais.con-datos { fill:#0067B1; }
   .pais.sin-datos { fill:#C9D9E8; }
+  .pais.anterior { fill:#7FB3DC; }
+  .etiq { display:inline-block; font-size:10px; font-weight:bold; border-radius:3px; padding:1px 6px; margin-left:6px; vertical-align:1px; letter-spacing:0; text-transform:none; }
+  .etiq.si { background:#E1EEFA; color:#003A70; } .etiq.no { background:#EEF1F4; color:#4A5A6A; } .etiq.ant { background:#FDEBD8; color:#9A4A00; }
   .pais:hover, .pais.hover { fill:#009EDB; }
   .pais.seleccionado { fill:#003A70; stroke:#FDB913; stroke-width:1.4; }
   .contexto { fill:#EEF1F4; stroke:#fff; stroke-width:0.5; pointer-events:none; }
@@ -63,15 +66,15 @@
       <div>
         <svg id="mapa" viewBox="0 0 600 780" role="img" aria-label="Mapa de América Latina continental"></svg>
         <div class="leyenda">
-          <span><i style="background:#0067B1"></i>Con noticias en el Radar</span>
-          <span><i style="background:#C9D9E8"></i>Sin noticias en los últimos 7 días</span>
+          <span><i style="background:#0067B1"></i>Con noticia del día</span>
+          <span><i style="background:#7FB3DC"></i>Noticia más reciente (anterior a la ventana)</span>
           <span><i style="background:#003A70; outline:2px solid #FDB913"></i>Seleccionado</span>
         </div>
         <p class="nota" id="periodo"></p>
       </div>
       <aside class="panel" id="panel" aria-live="polite">
         <h3>Seleccione un país</h3>
-        <p class="vacio">Haga clic en un país del mapa para ver la noticia principal, el financiamiento y los proyectos industriales, y las oportunidades para la ONUDI.</p>
+        <p class="vacio">Haga clic en un país del mapa para ver su noticia principal del día, su último financiamiento del mes y las oportunidades para la ONUDI.</p>
       </aside>
     </div>
   </main>
@@ -94,7 +97,7 @@ Promise.all([
   d3.json("paises.json")
 ]).then(([world, datos]) => {
   document.getElementById("periodo").textContent =
-    `${datos.periodo}. Fuente: ${datos.fuente}. Actualizado: ${datos.actualizado}.`;
+    `Ventana: ${datos.ventana}. Fuente: ${datos.fuente}. Actualizado: ${datos.actualizado}.`;
   const todos = topojson.feature(world, world.objects.countries).features;
   const latam = todos.filter(f => LATAM.includes(f.id));
   const contexto = todos.filter(f => CONTEXTO.includes(f.id));
@@ -105,10 +108,10 @@ Promise.all([
 
   svg.append("g").selectAll("path").data(contexto).join("path").attr("class", "contexto").attr("d", path);
 
-  const nombre = f => (datos.paises[f.id] && datos.paises[f.id].nombre) || datos.sin_datos[f.id] || f.properties.name;
+  const nombre = f => (datos.paises[f.id] && datos.paises[f.id].nombre) || (datos.sin_datos || {})[f.id] || f.properties.name;
   const g = svg.append("g");
   g.selectAll("path").data(latam).join("path")
-    .attr("class", f => "pais " + (datos.paises[f.id] ? "con-datos" : "sin-datos"))
+    .attr("class", f => "pais " + (!datos.paises[f.id] ? "sin-datos" : datos.paises[f.id].principal.en_ventana ? "con-datos" : "con-datos anterior"))
     .attr("d", path)
     .attr("tabindex", 0)
     .attr("role", "button")
@@ -129,20 +132,21 @@ Promise.all([
     const panel = document.getElementById("panel");
     if (!p) {
       panel.innerHTML = `<h3>${esc(nombre(f))}</h3>
-        <div class="periodo-panel">Información de los últimos 7 días · ${esc(datos.periodo.split(" (")[1].replace(")", ""))}</div>
-        <p class="vacio">Sin noticias publicadas en el Radar sobre este país en los últimos 7 días. La ficha se completará cuando aparezcan noticias relevantes en próximas ediciones.</p>`;
+        <p class="vacio">Todavía no hay ficha para este país.</p>`;
       return;
     }
-    const enl = (p.financiamiento.enlaces || []).map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.texto)} ↗</a>`).join("");
+    const pr = p.principal, fi = p.financiamiento;
+    const etiq = pr.en_ventana ? (pr.en_boletin ? '<span class="etiq si">En el boletín</span>' : '<span class="etiq no">Fuera del boletín</span>')
+                               : '<span class="etiq ant">Más reciente disponible</span>';
     panel.innerHTML = `
       <h3>${esc(p.nombre)}</h3>
-      <div class="periodo-panel">Información de los últimos 7 días · ${esc(datos.periodo.split(" (")[1].replace(")", ""))}</div>
-      <div class="meta">${p.n_noticias} ${p.n_noticias === 1 ? "noticia" : "noticias"} en el Radar en este período</div>
+      <div class="periodo-panel">Actualizado ${esc(datos.actualizado)} · ventana ${esc(datos.ventana.split(" (")[0])}</div>
       <ul>
-        <li class="b1"><span class="ico">1</span><span class="rot">Noticia principal</span>${esc(p.principal.texto)}
-          <div class="fuentes"><a href="${esc(p.principal.url)}" target="_blank" rel="noopener">${esc(p.principal.fuente)} · ${esc(p.principal.fecha)} ↗</a></div></li>
-        <li class="b2"><span class="ico">2</span><span class="rot">Financiamiento y proyectos</span>${esc(p.financiamiento.texto)}
-          <div class="fuentes">${enl}</div></li>
+        <li class="b1"><span class="ico">1</span><span class="rot">${pr.en_ventana ? "Noticia principal del día" : "Noticia más reciente"}${etiq}</span>${esc(pr.texto)}
+          <div class="fuentes"><a href="${esc(pr.url)}" target="_blank" rel="noopener">${esc(pr.fuente)} · ${esc(pr.fecha)} ↗</a></div></li>
+        <li class="b2"><span class="ico">2</span><span class="rot">Último financiamiento (30 días)</span>${fi
+          ? `${esc(fi.texto)}<div class="fuentes"><a href="${esc(fi.url)}" target="_blank" rel="noopener">${esc(fi.institucion)} · ${esc(fi.monto)} · ${esc(fi.fecha)} ↗</a></div>`
+          : '<span class="vacio">Sin operaciones de financiamiento registradas en los últimos 30 días.</span>'}</li>
         <li class="b3"><span class="ico">3</span><span class="rot">Oportunidades para la ONUDI</span>${esc(p.oportunidades)}</li>
       </ul>
       <p class="aviso">${esc(datos.nota_oportunidades)}</p>`;

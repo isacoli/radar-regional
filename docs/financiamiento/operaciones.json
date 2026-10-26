@@ -424,6 +424,21 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/caf-aprueba-financiamiento-de-us-3-500-millones-para-10-paises-de-america-latina-y-caribe-4500597",
       "nota": "Regional: no se asigna a un país en los gráficos por país."
+    },
+    {
+      "fecha": "2026-10-15",
+      "pais": "Uruguay",
+      "iso": "UY",
+      "institucion": "Solaria",
+      "tipo_institucion": "Empresa privada",
+      "publico_privado": "Privado",
+      "monto_usd_millones": 5700,
+      "monto_original": "US$ 5.700 M",
+      "sector": "Energía",
+      "descripcion": "Complejo de centros de datos en zona franca y planta solar de 350 MW (Canelones, San José y Florida)",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/america/america-latina/2026/10/15/uruguay-anuncio-una-inversion-de-usd-5700-millones-para-instalar-centros-de-datos-cinco-claves-del-proyecto/",
+      "nota": "anunciado"
     }
   ]
 }

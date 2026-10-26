@@ -1,173 +1,313 @@
 {
   "actualizado": "2026-10-26",
-  "periodo": "Últimos 7 días (20 – 26 oct 2026)",
-  "fuente": "Noticias e investigaciones publicadas en el Radar Regional (ediciones diarias N.º 13 a N.º 18)",
-  "nota_oportunidades": "Las oportunidades son un análisis orientativo del Radar a partir de las noticias publicadas; no constituyen una posición oficial de la ONUDI.",
+  "ventana": "23 oct 07:01 → 26 oct 02:21 (ventana del N.º 18)",
+  "fuente": "Noticia del día por país (incluida o no en el boletín, solo fuentes de confianza) y financiamiento de los últimos 30 días",
+  "nota_oportunidades": "Las oportunidades son un análisis orientativo del Radar a partir de la noticia y el financiamiento del país; no constituyen una posición oficial de la ONUDI.",
   "paises": {
     "604": {
       "nombre": "Perú",
-      "n_noticias": 25,
       "principal": {
-        "texto": "Perú y Ecuador firmaron en Lima acuerdos de energía, pesca y desarrollo fronterizo, y Perú asumió la presidencia de la Comunidad Andina con prioridades en comercio, inversión y conectividad.",
-        "fuente": "El Universo",
-        "fecha": "2026-10-20",
-        "url": "https://www.eluniverso.com/politica/ejecutivo/ecuador-y-peru-firman-acuerdos-de-cooperacion-en-seguridad-energia-y-desarrollo-fronterizo-nota/"
+        "texto": "ENGIE inauguró la ampliación solar de Intipampa (51,7 MW) y anunció la central Hanaqpampa, de 140,8 MW, en Moquegua, con una inversión de más de US$ 127 millones.",
+        "fuente": "Gestión",
+        "fecha": "2026-10-23",
+        "url": "https://gestion.pe/economia/empresas/engie-amplia-intipampa-y-anuncia-central-solar-en-moquegua-noticia/",
+        "en_boletin": true,
+        "en_ventana": true
       },
       "financiamiento": {
-        "texto": "ENGIE invertirá más de US$ 127 millones en una central solar en Moquegua; la UE y la SNI abrieron un fondo de 550.000 euros para industria circular; la inversión minera sumó US$ 4.813 millones a agosto (+42,7 %).",
-        "enlaces": [
-          {
-            "texto": "ENGIE · Gestión",
-            "url": "https://gestion.pe/economia/empresas/engie-amplia-intipampa-y-anuncia-central-solar-en-moquegua-noticia/"
-          },
-          {
-            "texto": "UE–SNI · SNI",
-            "url": "https://sni.org.pe/ue-y-sni-lanzan-nuevo-fondo-de-550-mil-euros-para-impulsar-la-industria-circular-en-ocho-regiones-del-peru/"
-          },
-          {
-            "texto": "Inversión minera · El Comercio",
-            "url": "https://elcomercio.pe/economia/peru/inversion-minera-acumulada-crece-en-427-y-alcanza-a-los-us4813-millones-l-ultimas-noticia/"
-          }
-        ]
+        "texto": "ENGIE invertirá más de US$ 127 millones en la central solar Hanaqpampa (140,8 MW), en Moquegua, que entraría en operación en 2028.",
+        "institucion": "ENGIE (privado)",
+        "monto": "Más de US$ 127 M",
+        "fecha": "2026-10-23",
+        "url": "https://gestion.pe/economia/empresas/engie-amplia-intipampa-y-anuncia-central-solar-en-moquegua-noticia/",
+        "fuente": "Gestión"
       },
-      "oportunidades": "Apoyar a las mypes textiles y de plásticos golpeadas por El Niño con economía circular, calidad y acceso a mercados, y acompañar la transición energética industrial en el sur, junto al fondo UE–SNI."
+      "oportunidades": "Acompañar la integración de energía solar en la industria del sur (eficiencia y autoconsumo en mypes y mineras) y el desarrollo de proveedores locales para los nuevos proyectos renovables."
     },
     "170": {
       "nombre": "Colombia",
-      "n_noticias": 15,
       "principal": {
         "texto": "La manufactura colombiana cayó 4,1 % entre julio y agosto tras el sismo del 10 de agosto, que dejó expuestos a 183.000 clientes de microcrédito.",
         "fuente": "El Espectador",
         "fecha": "2026-10-23",
-        "url": "https://www.elespectador.com/economia/el-terremoto-golpea-la-industria-y-deja-a-183-000-clientes-de-microcredito-expuestos/"
+        "url": "https://www.elespectador.com/economia/el-terremoto-golpea-la-industria-y-deja-a-183-000-clientes-de-microcredito-expuestos/",
+        "en_boletin": true,
+        "en_ventana": true
       },
       "financiamiento": {
-        "texto": "Renault-Sofasa y el Gobierno pactaron evaluar hasta US$ 150 millones para fabricar un nuevo vehículo en Envigado; el Gobierno destina COP 2,7 billones para asegurar la energía frente a El Niño y negocia con EE. UU. retirar el arancel de 12,5 %.",
-        "enlaces": [
-          {
-            "texto": "Renault-Sofasa · Valora Analitik",
-            "url": "https://www.valoraanalitik.com/renault-sofasa-proyecta-inversion-de-us150-millones-para-fabricar-nuevo-vehiculo-en-colombia/"
-          },
-          {
-            "texto": "Energía · El Espectador",
-            "url": "https://www.elespectador.com/economia/el-gobierno-destina-cop-27-billones-para-asegurar-la-energia-frente-al-nino/"
-          },
-          {
-            "texto": "Aranceles · El Espectador",
-            "url": "https://www.elespectador.com/economia/macroeconomia/estados-unidos-quitara-los-aranceles-a-bienes-colombianos-asi-van-las-negociaciones/"
-          }
-        ]
+        "texto": "El Gobierno destina COP 2,7 billones para asegurar la energía frente a El Niño, incluido el pago de deudas del sector y el ahorro de energía.",
+        "institucion": "Gobierno de Colombia (público)",
+        "monto": "COP 2,7 billones",
+        "fecha": "2026-10-24",
+        "url": "https://www.elespectador.com/economia/el-gobierno-destina-cop-27-billones-para-asegurar-la-energia-frente-al-nino/",
+        "fuente": "El Espectador"
       },
-      "oportunidades": "Apoyar la recuperación productiva de las industrias afectadas por el sismo, la eficiencia energética industrial ante El Niño y el escalamiento de clústeres de bioeconomía y economía circular."
+      "oportunidades": "Apoyar la recuperación productiva de las industrias afectadas por el sismo y la eficiencia energética industrial para reducir la exposición a racionamientos durante El Niño."
     },
     "218": {
       "nombre": "Ecuador",
-      "n_noticias": 13,
       "principal": {
-        "texto": "Ecuador anunció el fin de las desconexiones eléctricas a las grandes industrias desde el 1 de noviembre, tras semanas de cortes de hasta 72 horas por la sequía.",
-        "fuente": "Diario Extra",
-        "fecha": "2026-10-22",
-        "url": "https://www.extra.ec/noticia/economia/empresas-esperan-instrucciones-gobierno-anuncio-suspender-desconexiones-noviembre-165681.html"
+        "texto": "En el encuentro Ecuador País Minero 2026, el sector pidió seguridad jurídica y valor agregado; las exportaciones mineras sumaron US$ 3.180 millones entre enero y julio (+43,5 %).",
+        "fuente": "El Universo",
+        "fecha": "2026-10-23",
+        "url": "https://www.eluniverso.com/economia/industrias/encuentro-ecuador-pais-minero-2026-camara-de-mineria-del-ecuador-cme-analisis-actividad-minera-experiencias-internacionales-ecuador-2026-nota/",
+        "en_boletin": true,
+        "en_ventana": true
       },
       "financiamiento": {
-        "texto": "Ecuador vendió a Perú unos 16,2 millones de barriles de crudo por cerca de US$ 1.652 millones; la chilena ENAP compró Pluspetrol Ecuador por US$ 207 millones y entró en operación la hidroeléctrica Hidroquest (45 MW).",
-        "enlaces": [
-          {
-            "texto": "Venta de crudo a Perú · El Universo",
-            "url": "https://www.eluniverso.com/politica/ejecutivo/gobierno-de-daniel-noboa-concreta-historica-venta-de-petroleo-a-peru-por-1652-millones-para-ecuador-nota/"
-          },
-          {
-            "texto": "ENAP–Pluspetrol · El Universo",
-            "url": "https://www.eluniverso.com/economia/industrias/viceministro-de-hidrocarburos-de-ecuador-se-reunio-con-representantes-de-pluspetrol-y-enap-de-chile-nota/"
-          },
-          {
-            "texto": "Hidroquest · El Universo",
-            "url": "https://www.eluniverso.com/economia/industrias/nueva-hidroelectrica-hidroquest-mina-fruta-del-norte-aporte-red-electrica-publica-ecuador-nota/"
-          }
-        ]
+        "texto": "La chilena ENAP acordó comprar Pluspetrol Ecuador (bloque 10, Pastaza) por US$ 207 millones, sujeto a aprobaciones.",
+        "institucion": "ENAP (empresa estatal chilena)",
+        "monto": "US$ 207 M",
+        "fecha": "2026-10-19",
+        "url": "https://www.eluniverso.com/economia/industrias/enap-chile-compra-operacion-petrolera-ecuador-sipetrol-pluspetrol-ecuador-nota/",
+        "fuente": "El Universo"
       },
-      "oportunidades": "Apoyar la eficiencia energética y la autogeneración en la industria, el valor agregado minero con estándares ambientales y la preparación exportadora de las pymes para los nuevos acuerdos comerciales."
+      "oportunidades": "Apoyar el valor agregado minero (refinación y proveedores locales) con estándares ambientales, y la eficiencia energética en la cadena de hidrocarburos."
     },
     "068": {
       "nombre": "Bolivia",
-      "n_noticias": 4,
       "principal": {
-        "texto": "El Senado de Bolivia aprobó un crédito del BID de US$ 30,2 millones para modernizar el alumbrado público con tecnología LED y medición inteligente, que ahora pasa al Ejecutivo.",
-        "fuente": "ABI (vía Opinión)",
-        "fecha": "2026-10-22",
-        "url": "https://www.opinion.com.bo/pais/senado-aprueba-credito-bid-us-302-millones-modernizar-alumbrado-publico/20261022191207998045.html"
+        "texto": "El nuevo Código Minero entró en su etapa final de redacción y el Gobierno prevé presentarlo a la Asamblea a fines de octubre, tras socializarlo con los sectores.",
+        "fuente": "ERBOL (vía Opinión)",
+        "fecha": "2026-10-25",
+        "url": "https://www.opinion.com.bo/pais/codigo-minero-etapa-final-redaccion-preven-socializarlo/20261025092144998149.html",
+        "en_boletin": true,
+        "en_ventana": true
       },
       "financiamiento": {
-        "texto": "Además del crédito del BID para eficiencia energética, Bolivia y Ecuador crearon una comisión binacional de comercio e inversiones, y el Gobierno ultima un nuevo Código Minero que daría más seguridad jurídica a la inversión.",
-        "enlaces": [
-          {
-            "texto": "Crédito BID · Opinión",
-            "url": "https://www.opinion.com.bo/pais/senado-aprueba-credito-bid-us-302-millones-modernizar-alumbrado-publico/20261022191207998045.html"
-          },
-          {
-            "texto": "Código Minero · Opinión",
-            "url": "https://www.opinion.com.bo/pais/codigo-minero-etapa-final-redaccion-preven-socializarlo/20261025092144998149.html"
-          }
-        ]
+        "texto": "El Senado aprobó un crédito del BID de US$ 30,2 millones para modernizar el alumbrado público con tecnología LED y medición inteligente.",
+        "institucion": "BID (público)",
+        "monto": "US$ 30,2 M",
+        "fecha": "2026-10-22",
+        "url": "https://www.opinion.com.bo/pais/senado-aprueba-credito-bid-us-302-millones-modernizar-alumbrado-publico/20261022191207998045.html",
+        "fuente": "ABI (vía Opinión)"
       },
-      "oportunidades": "Acompañar la eficiencia energética municipal, la industrialización del litio y otros minerales con estándares ambientales y sociales en el marco del nuevo Código Minero, y la integración comercial con Ecuador."
+      "oportunidades": "Acompañar la industrialización de minerales en el marco del nuevo Código Minero, con estándares ambientales y sociales, y la eficiencia energética municipal."
     },
     "076": {
       "nombre": "Brasil",
-      "n_noticias": 1,
       "principal": {
-        "texto": "Lula ganó la segunda vuelta presidencial con cerca del 51,8 % frente a Flávio Bolsonaro y asumirá su nuevo mandato el 5 de enero de 2027.",
+        "texto": "Lula ganó la segunda vuelta con cerca del 51,8 % frente a Flávio Bolsonaro y gobernará en el período 2027-2031.",
         "fuente": "El Comercio",
         "fecha": "2026-10-25",
-        "url": "https://elcomercio.pe/mag/usa/en-vivo-us/quien-va-ganando-las-elecciones-en-brasil-2026-resultados-en-vivo-de-flavio-bolsonaro-vs-lula-da-silva-en-segunda-vuelta-noticia/"
+        "url": "https://elcomercio.pe/mag/usa/en-vivo-us/quien-va-ganando-las-elecciones-en-brasil-2026-resultados-en-vivo-de-flavio-bolsonaro-vs-lula-da-silva-en-segunda-vuelta-noticia/",
+        "en_boletin": true,
+        "en_ventana": true
       },
       "financiamiento": {
-        "texto": "Un estudio publicado en el Radar muestra que el capital chino y el estadounidense se especializan en distintos segmentos de las renovables sudamericanas, ampliando el financiamiento disponible; Perú busca además captar carga brasileña hacia Asia.",
-        "enlaces": [
-          {
-            "texto": "Estudio · Review of International Political Economy",
-            "url": "https://doi.org/10.1080/09692290.2026.2730217"
-          },
-          {
-            "texto": "Carga Brasil–Asia · El Comercio",
-            "url": "https://elcomercio.pe/economia/peru/peru-camina-a-captar-carga-de-brasil-hacia-asia-cual-sera-la-pieza-clave-puertos-peruanos-noticia/"
-          }
-        ]
+        "texto": "El BRDE, con recursos del BNDES, financió con R$ 20,2 millones la producción de componentes para vehículos eléctricos e híbridos de ZEN, en Santa Catarina.",
+        "institucion": "BRDE / BNDES (público)",
+        "monto": "R$ 20,2 M",
+        "fecha": "2026-10-22",
+        "url": "https://clickpetroleoegas.com.br/r-202-milhoes-do-bndes-vao-financiar-o-plano-da-zen-para-criar-componentes-de-carros-eletrificados-e-mudar-processos-de-fabrica-em-santa-catarina-tres-produtos-devem-ser-desenvolvidos-a-afch",
+        "fuente": "Click Petróleo e Gás"
       },
-      "oportunidades": "Promover la cooperación Sur–Sur en política industrial y transición energética, y el intercambio de experiencias de la política industrial brasileña con los países andinos."
+      "oportunidades": "Cooperación Sur–Sur en política industrial y movilidad eléctrica, y vínculos entre la industria brasileña de autopartes y proveedores andinos."
     },
     "152": {
       "nombre": "Chile",
-      "n_noticias": 1,
       "principal": {
-        "texto": "Chile prevé licitar unos cinco nuevos proyectos de litio operados por privados para más que duplicar su producción, de unas 300.000 a 700.000 toneladas en cinco a diez años.",
-        "fuente": "Reuters (vía MarketScreener)",
-        "fecha": "2026-10-21",
-        "url": "https://es.marketscreener.com/noticias/chile-buscar-impulsar-nuevos-proyectos-de-litio-para-m-s-que-duplicar-producci-n-ministro-ce785cd9d88af722"
+        "texto": "El ministro de Hacienda prevé que la producción de cobre caiga entre 8 % y 9 % este año por accidentes y tormentas, más que el 7 % estimado antes.",
+        "fuente": "Bloomberg Línea",
+        "fecha": "2026-10-22",
+        "url": "https://www.bloomberglinea.com/latinoamerica/chile/chile-preve-una-caida-de-hasta-9-en-su-produccion-de-cobre-por-accidentes-y-tormentas/",
+        "en_boletin": false,
+        "en_ventana": false
+      },
+      "financiamiento": null,
+      "oportunidades": "Servir de referencia en productividad y seguridad minera, y en la cooperación regional para el valor agregado del cobre y el litio."
+    },
+    "032": {
+      "nombre": "Argentina",
+      "principal": {
+        "texto": "La actividad manufacturera cayó 2,7 % en los primeros ocho meses de 2026, según el Indec, y la Unión Industrial pide un régimen de incentivos para pymes y menos impuestos.",
+        "fuente": "Infobae",
+        "fecha": "2026-10-25",
+        "url": "https://www.infobae.com/economia/2026/10/25/clima-de-negocios-la-industria-cruje-en-medio-del-contexto-recesivo-el-dolar-el-rigi-propio-y-la-pulseada-por-sobrevivir/",
+        "en_boletin": false,
+        "en_ventana": true
       },
       "financiamiento": {
-        "texto": "El Gobierno apuesta por inversión privada en litio, con permisos más ágiles y cinco proyectos en aprobación final, además de las nuevas licitaciones previstas para comienzos del próximo año.",
-        "enlaces": [
-          {
-            "texto": "Litio · Reuters",
-            "url": "https://es.marketscreener.com/noticias/chile-buscar-impulsar-nuevos-proyectos-de-litio-para-m-s-que-duplicar-producci-n-ministro-ce785cd9d88af722"
-          }
-        ]
+        "texto": "El BID aprobó US$ 60 millones para mejorar el sistema de salud de Río Negro.",
+        "institucion": "BID (público)",
+        "monto": "US$ 60 M",
+        "fecha": "2026-10-20",
+        "url": "https://www.noticias24.com.ar/2026/10/20/el-gobierno-aprobo-prestamo-del-bid-para-financiar-la-mejora-del-sistema-de-salud-de-rio-negro/",
+        "fuente": "Noticias24"
       },
-      "oportunidades": "Servir de referencia para la estrategia del litio de Bolivia y para la cooperación regional en valor agregado de minerales críticos con estándares ambientales."
+      "oportunidades": "Intercambio de experiencias sobre apoyo a pymes industriales en recesión e incentivos a la inversión productiva."
+    },
+    "484": {
+      "nombre": "México",
+      "principal": {
+        "texto": "El Gobierno anunció una inversión de US$ 763 millones en 20 parques industriales de ocho estados, que generarían más de 32.000 empleos.",
+        "fuente": "Infobae (EFE)",
+        "fecha": "2026-10-22",
+        "url": "https://www.infobae.com/america/agencias/2026/10/22/mexico-invertira-763-millones-de-dolares-en-20-parques-industriales/",
+        "en_boletin": false,
+        "en_ventana": false
+      },
+      "financiamiento": {
+        "texto": "Desarrolladores privados invertirán US$ 763 millones en 20 nuevos parques industriales del Plan México.",
+        "institucion": "Desarrolladores privados (Plan México)",
+        "monto": "US$ 763 M",
+        "fecha": "2026-10-22",
+        "url": "https://www.infobae.com/america/agencias/2026/10/22/mexico-invertira-763-millones-de-dolares-en-20-parques-industriales/",
+        "fuente": "Infobae (EFE)"
+      },
+      "oportunidades": "Referencia para el diseño de parques industriales y zonas de inversión en los países andinos, y para atraer proveedores en cadenas de nearshoring."
+    },
+    "862": {
+      "nombre": "Venezuela",
+      "principal": {
+        "texto": "Venezuela y EE. UU. revisaron su acuerdo petrolero en Zulia: el campo produce 115.000 barriles diarios y apunta a 120.000 en diciembre.",
+        "fuente": "Infobae (EFE)",
+        "fecha": "2026-10-23",
+        "url": "https://www.infobae.com/america/agencias/2026/10/23/venezuela-y-estados-unidos-inspeccionan-los-avances-de-su-acuerdo-petrolero/",
+        "en_boletin": false,
+        "en_ventana": true
+      },
+      "financiamiento": null,
+      "oportunidades": "Seguir la reactivación petrolera por sus efectos en el comercio y la energía regionales, en particular con Colombia."
+    },
+    "858": {
+      "nombre": "Uruguay",
+      "principal": {
+        "texto": "El proyecto de centros de datos y energía solar de Solaria prevé US$ 5.700 millones, cerca del 6,5 % del PIB, con hasta 500 MW de datos y 350 MW solares.",
+        "fuente": "Bloomberg Línea",
+        "fecha": "2026-10-25",
+        "url": "https://www.bloomberglinea.com/latinoamerica/uruguay/que-impacto-pueden-tener-los-data-centers-en-al-economia-uruguaya/",
+        "en_boletin": false,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "La española Solaria destinará US$ 5.700 millones a un complejo de centros de datos en zona franca y una planta solar de 350 MW en Canelones, San José y Florida.",
+        "institucion": "Solaria (privado)",
+        "monto": "US$ 5.700 M",
+        "fecha": "2026-10-15",
+        "url": "https://www.infobae.com/america/america-latina/2026/10/15/uruguay-anuncio-una-inversion-de-usd-5700-millones-para-instalar-centros-de-datos-cinco-claves-del-proyecto/",
+        "fuente": "Infobae"
+      },
+      "oportunidades": "Referencia para atraer inversión digital asociada a energía renovable y para vincular a proveedores locales con grandes proyectos."
+    },
+    "600": {
+      "nombre": "Paraguay",
+      "principal": {
+        "texto": "El Banco Central de Paraguay elevó su previsión de crecimiento para 2026 de 4,5 % a 5 % y bajó la de inflación a 3 %.",
+        "fuente": "Infobae (EFE)",
+        "fecha": "2026-10-16",
+        "url": "https://www.infobae.com/america/agencias/2026/10/16/el-banco-central-de-paraguay-sube-a-5-prevision-de-crecimiento-y-baja-la-de-inflacion/",
+        "en_boletin": false,
+        "en_ventana": false
+      },
+      "financiamiento": null,
+      "oportunidades": "Referencia en atracción de industria con energía hidroeléctrica barata y en encadenamientos agroindustriales."
+    },
+    "222": {
+      "nombre": "El Salvador",
+      "principal": {
+        "texto": "La CEPAL proyecta que El Salvador crezca 4,5 % en 2026, entre las economías de mayor crecimiento de la región.",
+        "fuente": "Infobae",
+        "fecha": "2026-10-22",
+        "url": "https://www.infobae.com/el-salvador/2026/10/23/el-salvador-creceria-45-en-2026-y-se-ubicaria-entre-las-economias-lideres-regionales-segun-cepal/",
+        "en_boletin": false,
+        "en_ventana": false
+      },
+      "financiamiento": {
+        "texto": "El BCIE amplió en US$ 50 millones el financiamiento al Fondo Social para la Vivienda.",
+        "institucion": "BCIE (público)",
+        "monto": "US$ 50 M",
+        "fecha": "2026-10-19",
+        "url": "https://www.elsalvador.com/dinero-y-negocios/entorno-economico/bcie-financiamiento-vivienda/1299513/2026/",
+        "fuente": "elsalvador.com"
+      },
+      "oportunidades": "Apoyar la vivienda y la construcción con criterios de eficiencia y la inserción de pymes en cadenas regionales."
+    },
+    "591": {
+      "nombre": "Panamá",
+      "principal": {
+        "texto": "La CEPAL proyecta que Panamá crezca 4,5 % en 2026, entre las economías de mayor crecimiento de la región.",
+        "fuente": "Infobae",
+        "fecha": "2026-10-22",
+        "url": "https://www.infobae.com/el-salvador/2026/10/23/el-salvador-creceria-45-en-2026-y-se-ubicaria-entre-las-economias-lideres-regionales-segun-cepal/",
+        "en_boletin": false,
+        "en_ventana": false
+      },
+      "financiamiento": null,
+      "oportunidades": "Seguir los efectos de El Niño sobre el Canal y la logística regional, clave para las exportaciones andinas."
+    },
+    "320": {
+      "nombre": "Guatemala",
+      "principal": {
+        "texto": "La CEPAL proyecta que Guatemala crezca 4,1 % en 2026, entre las economías de mayor crecimiento de la región.",
+        "fuente": "Infobae",
+        "fecha": "2026-10-22",
+        "url": "https://www.infobae.com/el-salvador/2026/10/23/el-salvador-creceria-45-en-2026-y-se-ubicaria-entre-las-economias-lideres-regionales-segun-cepal/",
+        "en_boletin": false,
+        "en_ventana": false
+      },
+      "financiamiento": {
+        "texto": "El BCIE amplió en US$ 8,8 millones su línea de crédito a Cofinsa para medianas empresas.",
+        "institucion": "BCIE (público)",
+        "monto": "US$ 8,8 M",
+        "fecha": "2026-10-23",
+        "url": "https://www.infobae.com/guatemala/2026/10/25/el-banco-centroamericano-de-integracion-economica-eleva-a-usd-388-millones-la-linea-de-credito-para-medianas-empresas-de-guatemala/",
+        "fuente": "Infobae"
+      },
+      "oportunidades": "Apoyar el financiamiento y la productividad de las medianas empresas industriales."
+    },
+    "558": {
+      "nombre": "Nicaragua",
+      "principal": {
+        "texto": "La CEPAL proyecta que Nicaragua crezca 3,7 % en 2026, entre las economías de mayor crecimiento de la región.",
+        "fuente": "Infobae",
+        "fecha": "2026-10-22",
+        "url": "https://www.infobae.com/el-salvador/2026/10/23/el-salvador-creceria-45-en-2026-y-se-ubicaria-entre-las-economias-lideres-regionales-segun-cepal/",
+        "en_boletin": false,
+        "en_ventana": false
+      },
+      "financiamiento": {
+        "texto": "El BCIE financia con US$ 170 millones obras de agua potable en cuatro ciudades.",
+        "institucion": "BCIE (público)",
+        "monto": "US$ 170 M",
+        "fecha": "2026-10-22",
+        "url": "https://www.articulo66.com/2026/10/22/regimen-orteguista-suma-otra-multimillonaria-deusa-bcie-170-millones/",
+        "fuente": "Artículo 66"
+      },
+      "oportunidades": "Acompañar la gestión del agua y la eficiencia en la industria ante El Niño."
+    },
+    "340": {
+      "nombre": "Honduras",
+      "principal": {
+        "texto": "La CEPAL proyecta que Honduras crezca 3,5 % en 2026, entre las economías de mayor crecimiento de la región.",
+        "fuente": "Infobae",
+        "fecha": "2026-10-22",
+        "url": "https://www.infobae.com/el-salvador/2026/10/23/el-salvador-creceria-45-en-2026-y-se-ubicaria-entre-las-economias-lideres-regionales-segun-cepal/",
+        "en_boletin": false,
+        "en_ventana": false
+      },
+      "financiamiento": {
+        "texto": "CAF aprobó US$ 177 millones para la línea de transmisión eléctrica El Sitio–Zamorano II–Terrero Blanco.",
+        "institucion": "CAF (público)",
+        "monto": "US$ 177 M",
+        "fecha": "2026-10-01",
+        "url": "https://www.elheraldo.hn/honduras/bid-presta-70-millones-dolares-mejorar-servicio-agua-capital-hondurena-CB32222880",
+        "fuente": "El Heraldo"
+      },
+      "oportunidades": "Apoyar la integración eléctrica y la eficiencia energética en la industria."
+    },
+    "188": {
+      "nombre": "Costa Rica",
+      "principal": {
+        "texto": "La CEPAL proyecta que Costa Rica crezca 3,5 % en 2026, entre las economías de mayor crecimiento de la región.",
+        "fuente": "Infobae",
+        "fecha": "2026-10-22",
+        "url": "https://www.infobae.com/el-salvador/2026/10/23/el-salvador-creceria-45-en-2026-y-se-ubicaria-entre-las-economias-lideres-regionales-segun-cepal/",
+        "en_boletin": false,
+        "en_ventana": false
+      },
+      "financiamiento": null,
+      "oportunidades": "Referencia en atracción de inversión extranjera hacia manufactura avanzada y zonas francas."
     }
-  },
-  "sin_datos": {
-    "484": "México",
-    "320": "Guatemala",
-    "222": "El Salvador",
-    "340": "Honduras",
-    "558": "Nicaragua",
-    "188": "Costa Rica",
-    "591": "Panamá",
-    "862": "Venezuela",
-    "600": "Paraguay",
-    "858": "Uruguay",
-    "032": "Argentina"
   }
 }
