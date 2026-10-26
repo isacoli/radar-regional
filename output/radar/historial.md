@@ -7,7 +7,7 @@ Log of every scan and of the stories published in bulletins. `/radar` reads this
 | N.º | Fecha | Ventana | Noticias | Boletín | Estado |
 |---|---|---|---|---|---|
 | 1 | 2026-10-23 | 22 oct 07:01 → 23 oct 07:00 | 16 | output/radar/2026-10-23-diario/boletin-completo.html (diseño v2, con investigación) | final |
-| 2 | 2026-10-26 | 23 oct 07:01 → 26 oct 02:21 (a pedido) | 18 | output/radar/2026-10-26/boletin.html | borrador |
+| 2 | 2026-10-26 | 23 oct 07:01 → 26 oct 02:21 (a pedido) | 18 | output/radar/2026-10-26/boletin.html | final |
 
 ## Weekly scans (earlier format)
 
@@ -43,7 +43,7 @@ Log of every scan and of the stories published in bulletins. `/radar` reads this
 | 2026-10-22 | Petroecuador pone en producción pozo de 3.200 barriles diarios (Diario N.º 1) | El Universo | https://www.eluniverso.com/economia/produccion/petroecuador-incorpora-pozo-activo-shushufindi-sucumbios-produccion-petrolera-ecuador-nota/ | Energía | Ecuador |
 | 2026-10-22 | ENAP compra Pluspetrol Ecuador por US$ 207 millones (Diario N.º 1) | El Universo | https://www.eluniverso.com/economia/industrias/viceministro-de-hidrocarburos-de-ecuador-se-reunio-con-representantes-de-pluspetrol-y-enap-de-chile-nota/ | Inversión extranjera | Ecuador |
 | 2026-10-23 | CADE Ejecutivos 2026: cinco prioridades al 2050 (Diario N.º 1) | Andina | https://andina.pe/agencia/noticia-cade-ejecutivos-2026-plantean-cinco-prioridades-para-desarrollo-del-peru-al-2050-1097037.aspx | Política industrial | Perú |
-| 2026-10-25 | Lula gana la segunda vuelta en Brasil y gobernará hasta 2030 (Diario N.º 2) | El Comercio | https://elcomercio.pe/mag/usa/en-vivo-us/quien-va-ganando-las-elecciones-en-brasil-2026-resultados-en-vivo-de-flavio-bolsonaro-vs-lula-da-silva-en-segunda-vuelta-noticia/ | Inversión, comercio e integración | Brasil (regional) |
+| 2026-10-25 | Lula gana la segunda vuelta en Brasil y gobernará en el período 2027-2031 (Diario N.º 2) | El Comercio | https://elcomercio.pe/mag/usa/en-vivo-us/quien-va-ganando-las-elecciones-en-brasil-2026-resultados-en-vivo-de-flavio-bolsonaro-vs-lula-da-silva-en-segunda-vuelta-noticia/ | Inversión, comercio e integración | Brasil (regional) |
 | 2026-10-23 | ENGIE inaugura la ampliación solar de Intipampa y anuncia una nueva central de US$ 127 millones en Moquegua (Diario N.º 2) | Gestión | https://gestion.pe/economia/empresas/engie-amplia-intipampa-y-anuncia-central-solar-en-moquegua-noticia/ | Transición energética | Perú |
 | 2026-10-23 | Ecuador País Minero 2026: piden seguridad jurídica y valor agregado para consolidar el modelo minero (Diario N.º 2) | El Universo | https://www.eluniverso.com/economia/industrias/encuentro-ecuador-pais-minero-2026-camara-de-mineria-del-ecuador-cme-analisis-actividad-minera-experiencias-internacionales-ecuador-2026-nota/ | Minerales críticos | Ecuador |
 | 2026-10-25 | SNI: las ventas del sector textil caerían 50 % en Navidad por El Niño e importaciones subvaluadas (Diario N.º 2) | El Comercio | https://elcomercio.pe/economia/peru/sociedad-nacional-de-industrias-las-ventas-en-el-sector-textil-caerian-un-50-en-navidad-estaremos-ad-portas-o-ya-con-un-diluvio-en-el-pais-apuesplan-noticia/ | Política industrial y coyuntura | Perú |

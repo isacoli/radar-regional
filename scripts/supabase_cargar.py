@@ -58,7 +58,8 @@ def pedir(metodo, url, clave, cuerpo=None, prefer=None):
 def cargar(carpeta, base, clave):
     carpeta = Path(carpeta)
     datos = json.loads((carpeta / "datos.json").read_text(encoding="utf-8"))
-    ed = dict(datos["edicion"])
+    columnas = {"slug", "tipo", "numero", "fecha", "ventana_inicio", "ventana_fin", "titulo", "resumen", "url_web"}
+    ed = {k: v for k, v in datos["edicion"].items() if k in columnas}  # ignora campos solo de presentación
     ed["html"] = (carpeta / datos["html_archivo"]).read_text(encoding="utf-8")
     ed["n_noticias"] = len(datos["noticias"])
     ed["n_investigaciones"] = len(datos["investigaciones"])
