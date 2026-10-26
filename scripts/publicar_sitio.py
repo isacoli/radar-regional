@@ -7,7 +7,9 @@ Uso:
 - Toma el HTML final de la carpeta (`html_archivo` de datos.json), le agrega la barra de
   secciones del sitio (solo en la versión web, no en el correo) y lo copia a
   docs/index.html y docs/archivo/AAAA-MM-DD.html.
-- Agrega la edición al principio de docs/archivo/index.html si no está.
+- Reescribe docs/archivo/index.html con el listado completo de boletines publicados
+  (todas las ediciones diarias con página en docs/archivo/, de la más reciente a la más antigua).
+  Solo el listado: `python3 scripts/publicar_sitio.py --archivo`.
 - Pone la fecha y hora de esta edición (`ventana_fin`) bajo el botón "Actualizar noticias"
   de todas las páginas del sitio.
 - Activa en la copia web el banner con fotos que se alternan (docs/assets/banner.js).
@@ -100,7 +102,49 @@ def poner_actualizacion(texto):
             ruta.write_text(nuevo, encoding="utf-8")
 
 
+DIAS = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"]
+MESES_LARGOS = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
+
+
+def fecha_larga(fecha):
+    """'2026-10-23' -> 'Viernes 23 de octubre de 2026' (si datos.json no trae fecha_larga)."""
+    import datetime
+    d = datetime.date.fromisoformat(fecha)
+    return f"{DIAS[d.weekday()]} {d.day} de {MESES_LARGOS[d.month - 1]} de {d.year}"
+
+
+def actualizar_archivo():
+    """Reescribe docs/archivo/index.html con el listado completo de boletines publicados.
+
+    Toma cada edición diaria de output/radar/*/datos.json cuya página existe en docs/archivo/,
+    y las ordena de la más reciente a la más antigua (así los cambios de número o de datos
+    también se reflejan, no solo las ediciones nuevas)."""
+    eds = []
+    for d in (RAIZ / "output" / "radar").glob("*/datos.json"):
+        datos = json.loads(d.read_text(encoding="utf-8"))
+        ed = datos["edicion"]
+        if ed.get("tipo") != "diario" or not (RAIZ / "docs" / "archivo" / f"{ed['fecha']}.html").exists():
+            continue
+        eds.append((ed["fecha"], ed["numero"], ed.get("fecha_larga") or fecha_larga(ed["fecha"]),
+                    len(datos["noticias"]), len(datos["investigaciones"])))
+    eds.sort(reverse=True)
+    filas = "".join(
+        f'      <li><a href="{f}.html">N.º {n} · {fl}</a><br><span class="meta">{nn} noticias · {ni} investigaciones</span></li>\n'
+        for f, n, fl, nn, ni in eds)
+    total = (f'    <p class="nota">{len(eds)} boletines publicados (N.º {min(e[1] for e in eds)} a N.º {max(e[1] for e in eds)}), '
+             f'del más reciente al más antiguo.</p>\n') if eds else ""
+    idx = RAIZ / "docs" / "archivo" / "index.html"
+    s = idx.read_text(encoding="utf-8")
+    i, j = s.index("  <main>\n") + len("  <main>\n"), s.index("  </main>")
+    s = s[:i] + total + "    <ul>\n      <!-- EDICIONES: lista completa generada por publicar_sitio.py; no editar a mano -->\n" + filas + "    </ul>\n" + s[j:]
+    idx.write_text(s, encoding="utf-8")
+    print(f"✓ Archivo: {len(eds)} boletines")
+
+
 def main():
+    if "--archivo" in sys.argv:
+        actualizar_archivo()
+        return
     if len(sys.argv) < 2:
         sys.exit(__doc__)
     carpeta = Path(sys.argv[1])
@@ -114,15 +158,7 @@ def main():
     (RAIZ / "docs" / "index.html").write_text(con_carrusel(con_estilo_web(con_barra(html, "Inicio", act)), "assets/"), encoding="utf-8")
     (RAIZ / "docs" / "archivo" / f"{fecha}.html").write_text(con_carrusel(con_estilo_web(con_barra(html, "Archivo", act)), "../assets/"), encoding="utf-8")
 
-    idx = RAIZ / "docs" / "archivo" / "index.html"
-    s = idx.read_text(encoding="utf-8")
-    if f'href="{fecha}.html"' not in s:
-        n_n, n_i = len(datos["noticias"]), len(datos["investigaciones"])
-        fila = (f'      <li><a href="{fecha}.html">N.º {ed["numero"]} · {ed.get("fecha_larga", fecha)}</a>'
-                f'<br><span class="meta">{n_n} noticias · {n_i} investigaciones</span></li>\n')
-        marca = "      <!-- EDICIONES: agregar cada nueva edición arriba -->\n"
-        s = s.replace(marca, marca + fila, 1)
-        idx.write_text(s, encoding="utf-8")
+    actualizar_archivo()
     poner_actualizacion(act)
     print(f"✓ Publicado en docs/: index.html y archivo/{fecha}.html · {act}")
 

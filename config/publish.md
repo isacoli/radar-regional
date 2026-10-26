@@ -17,7 +17,7 @@
 
 1. Replace `{{URL_SITIO}}` in the issue with the site URL above (the button and footer links).
 2. Copy the final issue to `docs/archivo/AAAA-MM-DD.html` and to `docs/index.html`.
-3. Add a row at the top of the list in `docs/archivo/index.html`.
+3. Rebuild the full list in `docs/archivo/index.html` (every published daily issue, newest first). `publicar_sitio.py` does this on every run; `--archivo` refreshes only the list.
 4. Commit with a message like `Radar Regional N.º X — AAAA-MM-DD`.
 5. Push to `main` only after the user confirms (a push publishes the issue on the public website).
 
