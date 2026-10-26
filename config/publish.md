@@ -22,3 +22,10 @@
 5. Push to `main` only after the user confirms (a push publishes the issue on the public website).
 
 Drafts (with the "BORRADOR" banner) are never copied to `docs/`.
+
+## Database (Supabase)
+
+- **Project:** `https://mibponspfvjtkvsrmzag.supabase.co`
+- **Schema:** `supabase/schema.sql` (tables `ediciones`, `noticias`, `investigaciones`; views `noticias_con_edicion`, `investigaciones_con_edicion`; public read, write only with the secret key)
+- **Load an issue:** `python3 scripts/supabase_cargar.py output/radar/AAAA-MM-DD` (needs `.env` with `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY`)
+- **Search page:** `docs/buscar/index.html` → `https://isacoli.github.io/radar-regional/buscar/` (uses the public anon key)

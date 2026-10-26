@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Buscador · Radar Regional</title>
+<style>
+  :root { --navy:#003A70; --blue:#0067B1; --sky:#009EDB; --tint:#EEF5FB; --teal:#00818A; --ink:#1F2D3A; --muted:#6B7B8B; --line:#DCE6EF; --page:#EEF2F6; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--page); font-family:Arial, Helvetica, sans-serif; color:var(--ink); }
+  .wrap { max-width:860px; margin:24px auto; background:#fff; border-radius:8px; overflow:hidden; }
+  header { background:var(--navy); color:#fff; padding:26px 28px 22px; }
+  header small { color:#A7D8F0; letter-spacing:2px; text-transform:uppercase; font-size:11px; }
+  header h1 { font-family:Georgia, 'Times New Roman', serif; margin:8px 0 4px; font-size:30px; }
+  header p { margin:0; color:#A7D8F0; font-size:14px; }
+  header nav { margin-top:12px; font-size:13px; }
+  header nav a { color:#fff; margin-right:14px; }
+  .stripe { display:flex; height:6px; } .stripe span { flex:1; }
+  form { padding:20px 28px 8px; display:grid; grid-template-columns: 2fr 1fr 1fr; gap:10px; }
+  form .full { grid-column:1 / -1; }
+  label { font-size:11px; font-weight:bold; letter-spacing:1px; text-transform:uppercase; color:var(--navy); display:block; margin-bottom:4px; }
+  input, select { width:100%; padding:9px 10px; border:1px solid var(--line); border-radius:4px; font-size:14px; color:var(--ink); background:#fff; }
+  button { background:var(--blue); color:#fff; border:0; border-radius:4px; padding:10px 18px; font-size:14px; font-weight:bold; cursor:pointer; }
+  button:hover { background:var(--navy); }
+  .acciones { display:flex; gap:12px; align-items:end; }
+  main { padding:8px 28px 28px; }
+  h2 { font-size:13px; letter-spacing:1.5px; text-transform:uppercase; color:var(--navy); border-bottom:2px solid var(--navy); padding-bottom:6px; margin:22px 0 4px; }
+  h2.inv { color:var(--teal); border-color:var(--teal); }
+  .item { padding:12px 0; border-bottom:1px solid var(--line); }
+  .item a.t { font-weight:bold; color:var(--navy); text-decoration:none; font-size:15px; line-height:21px; }
+  .item a.t:hover { text-decoration:underline; }
+  .meta { color:var(--muted); font-size:12px; margin-top:3px; }
+  .meta a { color:var(--blue); }
+  .res { font-size:13px; line-height:19px; margin-top:4px; }
+  .tag { display:inline-block; font-size:10px; font-weight:bold; border-radius:3px; padding:1px 5px; margin-right:4px; }
+  .d { background:#FDEBD8; color:#9A4A00; } .r { background:#E1EEFA; color:var(--navy); } .g { background:#E0F2F3; color:#00666D; }
+  .estado { color:var(--muted); font-size:13px; margin:14px 0; }
+  @media (max-width:620px){ .wrap{ margin:0; border-radius:0; } form{ grid-template-columns:1fr; padding:16px; } main{ padding:8px 16px 24px; } header{ padding:22px 16px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <small>Oficina Andina de ONUDI</small>
+    <h1>Radar Regional · Buscador</h1>
+    <p>Busque en todas las noticias e investigaciones publicadas.</p>
+    <nav><a href="../">↻ Edición más reciente</a><a href="../archivo/">Archivo de ediciones</a></nav>
+  </header>
+  <div class="stripe"><span style="background:#003A70"></span><span style="background:#0067B1"></span><span style="background:#009EDB"></span><span style="background:#5BC2E7"></span><span style="background:#A7D8F0"></span></div>
+
+  <form id="f">
+    <div class="full"><label for="q">Palabras clave</label><input id="q" placeholder="p. ej. litio, Chancay, economía circular, El Niño"></div>
+    <div><label for="pais">País</label>
+      <select id="pais"><option value="">Todos</option><option>Colombia</option><option>Perú</option><option>Bolivia</option><option>Ecuador</option><option>Regional</option><option>Chile</option><option>Brasil</option><option>México</option></select></div>
+    <div><label for="desde">Desde</label><input id="desde" type="date"></div>
+    <div><label for="hasta">Hasta</label><input id="hasta" type="date"></div>
+    <div><label for="tipo">Buscar en</label>
+      <select id="tipo"><option value="ambos">Noticias e investigaciones</option><option value="noticias">Solo noticias</option><option value="investigaciones">Solo investigaciones</option></select></div>
+    <div><label for="cat">Categoría (texto)</label><input id="cat" placeholder="p. ej. energía, comercio"></div>
+    <div class="acciones"><button type="submit">Buscar</button></div>
+  </form>
+
+  <main>
+    <div class="estado" id="estado">Escriba una palabra clave o use los filtros, y pulse «Buscar». Sin filtros, se muestra lo más reciente.</div>
+    <div id="resultados"></div>
+  </main>
+</div>
+
+<script>
+// Claves PÚBLICAS de solo lectura (la base tiene seguridad por filas: solo permite leer).
+const SUPABASE_URL = "https://mibponspfvjtkvsrmzag.supabase.co";
+const SUPABASE_ANON_KEY = "PENDIENTE_ANON_KEY";
+
+const $ = id => document.getElementById(id);
+const esc = s => (s ?? "").toString().replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+async function consultar(vista, params) {
+  const url = `${SUPABASE_URL}/rest/v1/${vista}?` + params.toString();
+  const r = await fetch(url, { headers: { apikey: SUPABASE_ANON_KEY, Authorization: `Bearer ${SUPABASE_ANON_KEY}` } });
+  if (!r.ok) throw new Error(`Error ${r.status}`);
+  return r.json();
+}
+
+function comunes(p) {
+  const q = $("q").value.trim();
+  if (q) p.append("busqueda", `wfts(spanish).${q}`);
+  if ($("desde").value) p.append("edicion_fecha", `gte.${$("desde").value}`);
+  if ($("hasta").value) p.append("edicion_fecha", `lte.${$("hasta").value}`);
+  p.append("order", "edicion_fecha.desc,posicion.asc");
+  p.append("limit", "100");
+  return p;
+}
+
+async function buscar(e) {
+  if (e) e.preventDefault();
+  const tipo = $("tipo").value;
+  $("estado").textContent = "Buscando…";
+  $("resultados").innerHTML = "";
+  try {
+    let html = "";
+    if (tipo !== "investigaciones") {
+      const p = comunes(new URLSearchParams());
+      if ($("pais").value) p.append("pais", `ilike.*${$("pais").value}*`);
+      if ($("cat").value.trim()) p.append("categoria", `ilike.*${$("cat").value.trim()}*`);
+      p.append("select", "edicion_fecha,edicion_url,edicion_tipo,posicion,titular,resumen,fuente,pais,categoria,mas_difundida,mas_relevante,url");
+      const n = await consultar("noticias_con_edicion", p);
+      html += `<h2>Noticias (${n.length})</h2>` + n.map(x => `
+        <div class="item">
+          ${x.mas_difundida ? '<span class="tag d">🔥 Más difundida</span>' : ''}${x.mas_relevante ? '<span class="tag r">⭐ Más relevante</span>' : ''}
+          <div><a class="t" href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.titular)}</a></div>
+          ${x.resumen ? `<div class="res">${esc(x.resumen)}</div>` : ''}
+          <div class="meta">${esc(x.fuente)} · ${esc(x.pais)} · ${esc(x.categoria)} · ${x.edicion_url ? `<a href="${esc(x.edicion_url)}">edición del ${esc(x.edicion_fecha)}</a>` : `edición ${esc(x.edicion_tipo)} del ${esc(x.edicion_fecha)}`}</div>
+        </div>`).join("");
+    }
+    if (tipo !== "noticias") {
+      const p = comunes(new URLSearchParams());
+      p.append("select", "edicion_fecha,edicion_url,posicion,titulo_es,titulo_original,autores,revista,ambito,tipo,acceso_abierto,mas_relevante,hallazgo,url");
+      const i = await consultar("investigaciones_con_edicion", p);
+      html += `<h2 class="inv">Investigaciones (${i.length})</h2>` + i.map(x => `
+        <div class="item">
+          ${x.mas_relevante ? '<span class="tag r">⭐ Más relevante</span>' : ''}<span class="tag g">${esc(x.ambito)}</span>${x.tipo === 'documento_de_trabajo' ? '<span class="tag g">Documento de trabajo</span>' : ''}
+          <div><a class="t" href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.titulo_es)}</a></div>
+          <div class="meta"><em>${esc(x.titulo_original)}</em></div>
+          <div class="res"><strong>Hallazgo principal:</strong> ${esc(x.hallazgo)}</div>
+          <div class="meta">${esc(x.autores)} · <em>${esc(x.revista)}</em> · ${x.edicion_url ? `<a href="${esc(x.edicion_url)}">edición del ${esc(x.edicion_fecha)}</a>` : esc(x.edicion_fecha)}</div>
+        </div>`).join("");
+    }
+    $("resultados").innerHTML = html;
+    $("estado").textContent = "";
+  } catch (err) {
+    $("estado").textContent = "No se pudo consultar la base de datos. Intente de nuevo más tarde.";
+  }
+}
+
+$("f").addEventListener("submit", buscar);
+buscar();
+</script>
+</body>
+</html>

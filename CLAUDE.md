@@ -17,7 +17,7 @@ There are two modes. **Never skip a step or a stop point in either.**
 - **Format:** styled, email-ready HTML.
 - **Core countries:** Colombia, Perú, Bolivia, Ecuador. News from the rest of Latin America and the Caribbean is welcome when relevant to them.
 - **Talking to the user:** reply in the language the user writes in.
-- **Configuration:** `config/publish.md` (website URL and publishing steps), `config/design.md` (colors, banner, layout), `config/settings.md` (frequency, window, volume, ranking, tags), `config/watchlist.md` (categories), `config/sources.md` (trusted-source levels and linking rule), `config/research.md` (research section: journals, working-paper series, window, tags). Always read them; they override defaults in this file.
+- **Configuration:** `config/supabase.json` (database URL and public read key), `config/publish.md` (website URL and publishing steps), `config/design.md` (colors, banner, layout), `config/settings.md` (frequency, window, volume, ranking, tags), `config/watchlist.md` (categories), `config/sources.md` (trusted-source levels and linking rule), `config/research.md` (research section: journals, working-paper series, window, tags). Always read them; they override defaults in this file.
 
 ---
 
@@ -70,6 +70,7 @@ Follow `config/research.md`:
 - **Investigación destacada** (after the headlines): for each item, tags (⭐ if relevance 5, Regional/Global, Acceso abierto/[pago], Documento de trabajo if applicable), Spanish title linked to the DOI, original title in small italics underneath (omit if already Spanish), first author *et al.* · journal or series · year, and one "Hallazgo principal" sentence in Spanish written from the abstract. Remove the section if there are no items.
 - Keep the "BORRADOR" banner. Remove every `{{MARCADOR}}`.
 - Save working notes in `output/radar/YYYY-MM-DD/notas.md` using `templates/notas.md`: the full ranking with source counts, discarded stories and why, conflicts and coverage.
+- Save the structured data in `output/radar/YYYY-MM-DD/datos.json` (same format as `output/radar/2026-10-23-diario/datos.json`): `edicion` (slug `diario-AAAA-MM-DD`, tipo, numero, fecha, ventana, titulo, resumen, url_web), `html_archivo`, and the full lists of `noticias` and `investigaciones` with every field (position, card flag, headline, one-liner, URL, source, country, category, tags, coverage, relevance, publication date; for research: titles, authors, journal, type, scope, access, finding, DOI, date, ranking check).
 
 ### Step 6 — Log and hand off
 
@@ -80,6 +81,26 @@ Follow `config/research.md`:
 ### Step 7 — Publish to the website (GitHub Pages)
 
 Follow `config/publish.md`: fill `{{URL_SITIO}}` (the "Ver la edición más reciente" button and footer links), copy the final issue to `docs/index.html` and `docs/archivo/AAAA-MM-DD.html`, add it to `docs/archivo/index.html`, and commit. **Push only after the user confirms**, since pushing publishes it on the public site. Never publish drafts.
+
+### Step 8 — Save to the database (Supabase)
+
+After publishing, load the final issue into Supabase so it is searchable:
+
+```bash
+python3 scripts/supabase_cargar.py output/radar/AAAA-MM-DD
+```
+
+It reads `datos.json` and the HTML, and needs `.env` with `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` (the user creates `.env`; never print, copy or commit the secret key). Re-running replaces the issue without duplicates. Only final issues go into the database.
+
+## Answering questions about past issues
+
+When the user asks about past news or research (e.g. "¿qué noticias de litio hubo en noviembre?"), query the database with the public read-only key:
+
+```bash
+python3 scripts/supabase_consultar.py "litio" --pais Bolivia --desde 2026-11-01 --hasta 2026-11-30
+```
+
+Options: `--tipo noticias|investigaciones|ambos`, `--categoria`, `--limite`. Answer with the matching headlines, dates and links; the public search page is at `docs/buscar/` (`https://isacoli.github.io/radar-regional/buscar/`). Schema: `supabase/schema.sql`.
 
 ---
 
