@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mapa · Radar Regional</title>
+<link rel="stylesheet" href="../assets/sitio.css">
+<style>
+  .mapa-grid { display:grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap:24px; align-items:start; }
+  #mapa { width:100%; height:auto; display:block; background:#F7FAFD; border:1px solid var(--line); border-radius:8px; }
+  .pais { stroke:#fff; stroke-width:0.6; cursor:pointer; transition:fill .15s ease; }
+  .pais:focus { outline:none; }
+  .pais.con-datos { fill:#0067B1; }
+  .pais.sin-datos { fill:#C9D9E8; }
+  .pais:hover, .pais.hover { fill:#009EDB; }
+  .pais.seleccionado { fill:#003A70; stroke:#FDB913; stroke-width:1.4; }
+  .contexto { fill:#EEF1F4; stroke:#fff; stroke-width:0.5; pointer-events:none; }
+  .etiqueta { font-size:9px; fill:#fff; pointer-events:none; font-weight:bold; text-anchor:middle; }
+  .leyenda { display:flex; gap:16px; flex-wrap:wrap; font-size:12px; color:var(--muted); margin-top:10px; }
+  .leyenda i { display:inline-block; width:12px; height:12px; border-radius:2px; margin-right:6px; vertical-align:-2px; }
+  #tooltip { position:fixed; pointer-events:none; background:var(--navy); color:#fff; font-size:12px; font-weight:bold; padding:5px 9px; border-radius:4px; opacity:0; transition:opacity .1s; z-index:10; }
+  .panel { border:1px solid var(--line); border-left:4px solid var(--blue); border-radius:8px; padding:20px 22px; position:sticky; top:16px; min-height:320px; }
+  .panel h3 { font-family:Georgia, 'Times New Roman', serif; font-size:26px; color:var(--navy); margin:0 0 4px; }
+  .panel .meta { font-size:12px; color:var(--muted); margin-bottom:14px; }
+  .panel ul { list-style:none; padding:0; margin:0; }
+  .panel li { padding:12px 0 12px 34px; border-top:1px solid var(--line); position:relative; font-size:14px; line-height:21px; }
+  .panel li .ico { position:absolute; left:0; top:12px; width:24px; height:24px; border-radius:50%; color:#fff; font-size:12px; font-weight:bold; display:flex; align-items:center; justify-content:center; }
+  .panel li .rot { display:block; font-size:11px; font-weight:bold; letter-spacing:1px; text-transform:uppercase; margin-bottom:3px; }
+  .b1 .ico { background:var(--navy); } .b1 .rot { color:var(--navy); }
+  .b2 .ico { background:var(--sky); }  .b2 .rot { color:#007BB0; }
+  .b3 .ico { background:var(--teal); } .b3 .rot { color:var(--teal); }
+  .panel .fuentes { font-size:12px; margin-top:4px; }
+  .panel .fuentes a { margin-right:10px; }
+  .panel .vacio { color:var(--muted); font-size:14px; line-height:22px; }
+  .panel .aviso { font-size:11px; color:var(--muted); margin-top:12px; line-height:16px; }
+  @media (max-width:820px) { .mapa-grid { grid-template-columns:1fr; } .panel { position:static; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="sitio-header">
+    <small>Oficina Andina de ONUDI</small>
+    <h1>Radar Regional · Mapa</h1>
+    <p>Pase el cursor sobre un país y haga clic para ver su resumen.</p>
+  </header>
+  <div class="stripe"><span></span><span></span><span></span><span></span><span></span></div>
+  <nav class="secciones">
+    <a href="../">Inicio</a>
+    <a href="../mapa/" class="activo">Mapa</a>
+    <a href="../financiamiento/">Financiamiento</a>
+    <a href="../buscar/">Buscador</a>
+    <a href="../investigacion/">Investigación</a>
+    <a href="../archivo/">Archivo</a>
+  </nav>
+
+  <main>
+    <div class="mapa-grid">
+      <div>
+        <svg id="mapa" viewBox="0 0 600 780" role="img" aria-label="Mapa de América Latina continental"></svg>
+        <div class="leyenda">
+          <span><i style="background:#0067B1"></i>Con noticias en el Radar</span>
+          <span><i style="background:#C9D9E8"></i>Sin noticias en los últimos 30 días</span>
+          <span><i style="background:#003A70; outline:2px solid #FDB913"></i>Seleccionado</span>
+        </div>
+        <p class="nota" id="periodo"></p>
+      </div>
+      <aside class="panel" id="panel" aria-live="polite">
+        <h3>Seleccione un país</h3>
+        <p class="vacio">Haga clic en un país del mapa para ver la noticia principal, el financiamiento y los proyectos industriales, y las oportunidades para la ONUDI.</p>
+      </aside>
+    </div>
+  </main>
+</div>
+<div id="tooltip"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+<script>
+// Países continentales de México a Argentina (códigos ISO 3166-1 numéricos)
+const LATAM = ["484","320","222","340","558","188","591","170","862","218","604","068","076","600","152","032","858"];
+// Territorios vecinos solo como contexto (no interactivos): EE. UU., Belice, Guyana, Surinam, Cuba, Rep. Dominicana, Haití, Jamaica, Bahamas, Puerto Rico
+const CONTEXTO = ["840","084","328","740","250","192","214","332","388","044","630"];
+
+const esc = s => (s ?? "").toString().replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const svg = d3.select("#mapa"), tooltip = document.getElementById("tooltip");
+
+Promise.all([
+  d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/countries-50m.json"),
+  d3.json("paises.json")
+]).then(([world, datos]) => {
+  document.getElementById("periodo").textContent =
+    `${datos.periodo}. Fuente: ${datos.fuente}. Actualizado: ${datos.actualizado}.`;
+  const todos = topojson.feature(world, world.objects.countries).features;
+  const latam = todos.filter(f => LATAM.includes(f.id));
+  const contexto = todos.filter(f => CONTEXTO.includes(f.id));
+
+  const proj = d3.geoMercator().fitExtent([[10, 10], [590, 770]], {type:"FeatureCollection", features: latam});
+  proj.clipExtent([[0, 0], [600, 780]]);
+  const path = d3.geoPath(proj);
+
+  svg.append("g").selectAll("path").data(contexto).join("path").attr("class", "contexto").attr("d", path);
+
+  const nombre = f => (datos.paises[f.id] && datos.paises[f.id].nombre) || datos.sin_datos[f.id] || f.properties.name;
+  const g = svg.append("g");
+  g.selectAll("path").data(latam).join("path")
+    .attr("class", f => "pais " + (datos.paises[f.id] ? "con-datos" : "sin-datos"))
+    .attr("d", path)
+    .attr("tabindex", 0)
+    .attr("role", "button")
+    .attr("aria-label", f => nombre(f))
+    .on("mousemove", (e, f) => {
+      tooltip.textContent = nombre(f);
+      tooltip.style.left = (e.clientX + 12) + "px";
+      tooltip.style.top = (e.clientY + 12) + "px";
+      tooltip.style.opacity = 1;
+    })
+    .on("mouseleave", () => { tooltip.style.opacity = 0; })
+    .on("click", (e, f) => seleccionar(f))
+    .on("keydown", (e, f) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); seleccionar(f); } });
+
+  function seleccionar(f) {
+    g.selectAll("path").classed("seleccionado", d => d.id === f.id);
+    const p = datos.paises[f.id];
+    const panel = document.getElementById("panel");
+    if (!p) {
+      panel.innerHTML = `<h3>${esc(nombre(f))}</h3>
+        <p class="vacio">Sin noticias publicadas en el Radar sobre este país en los últimos 30 días. La ficha se completará cuando aparezcan noticias relevantes en próximas ediciones.</p>`;
+      return;
+    }
+    const enl = (p.financiamiento.enlaces || []).map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.texto)} ↗</a>`).join("");
+    panel.innerHTML = `
+      <h3>${esc(p.nombre)}</h3>
+      <div class="meta">${p.n_noticias} ${p.n_noticias === 1 ? "noticia" : "noticias"} en el Radar · ${esc(datos.periodo.split(" (")[0])}</div>
+      <ul>
+        <li class="b1"><span class="ico">1</span><span class="rot">Noticia principal</span>${esc(p.principal.texto)}
+          <div class="fuentes"><a href="${esc(p.principal.url)}" target="_blank" rel="noopener">${esc(p.principal.fuente)} · ${esc(p.principal.fecha)} ↗</a></div></li>
+        <li class="b2"><span class="ico">2</span><span class="rot">Financiamiento y proyectos</span>${esc(p.financiamiento.texto)}
+          <div class="fuentes">${enl}</div></li>
+        <li class="b3"><span class="ico">3</span><span class="rot">Oportunidades para la ONUDI</span>${esc(p.oportunidades)}</li>
+      </ul>
+      <p class="aviso">${esc(datos.nota_oportunidades)}</p>`;
+  }
+
+  // Etiquetas de los países con datos
+  g.selectAll("text").data(latam.filter(f => datos.paises[f.id] && path.area(f) > 1500)).join("text")
+    .attr("class", "etiqueta")
+    .attr("transform", f => `translate(${path.centroid(f)})`)
+    .text(f => datos.paises[f.id].nombre);
+}).catch(() => {
+  document.getElementById("panel").innerHTML = '<p class="vacio">No se pudo cargar el mapa. Intente de nuevo más tarde.</p>';
+});
+</script>
+</body>
+</html>

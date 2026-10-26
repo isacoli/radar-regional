@@ -1,0 +1,79 @@
+#!/usr/bin/env python3
+"""Publica una edición final en el sitio (carpeta docs/ de GitHub Pages).
+
+Uso:
+    python3 scripts/publicar_sitio.py output/radar/AAAA-MM-DD
+
+- Toma el HTML final de la carpeta (`html_archivo` de datos.json), le agrega la barra de
+  secciones del sitio (solo en la versión web, no en el correo) y lo copia a
+  docs/index.html y docs/archivo/AAAA-MM-DD.html.
+- Agrega la edición al principio de docs/archivo/index.html si no está.
+- No hace commit ni push: eso se hace después de la confirmación del usuario.
+"""
+import json
+import re
+import sys
+from pathlib import Path
+
+RAIZ = Path(__file__).resolve().parent.parent
+BASE = "https://isacoli.github.io/radar-regional/"
+
+BARRA = """  <!-- BARRA DEL SITIO (solo versión web) -->
+  <tr><td style="background:#ffffff; border-bottom:1px solid #DCE6EF; padding:10px 20px; text-align:center; font-family:Arial, Helvetica, sans-serif;">
+  {enlaces}
+  </td></tr>
+"""
+SECCIONES = [("Inicio", ""), ("Mapa", "mapa/"), ("Financiamiento", "financiamiento/"), ("Buscador", "buscar/"),
+             ("Investigación", "investigacion/"), ("Archivo", "archivo/")]
+ESTILO = ("display:inline-block; margin:3px; padding:7px 13px; border:1px solid #DCE6EF; border-radius:999px; "
+          "font-size:13px; font-weight:bold; text-decoration:none; ")
+
+
+def barra(activo="Inicio"):
+    enlaces = []
+    for nombre, ruta in SECCIONES:
+        if nombre == activo:
+            est = ESTILO + "background:#003A70; color:#ffffff; border-color:#003A70;"
+        else:
+            est = ESTILO + "background:#EEF5FB; color:#003A70;"
+        enlaces.append(f'<a href="{BASE}{ruta}" style="{est}">{nombre}</a>')
+    return BARRA.format(enlaces="\n  ".join(enlaces))
+
+
+def con_barra(html, activo):
+    """Inserta la barra justo debajo del banner (después de la franja de colores)."""
+    html = re.sub(r"  <!-- BARRA DEL SITIO.*?</td></tr>\n", "", html, count=1, flags=re.S)
+    html = re.sub(r"<!-- BARRA DEL SITIO.*?</div>\n", "", html, count=1, flags=re.S)  # versión anterior
+    marca = "  <!-- RESUMEN DEL DÍA -->"
+    if marca not in html:
+        sys.exit("No se encontró el punto de inserción de la barra (RESUMEN DEL DÍA).")
+    return html.replace(marca, barra(activo) + "\n" + marca, 1)
+
+
+def main():
+    if len(sys.argv) < 2:
+        sys.exit(__doc__)
+    carpeta = Path(sys.argv[1])
+    datos = json.loads((carpeta / "datos.json").read_text(encoding="utf-8"))
+    ed = datos["edicion"]
+    html = (carpeta / datos.get("html_archivo", "boletin.html")).read_text(encoding="utf-8")
+    if "BORRADOR" in html:
+        sys.exit("La edición todavía tiene el banner BORRADOR: márquela como final antes de publicarla.")
+    fecha = ed["fecha"]
+    (RAIZ / "docs" / "index.html").write_text(con_barra(html, "Inicio"), encoding="utf-8")
+    (RAIZ / "docs" / "archivo" / f"{fecha}.html").write_text(con_barra(html, "Archivo"), encoding="utf-8")
+
+    idx = RAIZ / "docs" / "archivo" / "index.html"
+    s = idx.read_text(encoding="utf-8")
+    if f'href="{fecha}.html"' not in s:
+        n_n, n_i = len(datos["noticias"]), len(datos["investigaciones"])
+        fila = (f'      <li><a href="{fecha}.html">N.º {ed["numero"]} · {ed.get("fecha_larga", fecha)}</a>'
+                f'<br><span class="meta">{n_n} noticias · {n_i} investigaciones</span></li>\n')
+        marca = "      <!-- EDICIONES: agregar cada nueva edición arriba -->\n"
+        s = s.replace(marca, marca + fila, 1)
+        idx.write_text(s, encoding="utf-8")
+    print(f"✓ Publicado en docs/: index.html y archivo/{fecha}.html")
+
+
+if __name__ == "__main__":
+    main()

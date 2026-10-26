@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Investigación · Radar Regional</title>
+<link rel="stylesheet" href="../assets/sitio.css">
+<style>
+  h2.inv { color:var(--teal); border-color:var(--teal); }
+  .item { padding:14px 0; border-bottom:1px solid var(--line); }
+  .item a.t { font-weight:bold; color:var(--navy); text-decoration:none; font-size:15px; line-height:21px; }
+  .item a.t:hover { text-decoration:underline; }
+  .orig { color:#8A98A6; font-size:12px; font-style:italic; margin-top:2px; }
+  .meta { color:var(--muted); font-size:12px; margin-top:4px; }
+  .res { font-size:13px; line-height:19px; margin-top:5px; }
+  .res strong { color:var(--teal); }
+  .tag { display:inline-block; font-size:10px; font-weight:bold; border-radius:3px; padding:1px 5px; margin:0 4px 4px 0; }
+  .r { background:#E1EEFA; color:var(--navy); } .g { background:#E0F2F3; color:#00666D; } .n { background:#EEF1F4; color:#4A5A6A; font-weight:normal; }
+  .filtros { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:6px; }
+  .filtros select { padding:8px 10px; border:1px solid var(--line); border-radius:4px; font-size:14px; }
+</style>
+</head>
+<body>
+<div class="wrap angosto">
+  <header class="sitio-header">
+    <small>Oficina Andina de ONUDI</small>
+    <h1>Radar Regional · Investigación</h1>
+    <p>Todas las publicaciones destacadas: revistas Q1 y documentos de trabajo de BID, Banco Mundial, CEPAL, ONUDI y NBER.</p>
+  </header>
+  <div class="stripe"><span></span><span></span><span></span><span></span><span></span></div>
+  <nav class="secciones">
+    <a href="../">Inicio</a>
+    <a href="../mapa/">Mapa</a>
+    <a href="../financiamiento/">Financiamiento</a>
+    <a href="../buscar/">Buscador</a>
+    <a href="../investigacion/" class="activo">Investigación</a>
+    <a href="../archivo/">Archivo</a>
+    <a class="editor" href="https://github.com/isacoli/radar-regional/actions/workflows/radar.yml" title="Solo equipo editor">⟳ Solicitar actualización</a>
+  </nav>
+  <main>
+    <div class="filtros">
+      <select id="ambito"><option value="">Regional y global</option><option>Regional</option><option>Global</option></select>
+      <select id="tipo"><option value="">Artículos y documentos de trabajo</option><option value="articulo">Solo artículos</option><option value="documento_de_trabajo">Solo documentos de trabajo</option></select>
+    </div>
+    <h2 class="inv" id="titulo">Publicaciones</h2>
+    <div id="lista"><p class="nota">Cargando…</p></div>
+  </main>
+</div>
+<script>
+const SUPABASE_URL = "https://mibponspfvjtkvsrmzag.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_OoPaREAwp9P1KHV3vy7o_A_v1KJmmSS";
+const esc = s => (s ?? "").toString().replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+async function cargar() {
+  const p = new URLSearchParams({ select: "edicion_fecha,edicion_url,titulo_es,titulo_original,autores,revista,ambito,tipo,acceso_abierto,mas_relevante,hallazgo,url", order: "edicion_fecha.desc,posicion.asc", limit: "200" });
+  const a = document.getElementById("ambito").value, t = document.getElementById("tipo").value;
+  if (a) p.append("ambito", `eq.${a}`);
+  if (t) p.append("tipo", `eq.${t}`);
+  try {
+    const r = await fetch(`${SUPABASE_URL}/rest/v1/investigaciones_con_edicion?${p}`, { headers: { apikey: SUPABASE_ANON_KEY, Authorization: `Bearer ${SUPABASE_ANON_KEY}` } });
+    if (!r.ok) throw 0;
+    const d = await r.json();
+    document.getElementById("titulo").textContent = `Publicaciones (${d.length})`;
+    document.getElementById("lista").innerHTML = d.map(x => `
+      <div class="item">
+        ${x.mas_relevante ? '<span class="tag r">⭐ Más relevante</span>' : ''}<span class="tag g">${esc(x.ambito)}</span><span class="tag n">${x.acceso_abierto ? 'Acceso abierto' : '[pago]'}</span>${x.tipo === 'documento_de_trabajo' ? '<span class="tag n">Documento de trabajo</span>' : ''}
+        <div><a class="t" href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.titulo_es)}</a></div>
+        ${x.titulo_original && x.titulo_original !== x.titulo_es ? `<div class="orig">${esc(x.titulo_original)}</div>` : ''}
+        <div class="meta">${esc(x.autores)} · <em>${esc(x.revista)}</em> · ${x.edicion_url ? `<a href="${esc(x.edicion_url)}">edición del ${esc(x.edicion_fecha)}</a>` : esc(x.edicion_fecha)}</div>
+        <div class="res"><strong>Hallazgo principal:</strong> ${esc(x.hallazgo)}</div>
+      </div>`).join("") || '<p class="nota">No hay publicaciones con esos filtros.</p>';
+  } catch (e) {
+    document.getElementById("lista").innerHTML = '<p class="nota">No se pudo consultar la base de datos. Intente de nuevo más tarde.</p>';
+  }
+}
+document.getElementById("ambito").addEventListener("change", cargar);
+document.getElementById("tipo").addEventListener("change", cargar);
+cargar();
+</script>
+</body>
+</html>

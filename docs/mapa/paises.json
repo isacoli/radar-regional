@@ -1,0 +1,173 @@
+{
+  "actualizado": "2026-10-26",
+  "periodo": "Últimos 30 días (27 sep – 26 oct 2026)",
+  "fuente": "Noticias e investigaciones publicadas en el Radar Regional (ediciones semanal N.º 1, diaria N.º 1 y diaria N.º 2)",
+  "nota_oportunidades": "Las oportunidades son un análisis orientativo del Radar a partir de las noticias publicadas; no constituyen una posición oficial de la ONUDI.",
+  "paises": {
+    "604": {
+      "nombre": "Perú",
+      "n_noticias": 16,
+      "principal": {
+        "texto": "Perú y Ecuador firmaron en Lima acuerdos de energía, pesca y desarrollo fronterizo, y Perú asumió la presidencia de la Comunidad Andina con prioridades en comercio, inversión y conectividad.",
+        "fuente": "El Universo",
+        "fecha": "2026-10-20",
+        "url": "https://www.eluniverso.com/politica/ejecutivo/ecuador-y-peru-firman-acuerdos-de-cooperacion-en-seguridad-energia-y-desarrollo-fronterizo-nota/"
+      },
+      "financiamiento": {
+        "texto": "ENGIE invertirá más de US$ 127 millones en una central solar en Moquegua; la UE y la SNI abrieron un fondo de 550.000 euros para industria circular; la inversión minera sumó US$ 4.813 millones a agosto (+42,7 %).",
+        "enlaces": [
+          {
+            "texto": "ENGIE · Gestión",
+            "url": "https://gestion.pe/economia/empresas/engie-amplia-intipampa-y-anuncia-central-solar-en-moquegua-noticia/"
+          },
+          {
+            "texto": "UE–SNI · SNI",
+            "url": "https://sni.org.pe/ue-y-sni-lanzan-nuevo-fondo-de-550-mil-euros-para-impulsar-la-industria-circular-en-ocho-regiones-del-peru/"
+          },
+          {
+            "texto": "Inversión minera · El Comercio",
+            "url": "https://elcomercio.pe/economia/peru/inversion-minera-acumulada-crece-en-427-y-alcanza-a-los-us4813-millones-l-ultimas-noticia/"
+          }
+        ]
+      },
+      "oportunidades": "Apoyar a las mypes textiles y de plásticos golpeadas por El Niño con economía circular, calidad y acceso a mercados, y acompañar la transición energética industrial en el sur, junto al fondo UE–SNI."
+    },
+    "170": {
+      "nombre": "Colombia",
+      "n_noticias": 10,
+      "principal": {
+        "texto": "La manufactura colombiana cayó 3,7 % en agosto, segundo mes de retroceso, y el terremoto de agosto agravó el golpe a la industria y expuso a 183.000 clientes de microcrédito.",
+        "fuente": "Semana / El Espectador",
+        "fecha": "2026-10-23",
+        "url": "https://www.elespectador.com/economia/el-terremoto-golpea-la-industria-y-deja-a-183-000-clientes-de-microcredito-expuestos/"
+      },
+      "financiamiento": {
+        "texto": "El Gobierno destina COP 2,7 billones para asegurar la energía frente a El Niño y negocia con EE. UU. retirar el arancel de 12,5 %; CEPAL y la cooperación alemana apoyan clústeres de bioeconomía en Antioquia y Córdoba.",
+        "enlaces": [
+          {
+            "texto": "Energía · El Espectador",
+            "url": "https://www.elespectador.com/economia/el-gobierno-destina-cop-27-billones-para-asegurar-la-energia-frente-al-nino/"
+          },
+          {
+            "texto": "Aranceles · El Espectador",
+            "url": "https://www.elespectador.com/economia/macroeconomia/estados-unidos-quitara-los-aranceles-a-bienes-colombianos-asi-van-las-negociaciones/"
+          },
+          {
+            "texto": "Clústeres · BioEconomía.info",
+            "url": "https://www.bioeconomia.info/2026/10/22/bioeconomia-economia-circular-america-latina-cepal-clusteres/"
+          }
+        ]
+      },
+      "oportunidades": "Apoyar la recuperación productiva de las industrias afectadas por el sismo, la eficiencia energética industrial ante El Niño y el escalamiento de clústeres de bioeconomía y economía circular."
+    },
+    "218": {
+      "nombre": "Ecuador",
+      "n_noticias": 11,
+      "principal": {
+        "texto": "Ecuador anunció el fin de las desconexiones eléctricas a las grandes industrias desde el 1 de noviembre, tras semanas de cortes de hasta 72 horas por la sequía.",
+        "fuente": "Diario Extra",
+        "fecha": "2026-10-22",
+        "url": "https://www.extra.ec/noticia/economia/empresas-esperan-instrucciones-gobierno-anuncio-suspender-desconexiones-noviembre-165681.html"
+      },
+      "financiamiento": {
+        "texto": "La chilena ENAP compró Pluspetrol Ecuador por US$ 207 millones; entró en operación la hidroeléctrica Hidroquest (45 MW); Petroecuador y Petroperú firmaron un memorando de cooperación, y Ecuador y Bolivia crearon una comisión binacional de comercio e inversiones.",
+        "enlaces": [
+          {
+            "texto": "ENAP–Pluspetrol · El Universo",
+            "url": "https://www.eluniverso.com/economia/industrias/viceministro-de-hidrocarburos-de-ecuador-se-reunio-con-representantes-de-pluspetrol-y-enap-de-chile-nota/"
+          },
+          {
+            "texto": "Hidroquest · El Universo",
+            "url": "https://www.eluniverso.com/economia/industrias/nueva-hidroelectrica-hidroquest-mina-fruta-del-norte-aporte-red-electrica-publica-ecuador-nota/"
+          },
+          {
+            "texto": "Comisión con Bolivia · El Universo",
+            "url": "https://www.eluniverso.com/economia/industrias/acuerdo-bilateral-creacion-comision-binacional-comercio-exterior-exportaciones-bolivia-ecuador-2026-nota/"
+          }
+        ]
+      },
+      "oportunidades": "Apoyar la eficiencia energética y la autogeneración en la industria, el valor agregado minero con estándares ambientales y la preparación exportadora de las pymes para los nuevos acuerdos comerciales."
+    },
+    "068": {
+      "nombre": "Bolivia",
+      "n_noticias": 4,
+      "principal": {
+        "texto": "El Senado de Bolivia aprobó un crédito del BID de US$ 30,2 millones para modernizar el alumbrado público con tecnología LED y medición inteligente, que ahora pasa al Ejecutivo.",
+        "fuente": "ABI (vía Opinión)",
+        "fecha": "2026-10-22",
+        "url": "https://www.opinion.com.bo/pais/senado-aprueba-credito-bid-us-302-millones-modernizar-alumbrado-publico/20261022191207998045.html"
+      },
+      "financiamiento": {
+        "texto": "Además del crédito del BID para eficiencia energética, Bolivia y Ecuador crearon una comisión binacional de comercio e inversiones, y el Gobierno ultima un nuevo Código Minero que daría más seguridad jurídica a la inversión.",
+        "enlaces": [
+          {
+            "texto": "Crédito BID · Opinión",
+            "url": "https://www.opinion.com.bo/pais/senado-aprueba-credito-bid-us-302-millones-modernizar-alumbrado-publico/20261022191207998045.html"
+          },
+          {
+            "texto": "Código Minero · Opinión",
+            "url": "https://www.opinion.com.bo/pais/codigo-minero-etapa-final-redaccion-preven-socializarlo/20261025092144998149.html"
+          }
+        ]
+      },
+      "oportunidades": "Acompañar la eficiencia energética municipal, la industrialización del litio y otros minerales con estándares ambientales y sociales en el marco del nuevo Código Minero, y la integración comercial con Ecuador."
+    },
+    "076": {
+      "nombre": "Brasil",
+      "n_noticias": 1,
+      "principal": {
+        "texto": "Lula ganó la segunda vuelta presidencial con cerca del 51,8 % frente a Flávio Bolsonaro y asumirá su nuevo mandato el 5 de enero de 2027.",
+        "fuente": "El Comercio",
+        "fecha": "2026-10-25",
+        "url": "https://elcomercio.pe/mag/usa/en-vivo-us/quien-va-ganando-las-elecciones-en-brasil-2026-resultados-en-vivo-de-flavio-bolsonaro-vs-lula-da-silva-en-segunda-vuelta-noticia/"
+      },
+      "financiamiento": {
+        "texto": "Un estudio publicado en el Radar muestra que el capital chino y el estadounidense se especializan en distintos segmentos de las renovables sudamericanas, ampliando el financiamiento disponible; Perú busca además captar carga brasileña hacia Asia.",
+        "enlaces": [
+          {
+            "texto": "Estudio · Review of International Political Economy",
+            "url": "https://doi.org/10.1080/09692290.2026.2730217"
+          },
+          {
+            "texto": "Carga Brasil–Asia · El Comercio",
+            "url": "https://elcomercio.pe/economia/peru/peru-camina-a-captar-carga-de-brasil-hacia-asia-cual-sera-la-pieza-clave-puertos-peruanos-noticia/"
+          }
+        ]
+      },
+      "oportunidades": "Promover la cooperación Sur–Sur en política industrial y transición energética, y el intercambio de experiencias de la política industrial brasileña con los países andinos."
+    },
+    "152": {
+      "nombre": "Chile",
+      "n_noticias": 1,
+      "principal": {
+        "texto": "Chile prevé licitar unos cinco nuevos proyectos de litio operados por privados para más que duplicar su producción, de unas 300.000 a 700.000 toneladas en cinco a diez años.",
+        "fuente": "Reuters (vía MarketScreener)",
+        "fecha": "2026-10-21",
+        "url": "https://es.marketscreener.com/noticias/chile-buscar-impulsar-nuevos-proyectos-de-litio-para-m-s-que-duplicar-producci-n-ministro-ce785cd9d88af722"
+      },
+      "financiamiento": {
+        "texto": "El Gobierno apuesta por inversión privada en litio, con permisos más ágiles y cinco proyectos en aprobación final, además de las nuevas licitaciones previstas para comienzos del próximo año.",
+        "enlaces": [
+          {
+            "texto": "Litio · Reuters",
+            "url": "https://es.marketscreener.com/noticias/chile-buscar-impulsar-nuevos-proyectos-de-litio-para-m-s-que-duplicar-producci-n-ministro-ce785cd9d88af722"
+          }
+        ]
+      },
+      "oportunidades": "Servir de referencia para la estrategia del litio de Bolivia y para la cooperación regional en valor agregado de minerales críticos con estándares ambientales."
+    }
+  },
+  "sin_datos": {
+    "484": "México",
+    "320": "Guatemala",
+    "222": "El Salvador",
+    "340": "Honduras",
+    "558": "Nicaragua",
+    "188": "Costa Rica",
+    "591": "Panamá",
+    "862": "Venezuela",
+    "600": "Paraguay",
+    "858": "Uruguay",
+    "032": "Argentina"
+  }
+}

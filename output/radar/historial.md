@@ -7,6 +7,7 @@ Log of every scan and of the stories published in bulletins. `/radar` reads this
 | N.º | Fecha | Ventana | Noticias | Boletín | Estado |
 |---|---|---|---|---|---|
 | 1 | 2026-10-23 | 22 oct 07:01 → 23 oct 07:00 | 16 | output/radar/2026-10-23-diario/boletin-completo.html (diseño v2, con investigación) | final |
+| 2 | 2026-10-26 | 23 oct 07:01 → 26 oct 02:21 (a pedido) | 18 | output/radar/2026-10-26/boletin.html | borrador |
 
 ## Weekly scans (earlier format)
 
@@ -42,6 +43,24 @@ Log of every scan and of the stories published in bulletins. `/radar` reads this
 | 2026-10-22 | Petroecuador pone en producción pozo de 3.200 barriles diarios (Diario N.º 1) | El Universo | https://www.eluniverso.com/economia/produccion/petroecuador-incorpora-pozo-activo-shushufindi-sucumbios-produccion-petrolera-ecuador-nota/ | Energía | Ecuador |
 | 2026-10-22 | ENAP compra Pluspetrol Ecuador por US$ 207 millones (Diario N.º 1) | El Universo | https://www.eluniverso.com/economia/industrias/viceministro-de-hidrocarburos-de-ecuador-se-reunio-con-representantes-de-pluspetrol-y-enap-de-chile-nota/ | Inversión extranjera | Ecuador |
 | 2026-10-23 | CADE Ejecutivos 2026: cinco prioridades al 2050 (Diario N.º 1) | Andina | https://andina.pe/agencia/noticia-cade-ejecutivos-2026-plantean-cinco-prioridades-para-desarrollo-del-peru-al-2050-1097037.aspx | Política industrial | Perú |
+| 2026-10-25 | Lula gana la segunda vuelta en Brasil y gobernará hasta 2030 (Diario N.º 2) | El Comercio | https://elcomercio.pe/mag/usa/en-vivo-us/quien-va-ganando-las-elecciones-en-brasil-2026-resultados-en-vivo-de-flavio-bolsonaro-vs-lula-da-silva-en-segunda-vuelta-noticia/ | Inversión, comercio e integración | Brasil (regional) |
+| 2026-10-23 | ENGIE inaugura la ampliación solar de Intipampa y anuncia una nueva central de US$ 127 millones en Moquegua (Diario N.º 2) | Gestión | https://gestion.pe/economia/empresas/engie-amplia-intipampa-y-anuncia-central-solar-en-moquegua-noticia/ | Transición energética | Perú |
+| 2026-10-23 | Ecuador País Minero 2026: piden seguridad jurídica y valor agregado para consolidar el modelo minero (Diario N.º 2) | El Universo | https://www.eluniverso.com/economia/industrias/encuentro-ecuador-pais-minero-2026-camara-de-mineria-del-ecuador-cme-analisis-actividad-minera-experiencias-internacionales-ecuador-2026-nota/ | Minerales críticos | Ecuador |
+| 2026-10-25 | SNI: las ventas del sector textil caerían 50 % en Navidad por El Niño e importaciones subvaluadas (Diario N.º 2) | El Comercio | https://elcomercio.pe/economia/peru/sociedad-nacional-de-industrias-las-ventas-en-el-sector-textil-caerian-un-50-en-navidad-estaremos-ad-portas-o-ya-con-un-diluvio-en-el-pais-apuesplan-noticia/ | Política industrial y coyuntura | Perú |
+| 2026-10-23 | El terremoto golpea la industria colombiana y deja expuestos a 183.000 clientes de microcrédito (Diario N.º 2) | El Espectador | https://www.elespectador.com/economia/el-terremoto-golpea-la-industria-y-deja-a-183-000-clientes-de-microcredito-expuestos/ | Política industrial y coyuntura | Colombia |
+| 2026-10-24 | Lote 192: la egipcia Petroloreto asumirá el 75 % y la operación por 27 años; Petroperú conserva el 25 % (Diario N.º 2) | El Comercio | https://elcomercio.pe/economia/peru/lote-192-petroloreto-asumira-el-75-de-participacion-y-la-operacion-por-27-anos-noticia/ | Energía | Perú |
+| 2026-10-23 | Perú busca captar carga de Brasil hacia Asia: el puerto de Corío en Arequipa, pieza clave (Diario N.º 2) | El Comercio | https://elcomercio.pe/economia/peru/peru-camina-a-captar-carga-de-brasil-hacia-asia-cual-sera-la-pieza-clave-puertos-peruanos-noticia/ | Megaproyectos e infraestructura | Perú |
+| 2026-10-24 | Colombia destina COP 2,7 billones para asegurar la energía frente a El Niño (Diario N.º 2) | El Espectador | https://www.elespectador.com/economia/el-gobierno-destina-cop-27-billones-para-asegurar-la-energia-frente-al-nino/ | Transición energética | Colombia |
+| 2026-10-24 | Exportadores de Ecuador piden a la Corte Constitucional priorizar los acuerdos con EE. UU., Canadá y Emiratos Árabes (Diario N.º 2) | El Universo | https://www.eluniverso.com/economia/produccion/acuerdos-comerciales-exportadores-piden-a-corte-constitucional-dar-prioridad-a-tramites-con-tres-paises-nota/ | Inversión, comercio e integración | Ecuador |
+| 2026-10-25 | Bolivia: el nuevo Código Minero entra en su etapa final de redacción y se presentaría a la Asamblea a fines de octubre (Diario N.º 2) | ERBOL (vía Opinión) | https://www.opinion.com.bo/pais/codigo-minero-etapa-final-redaccion-preven-socializarlo/20261025092144998149.html | Minerales críticos | Bolivia |
+| 2026-10-23 | La inversión minera en Perú crece 42,7 % y suma US$ 4.813 millones entre enero y agosto (Diario N.º 2) | El Comercio | https://elcomercio.pe/economia/peru/inversion-minera-acumulada-crece-en-427-y-alcanza-a-los-us4813-millones-l-ultimas-noticia/ | Minerales críticos | Perú |
+| 2026-10-25 | Las exportaciones peruanas de cacao caen 48 % por El Niño y la baja de precios (Diario N.º 2) | Gestión | https://gestion.pe/economia/cacao-exportaciones-estan-en-caida-libre-por-el-nino-tras-record-hay-mas-riesgos-noticia/ | Agroindustria y cadenas de valor | Perú |
+| 2026-10-23 | El petróleo Brent supera los US$ 116 y toca su máximo en cinco meses por las tensiones en Medio Oriente (Diario N.º 2) | Bloomberg (vía Gestión) | https://gestion.pe/mundo/internacional/petroleo-supera-los-us-116-y-toca-maximo-de-cinco-meses-por-riesgos-en-medio-oriente-noticia/ | Energía | Global |
+| 2026-10-23 | Colombia recorta COP 13,8 billones del presupuesto de 2026 para contener el déficit fiscal (Diario N.º 2) | El Espectador | https://www.elespectador.com/economia/macroeconomia/el-gobierno-decreta-recorte-de-cop-138-billones-para-el-presupuesto-de-2026/ | Política industrial y coyuntura | Colombia |
+| 2026-10-23 | La reconstrucción tras el terremoto en Colombia costará COP 54 billones, según el Ministerio de Vivienda (Diario N.º 2) | El Espectador | https://www.elespectador.com/economia/el-costo-de-la-reconstruccion-por-el-terremoto-ascendera-a-cop-54-billones/ | Megaproyectos e infraestructura | Colombia |
+| 2026-10-24 | Con la tasa en 12,25 % e inflación de 6,29 %, el Banco de la República decide el 30 de octubre (Diario N.º 2) | El Espectador | https://www.elespectador.com/economia/macroeconomia/el-banrep-sorprendio-en-septiembre-con-un-alza-de-tasas-que-hara-en-octubre/ | Política industrial y coyuntura | Colombia |
+| 2026-10-24 | Ecuador entrega tractores y bombas de agua a agricultores de nueve provincias para enfrentar El Niño (Diario N.º 2) | El Universo | https://www.eluniverso.com/economia/produccion/gobierno-entrega-maquinaria-y-equipos-para-mitigar-el-impacto-climatico-en-el-sector-agricola-nota/ | Agroindustria y cadenas de valor | Ecuador |
+| 2026-10-25 | Gremiales de Bolivia anuncian movilizaciones para fines de noviembre por la caída de ventas (Diario N.º 2) | Opinión | https://www.opinion.com.bo/pais/gremiales-anuncian-movilizaciones-finales-noviembre-ventas-bajaron-50/20261025203621998177.html | MiPymes y empleo | Bolivia |
 
 ## Research featured
 
@@ -52,6 +71,11 @@ Log of every scan and of the stories published in bulletins. `/radar` reads this
 | 2026-10-23 | How Shocks Travel: The Cross-Border Impact of Natural Disasters in Firm Networks | Alviarez | BID | https://doi.org/10.18235/0014564 | Documento de trabajo |
 | 2026-10-23 | The peripheralisation of Europe's battery industry | Karas | New Political Economy | https://doi.org/10.1080/13563467.2026.2751101 | Artículo |
 | 2026-10-23 | Situational state capacity for transformative industrial policy in dependent market economies | Kalanta | Review of International Political Economy | https://doi.org/10.1080/09692290.2026.2748311 | Artículo |
+| 2026-10-26 | Industrial policy in times of market power | Delli Gatti et al. | Research Policy | https://doi.org/10.1016/j.respol.2026.105638 | Artículo |
+| 2026-10-26 | The rise and fall of Northvolt: From sustainability to battery geopolitics and industrial failure in the European Nordics | Lapi y Vidal | Energy Policy | https://doi.org/10.1016/j.enpol.2026.115640 | Artículo |
+| 2026-10-26 | Why some countries lead and others lag: The political economy of promoting battery electric vehicles | Anilan et al. | Technological Forecasting and Social Change | https://doi.org/10.1016/j.techfore.2026.124907 | Artículo |
+| 2026-10-26 | Peer benchmarking and digital upgrading: Field experiments on business websites | Adem et al. | Research Policy | https://doi.org/10.1016/j.respol.2026.105630 | Artículo |
+| 2026-10-26 | Firm-level effects of AI attention on wages and productivity: A global comparative study | SenGupta | Technological Forecasting and Social Change | https://doi.org/10.1016/j.techfore.2026.124913 | Artículo |
 
 ## Stories proposed but not selected
 

@@ -11,6 +11,7 @@ Edit this file to change how `/radar` works. Claude reads it at the start of eve
   - The issue is dated with the run day.
   - Check each article's publication date **and time** on the page itself. A story published at 07:00 or earlier belongs to the previous issue. If a page shows only the date (no time), include it when the date is inside the window and note this in `notas.md`.
   - If `/radar` runs later than 07:00, keep the same window (ending 07:00 that day) so issues never overlap or leave gaps.
+  - **On-demand runs** ("actualizar ahora"): the window ends at the moment of the run. The next issue then starts right after that cut-off (taken from the "Ventana" column of the last issue in `historial.md`), so nothing is skipped or repeated.
 - **Planned change:** move to a scheduled cloud run from a GitHub repository later.
 
 ## Geography

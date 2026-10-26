@@ -25,6 +25,8 @@ There are two modes. **Never skip a step or a stop point in either.**
 
 Monday to Friday, run manually for now (a scheduled run from GitHub is planned later). One run goes from scan to draft — there is no selection step.
 
+**On-demand updates:** `/actualizar` (here) or the GitHub Actions workflow "Radar Regional — actualizar ahora" (`.github/workflows/radar.yml`, needs the `ANTHROPIC_API_KEY` repository secret; it opens a Pull Request with the draft). The window ends at the moment of the run and the next issue continues from there.
+
 ### Step 1 — Set up
 
 1. Read the three config files and `output/radar/historial.md`.
@@ -80,7 +82,13 @@ Follow `config/research.md`:
 
 ### Step 7 — Publish to the website (GitHub Pages)
 
-Follow `config/publish.md`: fill `{{URL_SITIO}}` (the "Ver la edición más reciente" button and footer links), copy the final issue to `docs/index.html` and `docs/archivo/AAAA-MM-DD.html`, add it to `docs/archivo/index.html`, and commit. **Push only after the user confirms**, since pushing publishes it on the public site. Never publish drafts.
+Follow `config/publish.md`: build the final issue with `python3 scripts/construir_boletin.py output/radar/AAAA-MM-DD --final`, then run `python3 scripts/publicar_sitio.py output/radar/AAAA-MM-DD` (copies it to `docs/index.html` and `docs/archivo/`, adds the site section bar below the banner on the web copies only, and updates the archive list). Then update the map (below) and commit.
+
+**Map (`docs/mapa/paises.json`):** after each final issue, rebuild the country cards for the 17 continental countries (México → Argentina) using **only news published in the Radar in the last 30 days**:
+1. **Noticia principal:** one sentence of **at most 30 words** on the country's most important published story (highest coverage, then relevance), with source, date and link.
+2. **Financiamiento y proyectos:** international financing, investment and industrial/manufacturing projects reported for the country, with links.
+3. **Oportunidades para la ONUDI:** one or two sentences on where the ONUDI could support, grounded only in the published news (an orientative analysis, not an official position; never invent programmes).
+Countries with no published news in the period go in `sin_datos`. Update `actualizado`, `periodo` and `fuente`. **Push only after the user confirms**, since pushing publishes it on the public site. Never publish drafts.
 
 ### Step 8 — Save to the database (Supabase)
 
