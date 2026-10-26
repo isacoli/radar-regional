@@ -110,6 +110,8 @@ def main():
         html_pubs.append(b)
 
     out = tpl[:cs] + "\n".join(html_cards) + tpl[ce:ls] + "\n".join(html_list) + tpl[le:ps] + "\n".join(html_pubs) + tpl[pe:]
+    if not html_list:  # días con 5 noticias o menos: sin sección «Más titulares»
+        out = re.sub(r"  <!-- MÁS TITULARES.*?  </tr>\n\n", "", out, flags=re.S)
     if not html_pubs:
         out = re.sub(r"  <!-- INVESTIGACIÓN DESTACADA.*?  </tr>\n\n", "", out, flags=re.S)
     out = re.sub(r"<!--\n  PLANTILLA.*?-->\n", "", out, flags=re.S)
