@@ -300,7 +300,8 @@
    "hallazgo": "Con 194 proyectos (2006–2024), las empresas chinas dominan la hidroelectricidad y la eólica, y las estadounidenses el biodiésel y la solar avanzada; más que desplazarse, se especializan y amplían el financiamiento disponible para la región.",
    "url": "https://doi.org/10.1080/09692290.2026.2730217",
    "fecha_publicacion": "2026-10-22",
-   "ranking": "JCR Q1 (Journal Metrics)"
+   "ranking": "JCR Q1 (Journal Metrics)",
+   "tema": "Comercio, cadenas de valor e IED"
   },
   {
    "posicion": 2,
@@ -315,7 +316,8 @@
    "hallazgo": "Las metas de conservación forestal y productividad agrícola de la NDC boliviana mejoran la actividad y el ambiente, pero encarecen la tierra y agravan los desequilibrios fiscales y externos.",
    "url": "https://doi.org/10.1016/j.ecolecon.2026.109281",
    "fecha_publicacion": "2026-10-22",
-   "ranking": "SJR Q1 (Economía; Ciencias Ambientales) y JCR Q1"
+   "ranking": "SJR Q1 (Economía; Ciencias Ambientales) y JCR Q1",
+   "tema": "Transición energética y economía circular"
   },
   {
    "posicion": 3,
@@ -330,7 +332,8 @@
    "hallazgo": "Los desastres naturales en países proveedores reducen hasta 25 puntos porcentuales el crecimiento de las compras de los importadores, y las redes internas de las multinacionales amortiguan ese golpe.",
    "url": "https://doi.org/10.18235/0014564",
    "fecha_publicacion": "2026-10-16",
-   "ranking": "Documento de trabajo BID"
+   "ranking": "Documento de trabajo BID",
+   "tema": "Comercio, cadenas de valor e IED"
   },
   {
    "posicion": 4,
@@ -345,7 +348,8 @@
    "hallazgo": "La fabricación de baterías prosperó en la periferia europea, donde el Estado absorbió los riesgos de inversión, muchas veces integrándose con empresas chinas en lugar de buscar autonomía estratégica.",
    "url": "https://doi.org/10.1080/13563467.2026.2751101",
    "fecha_publicacion": "2026-10-21",
-   "ranking": "SJR Q1 (Desarrollo; Ciencia Política) y JCR Q1"
+   "ranking": "SJR Q1 (Desarrollo; Ciencia Política) y JCR Q1",
+   "tema": "Política industrial y cambio estructural"
   },
   {
    "posicion": 5,
@@ -360,7 +364,8 @@
    "hallazgo": "Propone un marco de capacidad estatal, basado en una mentalidad desarrollista y la movilización política, y lo ilustra con la transferencia de tecnología de semiconductores de Taiwán a Lituania.",
    "url": "https://doi.org/10.1080/09692290.2026.2748311",
    "fecha_publicacion": "2026-10-20",
-   "ranking": "JCR Q1 (Journal Metrics)"
+   "ranking": "JCR Q1 (Journal Metrics)",
+   "tema": "Política industrial y cambio estructural"
   }
  ]
 }

@@ -185,7 +185,8 @@
    "url": "https://doi.org/10.1111/twec.70161",
    "fecha_publicacion": "2026-10-15",
    "ranking": "SJR Q1",
-   "posicion": 1
+   "posicion": 1,
+   "tema": "Comercio, cadenas de valor e IED"
   },
   {
    "titulo_es": "Adopción de innovaciones entre regiones: apertura psicológica y difusión temprana de las plataformas digitales",
@@ -200,7 +201,8 @@
    "url": "https://doi.org/10.1016/j.respol.2026.105610",
    "fecha_publicacion": "2026-10-15",
    "ranking": "SJR Q1",
-   "posicion": 2
+   "posicion": 2,
+   "tema": "Innovación, digitalización e IA"
   }
  ]
 }

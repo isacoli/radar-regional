@@ -168,7 +168,8 @@
    "url": "https://doi.org/10.1016/j.jdeveco.2026.103949",
    "fecha_publicacion": "2026-09-28",
    "ranking": "SJR Q1",
-   "posicion": 1
+   "posicion": 1,
+   "tema": "Mipymes, empleo y capacidades"
   },
   {
    "titulo_es": "Más de la mitad del consumo actual de cobre podría reemplazarse con sustitutos",
@@ -183,7 +184,8 @@
    "url": "https://doi.org/10.1016/j.resourpol.2026.106057",
    "fecha_publicacion": "2026-09-24",
    "ranking": "SJR Q1",
-   "posicion": 2
+   "posicion": 2,
+   "tema": "Minerales críticos y recursos"
   },
   {
    "titulo_es": "Estrategia corporativa para la transición verde: ¿funcionan los incentivos a los ejecutivos?",
@@ -198,7 +200,8 @@
    "url": "https://doi.org/10.1016/j.ecolecon.2026.109248",
    "fecha_publicacion": "2026-09-26",
    "ranking": "SJR Q1",
-   "posicion": 3
+   "posicion": 3,
+   "tema": "Transición energética y economía circular"
   }
  ]
 }

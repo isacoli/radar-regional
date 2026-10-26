@@ -134,7 +134,8 @@
    "url": "https://doi.org/10.1016/j.resourpol.2026.106033",
    "fecha_publicacion": "2026-10-05",
    "ranking": "SJR Q1",
-   "posicion": 1
+   "posicion": 1,
+   "tema": "Minerales críticos y recursos"
   },
   {
    "titulo_es": "Financiarizar el subsuelo: divulgación técnica y rendición de cuentas en un proyecto de cobre en la Amazonía ecuatoriana",
@@ -149,7 +150,8 @@
    "url": "https://doi.org/10.1016/j.exis.2026.102062",
    "fecha_publicacion": "2026-10-01",
    "ranking": "SJR Q1",
-   "posicion": 2
+   "posicion": 2,
+   "tema": "Minerales críticos y recursos"
   },
   {
    "titulo_es": "¿Valoran los trabajadores los empleos formales? Evidencia de Brasil",
@@ -164,7 +166,8 @@
    "url": "https://doi.org/10.1016/j.worlddev.2026.107584",
    "fecha_publicacion": "2026-10-05",
    "ranking": "SJR Q1",
-   "posicion": 3
+   "posicion": 3,
+   "tema": "Mipymes, empleo y capacidades"
   }
  ]
 }

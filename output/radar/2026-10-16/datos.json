@@ -185,7 +185,8 @@
    "url": "https://doi.org/10.1016/j.jdeveco.2026.103947",
    "fecha_publicacion": "2026-10-15",
    "ranking": "SJR Q1",
-   "posicion": 1
+   "posicion": 1,
+   "tema": "Transición energética y economía circular"
   },
   {
    "titulo_es": "La inteligencia artificial no basta para mejorar el desempeño de las organizaciones",
@@ -200,7 +201,8 @@
    "url": "https://doi.org/10.1016/j.techfore.2026.124917",
    "fecha_publicacion": "2026-10-15",
    "ranking": "SJR Q1",
-   "posicion": 2
+   "posicion": 2,
+   "tema": "Innovación, digitalización e IA"
   },
   {
    "titulo_es": "Convertir residuos de la trituración de vehículos en paneles compuestos",
@@ -215,7 +217,8 @@
    "url": "https://doi.org/10.1016/j.resconrec.2026.109197",
    "fecha_publicacion": "2026-10-15",
    "ranking": "SJR Q1",
-   "posicion": 3
+   "posicion": 3,
+   "tema": "Transición energética y economía circular"
   }
  ]
 }

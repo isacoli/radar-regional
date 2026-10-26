@@ -185,7 +185,8 @@
    "url": "https://doi.org/10.1016/j.resourpol.2026.106067",
    "fecha_publicacion": "2026-10-07",
    "ranking": "SJR Q1",
-   "posicion": 1
+   "posicion": 1,
+   "tema": "Minerales críticos y recursos"
   },
   {
    "titulo_es": "Encontrar startups verdes a escala con procesamiento de lenguaje natural",
@@ -200,7 +201,8 @@
    "url": "https://doi.org/10.1016/j.techfore.2026.124897",
    "fecha_publicacion": "2026-10-01",
    "ranking": "SJR Q1",
-   "posicion": 2
+   "posicion": 2,
+   "tema": "Innovación, digitalización e IA"
   }
  ]
 }

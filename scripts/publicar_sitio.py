@@ -29,7 +29,7 @@ BARRA = """  <!-- BARRA DEL SITIO (solo versión web) -->
   </td></tr>
 """
 SECCIONES = [("Inicio", ""), ("Mapa", "mapa/"), ("Financiamiento", "financiamiento/"), ("Buscador", "buscar/"),
-             ("Investigación", "investigacion/"), ("Archivo", "archivo/")]
+             ("Estudios", "investigacion/"), ("Archivo", "archivo/")]
 ACCION = "https://github.com/isacoli/radar-regional/actions/workflows/radar.yml"
 MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"]
 ESTILO = ("display:inline-block; margin:3px; padding:7px 13px; border:1px solid #DCE6EF; border-radius:999px; "
@@ -113,6 +113,19 @@ def fecha_larga(fecha):
     return f"{DIAS[d.weekday()]} {d.day} de {MESES_LARGOS[d.month - 1]} de {d.year}"
 
 
+def actualizar_temas():
+    """docs/investigacion/temas.json: tema de cada estudio publicado (campo `tema` de datos.json)."""
+    mapa = {}
+    for d in sorted((RAIZ / "output" / "radar").glob("*/datos.json")):
+        datos = json.loads(d.read_text(encoding="utf-8"))
+        if datos["edicion"].get("tipo") != "diario":
+            continue
+        for i in datos.get("investigaciones", []):
+            if i.get("tema"):
+                mapa[i["url"]] = i["tema"]
+    (RAIZ / "docs" / "investigacion" / "temas.json").write_text(json.dumps(mapa, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+
+
 def actualizar_archivo():
     """Reescribe docs/archivo/index.html con el listado completo de boletines publicados.
 
@@ -144,6 +157,7 @@ def actualizar_archivo():
 def main():
     if "--archivo" in sys.argv:
         actualizar_archivo()
+        actualizar_temas()
         return
     if len(sys.argv) < 2:
         sys.exit(__doc__)
@@ -159,6 +173,7 @@ def main():
     (RAIZ / "docs" / "archivo" / f"{fecha}.html").write_text(con_carrusel(con_estilo_web(con_barra(html, "Archivo", act)), "../assets/"), encoding="utf-8")
 
     actualizar_archivo()
+    actualizar_temas()
     poner_actualizacion(act)
     print(f"✓ Publicado en docs/: index.html y archivo/{fecha}.html · {act}")
 

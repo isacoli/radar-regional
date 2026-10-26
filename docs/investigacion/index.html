@@ -3,10 +3,28 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Investigación · Radar Regional</title>
+<title>Estudios · Radar Regional</title>
 <link rel="stylesheet" href="../assets/sitio.css">
 <style>
   h2.inv { color:var(--teal); border-color:var(--teal); }
+  .sub { font-size:12px; color:var(--muted); margin:4px 0 12px; }
+  /* Novedades */
+  .nov { display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:14px; }
+  .card { border:1px solid var(--line); border-top:3px solid var(--teal); border-radius:8px; padding:14px 16px; display:flex; flex-direction:column; gap:6px; }
+  .card.estrella { border-top-color:var(--navy); }
+  .card a.t { font-weight:bold; color:var(--navy); text-decoration:none; font-size:14px; line-height:19px; }
+  .card a.t:hover { text-decoration:underline; }
+  .card .res { font-size:13px; line-height:18px; color:var(--ink); }
+  .card .meta { font-size:11px; color:var(--muted); margin-top:auto; }
+  /* Biblioteca */
+  .controles { display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin:6px 0 4px; }
+  .controles select, .controles input[type=search] { padding:8px 10px; border:1px solid var(--line); border-radius:4px; font-size:13px; font-family:inherit; }
+  .controles input[type=search] { flex:1; min-width:220px; }
+  .controles label { font-size:13px; display:flex; gap:6px; align-items:center; }
+  .periodos { display:flex; gap:6px; flex-wrap:wrap; margin:10px 0 6px; }
+  .periodos button { padding:7px 13px; border:1px solid var(--line); border-radius:999px; background:var(--tint); color:var(--navy); font-weight:bold; font-size:12px; cursor:pointer; }
+  .periodos button.activo { background:var(--navy); border-color:var(--navy); color:#fff; }
+  .periodos button span { font-weight:normal; opacity:.8; }
   .item { padding:14px 0; border-bottom:1px solid var(--line); }
   .item a.t { font-weight:bold; color:var(--navy); text-decoration:none; font-size:15px; line-height:21px; }
   .item a.t:hover { text-decoration:underline; }
@@ -16,16 +34,19 @@
   .res strong { color:var(--teal); }
   .tag { display:inline-block; font-size:10px; font-weight:bold; border-radius:3px; padding:1px 5px; margin:0 4px 4px 0; }
   .r { background:#E1EEFA; color:var(--navy); } .g { background:#E0F2F3; color:#00666D; } .n { background:#EEF1F4; color:#4A5A6A; font-weight:normal; }
-  .filtros { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:6px; }
-  .filtros select { padding:8px 10px; border:1px solid var(--line); border-radius:4px; font-size:14px; }
+  .tema { background:#FFF4E0; color:#8A5A00; }
+  .paginador { display:flex; justify-content:center; align-items:center; gap:12px; margin:14px 0 4px; font-size:13px; color:var(--muted); }
+  .paginador button { padding:6px 12px; border:1px solid var(--line); border-radius:999px; background:var(--tint); color:var(--navy); font-weight:bold; font-size:12px; cursor:pointer; }
+  .paginador button:disabled { opacity:.4; cursor:default; }
+  @media (max-width:900px) { .nov { grid-template-columns:1fr; } }
 </style>
 </head>
 <body>
 <div class="wrap">
   <header class="sitio-header">
     <small>Oficina Andina de ONUDI</small>
-    <h1>Radar Regional · Investigación</h1>
-    <p>Todas las publicaciones destacadas: revistas Q1 y documentos de trabajo de BID, Banco Mundial, CEPAL, ONUDI y NBER.</p>
+    <h1>Radar Regional · Estudios</h1>
+    <p>Evidencia para la política industrial: artículos de revistas Q1 y documentos de trabajo de BID, Banco Mundial, CEPAL, ONUDI y NBER.</p>
   </header>
   <div class="stripe"><span></span><span></span><span></span><span></span><span></span></div>
   <nav class="secciones">
@@ -33,7 +54,7 @@
     <a href="../mapa/">Mapa</a>
     <a href="../financiamiento/">Financiamiento</a>
     <a href="../buscar/">Buscador</a>
-    <a href="../investigacion/" class="activo">Investigación</a>
+    <a href="../investigacion/" class="activo">Estudios</a>
     <a href="../archivo/">Archivo</a>
     <span class="act-editor">
       <a class="editor" href="https://github.com/isacoli/radar-regional/actions/workflows/radar.yml" title="Solo equipo editor">⟳ Actualizar noticias</a>
@@ -41,43 +62,101 @@
     </span>
   </nav>
   <main>
-    <div class="filtros">
-      <select id="ambito"><option value="">Regional y global</option><option>Regional</option><option>Global</option></select>
-      <select id="tipo"><option value="">Artículos y documentos de trabajo</option><option value="articulo">Solo artículos</option><option value="documento_de_trabajo">Solo documentos de trabajo</option></select>
+    <h2 class="inv">Novedades de la semana</h2>
+    <p class="sub" id="sub-nov">Estudios destacados en los boletines de los últimos 7 días.</p>
+    <div class="nov" id="novedades"><p class="nota">Cargando…</p></div>
+
+    <h2 class="inv" style="margin-top:30px;">Biblioteca</h2>
+    <div class="periodos" id="periodos">
+      <button type="button" data-p="7">Últimos 7 días <span></span></button>
+      <button type="button" data-p="30" class="activo">Últimos 30 días <span></span></button>
+      <button type="button" data-p="todo">Todo el acumulado <span></span></button>
     </div>
-    <h2 class="inv" id="titulo">Publicaciones</h2>
+    <div class="controles">
+      <input type="search" id="q" placeholder="Buscar por título, autor, revista o hallazgo…" aria-label="Buscar estudios">
+      <select id="tema" aria-label="Tema"><option value="">Todos los temas</option></select>
+      <select id="ambito" aria-label="Ámbito"><option value="">Regional y global</option><option>Regional</option><option>Global</option></select>
+      <select id="tipo" aria-label="Tipo"><option value="">Artículos y documentos de trabajo</option><option value="articulo">Solo artículos</option><option value="documento_de_trabajo">Solo documentos de trabajo</option></select>
+      <label><input type="checkbox" id="abierto"> Solo acceso abierto</label>
+    </div>
+    <p class="nota" id="n-lista"></p>
     <div id="lista"><p class="nota">Cargando…</p></div>
+    <div class="paginador" id="pag"></div>
   </main>
 </div>
 <script>
 const SUPABASE_URL = "https://mibponspfvjtkvsrmzag.supabase.co";
 const SUPABASE_ANON_KEY = "sb_publishable_OoPaREAwp9P1KHV3vy7o_A_v1KJmmSS";
+const TEMAS = ["Política industrial y cambio estructural", "Innovación, digitalización e IA", "Transición energética y economía circular",
+  "Minerales críticos y recursos", "Comercio, cadenas de valor e IED", "Mipymes, empleo y capacidades"];
+const POR_PAGINA = 10;
 const esc = s => (s ?? "").toString().replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-async function cargar() {
-  const p = new URLSearchParams({ select: "edicion_fecha,edicion_url,titulo_es,titulo_original,autores,revista,ambito,tipo,acceso_abierto,mas_relevante,hallazgo,url", order: "edicion_fecha.desc,posicion.asc", limit: "200" });
-  const a = document.getElementById("ambito").value, t = document.getElementById("tipo").value;
-  if (a) p.append("ambito", `eq.${a}`);
-  if (t) p.append("tipo", `eq.${t}`);
-  try {
-    const r = await fetch(`${SUPABASE_URL}/rest/v1/investigaciones_con_edicion?${p}`, { headers: { apikey: SUPABASE_ANON_KEY, Authorization: `Bearer ${SUPABASE_ANON_KEY}` } });
-    if (!r.ok) throw 0;
-    const d = await r.json();
-    document.getElementById("titulo").textContent = `Publicaciones (${d.length})`;
-    document.getElementById("lista").innerHTML = d.map(x => `
-      <div class="item">
-        ${x.mas_relevante ? '<span class="tag r">⭐ Más relevante</span>' : ''}<span class="tag g">${esc(x.ambito)}</span><span class="tag n">${x.acceso_abierto ? 'Acceso abierto' : '[pago]'}</span>${x.tipo === 'documento_de_trabajo' ? '<span class="tag n">Documento de trabajo</span>' : ''}
-        <div><a class="t" href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.titulo_es)}</a></div>
-        ${x.titulo_original && x.titulo_original !== x.titulo_es ? `<div class="orig">${esc(x.titulo_original)}</div>` : ''}
-        <div class="meta">${esc(x.autores)} · <em>${esc(x.revista)}</em> · ${x.edicion_url ? `<a href="${esc(x.edicion_url)}">edición del ${esc(x.edicion_fecha)}</a>` : esc(x.edicion_fecha)}</div>
-        <div class="res"><strong>Hallazgo principal:</strong> ${esc(x.hallazgo)}</div>
-      </div>`).join("") || '<p class="nota">No hay publicaciones con esos filtros.</p>';
-  } catch (e) {
-    document.getElementById("lista").innerHTML = '<p class="nota">No se pudo consultar la base de datos. Intente de nuevo más tarde.</p>';
+const norm = t => (t ?? "").toString().toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+const fFecha = f => new Date(f + "T12:00:00").toLocaleDateString("es", { day: "numeric", month: "short", year: "numeric" });
+let DATA = [], REF = "", periodo = "30", pagina = 1;
+
+document.getElementById("tema").innerHTML += TEMAS.map(t => `<option>${t}</option>`).join("");
+
+const desde = dias => { const d = new Date(REF + "T12:00:00"); d.setDate(d.getDate() - (dias - 1)); return d.toISOString().slice(0, 10); };
+const enPeriodo = (x, p) => p === "todo" || x.edicion_fecha >= desde(+p);
+const etiquetas = x => `${x.mas_relevante ? '<span class="tag r">⭐ Más relevante</span>' : ''}${x.tema ? `<span class="tag tema">${esc(x.tema)}</span>` : ''}<span class="tag g">${esc(x.ambito)}</span><span class="tag n">${x.acceso_abierto ? 'Acceso abierto' : '[pago]'}</span>${x.tipo === 'documento_de_trabajo' ? '<span class="tag n">Documento de trabajo</span>' : ''}`;
+const edicion = x => x.edicion_url ? `<a href="${esc(x.edicion_url)}">boletín del ${esc(fFecha(x.edicion_fecha))}</a>` : esc(fFecha(x.edicion_fecha));
+
+function novedades() {
+  const nov = DATA.filter(x => enPeriodo(x, "7")).sort((a, b) => (b.mas_relevante - a.mas_relevante) || b.edicion_fecha.localeCompare(a.edicion_fecha)).slice(0, 6);
+  document.getElementById("sub-nov").textContent = `Estudios destacados en los boletines del ${fFecha(desde(7))} al ${fFecha(REF)}${nov.length === 6 ? " (se muestran 6)" : ""}.`;
+  document.getElementById("novedades").innerHTML = nov.map(x => `
+    <div class="card ${x.mas_relevante ? "estrella" : ""}">
+      <div>${etiquetas(x)}</div>
+      <a class="t" href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.titulo_es)}</a>
+      <div class="res">${esc(x.hallazgo)}</div>
+      <div class="meta">${esc(x.autores)} · <em>${esc(x.revista)}</em> · ${edicion(x)}</div>
+    </div>`).join("") || '<p class="nota">No hubo estudios destacados en los últimos 7 días.</p>';
+}
+
+function lista() {
+  const q = norm(document.getElementById("q").value.trim()), tema = document.getElementById("tema").value,
+    amb = document.getElementById("ambito").value, tipo = document.getElementById("tipo").value, ab = document.getElementById("abierto").checked;
+  document.querySelectorAll("#periodos button").forEach(b => {
+    b.classList.toggle("activo", b.dataset.p === periodo);
+    b.querySelector("span").textContent = `(${DATA.filter(x => enPeriodo(x, b.dataset.p)).length})`;
+  });
+  const res = DATA.filter(x => enPeriodo(x, periodo) && (!tema || x.tema === tema) && (!amb || x.ambito === amb) && (!tipo || x.tipo === tipo) && (!ab || x.acceso_abierto)
+    && (!q || [x.titulo_es, x.titulo_original, x.autores, x.revista, x.hallazgo, x.tema].some(c => norm(c).includes(q))));
+  const paginas = Math.max(1, Math.ceil(res.length / POR_PAGINA));
+  pagina = Math.min(pagina, paginas);
+  document.getElementById("n-lista").textContent = `${res.length} ${res.length === 1 ? "estudio" : "estudios"}${periodo === "todo" ? " en total" : ` en los últimos ${periodo} días`}.`;
+  document.getElementById("lista").innerHTML = res.slice((pagina - 1) * POR_PAGINA, pagina * POR_PAGINA).map(x => `
+    <div class="item">
+      ${etiquetas(x)}
+      <div><a class="t" href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.titulo_es)}</a></div>
+      ${x.titulo_original && x.titulo_original !== x.titulo_es ? `<div class="orig">${esc(x.titulo_original)}</div>` : ''}
+      <div class="meta">${esc(x.autores)} · <em>${esc(x.revista)}</em> · ${edicion(x)}</div>
+      <div class="res"><strong>Hallazgo principal:</strong> ${esc(x.hallazgo)}</div>
+    </div>`).join("") || '<p class="nota">No hay estudios con esos filtros.</p>';
+  const pag = document.getElementById("pag");
+  pag.innerHTML = paginas > 1 ? `<button type="button" id="ant" ${pagina === 1 ? "disabled" : ""}>‹ Anterior</button><span>Página ${pagina} de ${paginas}</span><button type="button" id="sig" ${pagina === paginas ? "disabled" : ""}>Siguiente ›</button>` : "";
+  if (paginas > 1) {
+    document.getElementById("ant").onclick = () => { pagina--; lista(); document.getElementById("periodos").scrollIntoView({ behavior: "smooth" }); };
+    document.getElementById("sig").onclick = () => { pagina++; lista(); document.getElementById("periodos").scrollIntoView({ behavior: "smooth" }); };
   }
 }
-document.getElementById("ambito").addEventListener("change", cargar);
-document.getElementById("tipo").addEventListener("change", cargar);
-cargar();
+
+document.querySelectorAll("#periodos button").forEach(b => b.addEventListener("click", () => { periodo = b.dataset.p; pagina = 1; lista(); }));
+["q", "tema", "ambito", "tipo", "abierto"].forEach(id => document.getElementById(id).addEventListener(id === "q" ? "input" : "change", () => { pagina = 1; lista(); }));
+
+const p = new URLSearchParams({ select: "edicion_fecha,edicion_url,titulo_es,titulo_original,autores,revista,ambito,tipo,acceso_abierto,mas_relevante,hallazgo,url", order: "edicion_fecha.desc,posicion.asc", limit: "1000" });
+Promise.all([
+  fetch(`${SUPABASE_URL}/rest/v1/investigaciones_con_edicion?${p}`, { headers: { apikey: SUPABASE_ANON_KEY, Authorization: `Bearer ${SUPABASE_ANON_KEY}` } }).then(r => { if (!r.ok) throw 0; return r.json(); }),
+  fetch("temas.json").then(r => r.ok ? r.json() : {}).catch(() => ({}))
+]).then(([d, temas]) => {
+  DATA = d.map(x => ({ ...x, tema: temas[x.url] || "" }));
+  REF = DATA.reduce((m, x) => x.edicion_fecha > m ? x.edicion_fecha : m, "");
+  novedades(); lista();
+}).catch(() => {
+  document.getElementById("novedades").innerHTML = "";
+  document.getElementById("lista").innerHTML = '<p class="nota">No se pudo consultar la base de datos. Intente de nuevo más tarde.</p>';
+});
 </script>
 <script src="../assets/banner.js"></script>
 </body>

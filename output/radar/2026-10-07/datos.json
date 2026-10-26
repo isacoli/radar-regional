@@ -185,7 +185,8 @@
    "url": "https://doi.org/10.1111/twec.70168",
    "fecha_publicacion": "2026-10-05",
    "ranking": "SJR Q1",
-   "posicion": 1
+   "posicion": 1,
+   "tema": "Comercio, cadenas de valor e IED"
   },
   {
    "titulo_es": "Más allá de la productividad: ¿la aglomeración de las TIC mejora la ecoeficiencia regional?",
@@ -200,7 +201,8 @@
    "url": "https://doi.org/10.1016/j.strueco.2026.09.009",
    "fecha_publicacion": "2026-10-05",
    "ranking": "SJR Q1",
-   "posicion": 2
+   "posicion": 2,
+   "tema": "Innovación, digitalización e IA"
   },
   {
    "titulo_es": "¿Cuándo conviene remanufacturar frente a fabricar un producto nuevo?",
@@ -215,7 +217,8 @@
    "url": "https://doi.org/10.1016/j.jclepro.2026.149424",
    "fecha_publicacion": "2026-09-29",
    "ranking": "SJR Q1",
-   "posicion": 3
+   "posicion": 3,
+   "tema": "Transición energética y economía circular"
   }
  ]
 }

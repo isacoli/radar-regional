@@ -76,7 +76,8 @@ def cargar(carpeta, base, clave):
               [dict(n, edicion_id=eid) for n in datos["noticias"]], prefer="return=minimal")
     if datos["investigaciones"]:
         pedir("POST", f"{base}/rest/v1/investigaciones", clave,
-              [dict(i, edicion_id=eid) for i in datos["investigaciones"]], prefer="return=minimal")
+              [dict({k: v for k, v in i.items() if k != "tema"}, edicion_id=eid) for i in datos["investigaciones"]],  # el tema vive en docs/investigacion/temas.json
+              prefer="return=minimal")
     print(f"✓ {ed['slug']}: {ed['n_noticias']} noticias, {ed['n_investigaciones']} investigaciones (id {eid})")
 
 

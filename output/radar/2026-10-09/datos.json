@@ -100,7 +100,8 @@
    "url": "https://doi.org/10.1016/j.respol.2026.105636",
    "fecha_publicacion": "2026-10-08",
    "ranking": "SJR Q1",
-   "posicion": 1
+   "posicion": 1,
+   "tema": "Innovación, digitalización e IA"
   },
   {
    "titulo_es": "Contratación por exportadores: concentración de la demanda laboral y calidad del emparejamiento",
@@ -115,7 +116,8 @@
    "url": "https://doi.org/10.1111/twec.70167",
    "fecha_publicacion": "2026-10-08",
    "ranking": "SJR Q1",
-   "posicion": 2
+   "posicion": 2,
+   "tema": "Comercio, cadenas de valor e IED"
   }
  ]
 }

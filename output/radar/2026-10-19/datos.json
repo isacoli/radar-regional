@@ -236,7 +236,8 @@
    "url": "https://doi.org/10.1016/j.respol.2026.105637",
    "fecha_publicacion": "2026-10-13",
    "ranking": "SJR Q1",
-   "posicion": 1
+   "posicion": 1,
+   "tema": "Mipymes, empleo y capacidades"
   },
   {
    "titulo_es": "Adopción de energías renovables en las empresas e impuestos energéticos: el papel de la calidad institucional",
@@ -251,7 +252,8 @@
    "url": "https://doi.org/10.1016/j.enpol.2026.115631",
    "fecha_publicacion": "2026-10-13",
    "ranking": "SJR Q1",
-   "posicion": 2
+   "posicion": 2,
+   "tema": "Transición energética y economía circular"
   },
   {
    "titulo_es": "El Estado verde fragmentado: capacidad estatal y disputa política en la transición energética de Tailandia",
@@ -266,7 +268,8 @@
    "url": "https://doi.org/10.1080/09692290.2026.2745884",
    "fecha_publicacion": "2026-10-13",
    "ranking": "SJR Q1",
-   "posicion": 3
+   "posicion": 3,
+   "tema": "Política industrial y cambio estructural"
   },
   {
    "titulo_es": "Valor compartido frente a valores plurales: los conflictos en torno a proyectos renovables del Grupo Enel",
@@ -281,7 +284,8 @@
    "url": "https://doi.org/10.1016/j.ecolecon.2026.109268",
    "fecha_publicacion": "2026-10-13",
    "ranking": "SJR Q1",
-   "posicion": 4
+   "posicion": 4,
+   "tema": "Transición energética y economía circular"
   }
  ]
 }

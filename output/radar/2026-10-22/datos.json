@@ -202,7 +202,8 @@
    "url": "https://doi.org/10.1057/s41267-026-00911-5",
    "fecha_publicacion": "2026-10-21",
    "ranking": "SJR Q1",
-   "posicion": 1
+   "posicion": 1,
+   "tema": "Comercio, cadenas de valor e IED"
   },
   {
    "titulo_es": "Flujos de recursos en las industrias básicas del Reino Unido",
@@ -217,7 +218,8 @@
    "url": "https://doi.org/10.1016/j.resconrec.2026.109199",
    "fecha_publicacion": "2026-10-21",
    "ranking": "SJR Q1",
-   "posicion": 2
+   "posicion": 2,
+   "tema": "Transición energética y economía circular"
   }
  ]
 }

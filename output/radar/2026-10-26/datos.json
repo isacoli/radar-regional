@@ -337,7 +337,8 @@
    "hallazgo": "Subsidiar solo la I+D eleva el crecimiento pero concentra el mercado; el poder de mercado retrocede únicamente cuando se combina con medidas de adopción tecnológica para empresas pequeñas, como centros de competencias.",
    "url": "https://doi.org/10.1016/j.respol.2026.105638",
    "fecha_publicacion": "2026-10-23",
-   "ranking": "JCR Q1 (Journal Metrics)"
+   "ranking": "JCR Q1 (Journal Metrics)",
+   "tema": "Política industrial y cambio estructural"
   },
   {
    "posicion": 2,
@@ -352,7 +353,8 @@
    "hallazgo": "El apoyo público dio credibilidad financiera a la gigafábrica de baterías, pero sin instrumentos de coordinación estratégica ni de respuesta a crisis no logró atender sus vulnerabilidades, lo que explica en parte su colapso.",
    "url": "https://doi.org/10.1016/j.enpol.2026.115640",
    "fecha_publicacion": "2026-10-23",
-   "ranking": "SJR Q1 (Energía; Gestión y Política) y JCR Q1"
+   "ranking": "SJR Q1 (Energía; Gestión y Política) y JCR Q1",
+   "tema": "Transición energética y economía circular"
   },
   {
    "posicion": 3,
@@ -367,7 +369,8 @@
    "hallazgo": "En 12 países, las políticas a favor del vehículo eléctrico son débiles donde confluyen una industria automotriz reticente, intereses petroleros fuertes y cultura del auto, y robustas donde se alinean ambición industrial e infraestructura.",
    "url": "https://doi.org/10.1016/j.techfore.2026.124907",
    "fecha_publicacion": "2026-10-23",
-   "ranking": "SJR Q1 (Gestión de la Tecnología e Innovación) y JCR Q1"
+   "ranking": "SJR Q1 (Gestión de la Tecnología e Innovación) y JCR Q1",
+   "tema": "Transición energética y economía circular"
   },
   {
    "posicion": 4,
@@ -382,7 +385,8 @@
    "hallazgo": "En dos experimentos con unas 7.000 empresas, compararlas con sus pares mejoró el desempeño de sus sitios web, sobre todo en las más rezagadas: una herramienta barata para cerrar la brecha digital de las pymes.",
    "url": "https://doi.org/10.1016/j.respol.2026.105630",
    "fecha_publicacion": "2026-10-24",
-   "ranking": "JCR Q1 (Journal Metrics)"
+   "ranking": "JCR Q1 (Journal Metrics)",
+   "tema": "Innovación, digitalización e IA"
   },
   {
    "posicion": 5,
@@ -397,7 +401,8 @@
    "hallazgo": "En empresas cotizadas de economías emergentes, una mayor atención a la IA se asocia con alzas salariales de corto plazo y mejor productividad, a diferencia de las economías avanzadas, donde los salarios bajan.",
    "url": "https://doi.org/10.1016/j.techfore.2026.124913",
    "fecha_publicacion": "2026-10-19",
-   "ranking": "SJR Q1 (Gestión de la Tecnología e Innovación) y JCR Q1"
+   "ranking": "SJR Q1 (Gestión de la Tecnología e Innovación) y JCR Q1",
+   "tema": "Innovación, digitalización e IA"
   }
  ]
 }

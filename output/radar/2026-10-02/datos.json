@@ -185,7 +185,8 @@
    "url": "https://doi.org/10.1016/j.enpol.2026.115632",
    "fecha_publicacion": "2026-09-29",
    "ranking": "SJR Q1",
-   "posicion": 1
+   "posicion": 1,
+   "tema": "Política industrial y cambio estructural"
   },
   {
    "titulo_es": "Ecodiseño de un proceso innovador de carbonato de litio grado batería con análisis de ciclo de vida prospectivo",
@@ -200,7 +201,8 @@
    "url": "https://doi.org/10.1016/j.resconrec.2026.109179",
    "fecha_publicacion": "2026-09-27",
    "ranking": "SJR Q1",
-   "posicion": 2
+   "posicion": 2,
+   "tema": "Minerales críticos y recursos"
   },
   {
    "titulo_es": "Reciclaje mecánico y reintegración industrial de residuos textiles elásticos posindustriales",
@@ -215,7 +217,8 @@
    "url": "https://doi.org/10.1016/j.jclepro.2026.149662",
    "fecha_publicacion": "2026-10-01",
    "ranking": "SJR Q1",
-   "posicion": 3
+   "posicion": 3,
+   "tema": "Transición energética y economía circular"
   }
  ]
 }

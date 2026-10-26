@@ -219,7 +219,8 @@
    "url": "https://doi.org/10.1016/j.techfore.2026.124908",
    "fecha_publicacion": "2026-10-14",
    "ranking": "SJR Q1",
-   "posicion": 1
+   "posicion": 1,
+   "tema": "Innovación, digitalización e IA"
   },
   {
    "titulo_es": "Violencia y acumulación de capital en Colombia: el bloque social dominante de los años 2000",
@@ -234,7 +235,8 @@
    "url": "https://doi.org/10.1080/13563467.2026.2747293",
    "fecha_publicacion": "2026-10-14",
    "ranking": "SJR Q1",
-   "posicion": 2
+   "posicion": 2,
+   "tema": "Política industrial y cambio estructural"
   },
   {
    "titulo_es": "No hay misión sin tensión: cómo gestionar las disyuntivas de la política regional de innovación",
@@ -249,7 +251,8 @@
    "url": "https://doi.org/10.1080/00343404.2026.2733302",
    "fecha_publicacion": "2026-10-19",
    "ranking": "SJR Q1",
-   "posicion": 3
+   "posicion": 3,
+   "tema": "Política industrial y cambio estructural"
   }
  ]
 }

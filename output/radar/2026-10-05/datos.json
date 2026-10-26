@@ -202,7 +202,8 @@
    "url": "https://doi.org/10.1111/twec.70160",
    "fecha_publicacion": "2026-10-01",
    "ranking": "SJR Q1",
-   "posicion": 1
+   "posicion": 1,
+   "tema": "Comercio, cadenas de valor e IED"
   },
   {
    "titulo_es": "La desigualdad como barrera para que la inversión pública reduzca las emisiones: evidencia de América Latina",
@@ -217,7 +218,8 @@
    "url": "https://doi.org/10.1016/j.worlddev.2026.107583",
    "fecha_publicacion": "2026-10-02",
    "ranking": "SJR Q1",
-   "posicion": 2
+   "posicion": 2,
+   "tema": "Transición energética y economía circular"
   },
   {
    "titulo_es": "¿Catalizadores o restricciones? Recursos naturales e inversión greenfield ante el riesgo geopolítico",
@@ -232,7 +234,8 @@
    "url": "https://doi.org/10.1016/j.enpol.2026.115627",
    "fecha_publicacion": "2026-09-30",
    "ranking": "SJR Q1",
-   "posicion": 3
+   "posicion": 3,
+   "tema": "Comercio, cadenas de valor e IED"
   }
  ]
 }
