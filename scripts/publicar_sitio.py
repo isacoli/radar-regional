@@ -10,8 +10,8 @@ Uso:
 - Reescribe docs/archivo/index.html con el listado completo de boletines publicados
   (todas las ediciones diarias con página en docs/archivo/, de la más reciente a la más antigua).
   Solo el listado: `python3 scripts/publicar_sitio.py --archivo`.
-- Pone la fecha y hora de esta edición (`ventana_fin`) bajo el botón "Actualizar noticias"
-  de todas las páginas del sitio.
+- Pone la fecha y hora de esta edición (`ventana_fin`) como «Última actualización» en letra
+  pequeña en todas las páginas del sitio.
 - Activa en la copia web el banner con fotos que se alternan (docs/assets/banner.js).
 - No hace commit ni push: eso se hace después de la confirmación del usuario.
 """
@@ -30,7 +30,6 @@ BARRA = """  <!-- BARRA DEL SITIO (solo versión web) -->
 """
 SECCIONES = [("Inicio", ""), ("Mapa", "mapa/"), ("Financiamiento", "financiamiento/"), ("Buscador", "buscar/"),
              ("Estudios", "investigacion/"), ("Archivo", "archivo/")]
-ACCION = "https://github.com/isacoli/radar-regional/actions/workflows/radar.yml"
 MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"]
 ESTILO = ("display:inline-block; margin:3px; padding:7px 13px; border:1px solid #DCE6EF; border-radius:999px; "
           "font-size:13px; font-weight:bold; text-decoration:none; ")
@@ -51,9 +50,8 @@ def barra(activo="Inicio", actualizacion=""):
         else:
             est = ESTILO + "background:#EEF5FB; color:#003A70;"
         enlaces.append(f'<a href="{BASE}{ruta}" style="{est}">{nombre}</a>')
-    enlaces.insert(0, f'<div class="act-editor" style="float:right; text-align:right; margin:3px;">'
-                      f'<a href="{ACCION}" title="Solo equipo editor" style="{ESTILO}background:#ffffff; color:#6B7B8B; font-weight:normal; margin:0;">⟳ Actualizar noticias</a>'
-                      f'<br><small class="ultima-act" style="font-size:10px; color:#6B7B8B;">{actualizacion}</small></div>')
+    enlaces.insert(0, f'<div class="act-editor" style="float:right; text-align:right; margin:10px 3px 3px;">'
+                      f'<small class="ultima-act" style="font-size:10px; color:#6B7B8B;">{actualizacion}</small></div>')
     return BARRA.format(enlaces="\n  ".join(enlaces))
 
 
