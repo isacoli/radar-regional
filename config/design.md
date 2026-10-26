@@ -24,11 +24,21 @@ These are close to UNIDO's blue identity but **not the official brand codes**. R
 
 Tags keep their own colors so they stand out: 🔥 Más difundida `#FDEBD8` on `#9A4A00`; ⭐ Más relevante `#E1EEFA` on `#003A70`.
 
-## Banner (built-in, no image)
+## Banner (photo, approved 2026-10-26)
 
-- Navy block with the office line, the large name "Radar Regional", the subtitle "Boletín diario de desarrollo industrial" and the issue line (number · date · counts).
-- A five-color stripe underneath (navy → blue → sky → light sky → pale sky) as the graphic element; no image files, so it shows in every email program.
-- To switch to a hosted photo later: replace the banner `<td>` background with an `<img>` that has an absolute `https://` URL, `width="600"`, and `alt` text.
+- Navy block with the office line, the large name "Radar Regional", the subtitle "Boletín diario de desarrollo industrial" and the issue line (number · date · counts), over a photo with a navy gradient (solid on the left where the text is, lighter on the right).
+- A five-color stripe underneath (navy → blue → sky → light sky → pale sky).
+- **Photos** (freely licensed, copies in `docs/assets/banner/`, cropped to 1600×600; the credit must always be shown):
+
+| Order | File | Photo | Credit |
+|---|---|---|---|
+| 1 | `paranal-armazones-chile.jpg` | Planta fotovoltaica Paranal-Armazones, Chile | ESO · CC BY 4.0 |
+| 2 | `jepirachi-colombia.jpg` | Parque eólico Jepírachi, Colombia | Taggen · CC BY-SA 4.0 |
+| 3 | `marangani-peru.jpg` | Fábrica textil de Marangani, Perú | Uriel Caballero Quispitupa · CC BY-SA 4.0 |
+| 4 | `hortolandia-brasil.jpg` | Planta de reciclaje de Hortolândia, Brasil | Ana Perugini · CC BY 2.0 |
+
+- **Website:** `docs/assets/banner.js` rotates the photos every 7 seconds in the banner only (cross-fade with a slow zoom; dots to jump; pauses on hover and in background tabs; still photo if the visitor prefers reduced motion). Credit shown on the banner. Section pages load it directly; `publicar_sitio.py` adds it to the web copies of the issues. To change photos, edit `FOTOS` in `banner.js` and this table.
+- **Email:** no carousel (no JavaScript in email). The banner uses photo 1 as a fixed background with the gradient; clients that do not support it show plain navy. Credit in the footer.
 
 ## Layout
 

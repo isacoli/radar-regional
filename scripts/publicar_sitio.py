@@ -10,6 +10,7 @@ Uso:
 - Agrega la edición al principio de docs/archivo/index.html si no está.
 - Pone la fecha y hora de esta edición (`ventana_fin`) bajo el botón "Actualizar noticias"
   de todas las páginas del sitio.
+- Activa en la copia web el banner con fotos que se alternan (docs/assets/banner.js).
 - No hace commit ni push: eso se hace después de la confirmación del usuario.
 """
 import json
@@ -69,6 +70,17 @@ def con_estilo_web(html):
     return html.replace("</head>", ESTILO_WEB + "</head>", 1)
 
 
+TD_BANNER = '<td class="px" style="background-color:#003A70; padding:30px'
+
+
+def con_carrusel(html, ruta_assets):
+    """Banner con fotos que se alternan (docs/assets/banner.js), solo en la copia web."""
+    html = html.replace(TD_BANNER, TD_BANNER.replace('class="px"', 'class="px banner"'), 1)
+    if "banner.js" not in html:
+        html = html.replace("</body>", f'<script src="{ruta_assets}banner.js"></script>\n</body>', 1)
+    return html
+
+
 def con_barra(html, activo, actualizacion=""):
     """Inserta la barra justo debajo del banner (después de la franja de colores)."""
     html = re.sub(r"  <!-- BARRA DEL SITIO.*?</td></tr>\n", "", html, count=1, flags=re.S)
@@ -99,8 +111,8 @@ def main():
         sys.exit("La edición todavía tiene el banner BORRADOR: márquela como final antes de publicarla.")
     fecha = ed["fecha"]
     act = texto_actualizacion(ed["ventana_fin"])
-    (RAIZ / "docs" / "index.html").write_text(con_estilo_web(con_barra(html, "Inicio", act)), encoding="utf-8")
-    (RAIZ / "docs" / "archivo" / f"{fecha}.html").write_text(con_estilo_web(con_barra(html, "Archivo", act)), encoding="utf-8")
+    (RAIZ / "docs" / "index.html").write_text(con_carrusel(con_estilo_web(con_barra(html, "Inicio", act)), "assets/"), encoding="utf-8")
+    (RAIZ / "docs" / "archivo" / f"{fecha}.html").write_text(con_carrusel(con_estilo_web(con_barra(html, "Archivo", act)), "../assets/"), encoding="utf-8")
 
     idx = RAIZ / "docs" / "archivo" / "index.html"
     s = idx.read_text(encoding="utf-8")
