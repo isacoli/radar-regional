@@ -1,5 +1,5 @@
 {
   "url": "https://mibponspfvjtkvsrmzag.supabase.co",
-  "anon_key": "PENDIENTE: pegar aquí la clave pública (anon / publishable key) de Supabase → Project Settings → API Keys",
+  "anon_key": "sb_publishable_OoPaREAwp9P1KHV3vy7o_A_v1KJmmSS",
   "nota": "Solo claves PÚBLICAS de lectura. La clave secreta service_role va únicamente en .env (nunca en GitHub)."
 }
