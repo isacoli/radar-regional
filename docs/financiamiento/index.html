@@ -119,7 +119,7 @@
 
     <section class="tarjeta" style="margin-top:20px;">
       <h2>4 · Desglose semanal</h2>
-      <p class="sub">Semanas fijas de cada mes (1–7, 8–14, 15–21, 22–28 y 29 a fin de mes), recortadas al período elegido. Monto en US$ millones.</p>
+      <p class="sub">Las 4 últimas semanas del período elegido, en semanas fijas de cada mes (1–7, 8–14, 15–21, 22–28 y 29 a fin de mes). Monto en US$ millones.</p>
       <div class="leyenda-tipo"><span><i style="background:var(--pub)"></i>Público</span><span><i style="background:var(--priv)"></i>Privado</span></div>
       <div class="lienzo"><canvas id="g-semanas" role="img" aria-label="Monto por semana, público y privado"></canvas></div>
       <div class="tabla-wrap"><table class="sem">
@@ -315,7 +315,7 @@ const etiquetaSem = ([a, b]) => a === b ? fmtFecha(a) : `${new Date(a + "T12:00:
 const enSem = (o, [a, b]) => o.fecha >= a && o.fecha <= b;
 
 function semanasG(ops) {
-  const sem = semanas();
+  const todas = semanas(), sem = todas.slice(-4);  // solo las 4 últimas semanas del período elegido
   dibujar("g-semanas", { type: "bar",
     data: { labels: sem.map(etiquetaSem), datasets: tiposVisibles().map(t => ({ label: t,
       data: sem.map(w => ops.filter(o => o.publico_privado === t && enSem(o, w)).reduce((a, o) => a + o.monto_usd_millones, 0)),
@@ -323,7 +323,8 @@ function semanasG(ops) {
     options: { maintainAspectRatio: false,
       plugins: { legend: { display: false }, tooltip: { ...tooltipBase, callbacks: { label: c => ` ${c.dataset.label}: US$ ${fmt(c.raw)}` } } },
       scales: { x: { stacked: true, grid: { display: false }, ticks: { color: INK } }, y: { stacked: true, grid: { color: GRID }, ticks: { callback: v => fmt(v) } } } } });
-  let prev = null;
+  const antes = todas.length > 4 ? todas[todas.length - 5] : null;  // la variación de la 1.ª semana usa la semana previa
+  let prev = antes ? ops.filter(o => enSem(o, antes)).reduce((a, o) => a + o.monto_usd_millones, 0) : null;
   document.getElementById("t-semanas").innerHTML = sem.map(w => {
     const os = ops.filter(o => enSem(o, w)), tot = os.reduce((a, o) => a + o.monto_usd_millones, 0);
     const pub = os.filter(o => o.publico_privado === "Público").reduce((a, o) => a + o.monto_usd_millones, 0);
