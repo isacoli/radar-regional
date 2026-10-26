@@ -1,12 +1,12 @@
 {
   "actualizado": "2026-10-26",
   "periodo": "Últimos 7 días (20 – 26 oct 2026)",
-  "fuente": "Noticias e investigaciones publicadas en el Radar Regional (ediciones semanal N.º 1, diaria N.º 1 y diaria N.º 2)",
+  "fuente": "Noticias e investigaciones publicadas en el Radar Regional (ediciones diarias N.º 13 a N.º 18)",
   "nota_oportunidades": "Las oportunidades son un análisis orientativo del Radar a partir de las noticias publicadas; no constituyen una posición oficial de la ONUDI.",
   "paises": {
     "604": {
       "nombre": "Perú",
-      "n_noticias": 14,
+      "n_noticias": 25,
       "principal": {
         "texto": "Perú y Ecuador firmaron en Lima acuerdos de energía, pesca y desarrollo fronterizo, y Perú asumió la presidencia de la Comunidad Andina con prioridades en comercio, inversión y conectividad.",
         "fuente": "El Universo",
@@ -34,7 +34,7 @@
     },
     "170": {
       "nombre": "Colombia",
-      "n_noticias": 10,
+      "n_noticias": 15,
       "principal": {
         "texto": "La manufactura colombiana cayó 4,1 % entre julio y agosto tras el sismo del 10 de agosto, que dejó expuestos a 183.000 clientes de microcrédito.",
         "fuente": "El Espectador",
@@ -42,8 +42,12 @@
         "url": "https://www.elespectador.com/economia/el-terremoto-golpea-la-industria-y-deja-a-183-000-clientes-de-microcredito-expuestos/"
       },
       "financiamiento": {
-        "texto": "El Gobierno destina COP 2,7 billones para asegurar la energía frente a El Niño y negocia con EE. UU. retirar el arancel de 12,5 %; CEPAL y la cooperación alemana apoyan clústeres de bioeconomía en Antioquia y Córdoba.",
+        "texto": "Renault-Sofasa y el Gobierno pactaron evaluar hasta US$ 150 millones para fabricar un nuevo vehículo en Envigado; el Gobierno destina COP 2,7 billones para asegurar la energía frente a El Niño y negocia con EE. UU. retirar el arancel de 12,5 %.",
         "enlaces": [
+          {
+            "texto": "Renault-Sofasa · Valora Analitik",
+            "url": "https://www.valoraanalitik.com/renault-sofasa-proyecta-inversion-de-us150-millones-para-fabricar-nuevo-vehiculo-en-colombia/"
+          },
           {
             "texto": "Energía · El Espectador",
             "url": "https://www.elespectador.com/economia/el-gobierno-destina-cop-27-billones-para-asegurar-la-energia-frente-al-nino/"
@@ -51,10 +55,6 @@
           {
             "texto": "Aranceles · El Espectador",
             "url": "https://www.elespectador.com/economia/macroeconomia/estados-unidos-quitara-los-aranceles-a-bienes-colombianos-asi-van-las-negociaciones/"
-          },
-          {
-            "texto": "Clústeres · BioEconomía.info",
-            "url": "https://www.bioeconomia.info/2026/10/22/bioeconomia-economia-circular-america-latina-cepal-clusteres/"
           }
         ]
       },
@@ -62,7 +62,7 @@
     },
     "218": {
       "nombre": "Ecuador",
-      "n_noticias": 11,
+      "n_noticias": 13,
       "principal": {
         "texto": "Ecuador anunció el fin de las desconexiones eléctricas a las grandes industrias desde el 1 de noviembre, tras semanas de cortes de hasta 72 horas por la sequía.",
         "fuente": "Diario Extra",
@@ -70,8 +70,12 @@
         "url": "https://www.extra.ec/noticia/economia/empresas-esperan-instrucciones-gobierno-anuncio-suspender-desconexiones-noviembre-165681.html"
       },
       "financiamiento": {
-        "texto": "La chilena ENAP compró Pluspetrol Ecuador por US$ 207 millones; entró en operación la hidroeléctrica Hidroquest (45 MW); Petroecuador y Petroperú firmaron un memorando de cooperación, y Ecuador y Bolivia crearon una comisión binacional de comercio e inversiones.",
+        "texto": "Ecuador vendió a Perú unos 16,2 millones de barriles de crudo por cerca de US$ 1.652 millones; la chilena ENAP compró Pluspetrol Ecuador por US$ 207 millones y entró en operación la hidroeléctrica Hidroquest (45 MW).",
         "enlaces": [
+          {
+            "texto": "Venta de crudo a Perú · El Universo",
+            "url": "https://www.eluniverso.com/politica/ejecutivo/gobierno-de-daniel-noboa-concreta-historica-venta-de-petroleo-a-peru-por-1652-millones-para-ecuador-nota/"
+          },
           {
             "texto": "ENAP–Pluspetrol · El Universo",
             "url": "https://www.eluniverso.com/economia/industrias/viceministro-de-hidrocarburos-de-ecuador-se-reunio-con-representantes-de-pluspetrol-y-enap-de-chile-nota/"
@@ -79,10 +83,6 @@
           {
             "texto": "Hidroquest · El Universo",
             "url": "https://www.eluniverso.com/economia/industrias/nueva-hidroelectrica-hidroquest-mina-fruta-del-norte-aporte-red-electrica-publica-ecuador-nota/"
-          },
-          {
-            "texto": "Comisión con Bolivia · El Universo",
-            "url": "https://www.eluniverso.com/economia/industrias/acuerdo-bilateral-creacion-comision-binacional-comercio-exterior-exportaciones-bolivia-ecuador-2026-nota/"
           }
         ]
       },

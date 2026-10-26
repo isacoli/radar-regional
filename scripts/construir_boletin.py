@@ -82,9 +82,10 @@ def main():
 
     html_list = []
     for i, n in enumerate(resto, len(destacadas) + 1):
-        b = limpiar_comentarios(item)
         tg = etiquetas(n, small=True)
-        b = b.replace(tag_list, ('\n            <div style="font-size:10px; line-height:15px; padding-bottom:3px;">\n              ' + "\n              ".join(tg) + '\n            </div>') if tg else "")
+        # reemplazar las etiquetas antes de limpiar comentarios: el bloque de ejemplo empieza con uno
+        b = item.replace(tag_list, ('\n            <div style="font-size:10px; line-height:15px; padding-bottom:3px;">\n              ' + "\n              ".join(tg) + '\n            </div>') if tg else "")
+        b = limpiar_comentarios(b)
         for k, v in {"{{N}}": str(i), "{{URL DEL ARTÍCULO ORIGINAL}}": n["url"], "{{TITULAR EN ESPAÑOL}}": n["titular"],
                      "{{FUENTE}}": n["fuente"], "{{PAÍS}}": n["pais"], "{{CATEGORÍA}}": n["categoria"]}.items():
             b = b.replace(k, v)

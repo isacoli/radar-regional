@@ -31,7 +31,7 @@ Monday to Friday, run manually for now (a scheduled run from GitHub is planned l
 
 1. Read the three config files and `output/radar/historial.md`.
 2. Set the time window from `config/settings.md` (UTC−5): Tuesday–Friday, 07:01 the previous day → 07:00 the run day; Monday, Friday 07:01 → Monday 07:00. Check each article's publication time, not just its date.
-3. Set the issue number: the number of the last daily issue in `historial.md` plus one.
+3. Set the issue number: the number of the last daily issue in `historial.md` plus one. Numbering counts every weekday from N.º 1 = Thursday 1 October 2026 (19 Oct = N.º 13, 26 Oct = N.º 18); a back-dated issue takes the number of its weekday.
 
 ### Step 2 — Scan
 
