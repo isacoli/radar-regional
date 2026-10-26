@@ -49,6 +49,11 @@
   .top .m { font-family:Georgia, 'Times New Roman', serif; font-size:18px; color:var(--navy); white-space:nowrap; text-align:right; }
   .pill.rel { color:#fff; } .pill.Alta { background:#00818A; } .pill.Media { background:#5B8DB8; } .pill.Baja { background:#9AA8B5; }
   .pill.gris { background:#EEF1F4; color:#4A5A6A; }
+  .buscador-ops { display:flex; flex-wrap:wrap; gap:12px; align-items:center; margin:6px 0 10px; }
+  .buscador-ops input { flex:1; min-width:220px; padding:8px 10px; border:1px solid var(--line); border-radius:4px; font-size:13px; font-family:inherit; }
+  .paginador { display:flex; justify-content:center; align-items:center; gap:12px; margin:12px 0 4px; font-size:13px; color:var(--muted); }
+  .paginador button { padding:6px 12px; border:1px solid var(--line); border-radius:999px; background:var(--tint); color:var(--navy); font-weight:bold; font-size:12px; cursor:pointer; }
+  .paginador button:disabled { opacity:.4; cursor:default; }
   .resumen-onudi { font-size:13px; color:var(--ink); background:var(--tint); border-radius:6px; padding:10px 12px; margin:4px 0 6px; }
   @media (max-width:1000px) { .kpis { grid-template-columns:repeat(3, minmax(0,1fr)); } }
   @media (max-width:820px) { .grid2 { grid-template-columns:1fr; } .kpis { grid-template-columns:repeat(2, minmax(0,1fr)); } }
@@ -130,7 +135,7 @@
     <div class="grid2" style="margin-top:20px;">
       <section class="tarjeta">
         <h2>5 · Países andinos y resto de la región</h2>
-        <p class="sub">Monto por semana que llega a Colombia, Perú, Bolivia y Ecuador frente al resto de América Latina y a las operaciones regionales.</p>
+        <p class="sub">Monto de las 4 últimas semanas que llega a Colombia, Perú, Bolivia y Ecuador frente al resto de América Latina y a las operaciones regionales.</p>
         <div class="leyenda-tipo"><span><i style="background:#00818A"></i>Andinos</span><span><i style="background:#0067B1"></i>Resto de la región</span><span><i style="background:#A7B4C2"></i>Regional (varios países)</span></div>
         <div class="lienzo"><canvas id="g-andinos" role="img" aria-label="Monto por semana: países andinos, resto de la región y regional"></canvas></div>
       </section>
@@ -151,7 +156,8 @@
 
     <section class="tarjeta" style="margin-top:20px;">
       <h2>8 · Tabla de operaciones</h2>
-      <p class="sub">Haga clic en un encabezado para ordenar. Incluye las operaciones sin conversión a dólares, que no aparecen en los gráficos.</p>
+      <p class="sub">Operaciones del período elegido. Haga clic en un encabezado para ordenar. Incluye las operaciones sin conversión a dólares, que no aparecen en los gráficos.</p>
+      <div class="buscador-ops"><input type="search" id="q-ops" placeholder="Buscar por institución, país, proyecto, sector…" aria-label="Buscar operaciones"><span class="nota" id="n-ops"></span></div>
       <div class="tabla-wrap">
         <table>
           <thead><tr>
@@ -161,6 +167,7 @@
           <tbody id="t-ops"></tbody>
         </table>
       </div>
+      <div class="paginador" id="pag-ops"></div>
       <p class="nota" id="nota-general"></p>
     </section>
   </main>
@@ -185,7 +192,8 @@ const esc = s => (s ?? "").toString().replace(/[&<>"]/g, c => ({"&":"&amp;","<":
 const fmt = v => v == null ? "—" : (v >= 1000 ? (v / 1000).toLocaleString("es", {maximumFractionDigits: 1}) + " mil M" : v.toLocaleString("es", {maximumFractionDigits: 1}) + " M");
 const tooltipBase = { backgroundColor: "#003A70", titleColor: "#fff", bodyColor: "#fff", padding: 10, cornerRadius: 4, displayColors: true };
 
-let DATA = [], charts = {}, orden = { k: "fecha", dir: -1 };
+let DATA = [], charts = {}, orden = { k: "fecha", dir: -1 }, pagina = 1;
+const POR_PAGINA = 10;
 
 fetch("operaciones.json").then(r => r.json()).then(d => {
   DATA = d.operaciones;
@@ -197,8 +205,9 @@ fetch("operaciones.json").then(r => r.json()).then(d => {
   ["f-tipo", "f-mega", "f-desde", "f-hasta"].forEach(id => document.getElementById(id).addEventListener("change", render));
   document.getElementById("f-30").addEventListener("click", () => { ultimos30(); render(); });
   document.querySelectorAll("th[data-k]").forEach(th => th.addEventListener("click", () => {
-    orden = { k: th.dataset.k, dir: orden.k === th.dataset.k ? -orden.dir : 1 }; tabla(filtrar(false));
+    orden = { k: th.dataset.k, dir: orden.k === th.dataset.k ? -orden.dir : 1 }; pagina = 1; tabla(filtrar(false));
   }));
+  document.getElementById("q-ops").addEventListener("input", () => { pagina = 1; tabla(filtrar(false)); });
   render();
 });
 
@@ -233,6 +242,7 @@ function render() {
   document.getElementById("k-and").textContent = total ? Math.round(and / total * 100) + " %" : "—";
   const [a, b] = rango();
   document.getElementById("periodo").textContent = `Período: ${fmtFecha(a)} – ${fmtFecha(b)} de 2026 · datos actualizados al ${fmtFecha(HASTA_MAX)}`;
+  pagina = 1;
   radar(ops); paises(porPais); flujo(ops); semanasG(ops); andinos(ops); instrumentos(ops); top5(ops); tabla(filtrar(false));
 }
 
@@ -339,7 +349,8 @@ function semanasG(ops) {
 }
 
 function andinos(ops) {
-  const sem = semanas(), G = [["Andinos", "#00818A", o => ANDINOS.includes(o.iso)], ["Resto de la región", "#0067B1", o => o.iso !== "—" && !ANDINOS.includes(o.iso)], ["Regional", "#A7B4C2", o => o.iso === "—"]];
+  // las 4 últimas semanas, como el desglose semanal
+  const sem = semanas().slice(-4), G = [["Andinos", "#00818A", o => ANDINOS.includes(o.iso)], ["Resto de la región", "#0067B1", o => o.iso !== "—" && !ANDINOS.includes(o.iso)], ["Regional", "#A7B4C2", o => o.iso === "—"]];
   dibujar("g-andinos", { type: "bar",
     data: { labels: sem.map(etiquetaSem), datasets: G.map(([n, c, f]) => ({ label: n,
       data: sem.map(w => ops.filter(o => f(o) && enSem(o, w)).reduce((a, o) => a + o.monto_usd_millones, 0)),
@@ -380,12 +391,25 @@ function top5(ops) {
 
 function tabla(ops) {
   const k = orden.k, dir = orden.dir;
-  const filas = [...ops].sort((a, b) => { const x = a[k] ?? -1, y = b[k] ?? -1; return (x > y ? 1 : x < y ? -1 : 0) * dir; });
-  document.getElementById("t-ops").innerHTML = filas.map(o => `<tr>
+  const q = document.getElementById("q-ops").value.trim().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  const norm = t => (t ?? "").toString().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  const todas = [...ops].filter(o => !q || ["institucion", "pais", "descripcion", "sector", "instrumento", "estado", "fuente", "tipo_institucion"].some(c => norm(o[c]).includes(q)))
+    .sort((a, b) => { const x = a[k] ?? -1, y = b[k] ?? -1; return (x > y ? 1 : x < y ? -1 : 0) * dir; });
+  const paginas = Math.max(1, Math.ceil(todas.length / POR_PAGINA));
+  pagina = Math.min(pagina, paginas);
+  const filas = todas.slice((pagina - 1) * POR_PAGINA, pagina * POR_PAGINA);
+  document.getElementById("n-ops").textContent = `${todas.length} ${todas.length === 1 ? "operación" : "operaciones"}`;
+  const pag = document.getElementById("pag-ops");
+  pag.innerHTML = paginas > 1 ? `<button type="button" id="pg-ant" ${pagina === 1 ? "disabled" : ""}>‹ Anterior</button><span>Página ${pagina} de ${paginas}</span><button type="button" id="pg-sig" ${pagina === paginas ? "disabled" : ""}>Siguiente ›</button>` : "";
+  if (paginas > 1) {
+    document.getElementById("pg-ant").onclick = () => { pagina--; tabla(ops); };
+    document.getElementById("pg-sig").onclick = () => { pagina++; tabla(ops); };
+  }
+  document.getElementById("t-ops").innerHTML = filas.length ? filas.map(o => `<tr>
       <td>${esc(o.fecha)}</td><td>${esc(o.pais)}</td><td>${esc(o.institucion)}<span class="nota-op">${esc(o.tipo_institucion)}</span></td>
       <td><span class="pill ${esc(o.publico_privado)}">${esc(o.publico_privado)}</span></td><td>${esc(o.instrumento)}<span class="nota-op">${esc(o.estado)}</span></td><td>${esc(o.sector)}</td>
       <td><a href="${esc(o.url)}" target="_blank" rel="noopener">${esc(o.descripcion)}</a><span class="nota-op">${esc(o.monto_original)} · ${esc(o.fuente)}${o.nota ? " · " + esc(o.nota) : ""}</span></td>
-      <td class="num">${o.monto_usd_millones == null ? "—" : o.monto_usd_millones.toLocaleString("es", {maximumFractionDigits: 1})}</td></tr>`).join("");
+      <td class="num">${o.monto_usd_millones == null ? "—" : o.monto_usd_millones.toLocaleString("es", {maximumFractionDigits: 1})}</td></tr>`).join("") : `<tr><td colspan="8" class="nota">No hay operaciones que coincidan con la búsqueda.</td></tr>`;
 }
 </script>
 <script src="../assets/banner.js"></script>
