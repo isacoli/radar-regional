@@ -1,12 +1,12 @@
 {
   "actualizado": "2026-10-26",
-  "periodo": "Últimos 30 días (27 sep – 26 oct 2026)",
+  "periodo": "Últimos 7 días (20 – 26 oct 2026)",
   "fuente": "Noticias e investigaciones publicadas en el Radar Regional (ediciones semanal N.º 1, diaria N.º 1 y diaria N.º 2)",
   "nota_oportunidades": "Las oportunidades son un análisis orientativo del Radar a partir de las noticias publicadas; no constituyen una posición oficial de la ONUDI.",
   "paises": {
     "604": {
       "nombre": "Perú",
-      "n_noticias": 16,
+      "n_noticias": 14,
       "principal": {
         "texto": "Perú y Ecuador firmaron en Lima acuerdos de energía, pesca y desarrollo fronterizo, y Perú asumió la presidencia de la Comunidad Andina con prioridades en comercio, inversión y conectividad.",
         "fuente": "El Universo",
@@ -36,8 +36,8 @@
       "nombre": "Colombia",
       "n_noticias": 10,
       "principal": {
-        "texto": "La manufactura colombiana cayó 3,7 % en agosto, segundo mes de retroceso, y el terremoto de agosto agravó el golpe a la industria y expuso a 183.000 clientes de microcrédito.",
-        "fuente": "Semana / El Espectador",
+        "texto": "La manufactura colombiana cayó 4,1 % entre julio y agosto tras el sismo del 10 de agosto, que dejó expuestos a 183.000 clientes de microcrédito.",
+        "fuente": "El Espectador",
         "fecha": "2026-10-23",
         "url": "https://www.elespectador.com/economia/el-terremoto-golpea-la-industria-y-deja-a-183-000-clientes-de-microcredito-expuestos/"
       },

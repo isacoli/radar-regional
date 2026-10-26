@@ -20,7 +20,7 @@
   /* Solo versión web: mismo ancho estándar que el resto del sitio (ver docs/assets/sitio.css) */
   .container { width:100% !important; max-width:1080px !important; }
   @media only screen and (max-width:1128px) { .container { max-width:calc(100% - 24px) !important; } }
-  @media only screen and (max-width:620px) { .container { max-width:100% !important; border-radius:0 !important; } body > table > tbody > tr > td { padding:0 !important; } }
+  @media only screen and (max-width:620px) { .act-editor { float:none !important; text-align:left !important; } .container { max-width:100% !important; border-radius:0 !important; } body > table > tbody > tr > td { padding:0 !important; } }
 </style>
 </head>
 <body style="margin:0; padding:0; background-color:#EEF2F6;">
@@ -74,8 +74,10 @@
   </tr>
 
 
+
   <!-- BARRA DEL SITIO (solo versión web) -->
   <tr><td style="background:#ffffff; border-bottom:1px solid #DCE6EF; padding:12px 26px; text-align:left; font-family:Arial, Helvetica, sans-serif;">
+  <div class="act-editor" style="float:right; text-align:right; margin:3px;"><a href="https://github.com/isacoli/radar-regional/actions/workflows/radar.yml" title="Solo equipo editor" style="display:inline-block; margin:3px; padding:7px 13px; border:1px solid #DCE6EF; border-radius:999px; font-size:13px; font-weight:bold; text-decoration:none; background:#ffffff; color:#6B7B8B; font-weight:normal; margin:0;">⟳ Actualizar noticias</a><br><small class="ultima-act" style="font-size:10px; color:#6B7B8B;">Última actualización: 26 oct 2026, 02:21 (hora de Lima)</small></div>
   <a href="https://isacoli.github.io/radar-regional/" style="display:inline-block; margin:3px; padding:7px 13px; border:1px solid #DCE6EF; border-radius:999px; font-size:13px; font-weight:bold; text-decoration:none; background:#EEF5FB; color:#003A70;">Inicio</a>
   <a href="https://isacoli.github.io/radar-regional/mapa/" style="display:inline-block; margin:3px; padding:7px 13px; border:1px solid #DCE6EF; border-radius:999px; font-size:13px; font-weight:bold; text-decoration:none; background:#EEF5FB; color:#003A70;">Mapa</a>
   <a href="https://isacoli.github.io/radar-regional/financiamiento/" style="display:inline-block; margin:3px; padding:7px 13px; border:1px solid #DCE6EF; border-radius:999px; font-size:13px; font-weight:bold; text-decoration:none; background:#EEF5FB; color:#003A70;">Financiamiento</a>

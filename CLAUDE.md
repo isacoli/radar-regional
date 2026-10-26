@@ -82,9 +82,9 @@ Follow `config/research.md`:
 
 ### Step 7 — Publish to the website (GitHub Pages)
 
-Follow `config/publish.md`: build the final issue with `python3 scripts/construir_boletin.py output/radar/AAAA-MM-DD --final`, then run `python3 scripts/publicar_sitio.py output/radar/AAAA-MM-DD` (copies it to `docs/index.html` and `docs/archivo/`, adds the site section bar below the banner on the web copies only, and updates the archive list). Then update the map (below) and commit.
+Follow `config/publish.md`: build the final issue with `python3 scripts/construir_boletin.py output/radar/AAAA-MM-DD --final`, then run `python3 scripts/publicar_sitio.py output/radar/AAAA-MM-DD` (copies it to `docs/index.html` and `docs/archivo/`, adds the site section bar below the banner on the web copies only, updates the archive list, and writes the issue's `ventana_fin` as "Última actualización: …" under the "⟳ Actualizar noticias" button on every page). Then update the map (below) and commit.
 
-**Map (`docs/mapa/paises.json`):** after each final issue, rebuild the country cards for the 17 continental countries (México → Argentina) using **only news published in the Radar in the last 30 days**:
+**Map (`docs/mapa/paises.json`):** after each final issue, rebuild the country cards for the 17 continental countries (México → Argentina) using **only Radar news with a publication date in the last 7 days** (today and the 6 previous days); drop anything older at every update, card by card, and rewrite a bullet if it relied on an older story. The panel shows "Información de los últimos 7 días" with the date range from `periodo`:
 1. **Noticia principal:** one sentence of **at most 30 words** on the country's most important published story (highest coverage, then relevance), with source, date and link.
 2. **Financiamiento y proyectos:** international financing, investment and industrial/manufacturing projects reported for the country, with links.
 3. **Oportunidades para la ONUDI:** one or two sentences on where the ONUDI could support, grounded only in the published news (an orientative analysis, not an official position; never invent programmes).
