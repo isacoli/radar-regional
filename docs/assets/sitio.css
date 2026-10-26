@@ -2,8 +2,9 @@
 :root { --navy:#003A70; --blue:#0067B1; --sky:#009EDB; --sky2:#5BC2E7; --pale:#A7D8F0; --tint:#EEF5FB; --teal:#00818A; --ink:#1F2D3A; --muted:#6B7B8B; --line:#DCE6EF; --page:#EEF2F6; }
 * { box-sizing:border-box; }
 body { margin:0; background:var(--page); font-family:Arial, Helvetica, sans-serif; color:var(--ink); }
-.wrap { max-width:1080px; margin:24px auto; background:#fff; border-radius:8px; overflow:hidden; }
-.wrap.angosto { max-width:860px; }
+:root { --ancho:1080px; }  /* ancho estándar de todas las páginas del sitio */
+.wrap { max-width:var(--ancho); margin:24px auto; background:#fff; border-radius:8px; overflow:hidden; }
+.wrap.angosto { max-width:var(--ancho); }
 .sitio-header { background:var(--navy); color:#fff; padding:26px 28px 22px; }
 .sitio-header small { color:var(--pale); letter-spacing:2px; text-transform:uppercase; font-size:11px; }
 .sitio-header h1 { font-family:Georgia, 'Times New Roman', serif; margin:8px 0 4px; font-size:30px; }
@@ -23,6 +24,8 @@ main { padding:20px 28px 28px; }
 h2 { font-size:13px; letter-spacing:1.5px; text-transform:uppercase; color:var(--navy); border-bottom:2px solid var(--navy); padding-bottom:6px; margin:22px 0 4px; }
 .nota { color:var(--muted); font-size:12px; line-height:18px; }
 a { color:var(--blue); }
+/* Tablet y laptop pequeña: el contenedor ocupa el ancho con márgenes de 24 px */
+@media (max-width:1128px) { .wrap { margin:24px; } }
 @media (max-width:620px) {
   .wrap { margin:0; border-radius:0; }
   .sitio-header { padding:22px 16px; }

@@ -19,7 +19,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 BASE = "https://isacoli.github.io/radar-regional/"
 
 BARRA = """  <!-- BARRA DEL SITIO (solo versión web) -->
-  <tr><td style="background:#ffffff; border-bottom:1px solid #DCE6EF; padding:10px 20px; text-align:center; font-family:Arial, Helvetica, sans-serif;">
+  <tr><td style="background:#ffffff; border-bottom:1px solid #DCE6EF; padding:12px 26px; text-align:left; font-family:Arial, Helvetica, sans-serif;">
   {enlaces}
   </td></tr>
 """
@@ -38,6 +38,21 @@ def barra(activo="Inicio"):
             est = ESTILO + "background:#EEF5FB; color:#003A70;"
         enlaces.append(f'<a href="{BASE}{ruta}" style="{est}">{nombre}</a>')
     return BARRA.format(enlaces="\n  ".join(enlaces))
+
+
+ESTILO_WEB = """<style id="estilo-sitio">
+  /* Solo versión web: mismo ancho estándar que el resto del sitio (ver docs/assets/sitio.css) */
+  .container { width:100% !important; max-width:1080px !important; }
+  @media only screen and (max-width:1128px) { .container { max-width:calc(100% - 24px) !important; } }
+  @media only screen and (max-width:620px) { .container { max-width:100% !important; border-radius:0 !important; } body > table > tbody > tr > td { padding:0 !important; } }
+</style>
+"""
+
+
+def con_estilo_web(html):
+    """Agrega el ancho estándar del sitio a la copia web (el correo conserva sus 600 px)."""
+    html = re.sub(r'<style id="estilo-sitio">.*?</style>\n', "", html, count=1, flags=re.S)
+    return html.replace("</head>", ESTILO_WEB + "</head>", 1)
 
 
 def con_barra(html, activo):
@@ -60,8 +75,8 @@ def main():
     if "BORRADOR" in html:
         sys.exit("La edición todavía tiene el banner BORRADOR: márquela como final antes de publicarla.")
     fecha = ed["fecha"]
-    (RAIZ / "docs" / "index.html").write_text(con_barra(html, "Inicio"), encoding="utf-8")
-    (RAIZ / "docs" / "archivo" / f"{fecha}.html").write_text(con_barra(html, "Archivo"), encoding="utf-8")
+    (RAIZ / "docs" / "index.html").write_text(con_estilo_web(con_barra(html, "Inicio")), encoding="utf-8")
+    (RAIZ / "docs" / "archivo" / f"{fecha}.html").write_text(con_estilo_web(con_barra(html, "Archivo")), encoding="utf-8")
 
     idx = RAIZ / "docs" / "archivo" / "index.html"
     s = idx.read_text(encoding="utf-8")

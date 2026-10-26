@@ -43,3 +43,10 @@ Tags keep their own colors so they stand out: 🔥 Más difundida `#FDEBD8` on `
 ## Fonts
 
 Email-safe only: Arial/Helvetica for text; Georgia for the large banner name and section numbers.
+
+## Website width
+
+- **Standard width for every site page: 1080 px** (`--ancho` in `docs/assets/sitio.css`), centered.
+- **Tablet and small laptops (≤ 1128 px):** full width with 24 px side margins.
+- **Phones (≤ 620 px):** full width, no margins.
+- Issue pages keep 600 px in the email; their web copies get the same 1080 px width through `scripts/publicar_sitio.py`.
