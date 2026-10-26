@@ -88,7 +88,9 @@ Follow `config/publish.md`: build the final issue with `python3 scripts/construi
 1. **Noticia principal:** one sentence of **at most 30 words** on the country's most important published story (highest coverage, then relevance), with source, date and link.
 2. **Financiamiento y proyectos:** international financing, investment and industrial/manufacturing projects reported for the country, with links.
 3. **Oportunidades para la ONUDI:** one or two sentences on where the ONUDI could support, grounded only in the published news (an orientative analysis, not an official position; never invent programmes).
-Countries with no published news in the period go in `sin_datos`. Update `actualizado`, `periodo` and `fuente`. **Push only after the user confirms**, since pushing publishes it on the public site. Never publish drafts.
+Countries with no published news in the period go in `sin_datos`. Update `actualizado`, `periodo` and `fuente`.
+
+**Financing (`docs/financiamiento/operaciones.json`):** keep a rolling **30-day** list of the most recent financing operations in the 17 continental countries (México → Argentina): multilateral (BID, CAF, Banco Mundial, BCIE, FONPLATA…), bilateral cooperation (UE, GIZ/KfW, AFD, JICA…), national development banks, governments and private investment. For each: `fecha`, `pais`, `iso`, `institucion`, `tipo_institucion`, `publico_privado` (Público/Privado), `monto_usd_millones` (only when the source gives US$ or a conversion; otherwise `null`, and it shows in the table only), `monto_original`, `sector` (one of the nine in the page), `descripcion`, `fuente`, `url` (verified), `nota` (e.g. "anunciado, no desembolsado", "pendiente de aprobación legislativa"). Drop operations older than 30 days, never invent amounts, and search for new approvals at least weekly (Monday issue). **Push only after the user confirms**, since pushing publishes it on the public site. Never publish drafts.
 
 ### Step 8 — Save to the database (Supabase)
 

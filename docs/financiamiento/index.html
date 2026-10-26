@@ -5,13 +5,41 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Financiamiento · Radar Regional</title>
 <link rel="stylesheet" href="../assets/sitio.css">
+<style>
+  :root { --pub:#0067B1; --priv:#C8622D; }
+  .filtros { display:flex; flex-wrap:wrap; gap:16px; align-items:center; padding:12px 0 4px; font-size:13px; }
+  .filtros select { padding:7px 10px; border:1px solid var(--line); border-radius:4px; font-size:13px; }
+  .filtros label { display:flex; gap:6px; align-items:center; color:var(--ink); }
+  .kpis { display:grid; grid-template-columns:repeat(4, minmax(0,1fr)); gap:12px; margin:14px 0 4px; }
+  .kpi { background:var(--tint); border-radius:6px; padding:14px 16px; }
+  .kpi b { display:block; font-family:Georgia, 'Times New Roman', serif; font-size:26px; color:var(--navy); line-height:30px; }
+  .kpi span { font-size:12px; color:var(--muted); }
+  .grid2 { display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:20px; }
+  .tarjeta { border:1px solid var(--line); border-radius:8px; padding:16px 18px; }
+  .tarjeta h2 { margin-top:0; }
+  .tarjeta p.sub { margin:4px 0 10px; font-size:12px; color:var(--muted); }
+  .lienzo { position:relative; height:340px; }
+  .lienzo.alto { height:400px; }
+  .leyenda-tipo { display:flex; gap:14px; font-size:12px; color:var(--muted); margin-bottom:6px; }
+  .leyenda-tipo i { display:inline-block; width:12px; height:12px; border-radius:2px; margin-right:5px; vertical-align:-2px; }
+  table { width:100%; border-collapse:collapse; font-size:13px; }
+  th { text-align:left; font-size:11px; letter-spacing:.8px; text-transform:uppercase; color:var(--navy); border-bottom:2px solid var(--navy); padding:8px 6px; cursor:pointer; white-space:nowrap; }
+  th:hover { color:var(--blue); }
+  td { border-bottom:1px solid var(--line); padding:8px 6px; vertical-align:top; }
+  td.num { text-align:right; white-space:nowrap; font-variant-numeric:tabular-nums; }
+  .pill { display:inline-block; font-size:10px; font-weight:bold; border-radius:3px; padding:1px 6px; color:#fff; }
+  .pill.Público { background:var(--pub); } .pill.Privado { background:var(--priv); }
+  .tabla-wrap { overflow-x:auto; }
+  .nota-op { color:var(--muted); font-size:11px; display:block; margin-top:2px; }
+  @media (max-width:820px) { .grid2 { grid-template-columns:1fr; } .kpis { grid-template-columns:repeat(2, minmax(0,1fr)); } }
+</style>
 </head>
 <body>
-<div class="wrap angosto">
+<div class="wrap">
   <header class="sitio-header">
     <small>Oficina Andina de ONUDI</small>
     <h1>Radar Regional · Financiamiento</h1>
-    <p>Financiamiento internacional y proyectos de desarrollo industrial en la región.</p>
+    <p>Financiamientos e inversiones más recientes en América Latina continental: quién financia, cuánto, dónde y en qué sectores.</p>
   </header>
   <div class="stripe"><span></span><span></span><span></span><span></span><span></span></div>
   <nav class="secciones">
@@ -23,10 +51,198 @@
     <a href="../archivo/">Archivo</a>
     <a class="editor" href="https://github.com/isacoli/radar-regional/actions/workflows/radar.yml" title="Solo equipo editor">⟳ Solicitar actualización</a>
   </nav>
+
   <main>
-    <h2>En construcción</h2>
-    <p>Esta sección está en preparación. Mientras tanto, puede ver el financiamiento y los proyectos de cada país en el <a href="../mapa/">mapa</a>.</p>
+    <div class="filtros">
+      <label>Tipo de financiamiento
+        <select id="f-tipo"><option value="">Público y privado</option><option>Público</option><option>Privado</option></select>
+      </label>
+      <label><input type="checkbox" id="f-mega"> Incluir operaciones de más de US$ 1.000 M</label>
+      <span class="nota" id="periodo"></span>
+    </div>
+
+    <div class="kpis">
+      <div class="kpi"><b id="k-total">—</b><span>monto total (US$)</span></div>
+      <div class="kpi"><b id="k-ops">—</b><span>operaciones</span></div>
+      <div class="kpi"><b id="k-paises">—</b><span>países con financiamiento</span></div>
+      <div class="kpi"><b id="k-pub">—</b><span>del monto es público</span></div>
+    </div>
+
+    <div class="grid2">
+      <section class="tarjeta">
+        <h2>1 · Sectores a los que se dirige</h2>
+        <p class="sub">Monto por sector (US$ millones), público y privado.</p>
+        <div class="leyenda-tipo"><span><i style="background:var(--pub)"></i>Público</span><span><i style="background:var(--priv)"></i>Privado</span></div>
+        <div class="lienzo"><canvas id="g-radar" role="img" aria-label="Gráfico radar del financiamiento por sector"></canvas></div>
+      </section>
+      <section class="tarjeta">
+        <h2>2 · Monto por país</h2>
+        <p class="sub">Total aprobado o anunciado por país (US$ millones).</p>
+        <div class="leyenda-tipo"><span><i style="background:var(--pub)"></i>Público</span><span><i style="background:var(--priv)"></i>Privado</span></div>
+        <div class="lienzo"><canvas id="g-paises" role="img" aria-label="Barras del monto financiado por país"></canvas></div>
+      </section>
+    </div>
+
+    <section class="tarjeta" style="margin-top:20px;">
+      <h2>3 · Quién financia, cuánto y a qué país</h2>
+      <p class="sub">Cada punto es una operación, identificada con el código del país. Eje vertical en escala logarítmica para que se vean los montos pequeños junto a los grandes.</p>
+      <div class="leyenda-tipo"><span><i style="background:var(--pub)"></i>Público</span><span><i style="background:var(--priv)"></i>Privado</span></div>
+      <div class="lienzo alto"><canvas id="g-instituciones" role="img" aria-label="Dispersión de montos por institución financiadora y país"></canvas></div>
+    </section>
+
+    <section class="tarjeta" style="margin-top:20px;">
+      <h2>4 · Línea de tiempo</h2>
+      <p class="sub">Monto aprobado o anunciado por semana (US$ millones).</p>
+      <div class="leyenda-tipo"><span><i style="background:var(--pub)"></i>Público</span><span><i style="background:var(--priv)"></i>Privado</span></div>
+      <div class="lienzo"><canvas id="g-tiempo" role="img" aria-label="Montos por semana"></canvas></div>
+    </section>
+
+    <section class="tarjeta" style="margin-top:20px;">
+      <h2>5 · Tabla de operaciones</h2>
+      <p class="sub">Haga clic en un encabezado para ordenar. Incluye las operaciones sin conversión a dólares, que no aparecen en los gráficos.</p>
+      <div class="tabla-wrap">
+        <table>
+          <thead><tr>
+            <th data-k="fecha">Fecha</th><th data-k="pais">País</th><th data-k="institucion">Institución</th><th data-k="publico_privado">Tipo</th>
+            <th data-k="sector">Sector</th><th data-k="descripcion">Operación</th><th data-k="monto_usd_millones" style="text-align:right">US$ M</th>
+          </tr></thead>
+          <tbody id="t-ops"></tbody>
+        </table>
+      </div>
+      <p class="nota" id="nota-general"></p>
+    </section>
   </main>
 </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script>
+const COL = { Público: "#0067B1", Privado: "#C8622D" };
+const TIPOS = ["Público", "Privado"];
+const SECTORES = ["Energía", "Hidrocarburos y minería", "Industria y manufactura", "Transporte e infraestructura",
+  "Agua y saneamiento", "Clima y gestión de riesgos", "Social (salud y vivienda)", "Gobernanza y finanzas públicas",
+  "MiPymes y financiamiento productivo"];
+const INK = "#1F2D3A", MUTED = "#6B7B8B", GRID = "#E6EDF3";
+Chart.defaults.font.family = "Arial, Helvetica, sans-serif";
+Chart.defaults.font.size = 11;
+Chart.defaults.color = MUTED;
+
+const esc = s => (s ?? "").toString().replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmt = v => v == null ? "—" : (v >= 1000 ? (v / 1000).toLocaleString("es", {maximumFractionDigits: 1}) + " mil M" : v.toLocaleString("es", {maximumFractionDigits: 1}) + " M");
+const tooltipBase = { backgroundColor: "#003A70", titleColor: "#fff", bodyColor: "#fff", padding: 10, cornerRadius: 4, displayColors: true };
+
+let DATA = [], charts = {}, orden = { k: "fecha", dir: -1 };
+
+fetch("operaciones.json").then(r => r.json()).then(d => {
+  DATA = d.operaciones;
+  document.getElementById("periodo").textContent = `Período: ${d.periodo} · actualizado ${d.actualizado}`;
+  document.getElementById("nota-general").textContent = d.nota;
+  document.getElementById("f-tipo").addEventListener("change", render);
+  document.getElementById("f-mega").addEventListener("change", render);
+  document.querySelectorAll("th[data-k]").forEach(th => th.addEventListener("click", () => {
+    orden = { k: th.dataset.k, dir: orden.k === th.dataset.k ? -orden.dir : 1 }; tabla(filtrar(false));
+  }));
+  render();
+});
+
+function filtrar(soloGraficable = true) {
+  const t = document.getElementById("f-tipo").value, mega = document.getElementById("f-mega").checked;
+  return DATA.filter(o => (!t || o.publico_privado === t)
+    && (mega || o.monto_usd_millones == null || o.monto_usd_millones <= 1000)
+    && (!soloGraficable || o.monto_usd_millones != null));
+}
+
+function render() {
+  const ops = filtrar(true), porPais = ops.filter(o => o.iso !== "—");
+  const total = ops.reduce((a, o) => a + o.monto_usd_millones, 0);
+  const pub = ops.filter(o => o.publico_privado === "Público").reduce((a, o) => a + o.monto_usd_millones, 0);
+  document.getElementById("k-total").textContent = fmt(total);
+  document.getElementById("k-ops").textContent = filtrar(false).length;
+  document.getElementById("k-paises").textContent = new Set(porPais.map(o => o.pais)).size;
+  document.getElementById("k-pub").textContent = total ? Math.round(pub / total * 100) + " %" : "—";
+  radar(ops); paises(porPais); instituciones(porPais); tiempo(ops); tabla(filtrar(false));
+}
+
+function tiposVisibles() { const t = document.getElementById("f-tipo").value; return t ? [t] : TIPOS; }
+function dibujar(id, cfg) { if (charts[id]) charts[id].destroy(); charts[id] = new Chart(document.getElementById(id), cfg); }
+
+function radar(ops) {
+  dibujar("g-radar", { type: "radar",
+    data: { labels: SECTORES.map(s => s.replace(" y ", " y\n").split("\n")),
+      datasets: tiposVisibles().map(t => ({ label: t,
+        data: SECTORES.map(s => ops.filter(o => o.sector === s && o.publico_privado === t).reduce((a, o) => a + o.monto_usd_millones, 0)),
+        borderColor: COL[t], backgroundColor: COL[t] + "26", borderWidth: 2, pointRadius: 4, pointHoverRadius: 6, pointBackgroundColor: COL[t] })) },
+    options: { maintainAspectRatio: false, plugins: { legend: { display: false },
+        tooltip: { ...tooltipBase, callbacks: { title: i => SECTORES[i[0].dataIndex], label: c => ` ${c.dataset.label}: US$ ${fmt(c.raw)}` } } },
+      scales: { r: { beginAtZero: true, grid: { color: GRID }, angleLines: { color: GRID },
+        pointLabels: { color: INK, font: { size: 10 } }, ticks: { display: false } } } } });
+}
+
+function paises(ops) {
+  const lista = [...new Set(ops.map(o => o.pais))].map(p => ({ p, v: ops.filter(o => o.pais === p).reduce((a, o) => a + o.monto_usd_millones, 0) }))
+    .sort((a, b) => b.v - a.v).map(x => x.p);
+  dibujar("g-paises", { type: "bar",
+    data: { labels: lista, datasets: tiposVisibles().map(t => ({ label: t,
+      data: lista.map(p => ops.filter(o => o.pais === p && o.publico_privado === t).reduce((a, o) => a + o.monto_usd_millones, 0)),
+      backgroundColor: COL[t], borderRadius: 4, borderSkipped: false, borderColor: "#fff", borderWidth: { right: 2 }, barThickness: 14 })) },
+    options: { indexAxis: "y", maintainAspectRatio: false,
+      plugins: { legend: { display: false }, tooltip: { ...tooltipBase, callbacks: { label: c => ` ${c.dataset.label}: US$ ${fmt(c.raw)}` } } },
+      scales: { x: { stacked: true, grid: { color: GRID }, ticks: { callback: v => fmt(v) } },
+                y: { stacked: true, grid: { display: false }, ticks: { color: INK } } } } });
+}
+
+// Etiqueta del país sobre cada punto
+const etiquetasPais = { id: "etiquetasPais", afterDatasetsDraw(chart) {
+  const ctx = chart.ctx; ctx.save(); ctx.font = "bold 10px Arial"; ctx.textAlign = "center"; ctx.fillStyle = INK;
+  chart.data.datasets.forEach((ds, i) => chart.getDatasetMeta(i).data.forEach((pt, j) => ctx.fillText(ds.data[j].iso, pt.x, pt.y - 11)));
+  ctx.restore(); } };
+
+function instituciones(ops) {
+  const inst = [...new Set(ops.map(o => o.institucion))].map(n => ({ n, v: ops.filter(o => o.institucion === n).reduce((a, o) => a + o.monto_usd_millones, 0) }))
+    .sort((a, b) => b.v - a.v).map(x => x.n);
+  const pos = {};
+  dibujar("g-instituciones", { type: "scatter",
+    data: { datasets: tiposVisibles().map(t => ({ label: t, backgroundColor: COL[t], borderColor: "#fff", borderWidth: 2,
+      pointRadius: 7, pointHoverRadius: 9,
+      data: ops.filter(o => o.publico_privado === t).map(o => {
+        const xi = inst.indexOf(o.institucion), k = (pos[xi] = (pos[xi] ?? -1) + 1);
+        return { x: xi + ((k % 5) - 2) * 0.13, y: o.monto_usd_millones, iso: o.iso, o };
+      }) })) },
+    options: { maintainAspectRatio: false, layout: { padding: { top: 16 } },
+      plugins: { legend: { display: false }, tooltip: { ...tooltipBase, callbacks: {
+        title: i => i[0].raw.o.institucion, label: c => ` ${c.raw.o.pais}: US$ ${fmt(c.raw.y)}`, afterLabel: c => ` ${c.raw.o.descripcion}` } } },
+      scales: {
+        x: { type: "linear", min: -0.6, max: inst.length - 0.4, grid: { color: GRID },
+             ticks: { stepSize: 1, autoSkip: false, maxRotation: 40, minRotation: 0, color: INK, callback: v => Number.isInteger(v) ? (inst[v] || "") : "" },
+             title: { display: true, text: "Institución que financia", color: MUTED } },
+        y: { type: "logarithmic", grid: { color: GRID }, ticks: { callback: v => [0.1, 1, 10, 100, 1000, 10000].includes(v) ? fmt(v) : "" },
+             title: { display: true, text: "Monto (US$ millones, escala log)", color: MUTED } } } },
+    plugins: [etiquetasPais] });
+}
+
+function tiempo(ops) {
+  const ini = new Date("2026-09-26T00:00:00");
+  const semanas = [0, 1, 2, 3, 4].map(i => { const a = new Date(ini); a.setDate(a.getDate() + i * 7); const b = new Date(a); b.setDate(b.getDate() + 6); return [a, b]; });
+  const fin = new Date("2026-10-26T00:00:00");
+  const etiqueta = ([a, b]) => { const c = b > fin ? fin : b; return `${a.getDate()} ${a.toLocaleString("es", {month: "short"})} – ${c.getDate()} ${c.toLocaleString("es", {month: "short"})}`; };
+  const semana = f => semanas.findIndex(([a, b]) => { const d = new Date(f + "T12:00:00"); return d >= a && d <= new Date(b.getTime() + 864e5); });
+  dibujar("g-tiempo", { type: "bar",
+    data: { labels: semanas.map(etiqueta), datasets: tiposVisibles().map(t => ({ label: t,
+      data: semanas.map((_, i) => ops.filter(o => o.publico_privado === t && semana(o.fecha) === i).reduce((a, o) => a + o.monto_usd_millones, 0)),
+      backgroundColor: COL[t], borderRadius: 4, borderSkipped: false, borderColor: "#fff", borderWidth: { top: 2 }, maxBarThickness: 48 })) },
+    options: { maintainAspectRatio: false,
+      plugins: { legend: { display: false }, tooltip: { ...tooltipBase, callbacks: { label: c => ` ${c.dataset.label}: US$ ${fmt(c.raw)}` } } },
+      scales: { x: { stacked: true, grid: { display: false }, ticks: { color: INK } }, y: { stacked: true, grid: { color: GRID }, ticks: { callback: v => fmt(v) } } } } });
+}
+
+function tabla(ops) {
+  const k = orden.k, dir = orden.dir;
+  const filas = [...ops].sort((a, b) => { const x = a[k] ?? -1, y = b[k] ?? -1; return (x > y ? 1 : x < y ? -1 : 0) * dir; });
+  document.getElementById("t-ops").innerHTML = filas.map(o => `<tr>
+      <td>${esc(o.fecha)}</td><td>${esc(o.pais)}</td><td>${esc(o.institucion)}<span class="nota-op">${esc(o.tipo_institucion)}</span></td>
+      <td><span class="pill ${esc(o.publico_privado)}">${esc(o.publico_privado)}</span></td><td>${esc(o.sector)}</td>
+      <td><a href="${esc(o.url)}" target="_blank" rel="noopener">${esc(o.descripcion)}</a><span class="nota-op">${esc(o.monto_original)} · ${esc(o.fuente)}${o.nota ? " · " + esc(o.nota) : ""}</span></td>
+      <td class="num">${o.monto_usd_millones == null ? "—" : o.monto_usd_millones.toLocaleString("es", {maximumFractionDigits: 1})}</td></tr>`).join("");
+}
+</script>
 </body>
 </html>
