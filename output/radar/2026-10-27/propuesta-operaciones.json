@@ -1,0 +1,45 @@
+{
+ "generado": "2026-10-27",
+ "estado": "propuesta (no publicada)",
+ "nota": "Operaciones nuevas detectadas en la ventana del N.º 19 para añadir a docs/financiamiento/operaciones.json después de la revisión. No se incluyen: los bonos externos de Colombia por US$ 5.200 M (financiamiento soberano general, no una operación sectorial), el préstamo puente de US$ 475 M a Petroperú (cerrado a inicios de septiembre, antes del histórico), la cartera potencial de ISA (no comprometida) ni los proyectos eléctricos de Ecuador (plan sin financiador ni montos cerrados).",
+ "operaciones": [
+  {
+   "fecha": "2026-10-26",
+   "pais": "Perú",
+   "iso": "PE",
+   "institucion": "SPT Energy Group",
+   "tipo_institucion": "Empresa privada",
+   "publico_privado": "Privado",
+   "monto_usd_millones": 400,
+   "monto_original": "Cerca de US$ 400 millones (primeros 10 años)",
+   "sector": "Hidrocarburos y minería",
+   "descripcion": "Buena pro de Perupetro para operar el Lote 207 (cuenca Talara) por 30 años, con 170 pozos de desarrollo, 80 exploratorios y 100 reacondicionamientos comprometidos",
+   "fuente": "Gestión",
+   "url": "https://gestion.pe/economia/lote-207-perupetro-otorgo-buena-pro-para-su-operacion-por-30-anos-a-quien-noticia/",
+   "nota": "Compromiso de inversión anunciado en la adjudicación; no es un desembolso.",
+   "instrumento": "Inversión privada",
+   "estado": "Firmado o adjudicado",
+   "relevancia_onudi": "Media",
+   "lectura": "Reactivar la producción de crudo en Talara puede aliviar la presión sobre el abastecimiento de combustibles del norte peruano."
+  },
+  {
+   "fecha": "2026-10-26",
+   "pais": "Perú",
+   "iso": "PE",
+   "institucion": "DP World Logistics",
+   "tipo_institucion": "Empresa privada",
+   "publico_privado": "Privado",
+   "monto_usd_millones": 6,
+   "monto_original": "Cerca de US$ 6 millones",
+   "sector": "Transporte e infraestructura",
+   "descripcion": "Habilitación de un segundo depósito de contenedores en Paita (Piura), con unos 80.000 m² útiles adicionales, en etapas durante tres años",
+   "fuente": "Gestión",
+   "url": "https://gestion.pe/economia/empresas/dp-world-logistics-invertira-us-6-millones-en-paita-y-busca-ampliar-su-capacidad-en-lima-noticia/",
+   "nota": "Artículo marcado como exclusivo para suscriptores.",
+   "instrumento": "Inversión privada",
+   "estado": "Anunciado",
+   "relevancia_onudi": "Media",
+   "lectura": "Más capacidad logística en Paita apoya la cadena agroexportadora del norte, clave para las mipymes proveedoras."
+  }
+ ]
+}

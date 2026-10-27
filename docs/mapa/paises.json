@@ -1,36 +1,36 @@
 {
-  "actualizado": "2026-10-26",
-  "ventana": "23 oct 07:01 → 26 oct 02:21 (ventana del N.º 18)",
+  "actualizado": "2026-10-27",
+  "ventana": "26 oct 02:22 → 27 oct 07:00 (ventana del N.º 19)",
   "fuente": "Noticia del día por país (incluida o no en el boletín, solo fuentes de confianza) y financiamiento de los últimos 30 días",
   "nota_oportunidades": "Las oportunidades son un análisis orientativo del Radar a partir de la noticia y el financiamiento del país; no constituyen una posición oficial de la ONUDI.",
   "paises": {
     "604": {
       "nombre": "Perú",
       "principal": {
-        "texto": "ENGIE inauguró la ampliación solar de Intipampa (51,7 MW) y anunció la central Hanaqpampa, de 140,8 MW, en Moquegua, con una inversión de más de US$ 127 millones.",
-        "fuente": "Gestión",
-        "fecha": "2026-10-23",
-        "url": "https://gestion.pe/economia/empresas/engie-amplia-intipampa-y-anuncia-central-solar-en-moquegua-noticia/",
+        "texto": "En el roadshow inPerú de Nueva York, el MEF destacó un crecimiento de 3,1 % a agosto y un alza de 15,5 % de la inversión privada, y el BCRP citó reservas por US$ 92.180 millones.",
+        "fuente": "El Comercio",
+        "fecha": "2026-10-26",
+        "url": "https://elcomercio.pe/economia/peru/inperu-estas-son-las-oportunidades-de-inversion-que-el-ministro-elmer-cuba-y-julio-velarde-destacan-para-el-peru-noticia/",
         "en_boletin": true,
         "en_ventana": true
       },
       "financiamiento": {
-        "texto": "ENGIE invertirá más de US$ 127 millones en la central solar Hanaqpampa (140,8 MW), en Moquegua, que entraría en operación en 2028.",
-        "institucion": "ENGIE (privado)",
-        "monto": "Más de US$ 127 M",
-        "fecha": "2026-10-23",
-        "url": "https://gestion.pe/economia/empresas/engie-amplia-intipampa-y-anuncia-central-solar-en-moquegua-noticia/",
+        "texto": "Perupetro adjudicó el Lote 207 (Talara) a SPT Energy, que comprometió cerca de US$ 400 millones en los primeros 10 años de un contrato de 30 años.",
+        "institucion": "SPT Energy Group (privado)",
+        "monto": "Cerca de US$ 400 M",
+        "fecha": "2026-10-26",
+        "url": "https://gestion.pe/economia/lote-207-perupetro-otorgo-buena-pro-para-su-operacion-por-30-anos-a-quien-noticia/",
         "fuente": "Gestión"
       },
-      "oportunidades": "Acompañar la integración de energía solar en la industria del sur (eficiencia y autoconsumo en mypes y mineras) y el desarrollo de proveedores locales para los nuevos proyectos renovables."
+      "oportunidades": "Aprovechar el interés inversor del roadshow para promover proyectos de valor agregado y proveedores locales en minería y energía, y acompañar la seguridad energética de la industria del norte frente a El Niño."
     },
     "170": {
       "nombre": "Colombia",
       "principal": {
-        "texto": "La manufactura colombiana cayó 4,1 % entre julio y agosto tras el sismo del 10 de agosto, que dejó expuestos a 183.000 clientes de microcrédito.",
-        "fuente": "El Espectador",
-        "fecha": "2026-10-23",
-        "url": "https://www.elespectador.com/economia/el-terremoto-golpea-la-industria-y-deja-a-183-000-clientes-de-microcredito-expuestos/",
+        "texto": "El Gobierno colocó US$ 5.200 millones en bonos externos a 2032, 2037 y 2056, con tasas de 7,05 % a 8,15 %, en medio de la presión fiscal.",
+        "fuente": "La República",
+        "fecha": "2026-10-26",
+        "url": "https://www.larepublica.co/economia/el-gobierno-nacional-coloco-bonos-de-deuda-externa-por-un-valor-de-us-5-200-millones-4511654",
         "en_boletin": true,
         "en_ventana": true
       },
@@ -42,15 +42,15 @@
         "url": "https://www.elespectador.com/economia/el-gobierno-destina-cop-27-billones-para-asegurar-la-energia-frente-al-nino/",
         "fuente": "El Espectador"
       },
-      "oportunidades": "Apoyar la recuperación productiva de las industrias afectadas por el sismo y la eficiencia energética industrial para reducir la exposición a racionamientos durante El Niño."
+      "oportunidades": "Con un espacio fiscal más estrecho, cobra valor la cooperación técnica de bajo costo: eficiencia energética y continuidad productiva en la industria afectada por el sismo y por el riesgo de racionamiento."
     },
     "218": {
       "nombre": "Ecuador",
       "principal": {
-        "texto": "En el encuentro Ecuador País Minero 2026, el sector pidió seguridad jurídica y valor agregado; las exportaciones mineras sumaron US$ 3.180 millones entre enero y julio (+43,5 %).",
+        "texto": "Noboa dijo que el Gobierno analiza un alivio tributario para las empresas que alcanzaron la meta de autogenerar el 30 % de su electricidad; el 45 % de las industrias ya la cumple.",
         "fuente": "El Universo",
-        "fecha": "2026-10-23",
-        "url": "https://www.eluniverso.com/economia/industrias/encuentro-ecuador-pais-minero-2026-camara-de-mineria-del-ecuador-cme-analisis-actividad-minera-experiencias-internacionales-ecuador-2026-nota/",
+        "fecha": "2026-10-26",
+        "url": "https://www.eluniverso.com/economia/produccion/daniel-noboa-energia-megavatios-incorporados-industrias-alivio-tributario-ecuador-2026-nota/",
         "en_boletin": true,
         "en_ventana": true
       },
@@ -62,15 +62,15 @@
         "url": "https://www.eluniverso.com/economia/industrias/enap-chile-compra-operacion-petrolera-ecuador-sipetrol-pluspetrol-ecuador-nota/",
         "fuente": "El Universo"
       },
-      "oportunidades": "Apoyar el valor agregado minero (refinación y proveedores locales) con estándares ambientales, y la eficiencia energética en la cadena de hidrocarburos."
+      "oportunidades": "Apoyar a la industria, sobre todo a las mipymes que aún no llegan a la meta, en autogeneración renovable y eficiencia energética que les permita acceder a los incentivos."
     },
     "068": {
       "nombre": "Bolivia",
       "principal": {
-        "texto": "El nuevo Código Minero entró en su etapa final de redacción y el Gobierno prevé presentarlo a la Asamblea a fines de octubre, tras socializarlo con los sectores.",
+        "texto": "El Decreto Supremo 5755 autoriza de forma excepcional a empresas y personas a importar gas natural y GNL para consumo propio o generación eléctrica.",
         "fuente": "ERBOL (vía Opinión)",
-        "fecha": "2026-10-25",
-        "url": "https://www.opinion.com.bo/pais/codigo-minero-etapa-final-redaccion-preven-socializarlo/20261025092144998149.html",
+        "fecha": "2026-10-26",
+        "url": "https://www.opinion.com.bo/pais/gobierno-autoriza-importacion-gas-natural-consumo-propio-generacion-electrica/20261026234045998241.html",
         "en_boletin": true,
         "en_ventana": true
       },
@@ -82,15 +82,15 @@
         "url": "https://www.opinion.com.bo/pais/senado-aprueba-credito-bid-us-302-millones-modernizar-alumbrado-publico/20261022191207998045.html",
         "fuente": "ABI (vía Opinión)"
       },
-      "oportunidades": "Acompañar la industrialización de minerales en el marco del nuevo Código Minero, con estándares ambientales y sociales, y la eficiencia energética municipal."
+      "oportunidades": "Acompañar a la industria que empiece a importar gas con medidas de eficiencia y diversificación energética, y aprovechar el préstamo del BID para el alumbrado LED como punto de partida en eficiencia."
     },
     "076": {
       "nombre": "Brasil",
       "principal": {
-        "texto": "Lula ganó la segunda vuelta con cerca del 51,8 % frente a Flávio Bolsonaro y gobernará en el período 2027-2031.",
-        "fuente": "El Comercio",
-        "fecha": "2026-10-25",
-        "url": "https://elcomercio.pe/mag/usa/en-vivo-us/quien-va-ganando-las-elecciones-en-brasil-2026-resultados-en-vivo-de-flavio-bolsonaro-vs-lula-da-silva-en-segunda-vuelta-noticia/",
+        "texto": "Tras la reelección de Lula, el dólar subió 8,21 % frente al real, su mayor alza diaria desde 1999, y el Ibovespa cayó 13,88 % y activó un circuit breaker.",
+        "fuente": "Agência Brasil",
+        "fecha": "2026-10-26",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-sobe-821-e-bolsa-cai-1388-apos-reeleicao-de-lula",
         "en_boletin": true,
         "en_ventana": true
       },
@@ -102,7 +102,7 @@
         "url": "https://clickpetroleoegas.com.br/r-202-milhoes-do-bndes-vao-financiar-o-plano-da-zen-para-criar-componentes-de-carros-eletrificados-e-mudar-processos-de-fabrica-em-santa-catarina-tres-produtos-devem-ser-desenvolvidos-a-afch",
         "fuente": "Click Petróleo e Gás"
       },
-      "oportunidades": "Cooperación Sur–Sur en política industrial y movilidad eléctrica, y vínculos entre la industria brasileña de autopartes y proveedores andinos."
+      "oportunidades": "Seguir los efectos de la volatilidad en las cadenas de valor andino-brasileñas y mantener el diálogo con BNDES y BRDE sobre el financiamiento de mipymes industriales."
     },
     "152": {
       "nombre": "Chile",
@@ -125,7 +125,7 @@
         "fecha": "2026-10-25",
         "url": "https://www.infobae.com/economia/2026/10/25/clima-de-negocios-la-industria-cruje-en-medio-del-contexto-recesivo-el-dolar-el-rigi-propio-y-la-pulseada-por-sobrevivir/",
         "en_boletin": false,
-        "en_ventana": true
+        "en_ventana": false
       },
       "financiamiento": {
         "texto": "El BID aprobó US$ 60 millones para mejorar el sistema de salud de Río Negro.",
@@ -140,12 +140,12 @@
     "484": {
       "nombre": "México",
       "principal": {
-        "texto": "El Gobierno anunció una inversión de US$ 763 millones en 20 parques industriales de ocho estados, que generarían más de 32.000 empleos.",
-        "fuente": "Infobae (EFE)",
-        "fecha": "2026-10-22",
-        "url": "https://www.infobae.com/america/agencias/2026/10/22/mexico-invertira-763-millones-de-dolares-en-20-parques-industriales/",
+        "texto": "Cemex superó las expectativas del tercer trimestre: su EBITDA subió 12 %, hasta US$ 990 millones, impulsado por México, donde los volúmenes de cemento crecieron 7 %.",
+        "fuente": "Bloomberg Línea",
+        "fecha": "2026-10-26",
+        "url": "https://www.bloomberglinea.com/latinoamerica/mexico/cemex-supera-expectativas-en-el-tercer-trimestre-impulsado-por-mexico/",
         "en_boletin": false,
-        "en_ventana": false
+        "en_ventana": true
       },
       "financiamiento": {
         "texto": "Desarrolladores privados invertirán US$ 763 millones en 20 nuevos parques industriales del Plan México.",
@@ -155,7 +155,7 @@
         "url": "https://www.infobae.com/america/agencias/2026/10/22/mexico-invertira-763-millones-de-dolares-en-20-parques-industriales/",
         "fuente": "Infobae (EFE)"
       },
-      "oportunidades": "Referencia para el diseño de parques industriales y zonas de inversión en los países andinos, y para atraer proveedores en cadenas de nearshoring."
+      "oportunidades": "Intercambiar experiencias sobre la descarbonización del cemento y los parques industriales del Plan México como referencia para la industria andina de la construcción."
     },
     "862": {
       "nombre": "Venezuela",
@@ -165,7 +165,7 @@
         "fecha": "2026-10-23",
         "url": "https://www.infobae.com/america/agencias/2026/10/23/venezuela-y-estados-unidos-inspeccionan-los-avances-de-su-acuerdo-petrolero/",
         "en_boletin": false,
-        "en_ventana": true
+        "en_ventana": false
       },
       "financiamiento": null,
       "oportunidades": "Seguir la reactivación petrolera por sus efectos en el comercio y la energía regionales, en particular con Colombia."
@@ -178,7 +178,7 @@
         "fecha": "2026-10-25",
         "url": "https://www.bloomberglinea.com/latinoamerica/uruguay/que-impacto-pueden-tener-los-data-centers-en-al-economia-uruguaya/",
         "en_boletin": false,
-        "en_ventana": true
+        "en_ventana": false
       },
       "financiamiento": {
         "texto": "La española Solaria destinará US$ 5.700 millones a un complejo de centros de datos en zona franca y una planta solar de 350 MW en Canelones, San José y Florida.",
@@ -279,12 +279,12 @@
     "340": {
       "nombre": "Honduras",
       "principal": {
-        "texto": "La CEPAL proyecta que Honduras crezca 3,5 % en 2026, entre las economías de mayor crecimiento de la región.",
+        "texto": "La Cancillería se reunió con inversionistas israelíes para explorar cooperación en agricultura, salud, seguridad y tecnología, sin anunciar acuerdos ni montos.",
         "fuente": "Infobae",
-        "fecha": "2026-10-22",
-        "url": "https://www.infobae.com/el-salvador/2026/10/23/el-salvador-creceria-45-en-2026-y-se-ubicaria-entre-las-economias-lideres-regionales-segun-cepal/",
+        "fecha": "2026-10-26",
+        "url": "https://www.infobae.com/honduras/2026/10/26/honduras-busca-atraer-inversion-israeli-en-agricultura-salud-y-tecnologia/",
         "en_boletin": false,
-        "en_ventana": false
+        "en_ventana": true
       },
       "financiamiento": {
         "texto": "CAF aprobó US$ 177 millones para la línea de transmisión eléctrica El Sitio–Zamorano II–Terrero Blanco.",
@@ -294,7 +294,7 @@
         "url": "https://www.elheraldo.hn/honduras/bid-presta-70-millones-dolares-mejorar-servicio-agua-capital-hondurena-CB32222880",
         "fuente": "El Heraldo"
       },
-      "oportunidades": "Apoyar la integración eléctrica y la eficiencia energética en la industria."
+      "oportunidades": "Orientar el interés inversor hacia la agrotecnología y el valor agregado agroindustrial, junto con el financiamiento reciente de la CAF."
     },
     "188": {
       "nombre": "Costa Rica",

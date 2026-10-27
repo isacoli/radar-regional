@@ -4,7 +4,7 @@ Log of every scan and of the stories published in bulletins. `/radar` reads this
 
 ## Daily issues
 
-Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oct 2026 the issue of 23 Oct is N.º 17 (formerly N.º 1) and the issue of 26 Oct is N.º 18 (formerly N.º 2). Issues N.º 1–12 (1–16 Oct) were prepared retrospectively and published on 26 Oct 2026. The next issue is N.º 19.
+Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oct 2026 the issue of 23 Oct is N.º 17 (formerly N.º 1) and the issue of 26 Oct is N.º 18 (formerly N.º 2). Issues N.º 1–12 (1–16 Oct) were prepared retrospectively and published on 26 Oct 2026. The next issue is N.º 20.
 
 | N.º | Fecha | Ventana | Noticias | Boletín | Estado |
 |---|---|---|---|---|---|
@@ -26,6 +26,7 @@ Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oc
 | 16 | 2026-10-22 | 21 oct 07:01 → 22 oct 07:00 | 10 | output/radar/2026-10-22/boletin.html (retrospectiva) | final |
 | 17 (antes N.º 1) | 2026-10-23 | 22 oct 07:01 → 23 oct 07:00 | 16 | output/radar/2026-10-23-diario/boletin-completo.html (diseño v2, con investigación) | final |
 | 18 (antes N.º 2) | 2026-10-26 | 23 oct 07:01 → 26 oct 02:21 (a pedido) | 18 | output/radar/2026-10-26/boletin.html | final |
+| 19 | 2026-10-27 | 26 oct 02:22 → 27 oct 07:00 | 18 | output/radar/2026-10-27/boletin.html | final |
 
 ## Weekly scans (earlier format)
 
@@ -212,6 +213,24 @@ Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oc
 | 2026-10-15 | Puno: el MTC destraba un proyecto de carretera clave tras resolver un arbitraje (Diario N.º 12) | Gestión | https://gestion.pe/economia/puno-mtc-destraba-proyecto-de-carretera-clave-para-la-region-tras-resolver-arbitraje-noticia/ | Megaproyectos e infraestructura | Perú |
 | 2026-10-15 | Cerca de 15.000 personas consiguieron empleo formal entre agosto y octubre, según el MTPE (Diario N.º 12) | Gestión | https://gestion.pe/peru/cerca-de-15-mil-personas-consiguieron-empleo-formal-entre-agosto-y-octubre-segun-el-mtpe-noticia/ | MiPymes y empleo | Perú |
 | 2026-10-15 | Línea 2 del Metro de Lima: adelantarían la puesta en servicio de tres nuevas estaciones (Diario N.º 12) | Gestión | https://gestion.pe/economia/linea-2-del-metro-de-lima-adelantarian-puesta-en-servicio-de-tres-nuevas-estaciones-noticia/ | Megaproyectos e infraestructura | Perú |
+| 2026-10-26 | Los mercados de Brasil se desploman tras la reelección de Lula: el dólar sube 8,2 % y la bolsa cae 13,9 % (Diario N.º 19) | Agência Brasil (portugués) | https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-sobe-821-e-bolsa-cai-1388-apos-reeleicao-de-lula | Inversión, comercio e integración | Brasil (regional) |
+| 2026-10-26 | Colombia coloca US$ 5.200 millones en bonos externos a 5, 10 y 30 años (Diario N.º 19) | La República | https://www.larepublica.co/economia/el-gobierno-nacional-coloco-bonos-de-deuda-externa-por-un-valor-de-us-5-200-millones-4511654 | Política industrial y coyuntura | Colombia |
+| 2026-10-26 | Ecuador analiza un alivio tributario para las empresas que cumplieron la meta de autogeneración eléctrica (Diario N.º 19) | El Universo | https://www.eluniverso.com/economia/produccion/daniel-noboa-energia-megavatios-incorporados-industrias-alivio-tributario-ecuador-2026-nota/ | Política industrial y coyuntura | Ecuador |
+| 2026-10-26 | inPerú arranca en Nueva York: el MEF y el BCRP presentan el crecimiento y la inversión privada a inversionistas (Diario N.º 19) | El Comercio | https://elcomercio.pe/economia/peru/inperu-estas-son-las-oportunidades-de-inversion-que-el-ministro-elmer-cuba-y-julio-velarde-destacan-para-el-peru-noticia/ | Inversión, comercio e integración | Perú |
+| 2026-10-26 | La reconstrucción tras el sismo llevaría el consumo de acero de Colombia a 4,2 millones de toneladas en 2027 (Diario N.º 19) | La República | https://www.larepublica.co/economia/reconstruccion-por-el-sismo-llevaria-consumo-de-acero-a-4-2-millones-de-toneladas-en-2027-4511294 | Política industrial y coyuntura | Colombia |
+| 2026-10-26 | Ecuador prevé sumar 1.260 MW de nueva capacidad eléctrica entre 2027 y 2028 con proyectos públicos y privados (Diario N.º 19) | El Universo | https://www.eluniverso.com/economia/industrias/inversion-incorporacion-capacidad-electrica-1260-mw-ecuador-2027-2028-fenomeno-de-el-nino-2026-nota/ | Transición energética | Ecuador |
+| 2026-10-26 | Colombia: 25 de 35 plantas térmicas no cumplen sus obligaciones de energía firme y Superservicios refuerza la vigilancia (Diario N.º 19) | El Tiempo | https://www.eltiempo.com/economia/sectores/advertencia-de-sanciones-a-generadoras-termicas-25-de-35-no-han-cumplido-con-las-obligaciones-de-energia-firme-en-pleno-fenomeno-de-el-nino-3596415 | Energía | Colombia |
+| 2026-10-26 | Olympic, Petroperú y Enel acuerdan un intercambio de gas para generar hasta 35 MW en Piura ante El Niño (Diario N.º 19) | El Comercio | https://elcomercio.pe/economia/peru/olympic-peru-petro-peru-y-enel-generacion-piura-suscriben-acuerdo-de-intercambio-de-gas-natural-que-generara-hasta-35mw-para-reforzar-suministro-electrico-del-norte-ante-el-fenomeno-de-el-nino-l-ultimas-noticia/ | Energía | Perú |
+| 2026-10-26 | Bolivia autoriza a empresas públicas y privadas a importar gas natural para consumo propio y generación eléctrica (Diario N.º 19) | ERBOL (vía Opinión) | https://www.opinion.com.bo/pais/gobierno-autoriza-importacion-gas-natural-consumo-propio-generacion-electrica/20261026234045998241.html | Energía | Bolivia |
+| 2026-10-26 | Ecuador propone a Ecuacorriente financiar la hidroeléctrica Cardenillo a cambio de autorizar Mirador Norte (Diario N.º 19) | Primicias | https://www.primicias.ec/economia/minera-china-ecuacorriente-inversion-hidroelectrica-cardenillo-permiso-mina-cobre-mirador-135723/ | Minerales críticos | Ecuador |
+| 2026-10-27 | La actividad económica de Colombia pasa de crecer 4,28 % en mayo a caer 0,04 % en agosto (Diario N.º 19) | El Tiempo | https://www.eltiempo.com/economia/sectores/la-actividad-economica-paso-de-crecer-4-28-en-mayo-a-caer-0-04-en-agosto-como-evitar-que-la-frenada-se-consolide-3595663 | Política industrial y coyuntura | Colombia |
+| 2026-10-27 | ISA Energía prepara ocho proyectos de transmisión en Perú y ve una cartera potencial de US$ 1.700 millones (Diario N.º 19) | Gestión [pago] | https://gestion.pe/economia/empresas/isa-energia-alista-ocho-proyectos-en-peru-y-apunta-a-cartera-con-pontencial-de-us-1700-millones-noticia/ | Megaproyectos e infraestructura | Perú |
+| 2026-10-27 | ProInversión prevé adjudicar la Hidrovía Amazónica entre el segundo y el tercer trimestre de 2027 (Diario N.º 19) | Gestión | https://gestion.pe/economia/hidrovia-amazonica-reviviria-en-2027-proinversion-maneja-fecha-clave-para-adjudicarla-noticia/ | Megaproyectos e infraestructura | Perú |
+| 2026-10-26 | Obras por Impuestos supera los S/ 10.263 millones adjudicados en 2026, el triple que hace un año (Diario N.º 19) | Infobae | https://www.infobae.com/peru/2026/10/26/proinversion-obras-por-impuestos-superan-los-s-10000-millones-en-adjudicaciones/ | Megaproyectos e infraestructura | Perú |
+| 2026-10-26 | El ferrocarril Arica–La Paz busca volver tras 20 años con capacidad para 400.000 toneladas al año (Diario N.º 19) | El Deber | https://eldeber.com.bo/economia/20-anos-ferrocarril-arica-paz-busca-volver-mover-400-000-toneladas-ano_1793053746 | Megaproyectos e infraestructura | Bolivia, Chile |
+| 2026-10-26 | Bolivia y Perú perfilan para diciembre la apertura del paso fronterizo Extrema–San Lorenzo (Diario N.º 19) | ABI (vía Opinión) | https://www.opinion.com.bo/pais/bolivia-peru-perfilan-diciembre-habilitacion-paso-fronterizo-extrema-san-lorenzo/20261026160714998225.html | Inversión, comercio e integración | Bolivia, Perú |
+| 2026-10-26 | ProInversión informa que ya se desembolsaron a Petroperú los US$ 475 millones del préstamo puente (Diario N.º 19) | El Comercio | https://elcomercio.pe/economia/peru/proinversion-destina-us475-millones-a-petroperu-para-asegurar-operaciones-y-abastecimiento-de-combustibles-nueva-refineria-de-talara-ultimas-noticia/ | Energía | Perú |
+| 2026-10-26 | Colombia exportó un récord de US$ 15.317 millones en productos agropecuarios en 2025, pero la inseguridad alimentaria rural persiste (Diario N.º 19) | El Tiempo | https://www.eltiempo.com/economia/colombia-exporto-mas-de-15-000-millones-de-dolares-en-productos-agropecuarios-pero-la-inseguridad-alimentaria-rural-sigue-por-encima-de-la-urbana-3596490 | Agroindustria y cadenas de valor | Colombia |
 
 ## Research featured
 
@@ -264,6 +283,9 @@ Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oc
 | 2026-10-16 | Gas flaring, agricultural productivity and labor reallocation: Evidence from Nigeria | Nwokolo | Journal of Development Economics | https://doi.org/10.1016/j.jdeveco.2026.103947 | Artículo |
 | 2026-10-16 | Artificial intelligence is not enough to enhance organizational performance | Wang | Technological Forecasting and Social Change | https://doi.org/10.1016/j.techfore.2026.124917 | Artículo |
 | 2026-10-16 | Upcycling automotive shredder residue into sustainable hybrid composite materials: a cost-effective solution for circular economy | Islam | Resources, Conservation and Recycling | https://doi.org/10.1016/j.resconrec.2026.109197 | Artículo |
+| 2026-10-27 | Designed to Succeed, Designed to Fail: Determinants and Reform Options for Local Public Investment Execution in Peru | Moreno y Beverinotti | BID | https://doi.org/10.18235/0014558 | Documento de trabajo |
+| 2026-10-27 | Effects of trade barriers on foreign direct investment: Evidence from Chinese solar panels | Montti | Energy Economics | https://doi.org/10.1016/j.eneco.2026.109653 | Artículo |
+| 2026-10-27 | Talento digital para competir en servicios globales: evidencia desde Chile para América Latina | Anauati et al. | BID | https://doi.org/10.18235/0014560 | Documento de trabajo |
 
 ## Stories proposed but not selected
 
@@ -282,3 +304,7 @@ Kept so they can be proposed again only if there is a significant new developmen
 | 2026-10-22 | Perú cierra el REINFO y propone 18 meses de formalización | https://mineriayproyectos.com/mineria/2026/10/22/reinfo-fin-2026-formalizacion-minera-18-meses |
 | 2026-10-23 | Fitch mantiene a Perú en BBB | https://finance.yahoo.com/economy/policy/articles/fitch-keeps-peru-bbb-rating-195713676.html |
 | 2026-10-22 | IPE: cerca del 90 % de nuevos empleos en Perú sería formal (descartada del Diario N.º 1: publicada a las 07:00, ventana anterior) | https://andina.pe/agencia/noticia-ipe-cerca-del-90-nuevos-empleos-creados-ultimo-ano-seria-formal-1096894.aspx |
+| 2026-10-26 | Lote 207 adjudicado a SPT Energy por 30 años (Gestión) | https://gestion.pe/economia/lote-207-perupetro-otorgo-buena-pro-para-su-operacion-por-30-anos-a-quien-noticia/ |
+| 2026-10-26 | nuam: cámara de compensación Perú-Chile-Colombia operaría en 2027 (El Comercio) | https://elcomercio.pe/economia/peru/nuam-la-camara-de-compensaciones-comenzaria-a-operar-a-inicios-del-2027-inperu-bolsa-de-valores-de-lima-noticia/ |
+| 2026-10-27 | Chile producirá menos cobre: ¿oportunidad para Perú? (Gestión) | https://gestion.pe/economia/chile-producira-menos-cobre-este-ano-podria-ser-una-oportunidad-para-la-mineria-en-peru-noticia/ |
+| 2026-10-27 | Empleo formal privado en Perú duplica el promedio de la década (Gestión) | https://gestion.pe/economia/nuevos-empleos-formales-privados-duplican-promedio-de-ultima-decada-pero-el-nino-afectaria-en-el-peru-noticia/ |
