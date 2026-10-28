@@ -1,0 +1,314 @@
+{
+ "actualizado": "2026-10-28",
+ "ventana": "27 oct 07:01 → 28 oct 07:00 (ventana del N.º 20)",
+ "fuente": "Noticia del día por país (incluida o no en el boletín, solo fuentes de confianza) y financiamiento de los últimos 30 días",
+ "nota_oportunidades": "Las oportunidades son un análisis orientativo del Radar a partir de la noticia y el financiamiento del país; no constituyen una posición oficial de la ONUDI.",
+ "paises": {
+  "604": {
+   "nombre": "Perú",
+   "principal": {
+    "texto": "En el cierre de inPerú, ProInversión presentó una cartera de más de US$ 50.000 millones en 87 proyectos para 2026-2030 y prevé cerrar US$ 2.300 millones este trimestre.",
+    "fuente": "El Comercio",
+    "fecha": "2026-10-27",
+    "url": "https://elcomercio.pe/economia/peru/proinversion-presenta-cartera-de-mas-de-us-50000-millones-en-inperu-economia-peruana-noticia/",
+    "en_boletin": true,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "La filial de la china Sungrow presentó al Senace la evaluación ambiental de una central solar de 300 MW en Piura, con una inversión total de US$ 323 millones.",
+    "institucion": "Sungrow (privado)",
+    "monto": "US$ 323,4 M (con IGV)",
+    "fecha": "2026-10-27",
+    "url": "https://gestion.pe/economia/empresas/china-sungrow-planea-construir-planta-solar-de-us-323-millones-en-piura-noticia/",
+    "fuente": "Gestión"
+   },
+   "oportunidades": "Acompañar la llegada de inversión solar al norte con proveedores locales, capacidades técnicas y uso productivo de la energía, y apoyar la agenda de Produce para parques industriales y mypes."
+  },
+  "170": {
+   "nombre": "Colombia",
+   "principal": {
+    "texto": "Una nueva falla en la regasificadora de Cartagena redujo su capacidad a 400 millones de pies cúbicos diarios y el Gobierno declaró un racionamiento programado de gas.",
+    "fuente": "El Espectador",
+    "fecha": "2026-10-27",
+    "url": "https://www.elespectador.com/economia/racionamiento-de-gas-en-colombia-que-implica-la-medida-por-los-trabajos-en-regasificadora/",
+    "en_boletin": true,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "El Gobierno destina COP 2,7 billones para asegurar la energía frente a El Niño, incluido el pago de deudas del sector y el ahorro de energía.",
+    "institucion": "Gobierno de Colombia (público)",
+    "monto": "COP 2,7 billones",
+    "fecha": "2026-10-24",
+    "url": "https://www.elespectador.com/economia/el-gobierno-destina-cop-27-billones-para-asegurar-la-energia-frente-al-nino/",
+    "fuente": "El Espectador"
+   },
+   "oportunidades": "Promover eficiencia energética y sustitución de combustibles en la industria más expuesta a los cortes de gas, aprovechando los recursos públicos destinados a asegurar la energía frente a El Niño."
+  },
+  "218": {
+   "nombre": "Ecuador",
+   "principal": {
+    "texto": "El Gobierno sumará 110 MW de generación térmica alquilada en Santa Elena, Guayas y Manabí, que aportarán al sistema desde noviembre ante El Niño.",
+    "fuente": "Primicias",
+    "fecha": "2026-10-27",
+    "url": "https://www.primicias.ec/economia/electricidad-ecuador-generacion-termica-alquilada-santa-elena-guayas-manabi-135830/",
+    "en_boletin": true,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "La chilena ENAP acordó comprar Pluspetrol Ecuador (bloque 10, Pastaza) por US$ 207 millones, sujeto a aprobaciones.",
+    "institucion": "ENAP (empresa estatal chilena)",
+    "monto": "US$ 207 M",
+    "fecha": "2026-10-19",
+    "url": "https://www.eluniverso.com/economia/industrias/enap-chile-compra-operacion-petrolera-ecuador-sipetrol-pluspetrol-ecuador-nota/",
+    "fuente": "El Universo"
+   },
+   "oportunidades": "Apoyar a las industrias obligadas a autogenerar con eficiencia energética y opciones renovables, para reducir su dependencia de la generación térmica de emergencia."
+  },
+  "068": {
+   "nombre": "Bolivia",
+   "principal": {
+    "texto": "La Cainco pidió al ministro de Economía aprobar en noviembre una ley de inversiones con rebajas del IUE y el IVA para grandes proyectos y zonas francas industriales.",
+    "fuente": "El Deber",
+    "fecha": "2026-10-27",
+    "url": "https://eldeber.com.bo/economia/cainco-pone-ley-inversiones-mesa-gobierno_1793132356",
+    "en_boletin": true,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "El Senado aprobó un crédito del BID de US$ 30,2 millones para modernizar el alumbrado público con tecnología LED y medición inteligente.",
+    "institucion": "BID (público)",
+    "monto": "US$ 30,2 M",
+    "fecha": "2026-10-22",
+    "url": "https://www.opinion.com.bo/pais/senado-aprueba-credito-bid-us-302-millones-modernizar-alumbrado-publico/20261022191207998045.html",
+    "fuente": "ABI (vía Opinión)"
+   },
+   "oportunidades": "Aportar experiencias regionales sobre zonas francas industriales e incentivos a la inversión con metas de empleo y encadenamientos, y apoyar la modernización energética municipal financiada por el BID."
+  },
+  "076": {
+   "nombre": "Brasil",
+   "principal": {
+    "texto": "El ministro de Hacienda anunció que enviará esta semana la medida provisoria del Impuesto Selectivo, que se cobrará desde 2027, incluida la extracción mineral.",
+    "fuente": "Agência Brasil",
+    "fecha": "2026-10-27",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-enviara-mp-do-imposto-seletivo-e-renova-subvencao-ao-diesel",
+    "en_boletin": true,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "El BRDE, con recursos del BNDES, financió con R$ 20,2 millones la producción de componentes para vehículos eléctricos e híbridos de ZEN, en Santa Catarina.",
+    "institucion": "BRDE / BNDES (público)",
+    "monto": "R$ 20,2 M",
+    "fecha": "2026-10-22",
+    "url": "https://clickpetroleoegas.com.br/r-202-milhoes-do-bndes-vao-financiar-o-plano-da-zen-para-criar-componentes-de-carros-eletrificados-e-mudar-processos-de-fabrica-em-santa-catarina-tres-produtos-devem-ser-desenvolvidos-a-afch",
+    "fuente": "Click Petróleo e Gás"
+   },
+   "oportunidades": "Seguir el diseño del Impuesto Selectivo sobre la minería como referencia para la tributación de recursos en los países andinos, junto con el crédito de la banca de desarrollo a la industria regional."
+  },
+  "152": {
+   "nombre": "Chile",
+   "principal": {
+    "texto": "El ministro de Hacienda prevé que la producción de cobre caiga entre 8 % y 9 % este año por accidentes y tormentas, más que el 7 % estimado antes.",
+    "fuente": "Bloomberg Línea",
+    "fecha": "2026-10-22",
+    "url": "https://www.bloomberglinea.com/latinoamerica/chile/chile-preve-una-caida-de-hasta-9-en-su-produccion-de-cobre-por-accidentes-y-tormentas/",
+    "en_boletin": false,
+    "en_ventana": false
+   },
+   "financiamiento": null,
+   "oportunidades": "Servir de referencia en productividad y seguridad minera, y en la cooperación regional para el valor agregado del cobre y el litio."
+  },
+  "032": {
+   "nombre": "Argentina",
+   "principal": {
+    "texto": "Estimaciones privadas de Equilibra y Ferreres indican que la actividad cayó en el tercer trimestre y que Argentina entró en recesión técnica; el dato oficial saldrá el 16 de diciembre.",
+    "fuente": "Infobae",
+    "fecha": "2026-10-28",
+    "url": "https://www.infobae.com/economia/2026/10/28/segun-estimaciones-privadas-la-economia-tuvo-un-leve-crecimiento-en-septiembre-y-la-argentina-entro-en-recesion-tecnica/",
+    "en_boletin": false,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "El BID aprobó US$ 60 millones para mejorar el sistema de salud de Río Negro.",
+    "institucion": "BID (público)",
+    "monto": "US$ 60 M",
+    "fecha": "2026-10-20",
+    "url": "https://www.noticias24.com.ar/2026/10/20/el-gobierno-aprobo-prestamo-del-bid-para-financiar-la-mejora-del-sistema-de-salud-de-rio-negro/",
+    "fuente": "Noticias24"
+   },
+   "oportunidades": "Apoyar la competitividad de las pymes manufactureras en recesión con productividad y acceso a financiamiento, aprovechando las líneas del BID."
+  },
+  "484": {
+   "nombre": "México",
+   "principal": {
+    "texto": "Trump volvió a defender el arancel de 25 % a los autos mexicanos mientras México negocia una rebaja bajo la Sección 232, sin fecha para un acuerdo.",
+    "fuente": "Infobae",
+    "fecha": "2026-10-27",
+    "url": "https://www.infobae.com/mexico/2026/10/28/donald-trump-vuelve-a-presumir-aranceles-a-la-industria-automotriz-proveniente-de-mexico/",
+    "en_boletin": false,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "Desarrolladores privados invertirán US$ 763 millones en 20 nuevos parques industriales del Plan México.",
+    "institucion": "Desarrolladores privados (Plan México)",
+    "monto": "US$ 763 M",
+    "fecha": "2026-10-22",
+    "url": "https://www.infobae.com/america/agencias/2026/10/22/mexico-invertira-763-millones-de-dolares-en-20-parques-industriales/",
+    "fuente": "Infobae (EFE)"
+   },
+   "oportunidades": "Compartir lecciones sobre diversificación de mercados y parques industriales del Plan México ante la presión arancelaria, útiles para las cadenas automotrices y metalmecánicas andinas."
+  },
+  "862": {
+   "nombre": "Venezuela",
+   "principal": {
+    "texto": "Venezuela y EE. UU. revisaron su acuerdo petrolero en Zulia: el campo produce 115.000 barriles diarios y apunta a 120.000 en diciembre.",
+    "fuente": "Infobae (EFE)",
+    "fecha": "2026-10-23",
+    "url": "https://www.infobae.com/america/agencias/2026/10/23/venezuela-y-estados-unidos-inspeccionan-los-avances-de-su-acuerdo-petrolero/",
+    "en_boletin": false,
+    "en_ventana": false
+   },
+   "financiamiento": null,
+   "oportunidades": "Seguir la reactivación petrolera por sus efectos en el comercio y la energía regionales, en particular con Colombia."
+  },
+  "858": {
+   "nombre": "Uruguay",
+   "principal": {
+    "texto": "El proyecto de centros de datos y energía solar de Solaria prevé US$ 5.700 millones, cerca del 6,5 % del PIB, con hasta 500 MW de datos y 350 MW solares.",
+    "fuente": "Bloomberg Línea",
+    "fecha": "2026-10-25",
+    "url": "https://www.bloomberglinea.com/latinoamerica/uruguay/que-impacto-pueden-tener-los-data-centers-en-al-economia-uruguaya/",
+    "en_boletin": false,
+    "en_ventana": false
+   },
+   "financiamiento": {
+    "texto": "La española Solaria destinará US$ 5.700 millones a un complejo de centros de datos en zona franca y una planta solar de 350 MW en Canelones, San José y Florida.",
+    "institucion": "Solaria (privado)",
+    "monto": "US$ 5.700 M",
+    "fecha": "2026-10-15",
+    "url": "https://www.infobae.com/america/america-latina/2026/10/15/uruguay-anuncio-una-inversion-de-usd-5700-millones-para-instalar-centros-de-datos-cinco-claves-del-proyecto/",
+    "fuente": "Infobae"
+   },
+   "oportunidades": "Referencia para atraer inversión digital asociada a energía renovable y para vincular a proveedores locales con grandes proyectos."
+  },
+  "600": {
+   "nombre": "Paraguay",
+   "principal": {
+    "texto": "Santiago Peña espera cerrar antes de fin de año con Brasil la negociación del Anexo C de Itaipú, que abastece cerca del 90 % del mercado eléctrico paraguayo.",
+    "fuente": "Infobae",
+    "fecha": "2026-10-27",
+    "url": "https://www.infobae.com/america/america-latina/2026/10/27/paraguay-busca-cerrar-antes-de-fin-de-ano-la-negociacion-con-brasil-por-la-energia-de-itaipu/",
+    "en_boletin": false,
+    "en_ventana": true
+   },
+   "financiamiento": null,
+   "oportunidades": "Orientar la energía hidroeléctrica disponible hacia usos industriales de mayor valor agregado y eficiencia energética en la industria."
+  },
+  "222": {
+   "nombre": "El Salvador",
+   "principal": {
+    "texto": "El Ministerio de Obras Públicas propuso para 2027 su mayor presupuesto: US$ 1.057 millones, casi todo para inversión en infraestructura.",
+    "fuente": "Infobae",
+    "fecha": "2026-10-27",
+    "url": "https://www.infobae.com/el-salvador/2026/10/27/el-ministerio-de-obras-publicas-presenta-el-mayor-presupuesto-de-su-historia-para-invertir-en-infraestructura-en-el-salvador/",
+    "en_boletin": false,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "El BCIE amplió en US$ 50 millones el financiamiento al Fondo Social para la Vivienda.",
+    "institucion": "BCIE (público)",
+    "monto": "US$ 50 M",
+    "fecha": "2026-10-19",
+    "url": "https://www.elsalvador.com/dinero-y-negocios/entorno-economico/bcie-financiamiento-vivienda/1299513/2026/",
+    "fuente": "elsalvador.com"
+   },
+   "oportunidades": "Vincular la inversión en infraestructura con proveedores locales y mipymes, apoyándose en el financiamiento del BCIE."
+  },
+  "591": {
+   "nombre": "Panamá",
+   "principal": {
+    "texto": "La CEPAL proyecta que Panamá crezca 4,5 % en 2026, entre las economías de mayor crecimiento de la región.",
+    "fuente": "Infobae",
+    "fecha": "2026-10-22",
+    "url": "https://www.infobae.com/el-salvador/2026/10/23/el-salvador-creceria-45-en-2026-y-se-ubicaria-entre-las-economias-lideres-regionales-segun-cepal/",
+    "en_boletin": false,
+    "en_ventana": false
+   },
+   "financiamiento": null,
+   "oportunidades": "Seguir los efectos de El Niño sobre el Canal y la logística regional, clave para las exportaciones andinas."
+  },
+  "320": {
+   "nombre": "Guatemala",
+   "principal": {
+    "texto": "La CEPAL proyecta que Guatemala crezca 4,1 % en 2026, entre las economías de mayor crecimiento de la región.",
+    "fuente": "Infobae",
+    "fecha": "2026-10-22",
+    "url": "https://www.infobae.com/el-salvador/2026/10/23/el-salvador-creceria-45-en-2026-y-se-ubicaria-entre-las-economias-lideres-regionales-segun-cepal/",
+    "en_boletin": false,
+    "en_ventana": false
+   },
+   "financiamiento": {
+    "texto": "El BCIE amplió en US$ 8,8 millones su línea de crédito a Cofinsa para medianas empresas.",
+    "institucion": "BCIE (público)",
+    "monto": "US$ 8,8 M",
+    "fecha": "2026-10-23",
+    "url": "https://www.infobae.com/guatemala/2026/10/25/el-banco-centroamericano-de-integracion-economica-eleva-a-usd-388-millones-la-linea-de-credito-para-medianas-empresas-de-guatemala/",
+    "fuente": "Infobae"
+   },
+   "oportunidades": "Apoyar el financiamiento y la productividad de las medianas empresas industriales."
+  },
+  "558": {
+   "nombre": "Nicaragua",
+   "principal": {
+    "texto": "La CEPAL proyecta que Nicaragua crezca 3,7 % en 2026, entre las economías de mayor crecimiento de la región.",
+    "fuente": "Infobae",
+    "fecha": "2026-10-22",
+    "url": "https://www.infobae.com/el-salvador/2026/10/23/el-salvador-creceria-45-en-2026-y-se-ubicaria-entre-las-economias-lideres-regionales-segun-cepal/",
+    "en_boletin": false,
+    "en_ventana": false
+   },
+   "financiamiento": {
+    "texto": "El BCIE financia con US$ 170 millones obras de agua potable en cuatro ciudades.",
+    "institucion": "BCIE (público)",
+    "monto": "US$ 170 M",
+    "fecha": "2026-10-22",
+    "url": "https://www.articulo66.com/2026/10/22/regimen-orteguista-suma-otra-multimillonaria-deusa-bcie-170-millones/",
+    "fuente": "Artículo 66"
+   },
+   "oportunidades": "Acompañar la gestión del agua y la eficiencia en la industria ante El Niño."
+  },
+  "340": {
+   "nombre": "Honduras",
+   "principal": {
+    "texto": "La Cancillería se reunió con inversionistas israelíes para explorar cooperación en agricultura, salud, seguridad y tecnología, sin anunciar acuerdos ni montos.",
+    "fuente": "Infobae",
+    "fecha": "2026-10-26",
+    "url": "https://www.infobae.com/honduras/2026/10/26/honduras-busca-atraer-inversion-israeli-en-agricultura-salud-y-tecnologia/",
+    "en_boletin": false,
+    "en_ventana": false
+   },
+   "financiamiento": {
+    "texto": "CAF aprobó US$ 177 millones para la línea de transmisión eléctrica El Sitio–Zamorano II–Terrero Blanco.",
+    "institucion": "CAF (público)",
+    "monto": "US$ 177 M",
+    "fecha": "2026-10-01",
+    "url": "https://www.elheraldo.hn/honduras/bid-presta-70-millones-dolares-mejorar-servicio-agua-capital-hondurena-CB32222880",
+    "fuente": "El Heraldo"
+   },
+   "oportunidades": "Orientar el interés inversor hacia la agrotecnología y el valor agregado agroindustrial, junto con el financiamiento reciente de la CAF."
+  },
+  "188": {
+   "nombre": "Costa Rica",
+   "principal": {
+    "texto": "La CEPAL proyecta que Costa Rica crezca 3,5 % en 2026, entre las economías de mayor crecimiento de la región.",
+    "fuente": "Infobae",
+    "fecha": "2026-10-22",
+    "url": "https://www.infobae.com/el-salvador/2026/10/23/el-salvador-creceria-45-en-2026-y-se-ubicaria-entre-las-economias-lideres-regionales-segun-cepal/",
+    "en_boletin": false,
+    "en_ventana": false
+   },
+   "financiamiento": null,
+   "oportunidades": "Referencia en atracción de inversión extranjera hacia manufactura avanzada y zonas francas."
+  }
+ },
+ "nota_propuesta": "Propuesta del N.º 19, sin publicar. Tienen noticia nueva en la ventana: Perú, Colombia, Ecuador, Bolivia, Brasil, México y Honduras. Los demás conservan su noticia de confianza más reciente (en_ventana: false), porque no se halló una nueva en esta ventana. Las oportunidades de esos países no cambian porque sus viñetas 1 y 2 tampoco cambiaron. Los países sin operaciones en los últimos 30 días quedan con financiamiento null («sin operaciones en 30 días»)."
+}

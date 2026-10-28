@@ -1,0 +1,45 @@
+{
+ "generado": "2026-10-28",
+ "estado": "propuesta (no publicada)",
+ "nota": "Operaciones nuevas detectadas en la ventana del N.º 20 para añadir a docs/financiamiento/operaciones.json después de la revisión. No se incluyen: la cartera de ProInversión (US$ 50.000 M, no comprometida), los 110 MW térmicos alquilados en Ecuador (sin monto ni proveedor), la PTAR Canoas (licitación abierta, sin monto), el presupuesto de obras públicas de El Salvador (proyecto de presupuesto 2027) ni el subsidio al diésel de Brasil (R$ 2,12 por litro, sin monto total).",
+ "operaciones": [
+  {
+   "fecha": "2026-10-27",
+   "pais": "Perú",
+   "iso": "PE",
+   "institucion": "Sungrow (CSF Sungrow Piura)",
+   "tipo_institucion": "Empresa privada",
+   "publico_privado": "Privado",
+   "monto_usd_millones": 323.43,
+   "monto_original": "US$ 323,43 millones con IGV (US$ 274,09 millones sin IGV)",
+   "sector": "Energía",
+   "descripcion": "Central solar fotovoltaica de 300 MW (385,58 MWp) en Catacaos y Castilla (Piura), con baterías de 30 MW/60 MWh y línea de 220 kV; evaluación ambiental preliminar presentada al Senace",
+   "fuente": "Gestión",
+   "url": "https://gestion.pe/economia/empresas/china-sungrow-planea-construir-planta-solar-de-us-323-millones-en-piura-noticia/",
+   "nota": "Inversión prevista en el instrumento ambiental; el proyecto aún requiere aprobación.",
+   "instrumento": "Inversión privada",
+   "estado": "En trámite",
+   "relevancia_onudi": "Media",
+   "lectura": "Una planta solar de esta escala en el norte peruano diversifica la oferta eléctrica de una zona con congestión de transmisión y cortes que afectan a la agroindustria."
+  },
+  {
+   "fecha": "2026-10-27",
+   "pais": "Perú",
+   "iso": "PE",
+   "institucion": "Citibank, JPMorgan y dos bancos europeos",
+   "tipo_institucion": "Banca comercial",
+   "publico_privado": "Privado",
+   "monto_usd_millones": 2000,
+   "monto_original": "Cerca de US$ 2.000 millones",
+   "sector": "Hidrocarburos y minería",
+   "descripcion": "Financiamiento a Petroperú para capital y capital de trabajo (compra de crudo), en el marco de su reestructuración",
+   "fuente": "RPP",
+   "url": "https://rpp.pe/economia/economia/proinversion-petroperu-esta-cerca-de-cerrar-financiamiento-por-us-2000-millones-con-cuatro-bancos-de-estados-unidos-y-europa-noticia-1714670",
+   "nota": "Según declaraciones del presidente de ProInversión; ni los bancos ni Petroperú lo han confirmado. Revisar si el campo tipo_institucion acepta «Banca comercial».",
+   "instrumento": "Préstamo",
+   "estado": "En trámite",
+   "relevancia_onudi": "Media",
+   "lectura": "Dar liquidez a Petroperú sostiene el abastecimiento de combustibles mientras se prepara la concesión de la refinería de Talara."
+  }
+ ]
+}

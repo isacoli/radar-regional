@@ -4,7 +4,7 @@ Log of every scan and of the stories published in bulletins. `/radar` reads this
 
 ## Daily issues
 
-Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oct 2026 the issue of 23 Oct is N.º 17 (formerly N.º 1) and the issue of 26 Oct is N.º 18 (formerly N.º 2). Issues N.º 1–12 (1–16 Oct) were prepared retrospectively and published on 26 Oct 2026. The next issue is N.º 20.
+Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oct 2026 the issue of 23 Oct is N.º 17 (formerly N.º 1) and the issue of 26 Oct is N.º 18 (formerly N.º 2). Issues N.º 1–12 (1–16 Oct) were prepared retrospectively and published on 26 Oct 2026. The next issue is N.º 21.
 
 | N.º | Fecha | Ventana | Noticias | Boletín | Estado |
 |---|---|---|---|---|---|
@@ -27,6 +27,7 @@ Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oc
 | 17 (antes N.º 1) | 2026-10-23 | 22 oct 07:01 → 23 oct 07:00 | 16 | output/radar/2026-10-23-diario/boletin-completo.html (diseño v2, con investigación) | final |
 | 18 (antes N.º 2) | 2026-10-26 | 23 oct 07:01 → 26 oct 02:21 (a pedido) | 18 | output/radar/2026-10-26/boletin.html | final |
 | 19 | 2026-10-27 | 26 oct 02:22 → 27 oct 07:00 | 18 | output/radar/2026-10-27/boletin.html | final |
+| 20 | 2026-10-28 | 27 oct 07:01 → 28 oct 07:00 | 17 | output/radar/2026-10-28/boletin.html | final |
 
 ## Weekly scans (earlier format)
 
@@ -231,6 +232,23 @@ Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oc
 | 2026-10-26 | Bolivia y Perú perfilan para diciembre la apertura del paso fronterizo Extrema–San Lorenzo (Diario N.º 19) | ABI (vía Opinión) | https://www.opinion.com.bo/pais/bolivia-peru-perfilan-diciembre-habilitacion-paso-fronterizo-extrema-san-lorenzo/20261026160714998225.html | Inversión, comercio e integración | Bolivia, Perú |
 | 2026-10-26 | ProInversión informa que ya se desembolsaron a Petroperú los US$ 475 millones del préstamo puente (Diario N.º 19) | El Comercio | https://elcomercio.pe/economia/peru/proinversion-destina-us475-millones-a-petroperu-para-asegurar-operaciones-y-abastecimiento-de-combustibles-nueva-refineria-de-talara-ultimas-noticia/ | Energía | Perú |
 | 2026-10-26 | Colombia exportó un récord de US$ 15.317 millones en productos agropecuarios en 2025, pero la inseguridad alimentaria rural persiste (Diario N.º 19) | El Tiempo | https://www.eltiempo.com/economia/colombia-exporto-mas-de-15-000-millones-de-dolares-en-productos-agropecuarios-pero-la-inseguridad-alimentaria-rural-sigue-por-encima-de-la-urbana-3596490 | Agroindustria y cadenas de valor | Colombia |
+| 2026-10-27 | Colombia declara un racionamiento programado de gas por una nueva falla en la regasificadora de Cartagena (Diario N.º 20) | El Espectador | https://www.elespectador.com/economia/racionamiento-de-gas-en-colombia-que-implica-la-medida-por-los-trabajos-en-regasificadora/ | Energía | Colombia |
+| 2026-10-27 | La demanda de energía de Colombia sube 6,16 % en septiembre y marca un récord diario en plena llegada de El Niño (Diario N.º 20) | El Tiempo | https://www.eltiempo.com/economia/sectores/demanda-de-energia-en-colombia-no-cede-en-pleno-fenomeno-de-el-nino-y-marca-nuevo-record-historico-3596769 | Energía | Colombia |
+| 2026-10-27 | ProInversión presenta en Nueva York una cartera de más de US$ 50.000 millones en 87 proyectos para 2026-2030 (Diario N.º 20) | El Comercio | https://elcomercio.pe/economia/peru/proinversion-presenta-cartera-de-mas-de-us-50000-millones-en-inperu-economia-peruana-noticia/ | Megaproyectos e infraestructura | Perú |
+| 2026-10-27 | La china Sungrow tramita una planta solar de 300 MW en Piura con una inversión de US$ 323 millones (Diario N.º 20) | Gestión | https://gestion.pe/economia/empresas/china-sungrow-planea-construir-planta-solar-de-us-323-millones-en-piura-noticia/ | Transición energética | Perú |
+| 2026-10-27 | Produce enviará al Congreso 17 proyectos de ley para la pesca, la industria y las mypes (Diario N.º 20) | Gestión | https://gestion.pe/economia/produce-presentara-17-proyectos-de-ley-al-congreso-que-piden-para-pesca-industria-y-mypes-noticia/ | Política industrial y coyuntura | Perú |
+| 2026-10-27 | ProInversión prepara la concesión de la refinería de Talara y presentará el plan en enero de 2027 (Diario N.º 20) | RPP | https://rpp.pe/economia/economia/la-refineria-de-talara-se-alista-para-ser-concesionada-proinversion-preve-interes-de-empresas-de-eeuu-y-presentara-plan-en-enero-de-2027-noticia-1714684 | Energía | Perú |
+| 2026-10-27 | Ley MAPE: el Minem propone incentivos para que los concesionarios firmen contratos con mineros artesanales (Diario N.º 20) | Gestión | https://gestion.pe/economia/ley-mape-asi-sera-incentivo-para-que-concesionarios-firmen-convenios-con-mineros-informales-en-peru-noticia/ | Minerales críticos | Perú |
+| 2026-10-28 | El tren Lima–Chosica firmaría su adenda en diciembre y operaría antes de fines de 2027 (Diario N.º 20) | Gestión | https://gestion.pe/economia/tren-lima-chosica-en-diciembre-se-firmara-adenda-para-transportar-personas-que-fases-tendra-el-proyecto-noticia/ | Megaproyectos e infraestructura | Perú |
+| 2026-10-27 | Ecuador sumará 110 MW de generación térmica alquilada en Santa Elena, Guayas y Manabí desde noviembre (Diario N.º 20) | Primicias | https://www.primicias.ec/economia/electricidad-ecuador-generacion-termica-alquilada-santa-elena-guayas-manabi-135830/ | Energía | Ecuador |
+| 2026-10-27 | De La Espriella ordena una política nacional de empleo formal ante una informalidad laboral de 54,8 % (Diario N.º 20) | Portafolio | https://www.portafolio.co/economia/gobierno/de-la-espriella-le-da-espaldarazo-a-la-ministra-del-trabajo-y-ordena-un-plan-nacional-para-combatir-la-informalidad-505245 | Innovación, digitalización y MiPymes | Colombia |
+| 2026-10-27 | Cainco pide al Gobierno de Bolivia una ley de inversiones con rebajas tributarias para grandes proyectos y zonas francas industriales (Diario N.º 20) | El Deber | https://eldeber.com.bo/economia/cainco-pone-ley-inversiones-mesa-gobierno_1793132356 | Inversión, comercio e integración | Bolivia |
+| 2026-10-27 | Las exportaciones de Bolivia suben 53 % hasta agosto gracias a los minerales, pero la economía sigue en recesión (Diario N.º 20) | El Deber | https://eldeber.com.bo/dinero/bolivia-vende-minerales-economia-sigue-atrapada-recesion_1793145573 | Minerales críticos | Bolivia |
+| 2026-10-28 | El consumo eléctrico de Ecuador crece 13 % hasta septiembre, impulsado por la minería, las camaroneras y los autos eléctricos (Diario N.º 20) | Primicias | https://www.primicias.ec/economia/consumo-electricidad-demanda-empresas-industrias-mineras-camaroneras-carros-135753/ | Energía | Ecuador |
+| 2026-10-28 | Petroecuador refina 26 % más crudo en el país y reduce levemente sus exportaciones (Diario N.º 20) | Primicias | https://www.primicias.ec/economia/petroecuador-exportaciones-petroleo-refineria-esmeraldas-ecuador-135819/ | Energía | Ecuador |
+| 2026-10-27 | El Gobierno de Colombia y los productores de papa acuerdan 16 medidas para bajar costos y elevar el rendimiento (Diario N.º 20) | El Tiempo | https://www.eltiempo.com/economia/gobierno-y-papicultores-acuerdan-16-medidas-para-reducir-costos-y-mejorar-el-rendimiento-del-cultivo-3596809 | Agroindustria y cadenas de valor | Colombia |
+| 2026-10-27 | Bogotá abre la licitación de la PTAR Canoas con cuatro consorcios precalificados de China, Europa, Japón y México (Diario N.º 20) | La República | https://www.larepublica.co/economia/estos-son-los-nombres-de-las-firmas-que-competiran-por-la-construccion-de-la-ptar-canoas-4512149 | Industria verde y economía circular | Colombia |
+| 2026-10-27 | Brasil enviará esta semana la medida provisoria del Impuesto Selectivo, que gravará desde 2027 la extracción mineral, entre otros bienes (Diario N.º 20) | Agência Brasil (portugués) | https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-enviara-mp-do-imposto-seletivo-e-renova-subvencao-ao-diesel | Política industrial y coyuntura | Brasil (regional) |
 
 ## Research featured
 
@@ -286,6 +304,7 @@ Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oc
 | 2026-10-27 | Designed to Succeed, Designed to Fail: Determinants and Reform Options for Local Public Investment Execution in Peru | Moreno y Beverinotti | BID | https://doi.org/10.18235/0014558 | Documento de trabajo |
 | 2026-10-27 | Effects of trade barriers on foreign direct investment: Evidence from Chinese solar panels | Montti | Energy Economics | https://doi.org/10.1016/j.eneco.2026.109653 | Artículo |
 | 2026-10-27 | Talento digital para competir en servicios globales: evidencia desde Chile para América Latina | Anauati et al. | BID | https://doi.org/10.18235/0014560 | Documento de trabajo |
+| 2026-10-28 | Who Can Control Our Firms? National Security and Foreign Ownership Regulation | Adão y Kooi | NBER | https://doi.org/10.3386/w35958 | Documento de trabajo |
 
 ## Stories proposed but not selected
 

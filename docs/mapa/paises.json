@@ -1,36 +1,36 @@
 {
-  "actualizado": "2026-10-27",
-  "ventana": "26 oct 02:22 → 27 oct 07:00 (ventana del N.º 19)",
+  "actualizado": "2026-10-28",
+  "ventana": "27 oct 07:01 → 28 oct 07:00 (ventana del N.º 20)",
   "fuente": "Noticia del día por país (incluida o no en el boletín, solo fuentes de confianza) y financiamiento de los últimos 30 días",
   "nota_oportunidades": "Las oportunidades son un análisis orientativo del Radar a partir de la noticia y el financiamiento del país; no constituyen una posición oficial de la ONUDI.",
   "paises": {
     "604": {
       "nombre": "Perú",
       "principal": {
-        "texto": "En el roadshow inPerú de Nueva York, el MEF destacó un crecimiento de 3,1 % a agosto y un alza de 15,5 % de la inversión privada, y el BCRP citó reservas por US$ 92.180 millones.",
+        "texto": "En el cierre de inPerú, ProInversión presentó una cartera de más de US$ 50.000 millones en 87 proyectos para 2026-2030 y prevé cerrar US$ 2.300 millones este trimestre.",
         "fuente": "El Comercio",
-        "fecha": "2026-10-26",
-        "url": "https://elcomercio.pe/economia/peru/inperu-estas-son-las-oportunidades-de-inversion-que-el-ministro-elmer-cuba-y-julio-velarde-destacan-para-el-peru-noticia/",
+        "fecha": "2026-10-27",
+        "url": "https://elcomercio.pe/economia/peru/proinversion-presenta-cartera-de-mas-de-us-50000-millones-en-inperu-economia-peruana-noticia/",
         "en_boletin": true,
         "en_ventana": true
       },
       "financiamiento": {
-        "texto": "Perupetro adjudicó el Lote 207 (Talara) a SPT Energy, que comprometió cerca de US$ 400 millones en los primeros 10 años de un contrato de 30 años.",
-        "institucion": "SPT Energy Group (privado)",
-        "monto": "Cerca de US$ 400 M",
-        "fecha": "2026-10-26",
-        "url": "https://gestion.pe/economia/lote-207-perupetro-otorgo-buena-pro-para-su-operacion-por-30-anos-a-quien-noticia/",
+        "texto": "La filial de la china Sungrow presentó al Senace la evaluación ambiental de una central solar de 300 MW en Piura, con una inversión total de US$ 323 millones.",
+        "institucion": "Sungrow (privado)",
+        "monto": "US$ 323,4 M (con IGV)",
+        "fecha": "2026-10-27",
+        "url": "https://gestion.pe/economia/empresas/china-sungrow-planea-construir-planta-solar-de-us-323-millones-en-piura-noticia/",
         "fuente": "Gestión"
       },
-      "oportunidades": "Aprovechar el interés inversor del roadshow para promover proyectos de valor agregado y proveedores locales en minería y energía, y acompañar la seguridad energética de la industria del norte frente a El Niño."
+      "oportunidades": "Acompañar la llegada de inversión solar al norte con proveedores locales, capacidades técnicas y uso productivo de la energía, y apoyar la agenda de Produce para parques industriales y mypes."
     },
     "170": {
       "nombre": "Colombia",
       "principal": {
-        "texto": "El Gobierno colocó US$ 5.200 millones en bonos externos a 2032, 2037 y 2056, con tasas de 7,05 % a 8,15 %, en medio de la presión fiscal.",
-        "fuente": "La República",
-        "fecha": "2026-10-26",
-        "url": "https://www.larepublica.co/economia/el-gobierno-nacional-coloco-bonos-de-deuda-externa-por-un-valor-de-us-5-200-millones-4511654",
+        "texto": "Una nueva falla en la regasificadora de Cartagena redujo su capacidad a 400 millones de pies cúbicos diarios y el Gobierno declaró un racionamiento programado de gas.",
+        "fuente": "El Espectador",
+        "fecha": "2026-10-27",
+        "url": "https://www.elespectador.com/economia/racionamiento-de-gas-en-colombia-que-implica-la-medida-por-los-trabajos-en-regasificadora/",
         "en_boletin": true,
         "en_ventana": true
       },
@@ -42,15 +42,15 @@
         "url": "https://www.elespectador.com/economia/el-gobierno-destina-cop-27-billones-para-asegurar-la-energia-frente-al-nino/",
         "fuente": "El Espectador"
       },
-      "oportunidades": "Con un espacio fiscal más estrecho, cobra valor la cooperación técnica de bajo costo: eficiencia energética y continuidad productiva en la industria afectada por el sismo y por el riesgo de racionamiento."
+      "oportunidades": "Promover eficiencia energética y sustitución de combustibles en la industria más expuesta a los cortes de gas, aprovechando los recursos públicos destinados a asegurar la energía frente a El Niño."
     },
     "218": {
       "nombre": "Ecuador",
       "principal": {
-        "texto": "Noboa dijo que el Gobierno analiza un alivio tributario para las empresas que alcanzaron la meta de autogenerar el 30 % de su electricidad; el 45 % de las industrias ya la cumple.",
-        "fuente": "El Universo",
-        "fecha": "2026-10-26",
-        "url": "https://www.eluniverso.com/economia/produccion/daniel-noboa-energia-megavatios-incorporados-industrias-alivio-tributario-ecuador-2026-nota/",
+        "texto": "El Gobierno sumará 110 MW de generación térmica alquilada en Santa Elena, Guayas y Manabí, que aportarán al sistema desde noviembre ante El Niño.",
+        "fuente": "Primicias",
+        "fecha": "2026-10-27",
+        "url": "https://www.primicias.ec/economia/electricidad-ecuador-generacion-termica-alquilada-santa-elena-guayas-manabi-135830/",
         "en_boletin": true,
         "en_ventana": true
       },
@@ -62,15 +62,15 @@
         "url": "https://www.eluniverso.com/economia/industrias/enap-chile-compra-operacion-petrolera-ecuador-sipetrol-pluspetrol-ecuador-nota/",
         "fuente": "El Universo"
       },
-      "oportunidades": "Apoyar a la industria, sobre todo a las mipymes que aún no llegan a la meta, en autogeneración renovable y eficiencia energética que les permita acceder a los incentivos."
+      "oportunidades": "Apoyar a las industrias obligadas a autogenerar con eficiencia energética y opciones renovables, para reducir su dependencia de la generación térmica de emergencia."
     },
     "068": {
       "nombre": "Bolivia",
       "principal": {
-        "texto": "El Decreto Supremo 5755 autoriza de forma excepcional a empresas y personas a importar gas natural y GNL para consumo propio o generación eléctrica.",
-        "fuente": "ERBOL (vía Opinión)",
-        "fecha": "2026-10-26",
-        "url": "https://www.opinion.com.bo/pais/gobierno-autoriza-importacion-gas-natural-consumo-propio-generacion-electrica/20261026234045998241.html",
+        "texto": "La Cainco pidió al ministro de Economía aprobar en noviembre una ley de inversiones con rebajas del IUE y el IVA para grandes proyectos y zonas francas industriales.",
+        "fuente": "El Deber",
+        "fecha": "2026-10-27",
+        "url": "https://eldeber.com.bo/economia/cainco-pone-ley-inversiones-mesa-gobierno_1793132356",
         "en_boletin": true,
         "en_ventana": true
       },
@@ -82,15 +82,15 @@
         "url": "https://www.opinion.com.bo/pais/senado-aprueba-credito-bid-us-302-millones-modernizar-alumbrado-publico/20261022191207998045.html",
         "fuente": "ABI (vía Opinión)"
       },
-      "oportunidades": "Acompañar a la industria que empiece a importar gas con medidas de eficiencia y diversificación energética, y aprovechar el préstamo del BID para el alumbrado LED como punto de partida en eficiencia."
+      "oportunidades": "Aportar experiencias regionales sobre zonas francas industriales e incentivos a la inversión con metas de empleo y encadenamientos, y apoyar la modernización energética municipal financiada por el BID."
     },
     "076": {
       "nombre": "Brasil",
       "principal": {
-        "texto": "Tras la reelección de Lula, el dólar subió 8,21 % frente al real, su mayor alza diaria desde 1999, y el Ibovespa cayó 13,88 % y activó un circuit breaker.",
+        "texto": "El ministro de Hacienda anunció que enviará esta semana la medida provisoria del Impuesto Selectivo, que se cobrará desde 2027, incluida la extracción mineral.",
         "fuente": "Agência Brasil",
-        "fecha": "2026-10-26",
-        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-sobe-821-e-bolsa-cai-1388-apos-reeleicao-de-lula",
+        "fecha": "2026-10-27",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-enviara-mp-do-imposto-seletivo-e-renova-subvencao-ao-diesel",
         "en_boletin": true,
         "en_ventana": true
       },
@@ -102,7 +102,7 @@
         "url": "https://clickpetroleoegas.com.br/r-202-milhoes-do-bndes-vao-financiar-o-plano-da-zen-para-criar-componentes-de-carros-eletrificados-e-mudar-processos-de-fabrica-em-santa-catarina-tres-produtos-devem-ser-desenvolvidos-a-afch",
         "fuente": "Click Petróleo e Gás"
       },
-      "oportunidades": "Seguir los efectos de la volatilidad en las cadenas de valor andino-brasileñas y mantener el diálogo con BNDES y BRDE sobre el financiamiento de mipymes industriales."
+      "oportunidades": "Seguir el diseño del Impuesto Selectivo sobre la minería como referencia para la tributación de recursos en los países andinos, junto con el crédito de la banca de desarrollo a la industria regional."
     },
     "152": {
       "nombre": "Chile",
@@ -120,12 +120,12 @@
     "032": {
       "nombre": "Argentina",
       "principal": {
-        "texto": "La actividad manufacturera cayó 2,7 % en los primeros ocho meses de 2026, según el Indec, y la Unión Industrial pide un régimen de incentivos para pymes y menos impuestos.",
+        "texto": "Estimaciones privadas de Equilibra y Ferreres indican que la actividad cayó en el tercer trimestre y que Argentina entró en recesión técnica; el dato oficial saldrá el 16 de diciembre.",
         "fuente": "Infobae",
-        "fecha": "2026-10-25",
-        "url": "https://www.infobae.com/economia/2026/10/25/clima-de-negocios-la-industria-cruje-en-medio-del-contexto-recesivo-el-dolar-el-rigi-propio-y-la-pulseada-por-sobrevivir/",
+        "fecha": "2026-10-28",
+        "url": "https://www.infobae.com/economia/2026/10/28/segun-estimaciones-privadas-la-economia-tuvo-un-leve-crecimiento-en-septiembre-y-la-argentina-entro-en-recesion-tecnica/",
         "en_boletin": false,
-        "en_ventana": false
+        "en_ventana": true
       },
       "financiamiento": {
         "texto": "El BID aprobó US$ 60 millones para mejorar el sistema de salud de Río Negro.",
@@ -135,15 +135,15 @@
         "url": "https://www.noticias24.com.ar/2026/10/20/el-gobierno-aprobo-prestamo-del-bid-para-financiar-la-mejora-del-sistema-de-salud-de-rio-negro/",
         "fuente": "Noticias24"
       },
-      "oportunidades": "Intercambio de experiencias sobre apoyo a pymes industriales en recesión e incentivos a la inversión productiva."
+      "oportunidades": "Apoyar la competitividad de las pymes manufactureras en recesión con productividad y acceso a financiamiento, aprovechando las líneas del BID."
     },
     "484": {
       "nombre": "México",
       "principal": {
-        "texto": "Cemex superó las expectativas del tercer trimestre: su EBITDA subió 12 %, hasta US$ 990 millones, impulsado por México, donde los volúmenes de cemento crecieron 7 %.",
-        "fuente": "Bloomberg Línea",
-        "fecha": "2026-10-26",
-        "url": "https://www.bloomberglinea.com/latinoamerica/mexico/cemex-supera-expectativas-en-el-tercer-trimestre-impulsado-por-mexico/",
+        "texto": "Trump volvió a defender el arancel de 25 % a los autos mexicanos mientras México negocia una rebaja bajo la Sección 232, sin fecha para un acuerdo.",
+        "fuente": "Infobae",
+        "fecha": "2026-10-27",
+        "url": "https://www.infobae.com/mexico/2026/10/28/donald-trump-vuelve-a-presumir-aranceles-a-la-industria-automotriz-proveniente-de-mexico/",
         "en_boletin": false,
         "en_ventana": true
       },
@@ -155,7 +155,7 @@
         "url": "https://www.infobae.com/america/agencias/2026/10/22/mexico-invertira-763-millones-de-dolares-en-20-parques-industriales/",
         "fuente": "Infobae (EFE)"
       },
-      "oportunidades": "Intercambiar experiencias sobre la descarbonización del cemento y los parques industriales del Plan México como referencia para la industria andina de la construcción."
+      "oportunidades": "Compartir lecciones sobre diversificación de mercados y parques industriales del Plan México ante la presión arancelaria, útiles para las cadenas automotrices y metalmecánicas andinas."
     },
     "862": {
       "nombre": "Venezuela",
@@ -193,25 +193,25 @@
     "600": {
       "nombre": "Paraguay",
       "principal": {
-        "texto": "El Banco Central de Paraguay elevó su previsión de crecimiento para 2026 de 4,5 % a 5 % y bajó la de inflación a 3 %.",
-        "fuente": "Infobae (EFE)",
-        "fecha": "2026-10-16",
-        "url": "https://www.infobae.com/america/agencias/2026/10/16/el-banco-central-de-paraguay-sube-a-5-prevision-de-crecimiento-y-baja-la-de-inflacion/",
+        "texto": "Santiago Peña espera cerrar antes de fin de año con Brasil la negociación del Anexo C de Itaipú, que abastece cerca del 90 % del mercado eléctrico paraguayo.",
+        "fuente": "Infobae",
+        "fecha": "2026-10-27",
+        "url": "https://www.infobae.com/america/america-latina/2026/10/27/paraguay-busca-cerrar-antes-de-fin-de-ano-la-negociacion-con-brasil-por-la-energia-de-itaipu/",
         "en_boletin": false,
-        "en_ventana": false
+        "en_ventana": true
       },
       "financiamiento": null,
-      "oportunidades": "Referencia en atracción de industria con energía hidroeléctrica barata y en encadenamientos agroindustriales."
+      "oportunidades": "Orientar la energía hidroeléctrica disponible hacia usos industriales de mayor valor agregado y eficiencia energética en la industria."
     },
     "222": {
       "nombre": "El Salvador",
       "principal": {
-        "texto": "La CEPAL proyecta que El Salvador crezca 4,5 % en 2026, entre las economías de mayor crecimiento de la región.",
+        "texto": "El Ministerio de Obras Públicas propuso para 2027 su mayor presupuesto: US$ 1.057 millones, casi todo para inversión en infraestructura.",
         "fuente": "Infobae",
-        "fecha": "2026-10-22",
-        "url": "https://www.infobae.com/el-salvador/2026/10/23/el-salvador-creceria-45-en-2026-y-se-ubicaria-entre-las-economias-lideres-regionales-segun-cepal/",
+        "fecha": "2026-10-27",
+        "url": "https://www.infobae.com/el-salvador/2026/10/27/el-ministerio-de-obras-publicas-presenta-el-mayor-presupuesto-de-su-historia-para-invertir-en-infraestructura-en-el-salvador/",
         "en_boletin": false,
-        "en_ventana": false
+        "en_ventana": true
       },
       "financiamiento": {
         "texto": "El BCIE amplió en US$ 50 millones el financiamiento al Fondo Social para la Vivienda.",
@@ -221,7 +221,7 @@
         "url": "https://www.elsalvador.com/dinero-y-negocios/entorno-economico/bcie-financiamiento-vivienda/1299513/2026/",
         "fuente": "elsalvador.com"
       },
-      "oportunidades": "Apoyar la vivienda y la construcción con criterios de eficiencia y la inserción de pymes en cadenas regionales."
+      "oportunidades": "Vincular la inversión en infraestructura con proveedores locales y mipymes, apoyándose en el financiamiento del BCIE."
     },
     "591": {
       "nombre": "Panamá",
@@ -284,7 +284,7 @@
         "fecha": "2026-10-26",
         "url": "https://www.infobae.com/honduras/2026/10/26/honduras-busca-atraer-inversion-israeli-en-agricultura-salud-y-tecnologia/",
         "en_boletin": false,
-        "en_ventana": true
+        "en_ventana": false
       },
       "financiamiento": {
         "texto": "CAF aprobó US$ 177 millones para la línea de transmisión eléctrica El Sitio–Zamorano II–Terrero Blanco.",
