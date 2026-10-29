@@ -1,0 +1,26 @@
+{
+ "generado": "2026-10-29",
+ "estado": "propuesta (no publicada)",
+ "nota": "Operaciones nuevas detectadas en la ventana del N.º 21 para añadir a docs/financiamiento/operaciones.json después de la revisión. No se incluyen: la mina El Domo (inversión de US$ 284 M en curso desde 2024, no es una operación nueva), el centro geológico de Geoblast en el sur del Perú (US$ 4 M, solo en evaluación), la venta del predio de Bosch en el Callao (operación inmobiliaria), el diseño de la Línea 4 del Metro de Bogotá con el Fondes (sin fecha ni monto verificables) ni la interconexión Panamá–Colombia (sin nueva decisión de financiamiento).",
+ "operaciones": [
+  {
+   "fecha": "2026-10-28",
+   "pais": "Perú",
+   "iso": "PE",
+   "institucion": "Congreso de la República / MEF",
+   "tipo_institucion": "Gobierno nacional",
+   "publico_privado": "Público",
+   "monto_usd_millones": null,
+   "monto_original": "S/ 8.288 millones",
+   "sector": "Clima y gestión de riesgos",
+   "descripcion": "Crédito suplementario: S/ 702,9 M para El Niño (2026-2027), S/ 2.308 M para kits escolares y conectividad satelital de servicios públicos, S/ 3.620 M para obras (Línea 2 del Metro, anillo vial periférico, agua y saneamiento, capacidad de las Fuerzas Armadas) y S/ 1.596 M para la Caja de Pensiones Militar-Policial y el fondo de estabilización de combustibles.",
+   "fuente": "RPP",
+   "url": "https://rpp.pe/politica/congreso/congreso-aprueba-credito-suplementario-por-s-8-mil-millones-para-financiar-acciones-ante-el-nino-servicios-e-infraestructura-noticia-1714952",
+   "nota": "Aprobado por el Pleno (83-10-27 en Diputados; 37-10-6 en el Senado). El desglose publicado suma S/ 8.226,9 M; la diferencia no se explica. Sin conversión a US$ en la fuente.",
+   "instrumento": "Gasto público nacional",
+   "estado": "Aprobado",
+   "relevancia_onudi": "Media",
+   "lectura": "Concentra recursos para enfrentar El Niño y cerrar brechas de infraestructura y conectividad, condiciones de las que depende la continuidad productiva de las regiones."
+  }
+ ]
+}

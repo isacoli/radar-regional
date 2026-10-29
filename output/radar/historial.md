@@ -4,7 +4,7 @@ Log of every scan and of the stories published in bulletins. `/radar` reads this
 
 ## Daily issues
 
-Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oct 2026 the issue of 23 Oct is N.º 17 (formerly N.º 1) and the issue of 26 Oct is N.º 18 (formerly N.º 2). Issues N.º 1–12 (1–16 Oct) were prepared retrospectively and published on 26 Oct 2026. The next issue is N.º 21.
+Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oct 2026 the issue of 23 Oct is N.º 17 (formerly N.º 1) and the issue of 26 Oct is N.º 18 (formerly N.º 2). Issues N.º 1–12 (1–16 Oct) were prepared retrospectively and published on 26 Oct 2026. The next issue is N.º 22.
 
 | N.º | Fecha | Ventana | Noticias | Boletín | Estado |
 |---|---|---|---|---|---|
@@ -28,6 +28,7 @@ Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oc
 | 18 (antes N.º 2) | 2026-10-26 | 23 oct 07:01 → 26 oct 02:21 (a pedido) | 18 | output/radar/2026-10-26/boletin.html | final |
 | 19 | 2026-10-27 | 26 oct 02:22 → 27 oct 07:00 | 18 | output/radar/2026-10-27/boletin.html | final |
 | 20 | 2026-10-28 | 27 oct 07:01 → 28 oct 07:00 | 17 | output/radar/2026-10-28/boletin.html | final |
+| 21 | 2026-10-29 | 28 oct 07:01 → 29 oct 07:00 | 20 | output/radar/2026-10-29/boletin.html | final |
 
 ## Weekly scans (earlier format)
 
@@ -249,6 +250,26 @@ Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oc
 | 2026-10-27 | El Gobierno de Colombia y los productores de papa acuerdan 16 medidas para bajar costos y elevar el rendimiento (Diario N.º 20) | El Tiempo | https://www.eltiempo.com/economia/gobierno-y-papicultores-acuerdan-16-medidas-para-reducir-costos-y-mejorar-el-rendimiento-del-cultivo-3596809 | Agroindustria y cadenas de valor | Colombia |
 | 2026-10-27 | Bogotá abre la licitación de la PTAR Canoas con cuatro consorcios precalificados de China, Europa, Japón y México (Diario N.º 20) | La República | https://www.larepublica.co/economia/estos-son-los-nombres-de-las-firmas-que-competiran-por-la-construccion-de-la-ptar-canoas-4512149 | Industria verde y economía circular | Colombia |
 | 2026-10-27 | Brasil enviará esta semana la medida provisoria del Impuesto Selectivo, que gravará desde 2027 la extracción mineral, entre otros bienes (Diario N.º 20) | Agência Brasil (portugués) | https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-enviara-mp-do-imposto-seletivo-e-renova-subvencao-ao-diesel | Política industrial y coyuntura | Brasil (regional) |
+| 2026-10-28 | Las bolsas de Colombia, Lima y Santiago estrenan nueva identidad común bajo nuam, que integra los tres mercados (Diario N.º 21) | Valora Analitik | https://www.valoraanalitik.com/bolsa-de-colombia-estrena-nombre-nuam/ | Inversión, comercio e integración | Regional (Colombia, Perú, Chile) |
+| 2026-10-28 | El TLC Perú–China optimizado entra en vigor el 1 de noviembre con nuevos capítulos sobre comercio electrónico, cadenas de suministro y ambiente (Diario N.º 21) | RPP | https://rpp.pe/economia/economia/tlc-peru-china-desde-el-1-de-noviembre-se-activa-el-acuerdo-que-actualiza-el-tratado-que-cambia-noticia-1714834 | Inversión, comercio e integración | Perú |
+| 2026-10-28 | El Congreso de Perú aprueba un crédito suplementario de S/ 8.288 millones para El Niño, conectividad e infraestructura (Diario N.º 21) | RPP | https://rpp.pe/politica/congreso/congreso-aprueba-credito-suplementario-por-s-8-mil-millones-para-financiar-acciones-ante-el-nino-servicios-e-infraestructura-noticia-1714952 | Política industrial y coyuntura | Perú |
+| 2026-10-28 | Perú aún no puede poner en marcha sus Zonas Económicas Especiales Privadas: faltan las normas tributarias y aduaneras (Diario N.º 21) | El Comercio | https://elcomercio.pe/economia/peru/zonas-economicas-especiales-privadas-que-falta-para-que-se-implementen-noticia/ | Política industrial y coyuntura | Perú |
+| 2026-10-28 | Colombia prepara «El Ruge», un régimen especial con contratos a 30 años para inversiones de más de US$ 150 millones (Diario N.º 21) | El Tiempo | https://www.eltiempo.com/economia/sectores/el-ruge-asi-seria-el-regimen-del-gobierno-de-la-espriella-para-atraer-inversiones-desde-us-150-millones-con-incentivos-de-renta-3597020 | Política industrial y coyuntura | Colombia |
+| 2026-10-29 | El ministro de Comercio de Colombia propone revisar en la ley de ajuste fiscal los impuestos de plataformas como Temu, Shein y Amazon (Diario N.º 21) | El Tiempo | https://www.eltiempo.com/economia/ministro-de-comercio-propone-regular-plataformas-como-temu-y-shein-en-la-ley-de-ajuste-fiscal-para-equilibrar-la-competencia-con-el-mercado-local-3597105 | Innovación, digitalización y MiPymes | Colombia |
+| 2026-10-28 | Bolivia tendría que importar gas desde 2029 y el Gobierno apuesta por las renovables para postergarlo (Diario N.º 21) | El Deber | https://eldeber.com.bo/economia/gobierno-apuesta-renovables-postergar-importacion-gas_1793224001 | Energía | Bolivia |
+| 2026-10-28 | En Bolivia, las cooperativas mineras generan casi la mitad del valor de producción, pero la minería privada aporta el 58 % de las regalías (Diario N.º 21) | Los Tiempos (ABI) | https://www.lostiempos.com/actualidad/economia/20261028/mineria-cooperativas-producen-mas-aportan-menos-que-empresas | Minerales críticos | Bolivia |
+| 2026-10-28 | Fenalcarbón aspira a llevar la producción de carbón de Colombia de 51 a 90 millones de toneladas en 2030 (Diario N.º 21) | Valora Analitik | https://www.valoraanalitik.com/industria-del-carbon-espera-casi-duplicar-su-produccion-a-2030-frente-a-las-cifras-de-2025/ | Energía | Colombia |
+| 2026-10-28 | El Gobierno de Bolivia enviará una nueva ley de inversiones con aportes del empresariado y pide aprobarla antes de fin de año (Diario N.º 21) | Los Tiempos (ABI / Correo del Sur) | https://www.lostiempos.com/actualidad/economia/20261028/gobierno-anuncia-nuevo-proyecto-ley-inversiones | Inversión, comercio e integración | Bolivia |
+| 2026-10-28 | El Minem retomará la promoción de centrales hidroeléctricas por concesión y publicará antes de diciembre los reglamentos de licitaciones y baterías (Diario N.º 21) | Gestión | https://gestion.pe/economia/proyectos-hidroelectricos-via-concesion-se-retomaran-en-peru-el-plan-del-minem-para-avanzar-en-su-promocion-noticia/ | Energía | Perú |
+| 2026-10-28 | Perú perdió el 65 % de sus reservas totales de gas natural en doce años y la SPH pide reactivar la exploración (Diario N.º 21) | El Comercio | https://elcomercio.pe/economia/peru/sph-peru-pierde-65-de-sus-reservas-totales-de-gas-natural-en-doce-anos-y-urge-necesidad-de-exploracion-l-ultimas-noticia/ | Energía | Perú |
+| 2026-10-28 | Un segundo territorio indígena de Panamá autoriza la consulta sobre la interconexión eléctrica con Colombia, de 500 km y 400 MW (Diario N.º 21) | Infobae | https://www.infobae.com/panama/2026/10/29/segunda-comarca-indigena-de-panama-autoriza-consultas-sobre-la-interconexion-electrica-con-colombia/ | Megaproyectos e infraestructura | Panamá, Colombia |
+| 2026-10-28 | Colombia busca un arancel cero para sus exportaciones a Estados Unidos, hoy gravadas en parte con 12,5 % (Diario N.º 21) | El Espectador | https://www.elespectador.com/economia/el-gobierno-insiste-en-buscar-arancel-cero-para-las-exportaciones-colombianas-a-ee-uu/ | Inversión, comercio e integración | Colombia |
+| 2026-10-28 | MinMinas anuncia una circular para una subasta de energía a inicios de 2027 que cubra el déficit de energía firme (Diario N.º 21) | La República | https://www.larepublica.co/economia/minminas-anuncio-emision-de-circular-para-realizar-subasta-de-energia-a-inicios-de-2027-4513060 | Energía | Colombia |
+| 2026-10-28 | El Domo, de la canadiense Silvercorp, será la tercera mina industrial de Ecuador y empezaría a producir en el segundo semestre de 2027 (Diario N.º 21) | Primicias | https://www.primicias.ec/economia/domo-tercera-mina-industrial-cobre-naves-segundo-semestre2027-135904/ | Minerales críticos | Ecuador |
+| 2026-10-28 | La Sunat plantea detracciones para cobrar impuestos a la minería informal en Perú (Diario N.º 21) | Gestión | https://gestion.pe/economia/sunat-apunta-a-atacar-a-la-mineria-informal-con-detracciones-el-esquema-que-se-plantea-noticia/ | Minerales críticos | Perú |
+| 2026-10-29 | El precio de la caja para empacar banano sube 59 % en Ecuador por la escasez mundial de papel kraft (Diario N.º 21) | Primicias | https://www.primicias.ec/economia/empresas/caja-banano-ecuador-escasez-papel-kraft-135934/ | Agroindustria y cadenas de valor | Ecuador |
+| 2026-10-28 | Brasil: el TCU fija en 11,3 % la alícuota de referencia de la CBS, el nuevo impuesto federal al consumo (Diario N.º 21) | Agência Brasil (portugués) | https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/tcu-aprova-calculo-da-aliquota-de-referencia-da-cbs-em-113 | Política industrial y coyuntura | Brasil |
+| 2026-10-28 | El crudo WTI, referencia del petróleo ecuatoriano, vuelve a superar los US$ 100 por barril (Diario N.º 21) | Primicias (AFP) | https://www.primicias.ec/economia/precio-petroleo-wti-texas-ecuador-conflicto-medio-oriente-28octubre-135942/ | Energía | Ecuador |
 
 ## Research featured
 
@@ -305,6 +326,10 @@ Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oc
 | 2026-10-27 | Effects of trade barriers on foreign direct investment: Evidence from Chinese solar panels | Montti | Energy Economics | https://doi.org/10.1016/j.eneco.2026.109653 | Artículo |
 | 2026-10-27 | Talento digital para competir en servicios globales: evidencia desde Chile para América Latina | Anauati et al. | BID | https://doi.org/10.18235/0014560 | Documento de trabajo |
 | 2026-10-28 | Who Can Control Our Firms? National Security and Foreign Ownership Regulation | Adão y Kooi | NBER | https://doi.org/10.3386/w35958 | Documento de trabajo |
+| 2026-10-29 | Investor-State Arbitration and Foreign Investment: Evidence from ICSID Membership | Falcone | Banco Mundial | https://doi.org/10.1596/1813-9450-11490 | Documento de trabajo |
+| 2026-10-29 | Land-based climate policy, land prices, and the green transition trilemma: Evidence from Bolivia | Magacho | Ecological Economics | https://doi.org/10.1016/j.ecolecon.2026.109281 | Artículo |
+| 2026-10-29 | An outlook of worldwide circular economy targets: scope, metrics, and portfolio patterns | Férauge | Resources, Conservation and Recycling | https://doi.org/10.1016/j.resconrec.2026.109206 | Artículo |
+| 2026-10-29 | Tariff Staggering | Schmitt-Grohé y Uribe | NBER | https://doi.org/10.3386/w35957 | Documento de trabajo |
 
 ## Stories proposed but not selected
 
@@ -327,3 +352,5 @@ Kept so they can be proposed again only if there is a significant new developmen
 | 2026-10-26 | nuam: cámara de compensación Perú-Chile-Colombia operaría en 2027 (El Comercio) | https://elcomercio.pe/economia/peru/nuam-la-camara-de-compensaciones-comenzaria-a-operar-a-inicios-del-2027-inperu-bolsa-de-valores-de-lima-noticia/ |
 | 2026-10-27 | Chile producirá menos cobre: ¿oportunidad para Perú? (Gestión) | https://gestion.pe/economia/chile-producira-menos-cobre-este-ano-podria-ser-una-oportunidad-para-la-mineria-en-peru-noticia/ |
 | 2026-10-27 | Empleo formal privado en Perú duplica el promedio de la década (Gestión) | https://gestion.pe/economia/nuevos-empleos-formales-privados-duplican-promedio-de-ultima-decada-pero-el-nino-afectaria-en-el-peru-noticia/ |
+| 2026-10-28 | Petroperú plantea vender una participación minoritaria en 2027 (Gestión) | https://gestion.pe/economia/petroperu-presidente-de-petrolera-plantea-vender-participacion-y-apunta-a-primera-utilidad-desde-2021-noticia/ |
+| 2026-10-28 | Metro de Bogotá supera el 83 % de avance (Portafolio) | https://www.portafolio.co/economia/infraestructura/metro-de-bogota-supera-el-83-de-avance-asi-van-las-obras-de-la-linea-1-y-cuando-comenzaria-a-operar-505318 |
