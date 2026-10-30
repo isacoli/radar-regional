@@ -1,16 +1,16 @@
 {
-  "actualizado": "2026-10-29",
-  "ventana": "28 oct 07:01 → 29 oct 07:00 (ventana del N.º 21)",
+  "actualizado": "2026-10-30",
+  "ventana": "29 oct 07:01 → 30 oct 07:00 (ventana del N.º 22)",
   "fuente": "Noticia del día por país (incluida o no en el boletín, solo fuentes de confianza) y financiamiento de los últimos 30 días",
   "nota_oportunidades": "Las oportunidades son un análisis orientativo del Radar a partir de la noticia y el financiamiento del país; no constituyen una posición oficial de la ONUDI.",
   "paises": {
     "604": {
       "nombre": "Perú",
       "principal": {
-        "texto": "El TLC optimizado con China, que actualiza siete capítulos y suma cinco nuevos (comercio electrónico, cadenas de suministro, ambiente), entrará en vigor el 1 de noviembre.",
-        "fuente": "RPP",
-        "fecha": "2026-10-28",
-        "url": "https://rpp.pe/economia/economia/tlc-peru-china-desde-el-1-de-noviembre-se-activa-el-acuerdo-que-actualiza-el-tratado-que-cambia-noticia-1714834",
+        "texto": "ProInversión promueve 22 APP, dos proyectos en activos y una adenda por US$ 10.169 millones para el eje logístico del sur, con los puertos de Marcona y Matarani y el puerto seco de Puno.",
+        "fuente": "Gestión",
+        "fecha": "2026-10-29",
+        "url": "https://gestion.pe/economia/eje-sur-del-peru-hay-megaproyectos-por-us-10169-millones-en-cartera-senala-proinversion-noticia/",
         "en_boletin": true,
         "en_ventana": true
       },
@@ -22,55 +22,55 @@
         "url": "https://rpp.pe/politica/congreso/congreso-aprueba-credito-suplementario-por-s-8-mil-millones-para-financiar-acciones-ante-el-nino-servicios-e-infraestructura-noticia-1714952",
         "fuente": "RPP"
       },
-      "oportunidades": "Acompañar el TLC optimizado con China con apoyo a exportadores en las nuevas reglas de cadenas de suministro y normas técnicas, y orientar parte del gasto frente a El Niño a la continuidad productiva de las mipymes."
+      "oportunidades": "Vincular la cartera logística del sur con proveedores locales y parques industriales en Arequipa, Moquegua y Puno, y usar parte del gasto frente a El Niño para sostener la producción de las mipymes en las regiones afectadas."
     },
     "170": {
       "nombre": "Colombia",
       "principal": {
-        "texto": "La Bolsa de Valores de Colombia pasó a llamarse Bolsa de Colombia, con una identidad común con Lima y Santiago dentro de nuam, que suma US$ 539.000 millones de capitalización.",
-        "fuente": "Valora Analitik",
-        "fecha": "2026-10-28",
-        "url": "https://www.valoraanalitik.com/bolsa-de-colombia-estrena-nombre-nuam/",
+        "texto": "El Gobierno radicó la Ley de Rescate Económico: recorte del gasto de 2,2 % del PIB, renta empresarial de 33 % en 2027 y 31 % desde 2028, y un régimen de garantías para megainversiones.",
+        "fuente": "Portafolio",
+        "fecha": "2026-10-29",
+        "url": "https://www.portafolio.co/economia/gobierno-de-la-espriella-radico-la-ley-de-rescate-fiscal-estos-son-los-puntos-clave-505387",
         "en_boletin": true,
         "en_ventana": true
       },
       "financiamiento": {
-        "texto": "El Gobierno destina COP 2,7 billones para asegurar la energía frente a El Niño, incluido el pago de deudas del sector y el ahorro de energía.",
-        "institucion": "Gobierno de Colombia (público)",
-        "monto": "COP 2,7 billones",
-        "fecha": "2026-10-24",
-        "url": "https://www.elespectador.com/economia/el-gobierno-destina-cop-27-billones-para-asegurar-la-energia-frente-al-nino/",
-        "fuente": "El Espectador"
+        "texto": "Grupo Colpatria y EDF Power Solutions construyen Bosques Solares de los Llanos 6, un parque solar de 100 MWp en el Meta (50 % cada socio); no revelaron el monto.",
+        "institucion": "Grupo Colpatria y EDF Power Solutions (privado)",
+        "monto": "No revelado",
+        "fecha": "2026-10-29",
+        "url": "https://www.eltiempo.com/economia/empresas/grupo-colpatria-diversifica-su-apuesta-energetica-y-suma-un-nuevo-proyecto-solar-con-edf-3597319",
+        "fuente": "El Tiempo"
       },
-      "oportunidades": "Aprovechar la integración bursátil andina para explorar instrumentos de financiamiento de mediano plazo para empresas industriales y proyectos verdes en Colombia, Perú y Chile."
+      "oportunidades": "Acompañar el debate de la Ley de Rescate con evidencia sobre incentivos a la inversión productiva y su efecto en la industria, y apoyar a las manufactureras para aprovechar la nueva oferta solar en contratos de energía limpia."
     },
     "218": {
       "nombre": "Ecuador",
       "principal": {
-        "texto": "La canadiense Silvercorp construye El Domo, en Bolívar, que sería la tercera mina industrial del país con US$ 284 millones de inversión y producción desde el segundo semestre de 2027.",
+        "texto": "Novacero y la alemana Linde iniciaron en Lasso (Cotopaxi) una planta automatizada de oxígeno, nitrógeno y argón líquidos con una inversión superior a USD 50 millones.",
         "fuente": "Primicias",
-        "fecha": "2026-10-28",
-        "url": "https://www.primicias.ec/economia/domo-tercera-mina-industrial-cobre-naves-segundo-semestre2027-135904/",
+        "fecha": "2026-10-29",
+        "url": "https://www.primicias.ec/economia/empresas/novacero-linde-inversion-planta-oxigeno-cotopaxi-lasso-ecuador-136021/",
         "en_boletin": true,
         "en_ventana": true
       },
       "financiamiento": {
-        "texto": "La chilena ENAP acordó comprar Pluspetrol Ecuador (bloque 10, Pastaza) por US$ 207 millones, sujeto a aprobaciones.",
-        "institucion": "ENAP (empresa estatal chilena)",
-        "monto": "US$ 207 M",
-        "fecha": "2026-10-19",
-        "url": "https://www.eluniverso.com/economia/industrias/enap-chile-compra-operacion-petrolera-ecuador-sipetrol-pluspetrol-ecuador-nota/",
-        "fuente": "El Universo"
+        "texto": "Novacero (socio mayoritario) y Linde invierten más de USD 50 millones en una planta de gases industriales en Cotopaxi; el montaje empezó el 29 de octubre.",
+        "institucion": "Novacero y Linde (privado)",
+        "monto": "Más de USD 50 M",
+        "fecha": "2026-10-29",
+        "url": "https://www.primicias.ec/economia/empresas/novacero-linde-inversion-planta-oxigeno-cotopaxi-lasso-ecuador-136021/",
+        "fuente": "Primicias"
       },
-      "oportunidades": "Apoyar el desarrollo de proveedores locales y prácticas de producción limpia alrededor de El Domo, primera mina industrial de mediana escala del país."
+      "oportunidades": "Aprovechar la nueva oferta de gases industriales para fortalecer proveedores metalmecánicos y de salud en la Sierra centro, y promover eficiencia energética en la planta y en la cadena del acero."
     },
     "068": {
       "nombre": "Bolivia",
       "principal": {
-        "texto": "La viceministra de Hidrocarburos advirtió que Bolivia tendría que importar gas desde 2029 y dijo que el Gobierno apostará por renovables para postergarlo.",
-        "fuente": "El Deber",
-        "fecha": "2026-10-28",
-        "url": "https://eldeber.com.bo/economia/gobierno-apuesta-renovables-postergar-importacion-gas_1793224001",
+        "texto": "La Cámara Nacional de Industrias Oleaginosas pidió al Gobierno informar el estado y los planes para la planta estatal de soya de San Julián, de Bs 425 millones y 1.000 toneladas diarias.",
+        "fuente": "Los Tiempos",
+        "fecha": "2026-10-29",
+        "url": "https://www.lostiempos.com/actualidad/economia/20261029/caniob-quiere-saber-planes-del-gobierno-planta-soyera-san-julian",
         "en_boletin": true,
         "en_ventana": true
       },
@@ -82,15 +82,15 @@
         "url": "https://www.opinion.com.bo/pais/senado-aprueba-credito-bid-us-302-millones-modernizar-alumbrado-publico/20261022191207998045.html",
         "fuente": "ABI (vía Opinión)"
       },
-      "oportunidades": "Apoyar la diversificación de la matriz eléctrica con renovables y eficiencia energética en la industria, para reducir la dependencia del gas antes de 2029."
+      "oportunidades": "Ofrecer asistencia técnica para evaluar opciones de gestión transparentes de la planta de San Julián y su integración con la cadena oleaginosa, y orientar el crédito del BID hacia eficiencia energética municipal e industrial."
     },
     "076": {
       "nombre": "Brasil",
       "principal": {
-        "texto": "El Tribunal de Cuentas de la Unión fijó en 11,3 % la alícuota de referencia de la CBS, el nuevo impuesto federal al consumo que se cobrará a modo de prueba desde 2027.",
+        "texto": "Petrobras anunció su tercer hallazgo de petróleo en un mismo pozo del bloque FZA-M-59, en la Margen Ecuatorial frente a la desembocadura del Amazonas.",
         "fuente": "Agência Brasil",
-        "fecha": "2026-10-28",
-        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/tcu-aprova-calculo-da-aliquota-de-referencia-da-cbs-em-113",
+        "fecha": "2026-10-29",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/petrobras-anuncia-3a-descoberta-de-petroleo-em-poco-na-foz-do-amazonas",
         "en_boletin": true,
         "en_ventana": true
       },
@@ -102,7 +102,7 @@
         "url": "https://clickpetroleoegas.com.br/r-202-milhoes-do-bndes-vao-financiar-o-plano-da-zen-para-criar-componentes-de-carros-eletrificados-e-mudar-processos-de-fabrica-em-santa-catarina-tres-produtos-devem-ser-desenvolvidos-a-afch",
         "fuente": "Click Petróleo e Gás"
       },
-      "oportunidades": "Seguir la reforma tributaria brasileña como referencia de simplificación de impuestos al consumo y sus efectos en la competitividad industrial."
+      "oportunidades": "Compartir con los países andinos lecciones sobre contenido local y desarrollo de proveedores en nuevas fronteras de hidrocarburos, junto con salvaguardas ambientales en la Amazonía."
     },
     "152": {
       "nombre": "Chile",
@@ -112,7 +112,7 @@
         "fecha": "2026-10-28",
         "url": "https://www.valoraanalitik.com/bolsa-de-colombia-estrena-nombre-nuam/",
         "en_boletin": true,
-        "en_ventana": true
+        "en_ventana": false
       },
       "financiamiento": null,
       "oportunidades": "Aprovechar la integración bursátil con Colombia y Perú como referencia para el financiamiento regional de proyectos industriales y verdes."
@@ -140,12 +140,12 @@
     "484": {
       "nombre": "México",
       "principal": {
-        "texto": "Trump volvió a defender el arancel de 25 % a los autos mexicanos mientras México negocia una rebaja bajo la Sección 232, sin fecha para un acuerdo.",
+        "texto": "La presidenta Sheinbaum visitó dos nuevas inversiones en Hidalgo, entre ellas un centro logístico de Mercado Libre, y afirmó que el estado crece a un ritmo anual de 8 %.",
         "fuente": "Infobae",
-        "fecha": "2026-10-27",
-        "url": "https://www.infobae.com/mexico/2026/10/28/donald-trump-vuelve-a-presumir-aranceles-a-la-industria-automotriz-proveniente-de-mexico/",
+        "fecha": "2026-10-29",
+        "url": "https://www.infobae.com/mexico/2026/10/30/sheinbaum-y-ebrard-presumen-que-mexico-acumula-inversion-por-4-mil-millones-de-dolares-en-2026/",
         "en_boletin": false,
-        "en_ventana": false
+        "en_ventana": true
       },
       "financiamiento": {
         "texto": "Desarrolladores privados invertirán US$ 763 millones en 20 nuevos parques industriales del Plan México.",
@@ -231,7 +231,7 @@
         "fecha": "2026-10-28",
         "url": "https://www.infobae.com/panama/2026/10/29/segunda-comarca-indigena-de-panama-autoriza-consultas-sobre-la-interconexion-electrica-con-colombia/",
         "en_boletin": true,
-        "en_ventana": true
+        "en_ventana": false
       },
       "financiamiento": null,
       "oportunidades": "Seguir la interconexión eléctrica con Colombia como oportunidad de integración energética andina y de suministro más estable para la industria."

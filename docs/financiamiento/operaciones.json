@@ -1,8 +1,8 @@
 {
-  "actualizado": "2026-10-29",
-  "periodo": "26 sep – 29 oct 2026",
+  "actualizado": "2026-10-30",
+  "periodo": "26 sep – 30 oct 2026",
   "periodo_desde": "2026-09-26",
-  "periodo_hasta": "2026-10-29",
+  "periodo_hasta": "2026-10-30",
   "nota": "Operaciones aprobadas, firmadas o anunciadas (préstamos, donaciones e inversiones). Los montos son los informados por las fuentes; las inversiones privadas son compromisos anunciados, no desembolsos. El histórico se conserva desde el 26 de septiembre de 2026.",
   "operaciones": [
     {
@@ -745,6 +745,63 @@
       "estado": "Aprobado",
       "relevancia_onudi": "Media",
       "lectura": "Concentra recursos para enfrentar El Niño y cerrar brechas de infraestructura y conectividad, condiciones de las que depende la continuidad productiva de las regiones."
+    },
+    {
+      "fecha": "2026-10-29",
+      "pais": "Ecuador",
+      "iso": "EC",
+      "institucion": "Novacero y Linde",
+      "tipo_institucion": "Empresa privada",
+      "publico_privado": "Privado",
+      "monto_usd_millones": 50,
+      "monto_original": "Más de USD 50 millones",
+      "sector": "Industria y manufactura",
+      "descripcion": "Planta de gases industriales (oxígeno, nitrógeno y argón líquidos) en Lasso, Cotopaxi, totalmente automatizada y con tecnología alemana; Novacero tiene más del 50 % de la alianza.",
+      "fuente": "Primicias",
+      "url": "https://www.primicias.ec/economia/empresas/novacero-linde-inversion-planta-oxigeno-cotopaxi-lasso-ecuador-136021/",
+      "nota": "El monto es «superior a USD 50 millones»; se registra 50 como mínimo. El montaje comenzó el 29 de octubre de 2026.",
+      "instrumento": "Inversión privada",
+      "estado": "Firmado o adjudicado",
+      "relevancia_onudi": "Alta",
+      "lectura": "Amplía la oferta local de insumos industriales y médicos con una alianza entre una acerera nacional y una multinacional europea, un ejemplo de transferencia tecnológica en la Sierra centro."
+    },
+    {
+      "fecha": "2026-10-29",
+      "pais": "Colombia",
+      "iso": "CO",
+      "institucion": "Grupo Colpatria y EDF Power Solutions",
+      "tipo_institucion": "Empresa privada",
+      "publico_privado": "Privado",
+      "monto_usd_millones": null,
+      "monto_original": "No revelado",
+      "sector": "Energía",
+      "descripcion": "Construcción de Bosques Solares de los Llanos 6, parque solar de 100 MWp a 23 km de Villavicencio (Meta), con entrada en operación prevista para el segundo semestre de 2027; participación de 50 % para cada socio.",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/economia/empresas/grupo-colpatria-diversifica-su-apuesta-energetica-y-suma-un-nuevo-proyecto-solar-con-edf-3597319",
+      "nota": "Las empresas no revelaron el valor de la inversión ni de la financiación.",
+      "instrumento": "Inversión privada",
+      "estado": "Firmado o adjudicado",
+      "relevancia_onudi": "Media",
+      "lectura": "Suma generación renovable en plena temporada de El Niño, cuando el déficit de energía firme presiona los costos de la industria colombiana."
+    },
+    {
+      "fecha": "2026-10-29",
+      "pais": "Perú",
+      "iso": "PE",
+      "institucion": "Colombian Green Energy (Perupetro)",
+      "tipo_institucion": "Empresa privada",
+      "publico_privado": "Privado",
+      "monto_usd_millones": null,
+      "monto_original": "No informado (programa de 81 reacondicionamientos, 40 pozos de desarrollo y 1 exploratorio en 10 años)",
+      "sector": "Hidrocarburos y minería",
+      "descripcion": "Perupetro firmó el contrato de licencia por 30 años para explotar el Lote 206 en Talara (Piura) con Colombian Green Energy.",
+      "fuente": "Gestión",
+      "url": "https://gestion.pe/economia/lote-206-perupetro-suscribe-contrato-de-licencia-por-30-anos-para-yacimiento-en-talara-noticia/",
+      "nota": "Sin monto de inversión en la fuente; el contrato fue autorizado por el D. S. 017-2026-EM.",
+      "instrumento": "Inversión privada",
+      "estado": "Firmado o adjudicado",
+      "relevancia_onudi": "Baja",
+      "lectura": "Suma un operador colombiano a la reactivación petrolera del noroeste peruano, un vínculo empresarial andino en un sector que abastece a la refinería de Talara."
     }
   ]
 }

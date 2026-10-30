@@ -4,7 +4,7 @@ Log of every scan and of the stories published in bulletins. `/radar` reads this
 
 ## Daily issues
 
-Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oct 2026 the issue of 23 Oct is N.º 17 (formerly N.º 1) and the issue of 26 Oct is N.º 18 (formerly N.º 2). Issues N.º 1–12 (1–16 Oct) were prepared retrospectively and published on 26 Oct 2026. The next issue is N.º 22.
+Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oct 2026 the issue of 23 Oct is N.º 17 (formerly N.º 1) and the issue of 26 Oct is N.º 18 (formerly N.º 2). Issues N.º 1–12 (1–16 Oct) were prepared retrospectively and published on 26 Oct 2026. The next issue is N.º 23.
 
 | N.º | Fecha | Ventana | Noticias | Boletín | Estado |
 |---|---|---|---|---|---|
@@ -29,6 +29,7 @@ Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oc
 | 19 | 2026-10-27 | 26 oct 02:22 → 27 oct 07:00 | 18 | output/radar/2026-10-27/boletin.html | final |
 | 20 | 2026-10-28 | 27 oct 07:01 → 28 oct 07:00 | 17 | output/radar/2026-10-28/boletin.html | final |
 | 21 | 2026-10-29 | 28 oct 07:01 → 29 oct 07:00 | 20 | output/radar/2026-10-29/boletin.html | final |
+| 22 | 2026-10-30 | 29 oct 07:01 → 30 oct 07:00 | 16 | output/radar/2026-10-30/boletin.html | final |
 
 ## Weekly scans (earlier format)
 
@@ -270,6 +271,22 @@ Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oc
 | 2026-10-29 | El precio de la caja para empacar banano sube 59 % en Ecuador por la escasez mundial de papel kraft (Diario N.º 21) | Primicias | https://www.primicias.ec/economia/empresas/caja-banano-ecuador-escasez-papel-kraft-135934/ | Agroindustria y cadenas de valor | Ecuador |
 | 2026-10-28 | Brasil: el TCU fija en 11,3 % la alícuota de referencia de la CBS, el nuevo impuesto federal al consumo (Diario N.º 21) | Agência Brasil (portugués) | https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/tcu-aprova-calculo-da-aliquota-de-referencia-da-cbs-em-113 | Política industrial y coyuntura | Brasil |
 | 2026-10-28 | El crudo WTI, referencia del petróleo ecuatoriano, vuelve a superar los US$ 100 por barril (Diario N.º 21) | Primicias (AFP) | https://www.primicias.ec/economia/precio-petroleo-wti-texas-ecuador-conflicto-medio-oriente-28octubre-135942/ | Energía | Ecuador |
+| 2026-10-29 | Colombia radica la Ley de Rescate Económico: recorte del gasto de 2,2 % del PIB, menor renta para empresas y un régimen de garantías para grandes inversiones (Diario N.º 22) | Portafolio | https://www.portafolio.co/economia/gobierno-de-la-espriella-radico-la-ley-de-rescate-fiscal-estos-son-los-puntos-clave-505387 | Política industrial y coyuntura | Colombia |
+| 2026-10-29 | Fenalco pide eliminar el arancel de 40 % a las prendas de vestir y la ANDI lo defiende para proteger a la industria de confecciones (Diario N.º 22) | La República | https://www.larepublica.co/economia/la-disputa-entre-fenalco-y-la-andi-por-el-arancel-de-40-a-las-prendas-de-vestir-4514005 | Política industrial y coyuntura | Colombia |
+| 2026-10-29 | Novacero y la alemana Linde inician en Cotopaxi una planta de oxígeno, nitrógeno y argón líquidos con una inversión de más de USD 50 millones (Diario N.º 22) | Primicias | https://www.primicias.ec/economia/empresas/novacero-linde-inversion-planta-oxigeno-cotopaxi-lasso-ecuador-136021/ | Inversión, comercio e integración | Ecuador |
+| 2026-10-29 | ProInversión promueve megaproyectos por US$ 10.169 millones para el eje logístico del sur del Perú, con puertos, transmisión e hidrocarburos (Diario N.º 22) | Gestión | https://gestion.pe/economia/eje-sur-del-peru-hay-megaproyectos-por-us-10169-millones-en-cartera-senala-proinversion-noticia/ | Megaproyectos e infraestructura | Perú |
+| 2026-10-30 | El COES advierte que Perú podría enfrentar años de escasez de energía barata por el atraso de la inversión en generación, mientras la congestión en transmisión se dispara (Diario N.º 22) | Gestión | https://gestion.pe/economia/peru-enfrentaria-anos-de-escasez-de-energia-barata-la-advertencia-del-coes-por-atraso-en-inversion-privada-noticia/ | Energía | Perú |
+| 2026-10-29 | El MEF proyecta que las exportaciones del Perú superarán los US$ 100.000 millones en 2026 y por primera vez a las de Chile (Diario N.º 22) | Gestión | https://gestion.pe/economia/exportaciones-peruanas-superarian-a-las-de-chile-al-cierre-del-2026-senala-el-mef-noticia/ | Inversión, comercio e integración | Perú |
+| 2026-10-29 | Estados Unidos evalúa invertir y asociarse en cinco proyectos en el Perú, según su embajador (Diario N.º 22) | El Comercio | https://elcomercio.pe/economia/peru/estados-unidos-evalua-invertir-en-cinco-proyectos-en-peru-que-oportunidades-busca-impulsar-el-gobierno-noticia/ | Inversión, comercio e integración | Perú |
+| 2026-10-29 | Ecuador reporta que la inversión extranjera directa se duplicó (+101,3 %) en el primer semestre y que las reservas internacionales alcanzan un récord de USD 12.707 millones (Diario N.º 22) | El Universo | https://eluniverso.com/economia/indicadores-economicos/crecimiento-dinamismo-economico-reservas-internacionales-inversiones-creditos-productivos-reporte-bce-ecuador-2026-nota | Inversión, comercio e integración | Ecuador |
+| 2026-10-29 | El Niño podría recortar el crecimiento del Perú a 2 % en 2027 si se prolonga hasta el segundo semestre, según la Universidad de Lima (Diario N.º 22) | Gestión | https://gestion.pe/economia/el-nino-podria-recortar-el-crecimiento-de-la-economia-peruana-a-2-en-2027-noticia/ | Política industrial y coyuntura | Perú |
+| 2026-10-29 | Grupo Colpatria y EDF construyen en el Meta un parque solar de 100 MWp que operaría en el segundo semestre de 2027 (Diario N.º 22) | El Tiempo | https://www.eltiempo.com/economia/empresas/grupo-colpatria-diversifica-su-apuesta-energetica-y-suma-un-nuevo-proyecto-solar-con-edf-3597319 | Energía | Colombia |
+| 2026-10-29 | MinCiencias propone a las cámaras de comercio una alianza para vincular la ciencia con las agendas de competitividad regional (Diario N.º 22) | Portafolio | https://www.portafolio.co/economia/regiones/minciencias-propone-alianza-con-camaras-de-comercio-para-impulsar-la-innovacion-empresarial-505382 | Innovación, digitalización y MiPymes | Colombia |
+| 2026-10-29 | La industria oleaginosa de Bolivia pide al Gobierno aclarar el futuro de la planta estatal de soya de San Julián, de Bs 425 millones (Diario N.º 22) | Los Tiempos | https://www.lostiempos.com/actualidad/economia/20261029/caniob-quiere-saber-planes-del-gobierno-planta-soyera-san-julian | Agroindustria y cadenas de valor | Bolivia |
+| 2026-10-30 | Las exportaciones mineras de Ecuador apuntan a un récord de USD 5.000 millones en 2026, pero el catastro sigue cerrado y Mirador Norte se retrasa (Diario N.º 22) | Primicias | https://www.primicias.ec/economia/mineria-record-exportaciones-retrasos-proyectos-pendientes-catastro-inversiones-135983/ | Minerales críticos | Ecuador |
+| 2026-10-29 | Las exportaciones colombianas de confitería y chocolatería caen 13,2 % hasta agosto, golpeadas por los aranceles de Estados Unidos (Diario N.º 22) | La República | https://www.larepublica.co/economia/exportaciones-de-confiteria-y-chocolateria-suman-us-248-5-millones-este-ano-4513805 | Agroindustria y cadenas de valor | Colombia |
+| 2026-10-29 | Afinia paga $131.000 millones a XM y evita por ahora cortes de energía en Bolívar, Córdoba y Sucre (Diario N.º 22) | Valora Analitik | https://www.valoraanalitik.com/afinia-pago-131-000-millones-a-xm-y-suspende-riesgo-de-cortes-de-energia-en-el-caribe/ | Energía | Colombia |
+| 2026-10-29 | Petrobras anuncia su tercer hallazgo de petróleo en un mismo pozo de la Margen Ecuatorial, frente a la desembocadura del Amazonas (Diario N.º 22) | Agência Brasil (portugués) | https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/petrobras-anuncia-3a-descoberta-de-petroleo-em-poco-na-foz-do-amazonas | Energía | Brasil |
 
 ## Research featured
 
@@ -330,6 +347,9 @@ Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oc
 | 2026-10-29 | Land-based climate policy, land prices, and the green transition trilemma: Evidence from Bolivia | Magacho | Ecological Economics | https://doi.org/10.1016/j.ecolecon.2026.109281 | Artículo |
 | 2026-10-29 | An outlook of worldwide circular economy targets: scope, metrics, and portfolio patterns | Férauge | Resources, Conservation and Recycling | https://doi.org/10.1016/j.resconrec.2026.109206 | Artículo |
 | 2026-10-29 | Tariff Staggering | Schmitt-Grohé y Uribe | NBER | https://doi.org/10.3386/w35957 | Documento de trabajo |
+| 2026-10-30 | Understanding the Evolution of Agricultural Productivity in Colombia | Laajaj | BID | https://doi.org/10.18235/0014586 | Documento de trabajo |
+| 2026-10-30 | Local institutional quality, firm size, and innovation: evidence from Italy | Amato | Small Business Economics | https://doi.org/10.1007/s11187-026-01272-x | Artículo |
+| 2026-10-30 | Market Power in Foreign Input Markets: Evidence From Chinese Manufacturing Firms | Dong | The World Economy | https://doi.org/10.1111/twec.70163 | Artículo |
 
 ## Stories proposed but not selected
 
