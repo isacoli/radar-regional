@@ -4,7 +4,7 @@ Log of every scan and of the stories published in bulletins. `/radar` reads this
 
 ## Daily issues
 
-Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oct 2026 the issue of 23 Oct is N.º 17 (formerly N.º 1) and the issue of 26 Oct is N.º 18 (formerly N.º 2). Issues N.º 1–12 (1–16 Oct) were prepared retrospectively and published on 26 Oct 2026. The next issue is N.º 23.
+Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oct 2026 the issue of 23 Oct is N.º 17 (formerly N.º 1) and the issue of 26 Oct is N.º 18 (formerly N.º 2). Issues N.º 1–12 (1–16 Oct) were prepared retrospectively and published on 26 Oct 2026. The next issue is N.º 24.
 
 | N.º | Fecha | Ventana | Noticias | Boletín | Estado |
 |---|---|---|---|---|---|
@@ -30,6 +30,7 @@ Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oc
 | 20 | 2026-10-28 | 27 oct 07:01 → 28 oct 07:00 | 17 | output/radar/2026-10-28/boletin.html | final |
 | 21 | 2026-10-29 | 28 oct 07:01 → 29 oct 07:00 | 20 | output/radar/2026-10-29/boletin.html | final |
 | 22 | 2026-10-30 | 29 oct 07:01 → 30 oct 07:00 | 16 | output/radar/2026-10-30/boletin.html | final |
+| 23 | 2026-11-02 | 30 oct 07:01 → 2 nov 07:00 | 20 | output/radar/2026-11-02/boletin.html | final |
 
 ## Weekly scans (earlier format)
 
@@ -287,6 +288,26 @@ Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oc
 | 2026-10-29 | Las exportaciones colombianas de confitería y chocolatería caen 13,2 % hasta agosto, golpeadas por los aranceles de Estados Unidos (Diario N.º 22) | La República | https://www.larepublica.co/economia/exportaciones-de-confiteria-y-chocolateria-suman-us-248-5-millones-este-ano-4513805 | Agroindustria y cadenas de valor | Colombia |
 | 2026-10-29 | Afinia paga $131.000 millones a XM y evita por ahora cortes de energía en Bolívar, Córdoba y Sucre (Diario N.º 22) | Valora Analitik | https://www.valoraanalitik.com/afinia-pago-131-000-millones-a-xm-y-suspende-riesgo-de-cortes-de-energia-en-el-caribe/ | Energía | Colombia |
 | 2026-10-29 | Petrobras anuncia su tercer hallazgo de petróleo en un mismo pozo de la Margen Ecuatorial, frente a la desembocadura del Amazonas (Diario N.º 22) | Agência Brasil (portugués) | https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/petrobras-anuncia-3a-descoberta-de-petroleo-em-poco-na-foz-do-amazonas | Energía | Brasil |
+| 2026-10-30 | El Banco de la República sorprende al mercado y mantiene su tasa de interés en 12,25 % (Diario N.º 23) | La República | https://www.larepublica.co/economia/junta-del-banco-de-la-republica-mantuvo-inalterada-la-tasa-de-interes-en-12-25-4515191 | Política industrial y coyuntura | Colombia |
+| 2026-11-01 | El Gobierno de Colombia advierte que el país podría caer en impago en 2027 si el Congreso no aprueba la Ley de Rescate (Diario N.º 23) | Portafolio | https://www.portafolio.co/economia/gobierno/gobierno-advierte-que-colombia-podria-entrar-en-default-en-2027-si-el-congreso-no-aprueba-la-ley-de-ajuste-fiscal-505522 | Política industrial y coyuntura | Colombia |
+| 2026-11-01 | Colombia levanta el racionamiento de gas natural tras recuperar la regasificadora de Cartagena antes de lo previsto (Diario N.º 23) | El Tiempo | https://www.eltiempo.com/economia/sectores/gobierno-levanta-restriccion-al-suministro-de-gas-natural-tras-recuperar-capacidad-de-regasificacion-de-spec-3597862 | Energía | Colombia |
+| 2026-10-31 | Manaco cierra en Bolivia su histórica fábrica de calzado tras 86 años y pérdidas acumuladas de Bs 130 millones (Diario N.º 23) | El Deber | https://eldeber.com.bo/economia/manaco-cierra-historica-fabrica-bolivia-86-anos-perdidas-acumuladas-bs-130-millones_1793459001 | Política industrial y coyuntura | Bolivia |
+| 2026-10-31 | Perú autoriza garantías por S/ 2.000 millones del Fondo Crecer para créditos y reprogramaciones de mypes afectadas por El Niño (Diario N.º 23) | Gestión | https://gestion.pe/economia/el-nino-estado-dara-garantias-por-s-2000-millones-para-creditos-y-reprogramaciones-de-mypes-noticia/ | Innovación, digitalización y MiPymes | Perú |
+| 2026-10-31 | Ecuador presenta una proforma presupuestaria 2027 de USD 50.213 millones con un petróleo estimado en USD 66 por barril (Diario N.º 23) | El Universo | https://www.eluniverso.com/economia/finanzas/presupuesto-general-ecuador-2027-proforma-presupuestaria-gobierno-daniel-noboa-nota/ | Política industrial y coyuntura | Ecuador |
+| 2026-10-30 | La colombiana Nutresa concreta la compra de la chocolatera ecuatoriana La Universal tras recibir la aprobación regulatoria (Diario N.º 23) | El Universo | https://www.eluniverso.com/economia/negocios/grupo-nutresa-concreta-la-compra-de-la-universal-en-ecuador-nota/ | Inversión, comercio e integración | Ecuador, Colombia |
+| 2026-10-30 | Chile anota su peor trimestre de producción de cobre en dos décadas; en Perú ven una oportunidad de mediano plazo si avanzan los proyectos (Diario N.º 23) | Gestión | https://gestion.pe/economia/chile-producira-menos-cobre-este-ano-podria-ser-una-oportunidad-para-la-mineria-en-peru-noticia/ | Minerales críticos | Chile, Perú |
+| 2026-11-01 | La inflación de Lima Metropolitana sube a 5,25 % en octubre, su nivel más alto en más de tres años, por El Niño y los combustibles (Diario N.º 23) | El Comercio | https://elcomercio.pe/economia/inflacion-en-lima-metropolitana-alcanza-el-525-anual-en-octubre-su-nivel-mas-alto-en-mas-de-tres-anos-ultimas-noticia/ | Política industrial y coyuntura | Perú |
+| 2026-11-02 | Produce aprueba el plan de reactivación del sector textil y confecciones, con garantías de crédito y asistencia técnica a más de 2.650 mypes (Diario N.º 23) | Gestión | https://gestion.pe/economia/produce-aprueba-plan-para-impulsar-recuperacion-del-sector-textil-y-confecciones-noticia/ | Política industrial y coyuntura | Perú |
+| 2026-11-02 | Novacero deja de comprar chatarra por la paralización de su planta de acero en Lasso por los cortes eléctricos; 12.000 recicladores afectados (Diario N.º 23) | Primicias | https://www.primicias.ec/economia/novacero-paralizacion-produccion-recicladores-desconexiones-electricas-ecuador-136093/ | Política industrial y coyuntura | Ecuador |
+| 2026-10-31 | La CAN y la cooperación alemana (GIZ) renuevan por 18 meses su alianza contra el Fusarium R4T, que ya afecta al banano en Colombia, Perú y Ecuador (Diario N.º 23) | Portafolio | https://www.portafolio.co/economia/agro/banano-colombiano-enfrenta-la-amenaza-del-fusarium-can-y-alemania-refuerzan-estrategia-para-proteger-los-cultivos-505512 | Agroindustria y cadenas de valor | Regional andino |
+| 2026-10-31 | Bruce Mac Master deja la presidencia de la ANDI tras 13 años y reclama una política industrial clara ante la caída de la producción fabril (Diario N.º 23) | El Tiempo | https://www.eltiempo.com/economia/sectores/perdimos-la-oportunidad-de-crecer-como-resultado-de-un-gran-entusiasmo-nacional-bruce-mac-master-habla-por-primera-vez-tras-decidir-dejar-la-andi-3597542 | Política industrial y coyuntura | Colombia |
+| 2026-11-01 | La metalmecánica peruana Ememsa buscará en 2027 la certificación aeroespacial y apunta a crecer en Colombia, México y EE. UU. (Diario N.º 23) | Gestión | https://gestion.pe/economia/empresas/metalmecanica-peruana-apunta-al-sector-aeroespacial-y-acelera-en-eeuu-noticia/ | Innovación, digitalización y MiPymes | Perú |
+| 2026-10-31 | La economía de Bolivia cae 3,27 % en el primer semestre y la manufactura se contrae 11,33 % en el segundo trimestre, según el INE (Diario N.º 23) | El Deber | https://eldeber.com.bo/economia/economia-boliviana-cae-3-27-junio-nueve-11-sectores-contraen-segundo-trimestre_1793481842 | Política industrial y coyuntura | Bolivia |
+| 2026-10-31 | El Gobierno de Bolivia prepara el cierre de las primeras empresas estatales inviables antes de fin de año (Diario N.º 23) | El Deber | https://eldeber.com.bo/economia/gobierno-prepara-cierre-empresas-estatales-antes-fin-ano-anticipa-recortes-gasto-publico_1793479240 | Política industrial y coyuntura | Bolivia |
+| 2026-11-01 | YPFB coordina con Argentina y Brasil los corredores de gas en tránsito para el verano 2026-2027, en el marco de la integración gasífera del Mercosur (Diario N.º 23) | Los Tiempos | https://www.lostiempos.com/actualidad/economia/20261101/ypfb-se-reune-argentina-brasil-fortalecer-integracion-gasifera-regional | Energía | Bolivia, Argentina, Brasil |
+| 2026-10-30 | Unas 185 industrias de alto consumo de Ecuador, entre ellas camaroneras y cementeras, seguirán con desconexiones eléctricas del 1 al 4 de noviembre (Diario N.º 23) | Primicias | https://www.primicias.ec/economia/camaroneras-desconexiones-electricidad-cortes-luz-riesgos-exportaciones-camaron-136098/ | Energía | Ecuador |
+| 2026-10-30 | Brasil adjudica ocho lotes de transmisión eléctrica con inversiones por R$ 8.900 millones y descuentos de hasta 57 % (Diario N.º 23) | Agência Brasil (portugués) | https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/com-muita-disputa-aneel-leiloou-oito-lotes-de-transmissao-de-energia | Energía | Brasil |
+| 2026-11-01 | El carbón vuelve a ser el respaldo eléctrico de Colombia ante El Niño, pero la pequeña minería que lo abastece llega debilitada (Diario N.º 23) | El Tiempo | https://www.eltiempo.com/economia/sectores/el-carbon-vuelve-al-rescate-de-colombia-por-el-nino-pero-con-serias-alertas-por-estragos-que-dejaron-decisiones-del-gobierno-petro-3597615 | Energía | Colombia |
 
 ## Research featured
 
@@ -350,6 +371,11 @@ Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oc
 | 2026-10-30 | Understanding the Evolution of Agricultural Productivity in Colombia | Laajaj | BID | https://doi.org/10.18235/0014586 | Documento de trabajo |
 | 2026-10-30 | Local institutional quality, firm size, and innovation: evidence from Italy | Amato | Small Business Economics | https://doi.org/10.1007/s11187-026-01272-x | Artículo |
 | 2026-10-30 | Market Power in Foreign Input Markets: Evidence From Chinese Manufacturing Firms | Dong | The World Economy | https://doi.org/10.1111/twec.70163 | Artículo |
+| 2026-11-02 | Setting Appropriate Electricity Tariffs and Subsidies | Balza | BID — publicación de la serie del BID | https://doi.org/10.18235/0014582 | Documento de trabajo |
+| 2026-11-02 | Global socio-economic resilience to disasters | Middelanis | Nature Sustainability | https://doi.org/10.1038/s41893-026-01947-z | Artículo |
+| 2026-11-02 | Investor-State Arbitration and Foreign Investment: Evidence from ICSID Membership | Falcone | Banco Mundial — Policy Research Working Paper 11490 | https://doi.org/10.1596/1813-9450-11490 | Documento de trabajo |
+| 2026-11-02 | Peripheral monopoly capital: business groups, class power, and the reproduction of dependency in Chile | Lukas | Review of International Political Economy | https://doi.org/10.1080/09692290.2026.2750442 | Artículo |
+| 2026-11-02 | Export Demand Shocks and Multi-Product Firms: Evidence From China | Wu | The World Economy | https://doi.org/10.1111/twec.70174 | Artículo |
 
 ## Stories proposed but not selected
 

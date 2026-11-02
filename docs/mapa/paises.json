@@ -1,36 +1,36 @@
 {
-  "actualizado": "2026-10-30",
-  "ventana": "29 oct 07:01 → 30 oct 07:00 (ventana del N.º 22)",
+  "actualizado": "2026-11-02",
+  "ventana": "30 oct 07:01 → 2 nov 07:00 (ventana del N.º 23)",
   "fuente": "Noticia del día por país (incluida o no en el boletín, solo fuentes de confianza) y financiamiento de los últimos 30 días",
   "nota_oportunidades": "Las oportunidades son un análisis orientativo del Radar a partir de la noticia y el financiamiento del país; no constituyen una posición oficial de la ONUDI.",
   "paises": {
     "604": {
       "nombre": "Perú",
       "principal": {
-        "texto": "ProInversión promueve 22 APP, dos proyectos en activos y una adenda por US$ 10.169 millones para el eje logístico del sur, con los puertos de Marcona y Matarani y el puerto seco de Puno.",
+        "texto": "El Gobierno autorizó garantías por S/ 2.000 millones del Fondo Crecer para créditos y reprogramaciones de mypes en regiones en emergencia por El Niño.",
         "fuente": "Gestión",
-        "fecha": "2026-10-29",
-        "url": "https://gestion.pe/economia/eje-sur-del-peru-hay-megaproyectos-por-us-10169-millones-en-cartera-senala-proinversion-noticia/",
+        "fecha": "2026-10-31",
+        "url": "https://gestion.pe/economia/el-nino-estado-dara-garantias-por-s-2000-millones-para-creditos-y-reprogramaciones-de-mypes-noticia/",
         "en_boletin": true,
         "en_ventana": true
       },
       "financiamiento": {
-        "texto": "El Congreso aprobó un crédito suplementario de S/ 8.288 millones para El Niño, conectividad satelital de servicios públicos y obras como la Línea 2 del Metro.",
-        "institucion": "Congreso / Gobierno del Perú (público)",
-        "monto": "S/ 8.288 M",
-        "fecha": "2026-10-28",
-        "url": "https://rpp.pe/politica/congreso/congreso-aprueba-credito-suplementario-por-s-8-mil-millones-para-financiar-acciones-ante-el-nino-servicios-e-infraestructura-noticia-1714952",
-        "fuente": "RPP"
+        "texto": "El Decreto de Urgencia 015-2026 autoriza hasta S/ 2.000 millones del Fondo Crecer, administrado por Cofide, para garantizar créditos y reprogramaciones de mypes afectadas por El Niño hasta abril de 2027.",
+        "institucion": "Gobierno del Perú / Cofide (público)",
+        "monto": "S/ 2.000 M",
+        "fecha": "2026-10-31",
+        "url": "https://gestion.pe/economia/el-nino-estado-dara-garantias-por-s-2000-millones-para-creditos-y-reprogramaciones-de-mypes-noticia/",
+        "fuente": "Gestión"
       },
-      "oportunidades": "Vincular la cartera logística del sur con proveedores locales y parques industriales en Arequipa, Moquegua y Puno, y usar parte del gasto frente a El Niño para sostener la producción de las mipymes en las regiones afectadas."
+      "oportunidades": "Acompañar las garantías del Fondo Crecer con asistencia técnica a las mypes manufactureras y agroindustriales de las regiones en emergencia, enlazándola con el plan de reactivación textil y la red de CITE."
     },
     "170": {
       "nombre": "Colombia",
       "principal": {
-        "texto": "El Gobierno radicó la Ley de Rescate Económico: recorte del gasto de 2,2 % del PIB, renta empresarial de 33 % en 2027 y 31 % desde 2028, y un régimen de garantías para megainversiones.",
+        "texto": "El Gobierno advirtió que Colombia podría caer en impago en 2027 si el Congreso no aprueba la Ley de Rescate, que recorta el gasto y reforma impuestos.",
         "fuente": "Portafolio",
-        "fecha": "2026-10-29",
-        "url": "https://www.portafolio.co/economia/gobierno-de-la-espriella-radico-la-ley-de-rescate-fiscal-estos-son-los-puntos-clave-505387",
+        "fecha": "2026-11-01",
+        "url": "https://www.portafolio.co/economia/gobierno/gobierno-advierte-que-colombia-podria-entrar-en-default-en-2027-si-el-congreso-no-aprueba-la-ley-de-ajuste-fiscal-505522",
         "en_boletin": true,
         "en_ventana": true
       },
@@ -42,35 +42,35 @@
         "url": "https://www.eltiempo.com/economia/empresas/grupo-colpatria-diversifica-su-apuesta-energetica-y-suma-un-nuevo-proyecto-solar-con-edf-3597319",
         "fuente": "El Tiempo"
       },
-      "oportunidades": "Acompañar el debate de la Ley de Rescate con evidencia sobre incentivos a la inversión productiva y su efecto en la industria, y apoyar a las manufactureras para aprovechar la nueva oferta solar en contratos de energía limpia."
+      "oportunidades": "Aportar evidencia sobre qué incentivos fiscales a la inversión productiva conviene preservar en el ajuste, y apoyar a las pymes industriales frente a mayores costos y a la inversión solar privada en marcha."
     },
     "218": {
       "nombre": "Ecuador",
       "principal": {
-        "texto": "Novacero y la alemana Linde iniciaron en Lasso (Cotopaxi) una planta automatizada de oxígeno, nitrógeno y argón líquidos con una inversión superior a USD 50 millones.",
-        "fuente": "Primicias",
-        "fecha": "2026-10-29",
-        "url": "https://www.primicias.ec/economia/empresas/novacero-linde-inversion-planta-oxigeno-cotopaxi-lasso-ecuador-136021/",
+        "texto": "La colombiana Nutresa concretó la compra de la chocolatera ecuatoriana La Universal (Manicho, Cocoa Universal) tras recibir la aprobación regulatoria.",
+        "fuente": "El Universo",
+        "fecha": "2026-10-30",
+        "url": "https://www.eluniverso.com/economia/negocios/grupo-nutresa-concreta-la-compra-de-la-universal-en-ecuador-nota/",
         "en_boletin": true,
         "en_ventana": true
       },
       "financiamiento": {
-        "texto": "Novacero (socio mayoritario) y Linde invierten más de USD 50 millones en una planta de gases industriales en Cotopaxi; el montaje empezó el 29 de octubre.",
-        "institucion": "Novacero y Linde (privado)",
-        "monto": "Más de USD 50 M",
-        "fecha": "2026-10-29",
-        "url": "https://www.primicias.ec/economia/empresas/novacero-linde-inversion-planta-oxigeno-cotopaxi-lasso-ecuador-136021/",
-        "fuente": "Primicias"
+        "texto": "Grupo Nutresa completó la adquisición de La Universal, que integrará a su Compañía Nacional de Chocolates; no se reveló el monto.",
+        "institucion": "Grupo Nutresa (privado)",
+        "monto": "No revelado",
+        "fecha": "2026-10-30",
+        "url": "https://www.eluniverso.com/economia/negocios/grupo-nutresa-concreta-la-compra-de-la-universal-en-ecuador-nota/",
+        "fuente": "El Universo"
       },
-      "oportunidades": "Aprovechar la nueva oferta de gases industriales para fortalecer proveedores metalmecánicos y de salud en la Sierra centro, y promover eficiencia energética en la planta y en la cadena del acero."
+      "oportunidades": "Aprovechar la integración de La Universal en un grupo regional para fortalecer la cadena del cacao fino de aroma con proveedores locales, calidad y valor agregado exportable."
     },
     "068": {
       "nombre": "Bolivia",
       "principal": {
-        "texto": "La Cámara Nacional de Industrias Oleaginosas pidió al Gobierno informar el estado y los planes para la planta estatal de soya de San Julián, de Bs 425 millones y 1.000 toneladas diarias.",
-        "fuente": "Los Tiempos",
-        "fecha": "2026-10-29",
-        "url": "https://www.lostiempos.com/actualidad/economia/20261029/caniob-quiere-saber-planes-del-gobierno-planta-soyera-san-julian",
+        "texto": "Manaco anunció el cierre definitivo de su fábrica de calzado de Quillacollo tras 86 años y pérdidas de Bs 130 millones; más de 600 trabajadores se declararon en emergencia.",
+        "fuente": "El Deber",
+        "fecha": "2026-10-31",
+        "url": "https://eldeber.com.bo/economia/manaco-cierra-historica-fabrica-bolivia-86-anos-perdidas-acumuladas-bs-130-millones_1793459001",
         "en_boletin": true,
         "en_ventana": true
       },
@@ -82,50 +82,57 @@
         "url": "https://www.opinion.com.bo/pais/senado-aprueba-credito-bid-us-302-millones-modernizar-alumbrado-publico/20261022191207998045.html",
         "fuente": "ABI (vía Opinión)"
       },
-      "oportunidades": "Ofrecer asistencia técnica para evaluar opciones de gestión transparentes de la planta de San Julián y su integración con la cadena oleaginosa, y orientar el crédito del BID hacia eficiencia energética municipal e industrial."
+      "oportunidades": "Apoyar diagnósticos de competitividad para la manufactura ligera en crisis (calzado, cuero) y opciones de reconversión del empleo, y orientar el crédito BID de alumbrado LED hacia la eficiencia energética municipal."
     },
     "076": {
       "nombre": "Brasil",
       "principal": {
-        "texto": "Petrobras anunció su tercer hallazgo de petróleo en un mismo pozo del bloque FZA-M-59, en la Margen Ecuatorial frente a la desembocadura del Amazonas.",
+        "texto": "La Aneel adjudicó ocho lotes de transmisión eléctrica en siete estados, con inversiones previstas de R$ 8.900 millones y descuentos de hasta 57 %.",
         "fuente": "Agência Brasil",
-        "fecha": "2026-10-29",
-        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/petrobras-anuncia-3a-descoberta-de-petroleo-em-poco-na-foz-do-amazonas",
+        "fecha": "2026-10-30",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/com-muita-disputa-aneel-leiloou-oito-lotes-de-transmissao-de-energia",
         "en_boletin": true,
         "en_ventana": true
       },
       "financiamiento": {
-        "texto": "El BRDE, con recursos del BNDES, financió con R$ 20,2 millones la producción de componentes para vehículos eléctricos e híbridos de ZEN, en Santa Catarina.",
-        "institucion": "BRDE / BNDES (público)",
-        "monto": "R$ 20,2 M",
-        "fecha": "2026-10-22",
-        "url": "https://clickpetroleoegas.com.br/r-202-milhoes-do-bndes-vao-financiar-o-plano-da-zen-para-criar-componentes-de-carros-eletrificados-e-mudar-processos-de-fabrica-em-santa-catarina-tres-produtos-devem-ser-desenvolvidos-a-afch",
-        "fuente": "Click Petróleo e Gás"
+        "texto": "Neoenergia, EDP, Cymi, Celeo y Cox ganaron ocho lotes de transmisión (1.866 km de líneas nuevas) con inversiones previstas de R$ 8.900 millones y concesiones a 30 años.",
+        "institucion": "Neoenergia, EDP, Cymi, Celeo y Cox (privado)",
+        "monto": "R$ 8.900 M",
+        "fecha": "2026-10-30",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/com-muita-disputa-aneel-leiloou-oito-lotes-de-transmissao-de-energia",
+        "fuente": "Agência Brasil"
       },
-      "oportunidades": "Compartir con los países andinos lecciones sobre contenido local y desarrollo de proveedores en nuevas fronteras de hidrocarburos, junto con salvaguardas ambientales en la Amazonía."
+      "oportunidades": "Compartir con los países andinos, que enfrentan congestión en transmisión, el modelo brasileño de subastas competitivas de líneas y su efecto en el suministro para la industria."
     },
     "152": {
       "nombre": "Chile",
       "principal": {
-        "texto": "La Bolsa de Santiago renovó su imagen junto con las de Colombia y Lima, con una identidad común dentro del holding regional nuam.",
-        "fuente": "Valora Analitik",
-        "fecha": "2026-10-28",
-        "url": "https://www.valoraanalitik.com/bolsa-de-colombia-estrena-nombre-nuam/",
+        "texto": "La producción de cobre de Chile cayó 12 % en el tercer trimestre, su peor nivel trimestral en dos décadas, por accidentes, clima adverso y menor ley del mineral.",
+        "fuente": "Bloomberg Línea",
+        "fecha": "2026-10-30",
+        "url": "https://www.bloomberglinea.com/latinoamerica/chile/produccion-de-cobre-de-chile-se-desploma-12-y-marca-su-peor-trimestre-en-dos-decadas/",
         "en_boletin": true,
-        "en_ventana": false
+        "en_ventana": true
       },
-      "financiamiento": null,
-      "oportunidades": "Aprovechar la integración bursátil con Colombia y Perú como referencia para el financiamiento regional de proyectos industriales y verdes."
+      "financiamiento": {
+        "texto": "Marimaca Copper eligió un prestamista preferente para un financiamiento de proyecto de US$ 375–400 millones para su mina de cobre en Antofagasta; busca cerrarlo antes de fin de 2026.",
+        "institucion": "Marimaca Copper / prestamista minero no revelado (privado)",
+        "monto": "US$ 375–400 M",
+        "fecha": "2026-10-28",
+        "url": "https://www.bloomberglinea.com/latinoamerica/chile/marimaca-copper-avanza-en-financiacion-de-hasta-us400-millones-para-una-mina-de-cobre-en-chile/",
+        "fuente": "Bloomberg Línea"
+      },
+      "oportunidades": "Intercambiar con Perú y la región prácticas de productividad y seguridad minera, y promover proveedores andinos para los nuevos proyectos de cobre."
     },
     "032": {
       "nombre": "Argentina",
       "principal": {
-        "texto": "Estimaciones privadas de Equilibra y Ferreres indican que la actividad cayó en el tercer trimestre y que Argentina entró en recesión técnica; el dato oficial saldrá el 16 de diciembre.",
-        "fuente": "Infobae",
-        "fecha": "2026-10-28",
-        "url": "https://www.infobae.com/economia/2026/10/28/segun-estimaciones-privadas-la-economia-tuvo-un-leve-crecimiento-en-septiembre-y-la-argentina-entro-en-recesion-tecnica/",
+        "texto": "Consultoras y bancos recortan sus proyecciones de crecimiento de Argentina para 2026; la EIU baja su estimación a 0,5 % y BTG advierte recesión técnica.",
+        "fuente": "Bloomberg Línea",
+        "fecha": "2026-11-02",
+        "url": "https://www.bloomberglinea.com/latinoamerica/argentina/crecimiento-2026-consultoras-y-bancos-recortan-sus-proyecciones-para-argentina/",
         "en_boletin": false,
-        "en_ventana": false
+        "en_ventana": true
       },
       "financiamiento": {
         "texto": "El BID aprobó US$ 60 millones para mejorar el sistema de salud de Río Negro.",
@@ -135,15 +142,15 @@
         "url": "https://www.noticias24.com.ar/2026/10/20/el-gobierno-aprobo-prestamo-del-bid-para-financiar-la-mejora-del-sistema-de-salud-de-rio-negro/",
         "fuente": "Noticias24"
       },
-      "oportunidades": "Apoyar la competitividad de las pymes manufactureras en recesión con productividad y acceso a financiamiento, aprovechando las líneas del BID."
+      "oportunidades": "Apoyar la competitividad de las pymes industriales ante la desaceleración y acompañar la mejora de servicios públicos financiada por el BID en Río Negro."
     },
     "484": {
       "nombre": "México",
       "principal": {
-        "texto": "La presidenta Sheinbaum visitó dos nuevas inversiones en Hidalgo, entre ellas un centro logístico de Mercado Libre, y afirmó que el estado crece a un ritmo anual de 8 %.",
-        "fuente": "Infobae",
-        "fecha": "2026-10-29",
-        "url": "https://www.infobae.com/mexico/2026/10/30/sheinbaum-y-ebrard-presumen-que-mexico-acumula-inversion-por-4-mil-millones-de-dolares-en-2026/",
+        "texto": "El PIB de México creció 3,2 % anual en el tercer trimestre según la estimación oportuna del INEGI, su mejor ritmo en el Gobierno de Sheinbaum; la industria creció 3,1 %.",
+        "fuente": "Bloomberg Línea",
+        "fecha": "2026-10-30",
+        "url": "https://www.bloomberglinea.com/latinoamerica/mexico/mexico-anota-su-mejor-crecimiento-economico-trimestral-en-lo-que-va-del-gobierno-de-sheinbaum/",
         "en_boletin": false,
         "en_ventana": true
       },
@@ -155,15 +162,15 @@
         "url": "https://www.infobae.com/america/agencias/2026/10/22/mexico-invertira-763-millones-de-dolares-en-20-parques-industriales/",
         "fuente": "Infobae (EFE)"
       },
-      "oportunidades": "Compartir lecciones sobre diversificación de mercados y parques industriales del Plan México ante la presión arancelaria, útiles para las cadenas automotrices y metalmecánicas andinas."
+      "oportunidades": "Compartir lecciones del Plan México sobre parques industriales y exportaciones manufactureras de electrónica, útiles para las estrategias de reindustrialización andinas."
     },
     "862": {
       "nombre": "Venezuela",
       "principal": {
-        "texto": "Venezuela y EE. UU. revisaron su acuerdo petrolero en Zulia: el campo produce 115.000 barriles diarios y apunta a 120.000 en diciembre.",
-        "fuente": "Infobae (EFE)",
-        "fecha": "2026-10-23",
-        "url": "https://www.infobae.com/america/agencias/2026/10/23/venezuela-y-estados-unidos-inspeccionan-los-avances-de-su-acuerdo-petrolero/",
+        "texto": "Eni reactivó el campo Junín-5 de la Faja del Orinoco como operadora exclusiva y apunta a 200.000 barriles diarios en 2028, desde unos 12.000.",
+        "fuente": "Bloomberg Línea",
+        "fecha": "2026-10-28",
+        "url": "https://www.bloomberglinea.com/latinoamerica/venezuela/eni-reactiva-produccion-en-venezuela-y-apunta-a-200000-barriles-diarios-en-junin-5-para-2028/",
         "en_boletin": false,
         "en_ventana": false
       },
@@ -279,35 +286,28 @@
     "340": {
       "nombre": "Honduras",
       "principal": {
-        "texto": "La Cancillería se reunió con inversionistas israelíes para explorar cooperación en agricultura, salud, seguridad y tecnología, sin anunciar acuerdos ni montos.",
+        "texto": "Honduras presentará en la Cumbre Iberoamericana de Madrid (4 y 5 de noviembre) sus prioridades, entre ellas inversiones e inteligencia artificial, y asumirá la Secretaría Pro Tempore 2026-2028.",
         "fuente": "Infobae",
-        "fecha": "2026-10-26",
-        "url": "https://www.infobae.com/honduras/2026/10/26/honduras-busca-atraer-inversion-israeli-en-agricultura-salud-y-tecnologia/",
+        "fecha": "2026-11-01",
+        "url": "https://www.infobae.com/honduras/2026/11/02/honduras-toma-protagonismo-en-la-cumbre-iberoamericana/",
         "en_boletin": false,
-        "en_ventana": false
+        "en_ventana": true
       },
-      "financiamiento": {
-        "texto": "CAF aprobó US$ 177 millones para la línea de transmisión eléctrica El Sitio–Zamorano II–Terrero Blanco.",
-        "institucion": "CAF (público)",
-        "monto": "US$ 177 M",
-        "fecha": "2026-10-01",
-        "url": "https://www.elheraldo.hn/honduras/bid-presta-70-millones-dolares-mejorar-servicio-agua-capital-hondurena-CB32222880",
-        "fuente": "El Heraldo"
-      },
-      "oportunidades": "Orientar el interés inversor hacia la agrotecnología y el valor agregado agroindustrial, junto con el financiamiento reciente de la CAF."
+      "financiamiento": null,
+      "oportunidades": "Aprovechar la agenda de inversiones de Honduras en la Cumbre Iberoamericana para promover cooperación en agroindustria y energía; no se registró financiamiento nuevo en los últimos 30 días."
     },
     "188": {
       "nombre": "Costa Rica",
       "principal": {
-        "texto": "La CEPAL proyecta que Costa Rica crezca 3,5 % en 2026, entre las economías de mayor crecimiento de la región.",
-        "fuente": "Infobae",
-        "fecha": "2026-10-22",
-        "url": "https://www.infobae.com/el-salvador/2026/10/23/el-salvador-creceria-45-en-2026-y-se-ubicaria-entre-las-economias-lideres-regionales-segun-cepal/",
+        "texto": "La presidenta Laura Fernández anunció que Costa Rica no se adherirá al Acuerdo Transpacífico (CPTPP) y destituyó a la ministra de Comercio, tras presiones del agro.",
+        "fuente": "Bloomberg Línea",
+        "fecha": "2026-10-28",
+        "url": "https://www.bloomberglinea.com/latinoamerica/costa-rica/asi-impacta-a-costa-rica-la-decision-de-laura-fernandez-de-frenar-su-ingreso-al-acuerdo-transpacifico/",
         "en_boletin": false,
         "en_ventana": false
       },
       "financiamiento": null,
-      "oportunidades": "Referencia en atracción de inversión extranjera hacia manufactura avanzada y zonas francas."
+      "oportunidades": "Seguir el efecto del freno al CPTPP en la atracción de manufactura avanzada y zonas francas, referencia para la estrategia comercial andina."
     }
   }
 }
