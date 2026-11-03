@@ -4,7 +4,7 @@ Log of every scan and of the stories published in bulletins. `/radar` reads this
 
 ## Daily issues
 
-Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oct 2026 the issue of 23 Oct is N.º 17 (formerly N.º 1) and the issue of 26 Oct is N.º 18 (formerly N.º 2). Issues N.º 1–12 (1–16 Oct) were prepared retrospectively and published on 26 Oct 2026. The next issue is N.º 24.
+Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oct 2026 the issue of 23 Oct is N.º 17 (formerly N.º 1) and the issue of 26 Oct is N.º 18 (formerly N.º 2). Issues N.º 1–12 (1–16 Oct) were prepared retrospectively and published on 26 Oct 2026. The next issue is N.º 25.
 
 | N.º | Fecha | Ventana | Noticias | Boletín | Estado |
 |---|---|---|---|---|---|
@@ -31,6 +31,7 @@ Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oc
 | 21 | 2026-10-29 | 28 oct 07:01 → 29 oct 07:00 | 20 | output/radar/2026-10-29/boletin.html | final |
 | 22 | 2026-10-30 | 29 oct 07:01 → 30 oct 07:00 | 16 | output/radar/2026-10-30/boletin.html | final |
 | 23 | 2026-11-02 | 30 oct 07:01 → 2 nov 07:00 | 20 | output/radar/2026-11-02/boletin.html | final |
+| 24 | 2026-11-03 | 2 nov 07:01 → 3 nov 07:00 | 15 | output/radar/2026-11-03/boletin.html | final |
 
 ## Weekly scans (earlier format)
 
@@ -308,6 +309,21 @@ Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oc
 | 2026-10-30 | Unas 185 industrias de alto consumo de Ecuador, entre ellas camaroneras y cementeras, seguirán con desconexiones eléctricas del 1 al 4 de noviembre (Diario N.º 23) | Primicias | https://www.primicias.ec/economia/camaroneras-desconexiones-electricidad-cortes-luz-riesgos-exportaciones-camaron-136098/ | Energía | Ecuador |
 | 2026-10-30 | Brasil adjudica ocho lotes de transmisión eléctrica con inversiones por R$ 8.900 millones y descuentos de hasta 57 % (Diario N.º 23) | Agência Brasil (portugués) | https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/com-muita-disputa-aneel-leiloou-oito-lotes-de-transmissao-de-energia | Energía | Brasil |
 | 2026-11-01 | El carbón vuelve a ser el respaldo eléctrico de Colombia ante El Niño, pero la pequeña minería que lo abastece llega debilitada (Diario N.º 23) | El Tiempo | https://www.eltiempo.com/economia/sectores/el-carbon-vuelve-al-rescate-de-colombia-por-el-nino-pero-con-serias-alertas-por-estragos-que-dejaron-decisiones-del-gobierno-petro-3597615 | Energía | Colombia |
+| 2026-11-02 | La peruana Alicorp cierra la compra de las operaciones de Flora Food en siete países de América Latina por unos US$ 150,5 millones (Diario N.º 24) | Gestión | https://gestion.pe/economia/empresas/alicorp-cierra-compra-de-la-danesa-y-otras-marcas-de-flora-food-por-us1505-millones-noticia/ | Inversión, comercio e integración | Perú, Colombia, Ecuador |
+| 2026-11-02 | La Ley de Rescate de Colombia ofrece 16 años de estabilidad tributaria y renta del 20 % a nuevas inversiones que compren al menos 30 % a proveedores nacionales (Diario N.º 24) | Valora Analitik | https://www.valoraanalitik.com/ley-de-rescate-fiscal-plantea-estabilidad-tributaria-por-16-anos-para-nuevas-inversiones/ | Política industrial y coyuntura | Colombia |
+| 2026-11-02 | El FMI respalda la Ley de Rescate fiscal que el Gobierno de Colombia presentó al Congreso (Diario N.º 24) | El Tiempo | https://www.eltiempo.com/economia/sectores/fmi-celebra-la-ley-de-rescate-fiscal-que-el-gobierno-de-colombia-presento-al-congreso-para-ajustar-sus-finanzas-publicas-3597955 | Organismos multilaterales | Colombia |
+| 2026-11-02 | Ecuador firma con Emiratos Árabes Unidos y ADNOC un acuerdo marco para vender crudo de forma directa y atraer inversión al campo Sacha (Diario N.º 24) | El Universo | https://www.eluniverso.com/economia/produccion/ecuador-acuerdo-emiratos-arabes-unidos-inversion-campo-sacha-bloque-60-petroleo-nota/ | Energía | Ecuador |
+| 2026-11-02 | La producción de calzado del Perú cae más de 10 % al año ante las importaciones chinas y los talleres cierran o se reconvierten (Diario N.º 24) | Gestión | https://gestion.pe/economia/empresas/produccion-de-calzado-cae-en-peru-talleres-cierran-o-se-reconvierten-a-otros-rubros-y-surge-mercado-boutique-enfocado-en-nichos-noticia/ | Política industrial y coyuntura | Perú |
+| 2026-11-02 | El consorcio Camisea evaluará durante 24 meses el potencial de gas natural de dos nuevas áreas de la cuenca Ucayali, en Cusco (Diario N.º 24) | Gestión | https://gestion.pe/economia/consorcio-camisea-estudiara-potencial-de-gas-natural-en-cuenca-ucayali-noticia/ | Energía | Perú |
+| 2026-11-02 | El presidente de Bolivia, Rodrigo Paz, llega a Madrid para la Cumbre Iberoamericana con una agenda de búsqueda de inversión y financiamiento (Diario N.º 24) | El Deber | https://eldeber.com.bo/economia/diplomacia-negocios-desafio-paz-cumbre-madrid_1793663531 | Inversión, comercio e integración | Bolivia |
+| 2026-11-02 | GeoPark entra en Venezuela con un contrato de 25 años en el bloque Bare y el Grupo Gilinski toma el control de la petrolera (Diario N.º 24) | Valora Analitik | https://www.valoraanalitik.com/geopark-concreta-su-entrada-a-venezuela-y-grupo-gilinski-toma-el-control-de-la-petrolera/ | Energía | Colombia, Venezuela |
+| 2026-11-02 | Perú: la Comisión de Presupuesto aprueba el predictamen de endeudamiento y el MEF y el Congreso aún discrepan en cinco puntos del Presupuesto 2027 (Diario N.º 24) | El Comercio | https://elcomercio.pe/economia/peru/comision-de-presupuesto-aprueba-predictamen-de-la-ley-de-presupuesto-pero-reanudara-sesion-este-martes-03-de-noviembre-que-falto-noticia/ | Política industrial y coyuntura | Perú |
+| 2026-11-02 | La refinería de Talara paraliza operaciones por un corte del sistema eléctrico en el norte del Perú (Diario N.º 24) | El Comercio | https://elcomercio.pe/economia/peru/refineria-talara-se-paraliza-operaciones-por-interrupcion-del-suministro-electrico-en-el-norte-del-peru-l-ultimas-noticia/ | Energía | Perú |
+| 2026-11-03 | La demora en la ampliación del gasoducto argentino Manuel Belgrano podría trabar la importación de gas de la industria boliviana (Diario N.º 24) | El Deber | https://eldeber.com.bo/economia/demora-ampliacion-gasoducto-argentino-puede-trabar-importacion-gas_1793703936 | Energía | Bolivia, Argentina |
+| 2026-11-03 | El terminal de DP World en el Callao registra en octubre su mayor movimiento mensual: unos 200.000 contenedores (TEU) (Diario N.º 24) | Gestión | https://gestion.pe/peru/dp-world-callao-registra-el-mayor-movimiento-mensual-de-su-historia-noticia/ | Megaproyectos e infraestructura | Perú |
+| 2026-11-02 | Ecuador frena sus exportaciones de arroz a Colombia para priorizar el abastecimiento local ante El Niño (Diario N.º 24) | El Universo | https://www.eluniverso.com/economia/industrias/exportacion-arroz-toneladas-desaceleracion-fenomeno-el-nino-ecuador-colombia-2026-nota/ | Agroindustria y cadenas de valor | Ecuador, Colombia |
+| 2026-11-02 | Hudbay invertirá US$ 21,5 millones en Pecoy Copper para explorar un proyecto de cobre y oro en Arequipa (Diario N.º 24) | Gestión | https://gestion.pe/economia/empresas/hudbay-y-un-paso-mas-alla-de-constancia-en-peru-invertira-en-proyecto-de-cobre-de-pecoy-copper-en-arequipa-noticia/ | Minerales críticos | Perú |
+| 2026-11-02 | Arranca en Barranquilla la reconstrucción del Tajamar Occidental, una obra de unos $380.000 millones, y el Gobierno suma $100.000 millones (Diario N.º 24) | Portafolio | https://www.portafolio.co/economia/infraestructura/tajamar-occidental-suma-100-000-millones-del-gobierno-a-una-obra-de-cerca-de-380-000-millones-en-barranquilla-505581 | Megaproyectos e infraestructura | Colombia |
 
 ## Research featured
 
@@ -376,6 +392,10 @@ Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oc
 | 2026-11-02 | Investor-State Arbitration and Foreign Investment: Evidence from ICSID Membership | Falcone | Banco Mundial — Policy Research Working Paper 11490 | https://doi.org/10.1596/1813-9450-11490 | Documento de trabajo |
 | 2026-11-02 | Peripheral monopoly capital: business groups, class power, and the reproduction of dependency in Chile | Lukas | Review of International Political Economy | https://doi.org/10.1080/09692290.2026.2750442 | Artículo |
 | 2026-11-02 | Export Demand Shocks and Multi-Product Firms: Evidence From China | Wu | The World Economy | https://doi.org/10.1111/twec.70174 | Artículo |
+| 2026-11-03 | Functional Upgrading in Global Value Chains | Haraguchi | Structural Change and Economic Dynamics | https://doi.org/10.1016/j.strueco.2026.10.010 | Artículo |
+| 2026-11-03 | Environmental, circularity, and criticality assessment of end-of-life lithium-ion batteries: Implications for management strategies in Mexico | Román Barajas | Journal of Cleaner Production | https://doi.org/10.1016/j.jclepro.2026.149831 | Artículo |
+| 2026-11-03 | Relevant disruptions in critical mineral supply chain sustainability: A systematic literature review | Kemal | Resources Policy | https://doi.org/10.1016/j.resourpol.2026.106082 | Artículo |
+| 2026-11-03 | Manufacturing Renaissance Meets Time-Inconsistent Tariffs | Boehm | NBER Working Paper 35976 | https://doi.org/10.3386/w35976 | Documento de trabajo |
 
 ## Stories proposed but not selected
 

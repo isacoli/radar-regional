@@ -1,0 +1,321 @@
+{
+ "actualizado": "2026-11-03",
+ "ventana": "2 nov 07:01 → 3 nov 07:00 (ventana del N.º 24)",
+ "fuente": "Noticia del día por país (incluida o no en el boletín, solo fuentes de confianza) y financiamiento de los últimos 30 días",
+ "nota_oportunidades": "Las oportunidades son un análisis orientativo del Radar a partir de la noticia y el financiamiento del país; no constituyen una posición oficial de la ONUDI.",
+ "paises": {
+  "604": {
+   "nombre": "Perú",
+   "principal": {
+    "texto": "Alicorp cerró la compra de las operaciones de Flora Food en siete países por unos US$ 150,5 millones, con marcas como La Danesa y Dorina en Perú.",
+    "fuente": "Gestión",
+    "fecha": "2026-11-02",
+    "url": "https://gestion.pe/economia/empresas/alicorp-cierra-compra-de-la-danesa-y-otras-marcas-de-flora-food-por-us1505-millones-noticia/",
+    "en_boletin": true,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "Alicorp adquirió el 100 % de las operaciones de Flora Food en Perú, Colombia, Ecuador, Chile, Panamá, Guatemala y República Dominicana por un valor de empresa de unos US$ 150,5 millones.",
+    "institucion": "Alicorp (privado)",
+    "monto": "US$ 150,5 M",
+    "fecha": "2026-11-02",
+    "url": "https://gestion.pe/economia/empresas/alicorp-cierra-compra-de-la-danesa-y-otras-marcas-de-flora-food-por-us1505-millones-noticia/",
+    "fuente": "Gestión"
+   },
+   "oportunidades": "Aprovechar la expansión regional de Alicorp para trabajar con sus proveedores agroindustriales en calidad, eficiencia y estándares de exportación dentro de la red andina de plantas."
+  },
+  "170": {
+   "nombre": "Colombia",
+   "principal": {
+    "texto": "El proyecto de Ley de Rescate crea el régimen RUGE: 16 años de estabilidad tributaria y renta del 20 % para nuevas inversiones que compren 30 % a proveedores nacionales.",
+    "fuente": "Valora Analitik",
+    "fecha": "2026-11-02",
+    "url": "https://www.valoraanalitik.com/ley-de-rescate-fiscal-plantea-estabilidad-tributaria-por-16-anos-para-nuevas-inversiones/",
+    "en_boletin": true,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "Comenzó la reconstrucción del Tajamar Occidental en Bocas de Ceniza (Barranquilla), una obra de unos $380.000 millones, y el Gobierno anunció $100.000 millones adicionales para obras complementarias.",
+    "institucion": "Gobierno de Colombia (público)",
+    "monto": "$100.000 millones (COP)",
+    "fecha": "2026-11-02",
+    "url": "https://www.portafolio.co/economia/infraestructura/tajamar-occidental-suma-100-000-millones-del-gobierno-a-una-obra-de-cerca-de-380-000-millones-en-barranquilla-505581",
+    "fuente": "Portafolio"
+   },
+   "oportunidades": "Apoyar el diseño del requisito de 30 % de compras nacionales del RUGE con programas de desarrollo de proveedores industriales, y vincular a las pymes locales con las obras portuarias de Barranquilla."
+  },
+  "218": {
+   "nombre": "Ecuador",
+   "principal": {
+    "texto": "Petroecuador firmó con Emiratos Árabes Unidos y ADNOC un acuerdo marco para vender crudo de forma directa y negociar inversión para elevar la producción del campo Sacha.",
+    "fuente": "El Universo",
+    "fecha": "2026-11-02",
+    "url": "https://www.eluniverso.com/economia/produccion/ecuador-acuerdo-emiratos-arabes-unidos-inversion-campo-sacha-bloque-60-petroleo-nota/",
+    "en_boletin": true,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "Memorando marco entre el Gobierno de Ecuador, Petroecuador, el Gobierno de Emiratos Árabes Unidos y ADNOC para inversión en el bloque 60 Sacha y venta directa de crudo; sin monto anunciado.",
+    "institucion": "ADNOC / Gobierno de Emiratos Árabes Unidos (público extranjero)",
+    "monto": "No revelado",
+    "fecha": "2026-11-02",
+    "url": "https://www.eluniverso.com/economia/produccion/ecuador-acuerdo-emiratos-arabes-unidos-inversion-campo-sacha-bloque-60-petroleo-nota/",
+    "fuente": "El Universo"
+   },
+   "oportunidades": "Orientar parte de la nueva inversión petrolera hacia contenido local y servicios industriales ecuatorianos, y apoyar la eficiencia energética de las industrias afectadas por los cortes eléctricos."
+  },
+  "068": {
+   "nombre": "Bolivia",
+   "principal": {
+    "texto": "El presidente Rodrigo Paz llegó a Madrid para la Cumbre Iberoamericana con una agenda que busca inversión y financiamiento en hidrocarburos, minería, energía y tecnología.",
+    "fuente": "El Deber",
+    "fecha": "2026-11-02",
+    "url": "https://eldeber.com.bo/economia/diplomacia-negocios-desafio-paz-cumbre-madrid_1793663531",
+    "en_boletin": true,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "El Senado aprobó un crédito del BID de US$ 30,2 millones para modernizar el alumbrado público con tecnología LED y medición inteligente.",
+    "institucion": "BID (público)",
+    "monto": "US$ 30,2 M",
+    "fecha": "2026-10-22",
+    "url": "https://www.opinion.com.bo/pais/senado-aprueba-credito-bid-us-302-millones-modernizar-alumbrado-publico/20261022191207998045.html",
+    "fuente": "ABI (vía Opinión)"
+   },
+   "oportunidades": "Ofrecer apoyo técnico para convertir los contactos de la Cumbre Iberoamericana en proyectos industriales concretos y para garantizar el abastecimiento energético de la industria mientras avanza el préstamo del BID para alumbrado eficiente."
+  },
+  "076": {
+   "nombre": "Brasil",
+   "principal": {
+    "texto": "La Aneel adjudicó ocho lotes de transmisión eléctrica en siete estados, con inversiones previstas de R$ 8.900 millones y descuentos de hasta 57 %.",
+    "fuente": "Agência Brasil",
+    "fecha": "2026-10-30",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/com-muita-disputa-aneel-leiloou-oito-lotes-de-transmissao-de-energia",
+    "en_boletin": false,
+    "en_ventana": false
+   },
+   "financiamiento": {
+    "texto": "Neoenergia, EDP, Cymi, Celeo y Cox ganaron ocho lotes de transmisión (1.866 km de líneas nuevas) con inversiones previstas de R$ 8.900 millones y concesiones a 30 años.",
+    "institucion": "Neoenergia, EDP, Cymi, Celeo y Cox (privado)",
+    "monto": "R$ 8.900 M",
+    "fecha": "2026-10-30",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/com-muita-disputa-aneel-leiloou-oito-lotes-de-transmissao-de-energia",
+    "fuente": "Agência Brasil"
+   },
+   "oportunidades": "Compartir con los países andinos, que enfrentan congestión en transmisión, el modelo brasileño de subastas competitivas de líneas y su efecto en el suministro para la industria."
+  },
+  "152": {
+   "nombre": "Chile",
+   "principal": {
+    "texto": "La producción de cobre de Chile cayó 12 % en el tercer trimestre, su peor nivel trimestral en dos décadas, por accidentes, clima adverso y menor ley del mineral.",
+    "fuente": "Bloomberg Línea",
+    "fecha": "2026-10-30",
+    "url": "https://www.bloomberglinea.com/latinoamerica/chile/produccion-de-cobre-de-chile-se-desploma-12-y-marca-su-peor-trimestre-en-dos-decadas/",
+    "en_boletin": false,
+    "en_ventana": false
+   },
+   "financiamiento": {
+    "texto": "Marimaca Copper eligió un prestamista preferente para un financiamiento de proyecto de US$ 375–400 millones para su mina de cobre en Antofagasta; busca cerrarlo antes de fin de 2026.",
+    "institucion": "Marimaca Copper / prestamista minero no revelado (privado)",
+    "monto": "US$ 375–400 M",
+    "fecha": "2026-10-28",
+    "url": "https://www.bloomberglinea.com/latinoamerica/chile/marimaca-copper-avanza-en-financiacion-de-hasta-us400-millones-para-una-mina-de-cobre-en-chile/",
+    "fuente": "Bloomberg Línea"
+   },
+   "oportunidades": "Intercambiar con Perú y la región prácticas de productividad y seguridad minera, y promover proveedores andinos para los nuevos proyectos de cobre."
+  },
+  "032": {
+   "nombre": "Argentina",
+   "principal": {
+    "texto": "La ampliación del gasoducto Manuel Belgrano, clave para exportar gas a Bolivia, Brasil y Chile, no empezaría hasta abril de 2027 y terminaría en 2029.",
+    "fuente": "El Deber",
+    "fecha": "2026-11-03",
+    "url": "https://eldeber.com.bo/economia/demora-ampliacion-gasoducto-argentino-puede-trabar-importacion-gas_1793703936",
+    "en_boletin": true,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "El BID aprobó US$ 60 millones para mejorar el sistema de salud de Río Negro.",
+    "institucion": "BID (público)",
+    "monto": "US$ 60 M",
+    "fecha": "2026-10-20",
+    "url": "https://www.noticias24.com.ar/2026/10/20/el-gobierno-aprobo-prestamo-del-bid-para-financiar-la-mejora-del-sistema-de-salud-de-rio-negro/",
+    "fuente": "Noticias24"
+   },
+   "oportunidades": "Explorar cooperación energética e industrial con Bolivia en torno al gas de Vaca Muerta y acompañar la mejora de servicios públicos financiada por el BID en Río Negro."
+  },
+  "484": {
+   "nombre": "México",
+   "principal": {
+    "texto": "El PIB de México creció 3,2 % anual en el tercer trimestre según la estimación oportuna del INEGI, su mejor ritmo en el Gobierno de Sheinbaum; la industria creció 3,1 %.",
+    "fuente": "Bloomberg Línea",
+    "fecha": "2026-10-30",
+    "url": "https://www.bloomberglinea.com/latinoamerica/mexico/mexico-anota-su-mejor-crecimiento-economico-trimestral-en-lo-que-va-del-gobierno-de-sheinbaum/",
+    "en_boletin": false,
+    "en_ventana": false
+   },
+   "financiamiento": {
+    "texto": "Desarrolladores privados invertirán US$ 763 millones en 20 nuevos parques industriales del Plan México.",
+    "institucion": "Desarrolladores privados (Plan México)",
+    "monto": "US$ 763 M",
+    "fecha": "2026-10-22",
+    "url": "https://www.infobae.com/america/agencias/2026/10/22/mexico-invertira-763-millones-de-dolares-en-20-parques-industriales/",
+    "fuente": "Infobae (EFE)"
+   },
+   "oportunidades": "Compartir lecciones del Plan México sobre parques industriales y exportaciones manufactureras de electrónica, útiles para las estrategias de reindustrialización andinas."
+  },
+  "862": {
+   "nombre": "Venezuela",
+   "principal": {
+    "texto": "GeoPark activó un contrato de 25 años en el bloque Bare de Venezuela y el Grupo Gilinski tomó el control de la petrolera con cerca del 56,3 %.",
+    "fuente": "Valora Analitik",
+    "fecha": "2026-11-02",
+    "url": "https://www.valoraanalitik.com/geopark-concreta-su-entrada-a-venezuela-y-grupo-gilinski-toma-el-control-de-la-petrolera/",
+    "en_boletin": true,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "GeoPark ingresó al bloque Bare mediante un canje de acciones sin pago en efectivo; el Grupo Gilinski deberá lanzar una oferta pública a US$ 12,22 por acción en 90 días.",
+    "institucion": "GeoPark / Grupo Gilinski (privado)",
+    "monto": "No revelado (canje de acciones)",
+    "fecha": "2026-11-02",
+    "url": "https://www.valoraanalitik.com/geopark-concreta-su-entrada-a-venezuela-y-grupo-gilinski-toma-el-control-de-la-petrolera/",
+    "fuente": "Valora Analitik"
+   },
+   "oportunidades": "Seguir el regreso de inversión colombiana al petróleo venezolano como posible puerta para cadenas de servicios industriales binacionales, con cautela por el riesgo regulatorio."
+  },
+  "858": {
+   "nombre": "Uruguay",
+   "principal": {
+    "texto": "El proyecto de centros de datos y energía solar de Solaria prevé US$ 5.700 millones, cerca del 6,5 % del PIB, con hasta 500 MW de datos y 350 MW solares.",
+    "fuente": "Bloomberg Línea",
+    "fecha": "2026-10-25",
+    "url": "https://www.bloomberglinea.com/latinoamerica/uruguay/que-impacto-pueden-tener-los-data-centers-en-al-economia-uruguaya/",
+    "en_boletin": false,
+    "en_ventana": false
+   },
+   "financiamiento": {
+    "texto": "La española Solaria destinará US$ 5.700 millones a un complejo de centros de datos en zona franca y una planta solar de 350 MW en Canelones, San José y Florida.",
+    "institucion": "Solaria (privado)",
+    "monto": "US$ 5.700 M",
+    "fecha": "2026-10-15",
+    "url": "https://www.infobae.com/america/america-latina/2026/10/15/uruguay-anuncio-una-inversion-de-usd-5700-millones-para-instalar-centros-de-datos-cinco-claves-del-proyecto/",
+    "fuente": "Infobae"
+   },
+   "oportunidades": "Referencia para atraer inversión digital asociada a energía renovable y para vincular a proveedores locales con grandes proyectos."
+  },
+  "600": {
+   "nombre": "Paraguay",
+   "principal": {
+    "texto": "Santiago Peña espera cerrar antes de fin de año con Brasil la negociación del Anexo C de Itaipú, que abastece cerca del 90 % del mercado eléctrico paraguayo.",
+    "fuente": "Infobae",
+    "fecha": "2026-10-27",
+    "url": "https://www.infobae.com/america/america-latina/2026/10/27/paraguay-busca-cerrar-antes-de-fin-de-ano-la-negociacion-con-brasil-por-la-energia-de-itaipu/",
+    "en_boletin": false,
+    "en_ventana": false
+   },
+   "financiamiento": null,
+   "oportunidades": "Orientar la energía hidroeléctrica disponible hacia usos industriales de mayor valor agregado y eficiencia energética en la industria."
+  },
+  "222": {
+   "nombre": "El Salvador",
+   "principal": {
+    "texto": "El Ministerio de Obras Públicas propuso para 2027 su mayor presupuesto: US$ 1.057 millones, casi todo para inversión en infraestructura.",
+    "fuente": "Infobae",
+    "fecha": "2026-10-27",
+    "url": "https://www.infobae.com/el-salvador/2026/10/27/el-ministerio-de-obras-publicas-presenta-el-mayor-presupuesto-de-su-historia-para-invertir-en-infraestructura-en-el-salvador/",
+    "en_boletin": false,
+    "en_ventana": false
+   },
+   "financiamiento": {
+    "texto": "El BCIE amplió en US$ 50 millones el financiamiento al Fondo Social para la Vivienda.",
+    "institucion": "BCIE (público)",
+    "monto": "US$ 50 M",
+    "fecha": "2026-10-19",
+    "url": "https://www.elsalvador.com/dinero-y-negocios/entorno-economico/bcie-financiamiento-vivienda/1299513/2026/",
+    "fuente": "elsalvador.com"
+   },
+   "oportunidades": "Vincular la inversión en infraestructura con proveedores locales y mipymes, apoyándose en el financiamiento del BCIE."
+  },
+  "591": {
+   "nombre": "Panamá",
+   "principal": {
+    "texto": "El Congreso General Guna aprobó consultar a sus comunidades sobre la interconexión eléctrica con Colombia, de unos 500 km y 400 MW; es el segundo de tres territorios indígenas del trazado.",
+    "fuente": "Infobae",
+    "fecha": "2026-10-28",
+    "url": "https://www.infobae.com/panama/2026/10/29/segunda-comarca-indigena-de-panama-autoriza-consultas-sobre-la-interconexion-electrica-con-colombia/",
+    "en_boletin": false,
+    "en_ventana": false
+   },
+   "financiamiento": null,
+   "oportunidades": "Seguir la interconexión eléctrica con Colombia como oportunidad de integración energética andina y de suministro más estable para la industria."
+  },
+  "320": {
+   "nombre": "Guatemala",
+   "principal": {
+    "texto": "La CEPAL proyecta que Guatemala crezca 4,1 % en 2026, entre las economías de mayor crecimiento de la región.",
+    "fuente": "Infobae",
+    "fecha": "2026-10-22",
+    "url": "https://www.infobae.com/el-salvador/2026/10/23/el-salvador-creceria-45-en-2026-y-se-ubicaria-entre-las-economias-lideres-regionales-segun-cepal/",
+    "en_boletin": false,
+    "en_ventana": false
+   },
+   "financiamiento": {
+    "texto": "El BCIE amplió en US$ 8,8 millones su línea de crédito a Cofinsa para medianas empresas.",
+    "institucion": "BCIE (público)",
+    "monto": "US$ 8,8 M",
+    "fecha": "2026-10-23",
+    "url": "https://www.infobae.com/guatemala/2026/10/25/el-banco-centroamericano-de-integracion-economica-eleva-a-usd-388-millones-la-linea-de-credito-para-medianas-empresas-de-guatemala/",
+    "fuente": "Infobae"
+   },
+   "oportunidades": "Apoyar el financiamiento y la productividad de las medianas empresas industriales."
+  },
+  "558": {
+   "nombre": "Nicaragua",
+   "principal": {
+    "texto": "La CEPAL proyecta que Nicaragua crezca 3,7 % en 2026, entre las economías de mayor crecimiento de la región.",
+    "fuente": "Infobae",
+    "fecha": "2026-10-22",
+    "url": "https://www.infobae.com/el-salvador/2026/10/23/el-salvador-creceria-45-en-2026-y-se-ubicaria-entre-las-economias-lideres-regionales-segun-cepal/",
+    "en_boletin": false,
+    "en_ventana": false
+   },
+   "financiamiento": {
+    "texto": "El BCIE financia con US$ 170 millones obras de agua potable en cuatro ciudades.",
+    "institucion": "BCIE (público)",
+    "monto": "US$ 170 M",
+    "fecha": "2026-10-22",
+    "url": "https://www.articulo66.com/2026/10/22/regimen-orteguista-suma-otra-multimillonaria-deusa-bcie-170-millones/",
+    "fuente": "Artículo 66"
+   },
+   "oportunidades": "Acompañar la gestión del agua y la eficiencia en la industria ante El Niño."
+  },
+  "340": {
+   "nombre": "Honduras",
+   "principal": {
+    "texto": "Honduras presentará en la Cumbre Iberoamericana de Madrid (4 y 5 de noviembre) sus prioridades, entre ellas inversiones e inteligencia artificial, y asumirá la Secretaría Pro Tempore 2026-2028.",
+    "fuente": "Infobae",
+    "fecha": "2026-11-01",
+    "url": "https://www.infobae.com/honduras/2026/11/02/honduras-toma-protagonismo-en-la-cumbre-iberoamericana/",
+    "en_boletin": false,
+    "en_ventana": false
+   },
+   "financiamiento": null,
+   "oportunidades": "Aprovechar la agenda de inversiones de Honduras en la Cumbre Iberoamericana para promover cooperación en agroindustria y energía; no se registró financiamiento nuevo en los últimos 30 días."
+  },
+  "188": {
+   "nombre": "Costa Rica",
+   "principal": {
+    "texto": "La presidenta Laura Fernández anunció que Costa Rica no se adherirá al Acuerdo Transpacífico (CPTPP) y destituyó a la ministra de Comercio, tras presiones del agro.",
+    "fuente": "Bloomberg Línea",
+    "fecha": "2026-10-28",
+    "url": "https://www.bloomberglinea.com/latinoamerica/costa-rica/asi-impacta-a-costa-rica-la-decision-de-laura-fernandez-de-frenar-su-ingreso-al-acuerdo-transpacifico/",
+    "en_boletin": false,
+    "en_ventana": false
+   },
+   "financiamiento": null,
+   "oportunidades": "Seguir el efecto del freno al CPTPP en la atracción de manufactura avanzada y zonas francas, referencia para la estrategia comercial andina."
+  }
+ },
+ "nota_actualizacion": "Propuesta del N.º 24 (no publicada). Se actualizaron Perú, Colombia, Ecuador, Bolivia, Argentina y Venezuela con noticias de la ventana. Para los otros 11 países no se encontró una noticia verificable de fuente de confianza dentro de la ventana (2 nov fue feriado en varios países); se mantiene su noticia más reciente con su fecha y en_ventana=false, y sus oportunidades se conservan porque las viñetas 1 y 2 no cambiaron."
+}

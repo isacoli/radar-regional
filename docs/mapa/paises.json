@@ -1,76 +1,76 @@
 {
-  "actualizado": "2026-11-02",
-  "ventana": "30 oct 07:01 → 2 nov 07:00 (ventana del N.º 23)",
+  "actualizado": "2026-11-03",
+  "ventana": "2 nov 07:01 → 3 nov 07:00 (ventana del N.º 24)",
   "fuente": "Noticia del día por país (incluida o no en el boletín, solo fuentes de confianza) y financiamiento de los últimos 30 días",
   "nota_oportunidades": "Las oportunidades son un análisis orientativo del Radar a partir de la noticia y el financiamiento del país; no constituyen una posición oficial de la ONUDI.",
   "paises": {
     "604": {
       "nombre": "Perú",
       "principal": {
-        "texto": "El Gobierno autorizó garantías por S/ 2.000 millones del Fondo Crecer para créditos y reprogramaciones de mypes en regiones en emergencia por El Niño.",
+        "texto": "Alicorp cerró la compra de las operaciones de Flora Food en siete países por unos US$ 150,5 millones, con marcas como La Danesa y Dorina en Perú.",
         "fuente": "Gestión",
-        "fecha": "2026-10-31",
-        "url": "https://gestion.pe/economia/el-nino-estado-dara-garantias-por-s-2000-millones-para-creditos-y-reprogramaciones-de-mypes-noticia/",
+        "fecha": "2026-11-02",
+        "url": "https://gestion.pe/economia/empresas/alicorp-cierra-compra-de-la-danesa-y-otras-marcas-de-flora-food-por-us1505-millones-noticia/",
         "en_boletin": true,
         "en_ventana": true
       },
       "financiamiento": {
-        "texto": "El Decreto de Urgencia 015-2026 autoriza hasta S/ 2.000 millones del Fondo Crecer, administrado por Cofide, para garantizar créditos y reprogramaciones de mypes afectadas por El Niño hasta abril de 2027.",
-        "institucion": "Gobierno del Perú / Cofide (público)",
-        "monto": "S/ 2.000 M",
-        "fecha": "2026-10-31",
-        "url": "https://gestion.pe/economia/el-nino-estado-dara-garantias-por-s-2000-millones-para-creditos-y-reprogramaciones-de-mypes-noticia/",
+        "texto": "Alicorp adquirió el 100 % de las operaciones de Flora Food en Perú, Colombia, Ecuador, Chile, Panamá, Guatemala y República Dominicana por un valor de empresa de unos US$ 150,5 millones.",
+        "institucion": "Alicorp (privado)",
+        "monto": "US$ 150,5 M",
+        "fecha": "2026-11-02",
+        "url": "https://gestion.pe/economia/empresas/alicorp-cierra-compra-de-la-danesa-y-otras-marcas-de-flora-food-por-us1505-millones-noticia/",
         "fuente": "Gestión"
       },
-      "oportunidades": "Acompañar las garantías del Fondo Crecer con asistencia técnica a las mypes manufactureras y agroindustriales de las regiones en emergencia, enlazándola con el plan de reactivación textil y la red de CITE."
+      "oportunidades": "Aprovechar la expansión regional de Alicorp para trabajar con sus proveedores agroindustriales en calidad, eficiencia y estándares de exportación dentro de la red andina de plantas."
     },
     "170": {
       "nombre": "Colombia",
       "principal": {
-        "texto": "El Gobierno advirtió que Colombia podría caer en impago en 2027 si el Congreso no aprueba la Ley de Rescate, que recorta el gasto y reforma impuestos.",
-        "fuente": "Portafolio",
-        "fecha": "2026-11-01",
-        "url": "https://www.portafolio.co/economia/gobierno/gobierno-advierte-que-colombia-podria-entrar-en-default-en-2027-si-el-congreso-no-aprueba-la-ley-de-ajuste-fiscal-505522",
+        "texto": "El proyecto de Ley de Rescate crea el régimen RUGE: 16 años de estabilidad tributaria y renta del 20 % para nuevas inversiones que compren 30 % a proveedores nacionales.",
+        "fuente": "Valora Analitik",
+        "fecha": "2026-11-02",
+        "url": "https://www.valoraanalitik.com/ley-de-rescate-fiscal-plantea-estabilidad-tributaria-por-16-anos-para-nuevas-inversiones/",
         "en_boletin": true,
         "en_ventana": true
       },
       "financiamiento": {
-        "texto": "Grupo Colpatria y EDF Power Solutions construyen Bosques Solares de los Llanos 6, un parque solar de 100 MWp en el Meta (50 % cada socio); no revelaron el monto.",
-        "institucion": "Grupo Colpatria y EDF Power Solutions (privado)",
-        "monto": "No revelado",
-        "fecha": "2026-10-29",
-        "url": "https://www.eltiempo.com/economia/empresas/grupo-colpatria-diversifica-su-apuesta-energetica-y-suma-un-nuevo-proyecto-solar-con-edf-3597319",
-        "fuente": "El Tiempo"
+        "texto": "Comenzó la reconstrucción del Tajamar Occidental en Bocas de Ceniza (Barranquilla), una obra de unos $380.000 millones, y el Gobierno anunció $100.000 millones adicionales para obras complementarias.",
+        "institucion": "Gobierno de Colombia (público)",
+        "monto": "$100.000 millones (COP)",
+        "fecha": "2026-11-02",
+        "url": "https://www.portafolio.co/economia/infraestructura/tajamar-occidental-suma-100-000-millones-del-gobierno-a-una-obra-de-cerca-de-380-000-millones-en-barranquilla-505581",
+        "fuente": "Portafolio"
       },
-      "oportunidades": "Aportar evidencia sobre qué incentivos fiscales a la inversión productiva conviene preservar en el ajuste, y apoyar a las pymes industriales frente a mayores costos y a la inversión solar privada en marcha."
+      "oportunidades": "Apoyar el diseño del requisito de 30 % de compras nacionales del RUGE con programas de desarrollo de proveedores industriales, y vincular a las pymes locales con las obras portuarias de Barranquilla."
     },
     "218": {
       "nombre": "Ecuador",
       "principal": {
-        "texto": "La colombiana Nutresa concretó la compra de la chocolatera ecuatoriana La Universal (Manicho, Cocoa Universal) tras recibir la aprobación regulatoria.",
+        "texto": "Petroecuador firmó con Emiratos Árabes Unidos y ADNOC un acuerdo marco para vender crudo de forma directa y negociar inversión para elevar la producción del campo Sacha.",
         "fuente": "El Universo",
-        "fecha": "2026-10-30",
-        "url": "https://www.eluniverso.com/economia/negocios/grupo-nutresa-concreta-la-compra-de-la-universal-en-ecuador-nota/",
+        "fecha": "2026-11-02",
+        "url": "https://www.eluniverso.com/economia/produccion/ecuador-acuerdo-emiratos-arabes-unidos-inversion-campo-sacha-bloque-60-petroleo-nota/",
         "en_boletin": true,
         "en_ventana": true
       },
       "financiamiento": {
-        "texto": "Grupo Nutresa completó la adquisición de La Universal, que integrará a su Compañía Nacional de Chocolates; no se reveló el monto.",
-        "institucion": "Grupo Nutresa (privado)",
+        "texto": "Memorando marco entre el Gobierno de Ecuador, Petroecuador, el Gobierno de Emiratos Árabes Unidos y ADNOC para inversión en el bloque 60 Sacha y venta directa de crudo; sin monto anunciado.",
+        "institucion": "ADNOC / Gobierno de Emiratos Árabes Unidos (público extranjero)",
         "monto": "No revelado",
-        "fecha": "2026-10-30",
-        "url": "https://www.eluniverso.com/economia/negocios/grupo-nutresa-concreta-la-compra-de-la-universal-en-ecuador-nota/",
+        "fecha": "2026-11-02",
+        "url": "https://www.eluniverso.com/economia/produccion/ecuador-acuerdo-emiratos-arabes-unidos-inversion-campo-sacha-bloque-60-petroleo-nota/",
         "fuente": "El Universo"
       },
-      "oportunidades": "Aprovechar la integración de La Universal en un grupo regional para fortalecer la cadena del cacao fino de aroma con proveedores locales, calidad y valor agregado exportable."
+      "oportunidades": "Orientar parte de la nueva inversión petrolera hacia contenido local y servicios industriales ecuatorianos, y apoyar la eficiencia energética de las industrias afectadas por los cortes eléctricos."
     },
     "068": {
       "nombre": "Bolivia",
       "principal": {
-        "texto": "Manaco anunció el cierre definitivo de su fábrica de calzado de Quillacollo tras 86 años y pérdidas de Bs 130 millones; más de 600 trabajadores se declararon en emergencia.",
+        "texto": "El presidente Rodrigo Paz llegó a Madrid para la Cumbre Iberoamericana con una agenda que busca inversión y financiamiento en hidrocarburos, minería, energía y tecnología.",
         "fuente": "El Deber",
-        "fecha": "2026-10-31",
-        "url": "https://eldeber.com.bo/economia/manaco-cierra-historica-fabrica-bolivia-86-anos-perdidas-acumuladas-bs-130-millones_1793459001",
+        "fecha": "2026-11-02",
+        "url": "https://eldeber.com.bo/economia/diplomacia-negocios-desafio-paz-cumbre-madrid_1793663531",
         "en_boletin": true,
         "en_ventana": true
       },
@@ -82,7 +82,7 @@
         "url": "https://www.opinion.com.bo/pais/senado-aprueba-credito-bid-us-302-millones-modernizar-alumbrado-publico/20261022191207998045.html",
         "fuente": "ABI (vía Opinión)"
       },
-      "oportunidades": "Apoyar diagnósticos de competitividad para la manufactura ligera en crisis (calzado, cuero) y opciones de reconversión del empleo, y orientar el crédito BID de alumbrado LED hacia la eficiencia energética municipal."
+      "oportunidades": "Ofrecer apoyo técnico para convertir los contactos de la Cumbre Iberoamericana en proyectos industriales concretos y para garantizar el abastecimiento energético de la industria mientras avanza el préstamo del BID para alumbrado eficiente."
     },
     "076": {
       "nombre": "Brasil",
@@ -91,8 +91,8 @@
         "fuente": "Agência Brasil",
         "fecha": "2026-10-30",
         "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/com-muita-disputa-aneel-leiloou-oito-lotes-de-transmissao-de-energia",
-        "en_boletin": true,
-        "en_ventana": true
+        "en_boletin": false,
+        "en_ventana": false
       },
       "financiamiento": {
         "texto": "Neoenergia, EDP, Cymi, Celeo y Cox ganaron ocho lotes de transmisión (1.866 km de líneas nuevas) con inversiones previstas de R$ 8.900 millones y concesiones a 30 años.",
@@ -111,8 +111,8 @@
         "fuente": "Bloomberg Línea",
         "fecha": "2026-10-30",
         "url": "https://www.bloomberglinea.com/latinoamerica/chile/produccion-de-cobre-de-chile-se-desploma-12-y-marca-su-peor-trimestre-en-dos-decadas/",
-        "en_boletin": true,
-        "en_ventana": true
+        "en_boletin": false,
+        "en_ventana": false
       },
       "financiamiento": {
         "texto": "Marimaca Copper eligió un prestamista preferente para un financiamiento de proyecto de US$ 375–400 millones para su mina de cobre en Antofagasta; busca cerrarlo antes de fin de 2026.",
@@ -127,11 +127,11 @@
     "032": {
       "nombre": "Argentina",
       "principal": {
-        "texto": "Consultoras y bancos recortan sus proyecciones de crecimiento de Argentina para 2026; la EIU baja su estimación a 0,5 % y BTG advierte recesión técnica.",
-        "fuente": "Bloomberg Línea",
-        "fecha": "2026-11-02",
-        "url": "https://www.bloomberglinea.com/latinoamerica/argentina/crecimiento-2026-consultoras-y-bancos-recortan-sus-proyecciones-para-argentina/",
-        "en_boletin": false,
+        "texto": "La ampliación del gasoducto Manuel Belgrano, clave para exportar gas a Bolivia, Brasil y Chile, no empezaría hasta abril de 2027 y terminaría en 2029.",
+        "fuente": "El Deber",
+        "fecha": "2026-11-03",
+        "url": "https://eldeber.com.bo/economia/demora-ampliacion-gasoducto-argentino-puede-trabar-importacion-gas_1793703936",
+        "en_boletin": true,
         "en_ventana": true
       },
       "financiamiento": {
@@ -142,7 +142,7 @@
         "url": "https://www.noticias24.com.ar/2026/10/20/el-gobierno-aprobo-prestamo-del-bid-para-financiar-la-mejora-del-sistema-de-salud-de-rio-negro/",
         "fuente": "Noticias24"
       },
-      "oportunidades": "Apoyar la competitividad de las pymes industriales ante la desaceleración y acompañar la mejora de servicios públicos financiada por el BID en Río Negro."
+      "oportunidades": "Explorar cooperación energética e industrial con Bolivia en torno al gas de Vaca Muerta y acompañar la mejora de servicios públicos financiada por el BID en Río Negro."
     },
     "484": {
       "nombre": "México",
@@ -152,7 +152,7 @@
         "fecha": "2026-10-30",
         "url": "https://www.bloomberglinea.com/latinoamerica/mexico/mexico-anota-su-mejor-crecimiento-economico-trimestral-en-lo-que-va-del-gobierno-de-sheinbaum/",
         "en_boletin": false,
-        "en_ventana": true
+        "en_ventana": false
       },
       "financiamiento": {
         "texto": "Desarrolladores privados invertirán US$ 763 millones en 20 nuevos parques industriales del Plan México.",
@@ -167,15 +167,22 @@
     "862": {
       "nombre": "Venezuela",
       "principal": {
-        "texto": "Eni reactivó el campo Junín-5 de la Faja del Orinoco como operadora exclusiva y apunta a 200.000 barriles diarios en 2028, desde unos 12.000.",
-        "fuente": "Bloomberg Línea",
-        "fecha": "2026-10-28",
-        "url": "https://www.bloomberglinea.com/latinoamerica/venezuela/eni-reactiva-produccion-en-venezuela-y-apunta-a-200000-barriles-diarios-en-junin-5-para-2028/",
-        "en_boletin": false,
-        "en_ventana": false
+        "texto": "GeoPark activó un contrato de 25 años en el bloque Bare de Venezuela y el Grupo Gilinski tomó el control de la petrolera con cerca del 56,3 %.",
+        "fuente": "Valora Analitik",
+        "fecha": "2026-11-02",
+        "url": "https://www.valoraanalitik.com/geopark-concreta-su-entrada-a-venezuela-y-grupo-gilinski-toma-el-control-de-la-petrolera/",
+        "en_boletin": true,
+        "en_ventana": true
       },
-      "financiamiento": null,
-      "oportunidades": "Seguir la reactivación petrolera por sus efectos en el comercio y la energía regionales, en particular con Colombia."
+      "financiamiento": {
+        "texto": "GeoPark ingresó al bloque Bare mediante un canje de acciones sin pago en efectivo; el Grupo Gilinski deberá lanzar una oferta pública a US$ 12,22 por acción en 90 días.",
+        "institucion": "GeoPark / Grupo Gilinski (privado)",
+        "monto": "No revelado (canje de acciones)",
+        "fecha": "2026-11-02",
+        "url": "https://www.valoraanalitik.com/geopark-concreta-su-entrada-a-venezuela-y-grupo-gilinski-toma-el-control-de-la-petrolera/",
+        "fuente": "Valora Analitik"
+      },
+      "oportunidades": "Seguir el regreso de inversión colombiana al petróleo venezolano como posible puerta para cadenas de servicios industriales binacionales, con cautela por el riesgo regulatorio."
     },
     "858": {
       "nombre": "Uruguay",
@@ -237,7 +244,7 @@
         "fuente": "Infobae",
         "fecha": "2026-10-28",
         "url": "https://www.infobae.com/panama/2026/10/29/segunda-comarca-indigena-de-panama-autoriza-consultas-sobre-la-interconexion-electrica-con-colombia/",
-        "en_boletin": true,
+        "en_boletin": false,
         "en_ventana": false
       },
       "financiamiento": null,
@@ -291,7 +298,7 @@
         "fecha": "2026-11-01",
         "url": "https://www.infobae.com/honduras/2026/11/02/honduras-toma-protagonismo-en-la-cumbre-iberoamericana/",
         "en_boletin": false,
-        "en_ventana": true
+        "en_ventana": false
       },
       "financiamiento": null,
       "oportunidades": "Aprovechar la agenda de inversiones de Honduras en la Cumbre Iberoamericana para promover cooperación en agroindustria y energía; no se registró financiamiento nuevo en los últimos 30 días."
