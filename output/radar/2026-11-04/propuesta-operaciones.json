@@ -1,0 +1,44 @@
+{
+ "generado": "2026-11-04",
+ "estado": "aplicada al publicar",
+ "operaciones": [
+  {
+   "fecha": "2026-11-03",
+   "pais": "Colombia",
+   "iso": "CO",
+   "institucion": "Bancóldex",
+   "tipo_institucion": "Banca de desarrollo nacional",
+   "publico_privado": "Público",
+   "monto_usd_millones": null,
+   "monto_original": "Hasta $5 billones (COP)",
+   "sector": "MiPymes y financiamiento productivo",
+   "descripcion": "Programa de emisión de bonos verdes y sociales a cinco años para financiar proyectos de crecimiento, productividad y competitividad regional de las empresas",
+   "fuente": "Valora Analitik",
+   "url": "https://www.valoraanalitik.com/bancoldex-5-billones-bonos-empresas/",
+   "nota": "Autorización de la Superintendencia Financiera para la oferta pública; sin conversión a US$ en la fuente.",
+   "instrumento": "Línea de crédito o contingente",
+   "estado": "Aprobado",
+   "relevancia_onudi": "Alta",
+   "lectura": "Amplía el fondeo de la banca de desarrollo para crédito empresarial verde y social, un canal directo para programas de productividad de mipymes."
+  },
+  {
+   "fecha": "2026-11-04",
+   "pais": "Perú",
+   "iso": "PE",
+   "institucion": "Gobierno de Estados Unidos",
+   "tipo_institucion": "Cooperación internacional",
+   "publico_privado": "Público",
+   "monto_usd_millones": 1,
+   "monto_original": "US$ 1 millón",
+   "sector": "Energía",
+   "descripcion": "Asistencia técnica del programa First tras el memorando de cooperación en energía nuclear civil",
+   "fuente": "Gestión",
+   "url": "https://gestion.pe/economia/energia-nuclear-estados-unidos-busca-invertir-en-data-centers-puertos-y-minas-en-peru-noticia/",
+   "nota": "Compromiso anunciado; EE. UU. evalúa además inversiones en centros de datos, puertos y minas, sin montos.",
+   "instrumento": "Donación / no reembolsable",
+   "estado": "Anunciado",
+   "relevancia_onudi": "Media",
+   "lectura": "Abre una vía de cooperación técnica para diversificar la matriz energética, con posibles efectos en la oferta de energía para la industria."
+  }
+ ]
+}
