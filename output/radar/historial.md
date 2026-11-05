@@ -4,7 +4,7 @@ Log of every scan and of the stories published in bulletins. `/radar` reads this
 
 ## Daily issues
 
-Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oct 2026 the issue of 23 Oct is N.º 17 (formerly N.º 1) and the issue of 26 Oct is N.º 18 (formerly N.º 2). Issues N.º 1–12 (1–16 Oct) were prepared retrospectively and published on 26 Oct 2026. The next issue is N.º 25.
+Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oct 2026 the issue of 23 Oct is N.º 17 (formerly N.º 1) and the issue of 26 Oct is N.º 18 (formerly N.º 2). Issues N.º 1–12 (1–16 Oct) were prepared retrospectively and published on 26 Oct 2026. The next issue is N.º 27.
 
 | N.º | Fecha | Ventana | Noticias | Boletín | Estado |
 |---|---|---|---|---|---|
@@ -33,6 +33,7 @@ Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oc
 | 23 | 2026-11-02 | 30 oct 07:01 → 2 nov 07:00 | 20 | output/radar/2026-11-02/boletin.html | final |
 | 24 | 2026-11-03 | 2 nov 07:01 → 3 nov 07:00 | 15 | output/radar/2026-11-03/boletin.html | final |
 | 25 | 2026-11-04 | 3 nov 07:01 → 4 nov 07:00 | 18 | output/radar/2026-11-04/boletin.html | final |
+| 26 | 2026-11-05 | 4 nov 07:01 → 5 nov 07:00 | 20 | output/radar/2026-11-05/boletin.html | final |
 
 ## Weekly scans (earlier format)
 
@@ -343,6 +344,26 @@ Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oc
 | 2026-11-03 | Perú: Obras por Impuestos Exprés y Servicios por Impuestos avanzan lento frente a El Niño, con solo dos adjudicaciones ligadas al fenómeno (Diario N.º 25) | Gestión | https://gestion.pe/economia/el-nino-servicios-por-impuestos-y-oxi-expres-para-enfrentar-el-fenomeno-tardan-en-acelerar-ritmo-que-pasa-noticia/ | Megaproyectos e infraestructura | Perú |
 | 2026-11-03 | Brasil envía al Congreso la medida provisional del Impuesto Selectivo, que empezará a regir en febrero de 2027 (Diario N.º 25) | Agência Brasil (portugués) | https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-quer-enviar-mp-do-imposto-seletivo-ainda-hoje-ao-congresso | Política industrial y coyuntura | Brasil |
 | 2026-11-03 | Bolivia convierte 1.825 vehículos a gas natural en mes y medio dentro de su programa de reconversión (Diario N.º 25) | Los Tiempos | https://www.lostiempos.com/actualidad/economia/20261103/mes-medio-convierten-1825-vehiculos-gnv-toda-bolivia | Energía | Bolivia |
+| 2026-11-04 | El Congreso de Colombia aprueba en primer debate un presupuesto de regalías de $27,5 billones para 2027-2028, 11 % menor que el del bienio anterior (Diario N.º 26) | El Tiempo | https://www.eltiempo.com/economia/sectores/regalias-por-27-5-billones-avanzan-en-el-legislativo-mientras-hacienda-defiende-apreton-del-estado-3598505 | Política industrial y coyuntura | Colombia |
+| 2026-11-04 | Colombia prioriza reparar el gasoducto Antonio Ricaurte para importar gas desde Venezuela hacia mediados de 2027 (Diario N.º 26) | La República | https://www.larepublica.co/economia/gobierno-priorizara-gasoducto-antonio-ricaurte-para-traer-gas-de-venezuela-4517466 | Energía | Colombia, Venezuela |
+| 2026-11-04 | Petroperú gana US$ 144,9 millones hasta septiembre y el Minem descarta concesionar la refinería de Talara (Diario N.º 26) | Gestión | https://gestion.pe/economia/petroperu-logra-utilidad-neta-de-us-1449-millones-pero-capital-de-trabajo-aun-es-negativo-noticia/ | Energía | Perú |
+| 2026-11-04 | Una comisión de la Asamblea recomienda aprobar la Proforma 2027 de Ecuador, de US$ 50.213 millones, que apuesta por concesiones petroleras y mineras (Diario N.º 26) | El Universo | https://www.eluniverso.com/economia/finanzas/comision-recomienda-al-pleno-de-la-asamblea-aprobar-la-proforma-presupuestaria-de-2027-nota/ | Política industrial y coyuntura | Ecuador |
+| 2026-11-04 | Rodrigo Paz, en Madrid: Bolivia no quiere solo entregar minerales y busca fabricar tecnología en el país (Diario N.º 26) | Los Tiempos (ABI) | https://www.lostiempos.com/actualidad/pais/20261104/paz-madrid-no-queremos-solo-entregar-minerales | Minerales críticos | Bolivia |
+| 2026-11-04 | Felaban advierte que El Niño podría sumar 5 millones de pobres en América Latina y devolver a la pobreza a una cuarta parte de los microempresarios (Diario N.º 26) | El Comercio | https://elcomercio.pe/economia/felaban-el-fen-podria-sumar-5-millones-de-personas-mas-a-la-pobreza-en-america-latina-noticia/ | Innovación, digitalización y MiPymes | Perú, América Latina |
+| 2026-11-04 | Asoexport advierte que la Ley de Rescate subiría el IVA del café procesado de 5 % a 19 % y golpearía el consumo (Diario N.º 26) | Portafolio | https://www.portafolio.co/economia/agro/la-ley-de-rescate-fiscal-va-en-contravia-de-los-esfuerzos-para-aumentar-el-consumo-de-cafe-asoexport-505740 | Agroindustria y cadenas de valor | Colombia |
+| 2026-11-05 | Petrobras cierra más de 100 consultas previas para el proyecto de gas Sirius, cuya primera producción se prevé para 2031 (Diario N.º 26) | El Tiempo [pago] | https://www.eltiempo.com/economia/sectores/petrobras-cierra-mas-de-100-consultas-previas-para-sirius-pero-evaluan-la-inclusion-de-otras-237-comunidades-eso-si-puede-impactar-3598461 | Energía | Colombia |
+| 2026-11-04 | El equipo técnico del Banco de la República eleva a 7,1 % su previsión de inflación para 2026 y recorta el crecimiento a 2 % (Diario N.º 26) | La República (Reuters) | https://www.larepublica.co/economia/equipo-tecnico-de-banco-central-de-colombia-ve-mayor-inflacion-y-menor-crecimiento-economico-este-y-el-proximo-ano-4517960 | Política industrial y coyuntura | Colombia |
+| 2026-11-04 | El Banco Central de Brasil frena los recortes y mantiene la Selic en 13,75 %; la industria (CNI) critica la decisión (Diario N.º 26) | Agência Brasil (portugués) | https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bc-surpreende-e-mantem-juros-basicos-em-1375-ao-ano | Política industrial y coyuntura | Brasil |
+| 2026-11-04 | Novacero planea dos hidroeléctricas privadas de unos 100 MW en Ecuador, con obras desde 2027, para asegurar su propio suministro (Diario N.º 26) | El Universo | https://www.eluniverso.com/economia/industrias/dos-nuevas-hidroelectricas-privadas-megavatios-construccion-2027-novacero-nota/ | Energía | Ecuador |
+| 2026-11-04 | El MEF afirma que Perú puede duplicar su producción de cobre en 5 a 10 años, con una cartera minera de US$ 64.000 millones (Diario N.º 26) | Andina | https://andina.pe/agencia/noticia-felaban-mef-dice-peru-tiene-potencial-duplicar-produccion-cobre-5-a-10-anos-1098646.aspx | Minerales críticos | Perú |
+| 2026-11-05 | El proyecto de gas natural para siete regiones del sur del Perú entra en recta final: el Minem prevé firmar este mes la adenda con Cálidda (Diario N.º 26) | Gestión | https://gestion.pe/economia/proyecto-7-regiones-de-gas-natural-en-recta-final-esta-es-la-nueva-fecha-clave-del-minem-noticia/ | Energía | Perú |
+| 2026-11-05 | Rodrigo Paz se reúne con Repsol en Madrid para buscar capitales que reactiven el gas boliviano (Diario N.º 26) | El Deber | https://eldeber.com.bo/economia/paz-busca-capitales-reactivar-gas-boliviano_1793876251 | Energía | Bolivia |
+| 2026-11-04 | La Proforma 2027 de Ecuador reduce 22 % el subsidio a los combustibles, pero casi duplica el destinado a la generación eléctrica por El Niño (Diario N.º 26) | Primicias | https://www.primicias.ec/economia/subsidio-combustibles-gasolina-diesel-generacion-electrica-termicas-proforma-presupuestaria-136383/ | Energía | Ecuador |
+| 2026-11-04 | El Niño golpea al mango peruano: se proyecta una caída de casi 40 % en sus exportaciones de la campaña (Diario N.º 26) | El Comercio | https://elcomercio.pe/economia/peru/fenomeno-de-el-nino-alcanza-al-mango-cual-es-el-panorama-con-otros-productos-de-agroexportacion-apuesplan-noticia/ | Agroindustria y cadenas de valor | Perú |
+| 2026-11-04 | Las exportaciones de Colombia suman US$ 5.410,7 millones en septiembre, su mayor nivel desde julio de 2022, impulsadas por el oro y el petróleo (Diario N.º 26) | La República | https://www.larepublica.co/economia/balance-de-exportaciones-con-corte-a-septiembre-y-en-lo-corrido-del-ano-4517438 | Inversión, comercio e integración | Colombia |
+| 2026-11-04 | La producción automotriz argentina cae 14,4 % anual en octubre y las exportaciones del sector retroceden 6,2 % (Diario N.º 26) | Infobae | https://www.infobae.com/economia/2026/11/04/se-freno-el-repunte-de-la-actividad-automotriz-la-produccion-y-las-exportaciones-volvieron-a-caer-en-octubre/ | Política industrial y coyuntura | Argentina |
+| 2026-11-05 | Hitachi invertirá US$ 300 millones en América Latina —más de US$ 225 millones en Argentina— y duplicará su plantilla en el país (Diario N.º 26) | Bloomberg Línea | https://www.bloomberglinea.com/latinoamerica/argentina/hitachi-ve-a-argentina-como-pais-estrategico-en-su-plan-global-inversion-millonaria-y-3000-nuevos-empleos/ | Innovación, digitalización y MiPymes | Argentina |
+| 2026-11-05 | El BCB adelanta la devolución de depósitos de hasta US$ 50.000 y moviliza más de US$ 330 millones para reactivar el ahorro en dólares (Diario N.º 26) | El Deber | https://eldeber.com.bo/economia/bcb-restituye-depositos-us-50-000-apunta-reactivar-ahorros-dolares_1793875977 | Política industrial y coyuntura | Bolivia |
 
 ## Research featured
 
@@ -419,6 +440,9 @@ Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oc
 | 2026-11-04 | Coordinated R&D Programs and the Creation of New Industries | Gross | NBER Working Paper 35978 | https://doi.org/10.3386/w35978 | Documento de trabajo |
 | 2026-11-04 | Polycrisis and labour agency in global production networks: evidence from Bangladesh’s apparel industry | Siddika | Journal of Economic Geography | https://doi.org/10.1093/jeg/lbag079 | Artículo |
 | 2026-11-04 | Cross‐National Industrial Spillovers and Regional Value Chain Resilience: Empirical Evidence From China | Wen | The World Economy | https://doi.org/10.1111/twec.70180 | Artículo |
+| 2026-11-05 | Monitor de comercio e integración 2026 | Giordano | BID — Monitor de Comercio e Integración | https://doi.org/10.18235/0014581 | Documento de trabajo |
+| 2026-11-05 | The Rise of Viet Nam's Solar Panel Industry: Inputs, FDI and Spillovers | Ngov | The World Economy | https://doi.org/10.1111/twec.70172 | Artículo |
+| 2026-11-05 | Public R&D and the Automation of Manufacturing: Evidence from the Space Race | Babbar | NBER Working Paper 35966 | https://doi.org/10.3386/w35966 | Documento de trabajo |
 
 ## Stories proposed but not selected
 

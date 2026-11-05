@@ -1,76 +1,76 @@
 {
-  "actualizado": "2026-11-04",
-  "ventana": "3 nov 07:01 → 4 nov 07:00 (ventana del N.º 25)",
+  "actualizado": "2026-11-05",
+  "ventana": "4 nov 07:01 → 5 nov 07:00 (ventana del N.º 26)",
   "fuente": "Noticia del día por país (incluida o no en el boletín, solo fuentes de confianza) y financiamiento de los últimos 30 días",
   "nota_oportunidades": "Las oportunidades son un análisis orientativo del Radar a partir de la noticia y el financiamiento del país; no constituyen una posición oficial de la ONUDI.",
   "paises": {
     "604": {
       "nombre": "Perú",
       "principal": {
-        "texto": "El Minem prepara el reglamento para centrales eólicas y solares, pero los generadores renovables temen quedar fuera de las licitaciones de largo plazo frente a hidroeléctricas y térmicas.",
+        "texto": "Petroperú ganó US$ 144,9 millones hasta septiembre, frente a una pérdida en 2025, y el Minem descarta concesionar Talara y plantea un contrato de administración privada.",
         "fuente": "Gestión",
         "fecha": "2026-11-04",
-        "url": "https://gestion.pe/economia/eolicas-y-solares-minem-alista-propuesta-de-reglamento-para-energias-renovables-pero-esto-preocupa-a-empresarios-en-peru-noticia/",
+        "url": "https://gestion.pe/economia/petroperu-logra-utilidad-neta-de-us-1449-millones-pero-capital-de-trabajo-aun-es-negativo-noticia/",
         "en_boletin": true,
         "en_ventana": true
       },
       "financiamiento": {
-        "texto": "Estados Unidos comprometió US$ 1 millón en asistencia técnica (programa First) tras firmar con Perú un memorando de cooperación en energía nuclear civil.",
-        "institucion": "Gobierno de Estados Unidos (cooperación bilateral)",
-        "monto": "US$ 1 M",
-        "fecha": "2026-11-04",
-        "url": "https://gestion.pe/economia/energia-nuclear-estados-unidos-busca-invertir-en-data-centers-puertos-y-minas-en-peru-noticia/",
+        "texto": "ADN alista unos US$ 30 millones para la segunda fase de su parque logístico en el Callao.",
+        "institucion": "ADN Parque Logístico (privado)",
+        "monto": "Aproximadamente US$ 30 millones",
+        "fecha": "2026-11-05",
+        "url": "https://gestion.pe/economia/empresas/adn-compra-terreno-y-alista-inversion-de-us-30-millones-en-el-callao-noticia/",
         "fuente": "Gestión"
       },
-      "oportunidades": "Aportar experiencia en diseño de subastas y en integración de energías renovables para la industria mientras el Minem define el reglamento eólico y solar, junto con la nueva cooperación energética con EE. UU."
+      "oportunidades": "Apoyar la gestión eficiente y la modernización de la refinación y la logística mientras se define el modelo para Talara, y aprovechar la nueva capacidad logística del Callao para cadenas de exportación."
     },
     "170": {
       "nombre": "Colombia",
       "principal": {
-        "texto": "Aconauto advirtió que subir al 19 % el IVA de carros eléctricos e híbridos, previsto en la Ley de Rescate, encarecería sus precios 14 % y reduciría las ventas 40 %.",
+        "texto": "El Congreso aprobó en primer debate un presupuesto de regalías de $27,5 billones para 2027-2028, 11 % menor que el del bienio anterior.",
         "fuente": "El Tiempo",
-        "fecha": "2026-11-03",
-        "url": "https://www.eltiempo.com/economia/sectores/dura-carta-de-aconauto-al-ministro-de-hacienda-advierte-que-carros-electricos-se-encarecerian-14-por-reforma-tributaria-3598196",
+        "fecha": "2026-11-04",
+        "url": "https://www.eltiempo.com/economia/sectores/regalias-por-27-5-billones-avanzan-en-el-legislativo-mientras-hacienda-defiende-apreton-del-estado-3598505",
         "en_boletin": true,
         "en_ventana": true
       },
       "financiamiento": {
-        "texto": "La Superintendencia Financiera autorizó a Bancóldex a emitir hasta $5 billones en bonos verdes y sociales durante cinco años para financiar proyectos de crecimiento y productividad empresarial.",
-        "institucion": "Bancóldex (banca de desarrollo nacional)",
-        "monto": "$5 billones (COP)",
-        "fecha": "2026-11-03",
-        "url": "https://www.valoraanalitik.com/bancoldex-5-billones-bonos-empresas/",
+        "texto": "Chevron anunció US$ 100 millones para terminales de combustibles y la ampliación de la red Texaco en Colombia.",
+        "institucion": "Chevron (privado)",
+        "monto": "US$ 100 millones",
+        "fecha": "2026-11-04",
+        "url": "https://www.valoraanalitik.com/chevron-invertira-us100-millones-en-colombia-para-fortalecer-abastecimiento-de-combustibles-terrestres-y-aereos/",
         "fuente": "Valora Analitik"
       },
-      "oportunidades": "Articular los bonos verdes y sociales de Bancóldex con programas de eficiencia energética y productividad para mipymes, y aportar evidencia sobre el efecto de la reforma tributaria en la electromovilidad."
+      "oportunidades": "Orientar parte de las regalías hacia proyectos productivos regionales y de transición energética, y acompañar la reconversión industrial en un entorno de ajuste fiscal."
     },
     "218": {
       "nombre": "Ecuador",
       "principal": {
-        "texto": "Las exportaciones de banano de Ecuador crecieron 9,6 % entre enero y septiembre, impulsadas por la Unión Europea y un alza de 15,5 % de los envíos a China.",
+        "texto": "Una comisión de la Asamblea recomendó aprobar la Proforma 2027 de US$ 50.213 millones, con déficit de 3,1 % del PIB y apuesta por concesiones petroleras y mineras.",
         "fuente": "El Universo",
-        "fecha": "2026-11-03",
-        "url": "https://www.eluniverso.com/economia/produccion/las-exportaciones-de-banano-ecuatoriano-crecen-un-96-impulsadas-por-la-demanda-en-la-ue-y-la-escasez-en-asia-nota/",
+        "fecha": "2026-11-04",
+        "url": "https://www.eluniverso.com/economia/finanzas/comision-recomienda-al-pleno-de-la-asamblea-aprobar-la-proforma-presupuestaria-de-2027-nota/",
         "en_boletin": true,
         "en_ventana": true
       },
       "financiamiento": {
-        "texto": "Memorando marco entre el Gobierno de Ecuador, Petroecuador, el Gobierno de Emiratos Árabes Unidos y ADNOC para inversión en el bloque 60 Sacha y venta directa de crudo; sin monto anunciado.",
-        "institucion": "ADNOC / Gobierno de Emiratos Árabes Unidos (público extranjero)",
-        "monto": "No revelado",
-        "fecha": "2026-11-02",
-        "url": "https://www.eluniverso.com/economia/produccion/ecuador-acuerdo-emiratos-arabes-unidos-inversion-campo-sacha-bloque-60-petroleo-nota/",
+        "texto": "Novacero prevé dos hidroeléctricas privadas de unos 50 MW cada una, con más de US$ 100 millones por planta.",
+        "institucion": "Novacero (privado)",
+        "monto": "Más de US$ 100 millones por planta (dos plantas de unos 50 MW cada una)",
+        "fecha": "2026-11-04",
+        "url": "https://www.eluniverso.com/economia/industrias/dos-nuevas-hidroelectricas-privadas-megavatios-construccion-2027-novacero-nota/",
         "fuente": "El Universo"
       },
-      "oportunidades": "Apoyar a la cadena bananera en calidad, trazabilidad y agregación de valor para sostener su expansión en la Unión Europea y China, en coordinación con la inversión petrolera pactada con Emiratos."
+      "oportunidades": "Acompañar a la industria en eficiencia energética y autogeneración renovable, como las hidroeléctricas de Novacero, mientras la Proforma prioriza la renta petrolera y minera."
     },
     "068": {
       "nombre": "Bolivia",
       "principal": {
-        "texto": "Bolivia presentó en Madrid, en el «Bolivia Day», su proyecto de Ley de Inversiones y oportunidades en minerales críticos y energías limpias, sin anunciar contratos ni montos.",
-        "fuente": "El Deber",
-        "fecha": "2026-11-03",
-        "url": "https://eldeber.com.bo/economia/bolivia-presenta-madrid-proyecto-ley-inversiones-adelanta-reformas-mineria-energia_1793741670",
+        "texto": "En Madrid, Rodrigo Paz dijo que Bolivia no quiere solo exportar minerales y anunció para 2027 una plataforma para fabricar tecnología en el país.",
+        "fuente": "Los Tiempos (ABI)",
+        "fecha": "2026-11-04",
+        "url": "https://www.lostiempos.com/actualidad/pais/20261104/paz-madrid-no-queremos-solo-entregar-minerales",
         "en_boletin": true,
         "en_ventana": true
       },
@@ -82,15 +82,15 @@
         "url": "https://www.opinion.com.bo/pais/senado-aprueba-credito-bid-us-302-millones-modernizar-alumbrado-publico/20261022191207998045.html",
         "fuente": "ABI (vía Opinión)"
       },
-      "oportunidades": "Acompañar la nueva Ley de Inversiones y el Código Minero con apoyo técnico para atraer inversión industrial en minerales críticos y energías limpias con mayor valor agregado local."
+      "oportunidades": "Apoyar el diseño de la plataforma para agregar valor a los minerales, con estudios de cadenas de valor del estaño y otros minerales y formación técnica para la manufactura."
     },
     "076": {
       "nombre": "Brasil",
       "principal": {
-        "texto": "El Gobierno de Brasil envía al Congreso la medida provisional del Impuesto Selectivo, que empezará a regir en febrero de 2027 tras mantener el IPI hasta enero.",
+        "texto": "El Banco Central mantuvo por sorpresa la Selic en 13,75 % ante la inflación sobre la meta, y la CNI criticó la decisión.",
         "fuente": "Agência Brasil",
-        "fecha": "2026-11-03",
-        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-quer-enviar-mp-do-imposto-seletivo-ainda-hoje-ao-congresso",
+        "fecha": "2026-11-04",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bc-surpreende-e-mantem-juros-basicos-em-1375-ao-ano",
         "en_boletin": true,
         "en_ventana": true
       },
@@ -102,57 +102,57 @@
         "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/com-muita-disputa-aneel-leiloou-oito-lotes-de-transmissao-de-energia",
         "fuente": "Agência Brasil"
       },
-      "oportunidades": "Seguir la transición del IPI al Impuesto Selectivo como referencia de reforma tributaria para la industria, junto con la expansión de la transmisión eléctrica adjudicada."
+      "oportunidades": "Seguir el efecto de las tasas altas en la inversión industrial y compartir con los países andinos experiencias de financiamiento productivo de largo plazo."
     },
     "152": {
       "nombre": "Chile",
       "principal": {
-        "texto": "La producción de cobre de Chile cayó 12 % en el tercer trimestre, su peor nivel trimestral en dos décadas, por accidentes, clima adverso y menor ley del mineral.",
-        "fuente": "Bloomberg Línea",
-        "fecha": "2026-10-30",
-        "url": "https://www.bloomberglinea.com/latinoamerica/chile/produccion-de-cobre-de-chile-se-desploma-12-y-marca-su-peor-trimestre-en-dos-decadas/",
+        "texto": "Blumar confirmó negociaciones para vender su negocio salmonero a Agrosuper por un valor empresa de US$ 540 millones.",
+        "fuente": "Diario Financiero",
+        "fecha": "2026-11-04",
+        "url": "https://www.df.cl/empresas/industria/blumar-confirma-negociaciones-con-agrosuper-para-vender-negocio-salmonero-y",
         "en_boletin": false,
-        "en_ventana": false
+        "en_ventana": true
       },
       "financiamiento": {
-        "texto": "Marimaca Copper eligió un prestamista preferente para un financiamiento de proyecto de US$ 375–400 millones para su mina de cobre en Antofagasta; busca cerrarlo antes de fin de 2026.",
-        "institucion": "Marimaca Copper / prestamista minero no revelado (privado)",
-        "monto": "US$ 375–400 M",
-        "fecha": "2026-10-28",
-        "url": "https://www.bloomberglinea.com/latinoamerica/chile/marimaca-copper-avanza-en-financiacion-de-hasta-us400-millones-para-una-mina-de-cobre-en-chile/",
-        "fuente": "Bloomberg Línea"
+        "texto": "Agrosuper negocia comprar Salmones Blumar por un valor empresa de US$ 540 millones.",
+        "institucion": "Empresas Agrosuper (privado)",
+        "monto": "US$ 540 millones (valor empresa)",
+        "fecha": "2026-11-04",
+        "url": "https://www.df.cl/empresas/industria/blumar-confirma-negociaciones-con-agrosuper-para-vender-negocio-salmonero-y",
+        "fuente": "Diario Financiero"
       },
-      "oportunidades": "Intercambiar con Perú y la región prácticas de productividad y seguridad minera, y promover proveedores andinos para los nuevos proyectos de cobre."
+      "oportunidades": "Analizar la consolidación de la industria salmonera como referencia para la agregación de valor y los estándares en la acuicultura de la costa del Pacífico."
     },
     "032": {
       "nombre": "Argentina",
       "principal": {
-        "texto": "La actividad industrial argentina cayó 3,4 % anual en septiembre, según la UIA, que pidió un pacto fiscal federal para reducir impuestos a la producción.",
-        "fuente": "Bloomberg Línea",
-        "fecha": "2026-11-03",
-        "url": "https://www.bloomberglinea.com/latinoamerica/argentina/la-industria-argentina-volvio-a-caer-en-septiembre-y-necesita-un-pacto-fiscal-dice-rappallini-de-la-uia/",
+        "texto": "La producción automotriz cayó 14,4 % anual en octubre y las exportaciones del sector retrocedieron 6,2 %, según ADEFA.",
+        "fuente": "Infobae",
+        "fecha": "2026-11-04",
+        "url": "https://www.infobae.com/economia/2026/11/04/se-freno-el-repunte-de-la-actividad-automotriz-la-produccion-y-las-exportaciones-volvieron-a-caer-en-octubre/",
         "en_boletin": true,
         "en_ventana": true
       },
       "financiamiento": {
-        "texto": "El BID aprobó US$ 60 millones para mejorar el sistema de salud de Río Negro.",
-        "institucion": "BID (público)",
-        "monto": "US$ 60 M",
-        "fecha": "2026-10-20",
-        "url": "https://www.noticias24.com.ar/2026/10/20/el-gobierno-aprobo-prestamo-del-bid-para-financiar-la-mejora-del-sistema-de-salud-de-rio-negro/",
-        "fuente": "Noticias24"
+        "texto": "Hitachi invertirá US$ 300 millones en América Latina, más de US$ 225 millones de ellos en Argentina.",
+        "institucion": "Hitachi (privado)",
+        "monto": "US$ 300 millones para América Latina, de los cuales más de US$ 225 millones en Argentina",
+        "fecha": "2026-11-05",
+        "url": "https://www.bloomberglinea.com/latinoamerica/argentina/hitachi-ve-a-argentina-como-pais-estrategico-en-su-plan-global-inversion-millonaria-y-3000-nuevos-empleos/",
+        "fuente": "Bloomberg Línea"
       },
-      "oportunidades": "Compartir experiencias de competitividad industrial y apoyo a sectores afectados en la transición fiscal, en línea con el financiamiento del BID al país."
+      "oportunidades": "Aprovechar la llegada de inversión en servicios digitales y de ingeniería para programas de competencias y proveedores locales, en un contexto de caída de la producción automotriz."
     },
     "484": {
       "nombre": "México",
       "principal": {
-        "texto": "El PIB de México creció 3,2 % anual en el tercer trimestre según la estimación oportuna del INEGI, su mejor ritmo en el Gobierno de Sheinbaum; la industria creció 3,1 %.",
-        "fuente": "Bloomberg Línea",
-        "fecha": "2026-10-30",
-        "url": "https://www.bloomberglinea.com/latinoamerica/mexico/mexico-anota-su-mejor-crecimiento-economico-trimestral-en-lo-que-va-del-gobierno-de-sheinbaum/",
+        "texto": "Las exportaciones de México a EE. UU. alcanzaron un récord de US$ 62.200 millones en septiembre, 40 % más que un año antes.",
+        "fuente": "El Financiero",
+        "fecha": "2026-11-04",
+        "url": "https://www.elfinanciero.com.mx/economia/2026/11/04/exportaciones-de-mexico-a-eu-imponen-record-en-septiembre-de-cuanto-fue/",
         "en_boletin": false,
-        "en_ventana": false
+        "en_ventana": true
       },
       "financiamiento": {
         "texto": "Desarrolladores privados invertirán US$ 763 millones en 20 nuevos parques industriales del Plan México.",
@@ -162,32 +162,32 @@
         "url": "https://www.infobae.com/america/agencias/2026/10/22/mexico-invertira-763-millones-de-dolares-en-20-parques-industriales/",
         "fuente": "Infobae (EFE)"
       },
-      "oportunidades": "Compartir lecciones del Plan México sobre parques industriales y exportaciones manufactureras de electrónica, útiles para las estrategias de reindustrialización andinas."
+      "oportunidades": "Usar el récord exportador de México como referencia sobre integración en cadenas norteamericanas y atracción de inversión manufacturera para los países andinos."
     },
     "862": {
       "nombre": "Venezuela",
       "principal": {
-        "texto": "GeoPark activó un contrato de 25 años en el bloque Bare de Venezuela y el Grupo Gilinski tomó el control de la petrolera con cerca del 56,3 %.",
-        "fuente": "Valora Analitik",
-        "fecha": "2026-11-02",
-        "url": "https://www.valoraanalitik.com/geopark-concreta-su-entrada-a-venezuela-y-grupo-gilinski-toma-el-control-de-la-petrolera/",
-        "en_boletin": true,
-        "en_ventana": false
+        "texto": "Conindustria tiene mapeadas 902 empresas expropiadas y pide acelerar su devolución; estima la manufactura en 51,3 % de su capacidad instalada.",
+        "fuente": "Bloomberg Línea",
+        "fecha": "2026-11-05",
+        "url": "https://www.bloomberglinea.com/latinoamerica/industriales-venezolanos-tienen-mapeadas-902-empresas-expropiadas-y-piden-acelerar-su-devolucion/",
+        "en_boletin": false,
+        "en_ventana": true
       },
       "financiamiento": {
-        "texto": "GeoPark ingresó al bloque Bare mediante un canje de acciones sin pago en efectivo; el Grupo Gilinski deberá lanzar una oferta pública a US$ 12,22 por acción en 90 días.",
-        "institucion": "GeoPark / Grupo Gilinski (privado)",
-        "monto": "No revelado (canje de acciones)",
-        "fecha": "2026-11-02",
-        "url": "https://www.valoraanalitik.com/geopark-concreta-su-entrada-a-venezuela-y-grupo-gilinski-toma-el-control-de-la-petrolera/",
-        "fuente": "Valora Analitik"
+        "texto": "Venezuela negocia con organismos multilaterales unos US$ 17.000 millones en cinco años para sectores productivos.",
+        "institucion": "Organismos multilaterales (no identificados) (público)",
+        "monto": "Unos US$ 17.000 millones en cinco años",
+        "fecha": "2026-11-03",
+        "url": "https://www.bancaynegocios.com/venezuela-negocia-con-organismos-multilaterales-financiamiento-por-us17000-millones-para-sectores-productivos/",
+        "fuente": "Banca y Negocios (EFE)"
       },
-      "oportunidades": "Seguir el regreso de inversión colombiana al petróleo venezolano como posible puerta para cadenas de servicios industriales binacionales, con cautela por el riesgo regulatorio."
+      "oportunidades": "Seguir la devolución de empresas y la negociación con multilaterales para identificar necesidades de rehabilitación industrial y recuperación de capacidad productiva."
     },
     "858": {
       "nombre": "Uruguay",
       "principal": {
-        "texto": "El proyecto de centros de datos y energía solar de Solaria prevé US$ 5.700 millones, cerca del 6,5 % del PIB, con hasta 500 MW de datos y 350 MW solares.",
+        "texto": "El proyecto de centros de datos y energía solar de Solaria en Uruguay prevé una inversión de US$ 5.700 millones.",
         "fuente": "Bloomberg Línea",
         "fecha": "2026-10-25",
         "url": "https://www.bloomberglinea.com/latinoamerica/uruguay/que-impacto-pueden-tener-los-data-centers-en-al-economia-uruguaya/",
@@ -207,25 +207,25 @@
     "600": {
       "nombre": "Paraguay",
       "principal": {
-        "texto": "Santiago Peña espera cerrar antes de fin de año con Brasil la negociación del Anexo C de Itaipú, que abastece cerca del 90 % del mercado eléctrico paraguayo.",
-        "fuente": "Infobae",
-        "fecha": "2026-10-27",
-        "url": "https://www.infobae.com/america/america-latina/2026/10/27/paraguay-busca-cerrar-antes-de-fin-de-ano-la-negociacion-con-brasil-por-la-energia-de-itaipu/",
+        "texto": "El BCP nombró presidente interino y fijó la devolución anticipada de depósitos de Ueno Bank a unos 1,9 millones de ahorristas desde el 5 de noviembre.",
+        "fuente": "ABC Color",
+        "fecha": "2026-11-04",
+        "url": "https://www.abc.com.py/economia/2026/11/04/bcp-designa-nuevo-presidente-interino-y-detalla-como-devolvera-la-plata-a-ahorristas-de-ueno/",
         "en_boletin": false,
-        "en_ventana": false
+        "en_ventana": true
       },
       "financiamiento": null,
-      "oportunidades": "Orientar la energía hidroeléctrica disponible hacia usos industriales de mayor valor agregado y eficiencia energética en la industria."
+      "oportunidades": "Seguir la estabilidad del sistema financiero, condición para el crédito a mipymes, y orientar la energía hidroeléctrica hacia usos industriales de mayor valor."
     },
     "222": {
       "nombre": "El Salvador",
       "principal": {
-        "texto": "El Ministerio de Obras Públicas propuso para 2027 su mayor presupuesto: US$ 1.057 millones, casi todo para inversión en infraestructura.",
+        "texto": "Un estudio advierte que la restricción migratoria amenaza las remesas, que equivalieron al 23,5 % del PIB salvadoreño en 2024.",
         "fuente": "Infobae",
-        "fecha": "2026-10-27",
-        "url": "https://www.infobae.com/el-salvador/2026/10/27/el-ministerio-de-obras-publicas-presenta-el-mayor-presupuesto-de-su-historia-para-invertir-en-infraestructura-en-el-salvador/",
+        "fecha": "2026-11-04",
+        "url": "https://www.infobae.com/el-salvador/2026/11/04/la-restriccion-migratoria-amenaza-las-remesas-que-sostienen-hasta-el-27-del-pib-en-centroamerica-segun-informe/",
         "en_boletin": false,
-        "en_ventana": false
+        "en_ventana": true
       },
       "financiamiento": {
         "texto": "El BCIE amplió en US$ 50 millones el financiamiento al Fondo Social para la Vivienda.",
@@ -235,30 +235,30 @@
         "url": "https://www.elsalvador.com/dinero-y-negocios/entorno-economico/bcie-financiamiento-vivienda/1299513/2026/",
         "fuente": "elsalvador.com"
       },
-      "oportunidades": "Vincular la inversión en infraestructura con proveedores locales y mipymes, apoyándose en el financiamiento del BCIE."
+      "oportunidades": "Apoyar la canalización de remesas hacia emprendimientos y mipymes productivas ante el riesgo de que disminuyan."
     },
     "591": {
       "nombre": "Panamá",
       "principal": {
-        "texto": "El Congreso General Guna aprobó consultar a sus comunidades sobre la interconexión eléctrica con Colombia, de unos 500 km y 400 MW; es el segundo de tres territorios indígenas del trazado.",
-        "fuente": "Infobae",
-        "fecha": "2026-10-28",
-        "url": "https://www.infobae.com/panama/2026/10/29/segunda-comarca-indigena-de-panama-autoriza-consultas-sobre-la-interconexion-electrica-con-colombia/",
+        "texto": "El presidente Mulino sancionó el presupuesto 2027 por US$ 35.111 millones, con US$ 12.839,7 millones de inversión, 12 % más que en 2026.",
+        "fuente": "La Prensa (Panamá)",
+        "fecha": "2026-11-02",
+        "url": "https://www.prensa.com/politica/mulino-sanciona-ley-de-presupuesto-de-2027-por-35111-millones/",
         "en_boletin": false,
         "en_ventana": false
       },
       "financiamiento": null,
-      "oportunidades": "Seguir la interconexión eléctrica con Colombia como oportunidad de integración energética andina y de suministro más estable para la industria."
+      "oportunidades": "Aprovechar el aumento de la inversión pública prevista para 2027 para incorporar criterios de industria sostenible y contenido local en las obras."
     },
     "320": {
       "nombre": "Guatemala",
       "principal": {
-        "texto": "La CEPAL proyecta que Guatemala crezca 4,1 % en 2026, entre las economías de mayor crecimiento de la región.",
-        "fuente": "Infobae",
-        "fecha": "2026-10-22",
-        "url": "https://www.infobae.com/el-salvador/2026/10/23/el-salvador-creceria-45-en-2026-y-se-ubicaria-entre-las-economias-lideres-regionales-segun-cepal/",
+        "texto": "Asazgua prevé una menor zafra azucarera 2026-2027 por el déficit de lluvias y el calor de El Niño; las exportaciones de azúcar caen 16,8 % hasta agosto.",
+        "fuente": "Prensa Libre",
+        "fecha": "2026-11-05",
+        "url": "https://www.prensalibre.com/economia/zafra-azucarera-2026-2027-en-guatemala-asazgua-preve-una-baja-en-la-produccion-por-efectos-de-fenomeno-de-el-nino/",
         "en_boletin": false,
-        "en_ventana": false
+        "en_ventana": true
       },
       "financiamiento": {
         "texto": "El BCIE amplió en US$ 8,8 millones su línea de crédito a Cofinsa para medianas empresas.",
@@ -268,7 +268,7 @@
         "url": "https://www.infobae.com/guatemala/2026/10/25/el-banco-centroamericano-de-integracion-economica-eleva-a-usd-388-millones-la-linea-de-credito-para-medianas-empresas-de-guatemala/",
         "fuente": "Infobae"
       },
-      "oportunidades": "Apoyar el financiamiento y la productividad de las medianas empresas industriales."
+      "oportunidades": "Acompañar a la agroindustria azucarera en eficiencia hídrica y energética y en adaptación a El Niño."
     },
     "558": {
       "nombre": "Nicaragua",
@@ -293,28 +293,35 @@
     "340": {
       "nombre": "Honduras",
       "principal": {
-        "texto": "Honduras presentará en la Cumbre Iberoamericana de Madrid (4 y 5 de noviembre) sus prioridades, entre ellas inversiones e inteligencia artificial, y asumirá la Secretaría Pro Tempore 2026-2028.",
+        "texto": "Honduras exportó 6,67 millones de sacos de café hasta agosto (+16,3 %), pero el precio medio cayó 14,2 % y los ingresos sumaron US$ 2.067 millones.",
         "fuente": "Infobae",
-        "fecha": "2026-11-01",
-        "url": "https://www.infobae.com/honduras/2026/11/02/honduras-toma-protagonismo-en-la-cumbre-iberoamericana/",
+        "fecha": "2026-11-04",
+        "url": "https://www.infobae.com/honduras/2026/11/04/honduras-exporta-667-millones-de-sacos-de-cafe-y-genera-mas-de-2000-millones-de-dolares-en-ocho-meses/",
         "en_boletin": false,
-        "en_ventana": false
+        "en_ventana": true
       },
-      "financiamiento": null,
-      "oportunidades": "Aprovechar la agenda de inversiones de Honduras en la Cumbre Iberoamericana para promover cooperación en agroindustria y energía; no se registró financiamiento nuevo en los últimos 30 días."
+      "financiamiento": {
+        "texto": "Honduras alcanzó con el FMI un acuerdo técnico que habilitaría un desembolso de unos US$ 120 millones.",
+        "institucion": "FMI (público)",
+        "monto": "Unos US$ 120 millones",
+        "fecha": "2026-11-01",
+        "url": "https://www.laprensa.hn/economia/honduras-acuerdo-fmi-desembolso-120-millones-2026-BE32509769",
+        "fuente": "La Prensa (Honduras)"
+      },
+      "oportunidades": "Apoyar la agregación de valor y la calidad del café para compensar la caída de precios, con la estabilidad macroeconómica que da el programa con el FMI."
     },
     "188": {
       "nombre": "Costa Rica",
       "principal": {
-        "texto": "La presidenta Laura Fernández anunció que Costa Rica no se adherirá al Acuerdo Transpacífico (CPTPP) y destituyó a la ministra de Comercio, tras presiones del agro.",
-        "fuente": "Bloomberg Línea",
-        "fecha": "2026-10-28",
-        "url": "https://www.bloomberglinea.com/latinoamerica/costa-rica/asi-impacta-a-costa-rica-la-decision-de-laura-fernandez-de-frenar-su-ingreso-al-acuerdo-transpacifico/",
+        "texto": "El Banco Central compró un récord de US$ 1.264 millones en divisas en 2026 para frenar la apreciación del colón.",
+        "fuente": "La Nación (Costa Rica)",
+        "fecha": "2026-11-05",
+        "url": "https://www.nacion.com/economia/banco-central-compra-cifra-historica-de-divisas-en/NR6K4RZGHVDHBNHHZO2NLPYWXU/story/",
         "en_boletin": false,
-        "en_ventana": false
+        "en_ventana": true
       },
       "financiamiento": null,
-      "oportunidades": "Seguir el efecto del freno al CPTPP en la atracción de manufactura avanzada y zonas francas, referencia para la estrategia comercial andina."
+      "oportunidades": "Apoyar la competitividad de la industria exportadora frente a la apreciación del colón, con eficiencia y productividad en las empresas."
     }
   }
 }
