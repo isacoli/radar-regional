@@ -1,96 +1,96 @@
 {
-  "actualizado": "2026-11-05",
-  "ventana": "4 nov 07:01 → 5 nov 07:00 (ventana del N.º 26)",
+  "actualizado": "2026-11-06",
+  "ventana": "5 nov 07:01 → 6 nov 07:00 (ventana del N.º 27)",
   "fuente": "Noticia del día por país (incluida o no en el boletín, solo fuentes de confianza) y financiamiento de los últimos 30 días",
   "nota_oportunidades": "Las oportunidades son un análisis orientativo del Radar a partir de la noticia y el financiamiento del país; no constituyen una posición oficial de la ONUDI.",
   "paises": {
     "604": {
       "nombre": "Perú",
       "principal": {
-        "texto": "Petroperú ganó US$ 144,9 millones hasta septiembre, frente a una pérdida en 2025, y el Minem descarta concesionar Talara y plantea un contrato de administración privada.",
+        "texto": "La Comisión Bicameral aprobó por 29 votos el dictamen del Presupuesto 2027, de más de S/ 266.000 millones, que ahora pasa al Pleno del Congreso.",
         "fuente": "Gestión",
-        "fecha": "2026-11-04",
-        "url": "https://gestion.pe/economia/petroperu-logra-utilidad-neta-de-us-1449-millones-pero-capital-de-trabajo-aun-es-negativo-noticia/",
+        "fecha": "2026-11-05",
+        "url": "https://gestion.pe/economia/presupuesto-publico-2027-comision-bicameral-da-luz-verde-a-dictamen-que-pedidos-incluyeron-noticia/",
         "en_boletin": true,
         "en_ventana": true
       },
       "financiamiento": {
-        "texto": "ADN alista unos US$ 30 millones para la segunda fase de su parque logístico en el Callao.",
-        "institucion": "ADN Parque Logístico (privado)",
-        "monto": "Aproximadamente US$ 30 millones",
-        "fecha": "2026-11-05",
-        "url": "https://gestion.pe/economia/empresas/adn-compra-terreno-y-alista-inversion-de-us-30-millones-en-el-callao-noticia/",
+        "texto": "MAXAM terminó en La Joya (Arequipa) una planta de emulsiones para minería de US$ 5 millones que duplica su capacidad en el sur.",
+        "institucion": "MAXAM (privado)",
+        "monto": "US$ 5 millones",
+        "fecha": "2026-11-06",
+        "url": "https://gestion.pe/economia/empresas/espanola-de-explosivos-maxam-afina-su-estrategia-en-el-sur-con-nueva-planta-en-la-joya-arequipa-y-busca-acercarse-a-tia-maria-noticia/",
         "fuente": "Gestión"
       },
-      "oportunidades": "Apoyar la gestión eficiente y la modernización de la refinación y la logística mientras se define el modelo para Talara, y aprovechar la nueva capacidad logística del Callao para cadenas de exportación."
+      "oportunidades": "Acompañar la programación de inversión del Presupuesto 2027 hacia la prevención ante El Niño y la productividad regional, y desarrollar proveedores locales de insumos y servicios para la minería del sur, como el que refuerza MAXAM."
     },
     "170": {
       "nombre": "Colombia",
       "principal": {
-        "texto": "El Congreso aprobó en primer debate un presupuesto de regalías de $27,5 billones para 2027-2028, 11 % menor que el del bienio anterior.",
-        "fuente": "El Tiempo",
-        "fecha": "2026-11-04",
-        "url": "https://www.eltiempo.com/economia/sectores/regalias-por-27-5-billones-avanzan-en-el-legislativo-mientras-hacienda-defiende-apreton-del-estado-3598505",
+        "texto": "El Grupo Banco Mundial (MIGA) garantizó por $2,8 billones el crédito de US$ 400 millones de BNP Paribas a Bogotá para la Línea 1 del Metro.",
+        "fuente": "La República",
+        "fecha": "2026-11-05",
+        "url": "https://www.larepublica.co/economia/grupo-banco-mundial-dara-garantia-de-2-8-billones-el-credito-de-la-linea-1-del-metro-4518643",
         "en_boletin": true,
         "en_ventana": true
       },
       "financiamiento": {
-        "texto": "Chevron anunció US$ 100 millones para terminales de combustibles y la ampliación de la red Texaco en Colombia.",
-        "institucion": "Chevron (privado)",
-        "monto": "US$ 100 millones",
-        "fecha": "2026-11-04",
-        "url": "https://www.valoraanalitik.com/chevron-invertira-us100-millones-en-colombia-para-fortalecer-abastecimiento-de-combustibles-terrestres-y-aereos/",
-        "fuente": "Valora Analitik"
+        "texto": "MIGA emitió una garantía de unos US$ 877 millones (capital e intereses) sobre el préstamo de US$ 400 millones de BNP Paribas al Distrito para el Metro.",
+        "institucion": "MIGA — Grupo Banco Mundial (público)",
+        "monto": "Garantía por $2,8 billones (US$ 877 millones) sobre un préstamo de $1,3 billones (US$ 400 millones)",
+        "fecha": "2026-11-05",
+        "url": "https://www.larepublica.co/economia/grupo-banco-mundial-dara-garantia-de-2-8-billones-el-credito-de-la-linea-1-del-metro-4518643",
+        "fuente": "La República"
       },
-      "oportunidades": "Orientar parte de las regalías hacia proyectos productivos regionales y de transición energética, y acompañar la reconversión industrial en un entorno de ajuste fiscal."
+      "oportunidades": "Aprovechar el modelo de garantías multilaterales para movilizar capital privado hacia infraestructura y, alrededor del Metro, impulsar encadenamientos con proveedores locales y empleo calificado."
     },
     "218": {
       "nombre": "Ecuador",
       "principal": {
-        "texto": "Una comisión de la Asamblea recomendó aprobar la Proforma 2027 de US$ 50.213 millones, con déficit de 3,1 % del PIB y apuesta por concesiones petroleras y mineras.",
+        "texto": "Faro de San Marco, de 82 MW y unos US$ 50 millones, inició operación comercial en Santa Elena como el mayor parque solar privado de Ecuador.",
         "fuente": "El Universo",
-        "fecha": "2026-11-04",
-        "url": "https://www.eluniverso.com/economia/finanzas/comision-recomienda-al-pleno-de-la-asamblea-aprobar-la-proforma-presupuestaria-de-2027-nota/",
+        "fecha": "2026-11-05",
+        "url": "https://www.eluniverso.com/economia/industrias/energia-solar-difare-faro-de-san-marco-megavatios-santa-elena-ecuador-2026-nota/",
         "en_boletin": true,
         "en_ventana": true
       },
       "financiamiento": {
-        "texto": "Novacero prevé dos hidroeléctricas privadas de unos 50 MW cada una, con más de US$ 100 millones por planta.",
-        "institucion": "Novacero (privado)",
-        "monto": "Más de US$ 100 millones por planta (dos plantas de unos 50 MW cada una)",
-        "fecha": "2026-11-04",
-        "url": "https://www.eluniverso.com/economia/industrias/dos-nuevas-hidroelectricas-privadas-megavatios-construccion-2027-novacero-nota/",
+        "texto": "Lighthouse (Grupo Difare) invirtió unos US$ 50 millones en el parque solar Faro de San Marco y planea llegar a 400 MW en tres o cuatro años.",
+        "institucion": "Lighthouse — Grupo Difare (privado)",
+        "monto": "US$ 50 millones",
+        "fecha": "2026-11-05",
+        "url": "https://www.eluniverso.com/economia/industrias/energia-solar-difare-faro-de-san-marco-megavatios-santa-elena-ecuador-2026-nota/",
         "fuente": "El Universo"
       },
-      "oportunidades": "Acompañar a la industria en eficiencia energética y autogeneración renovable, como las hidroeléctricas de Novacero, mientras la Proforma prioriza la renta petrolera y minera."
+      "oportunidades": "Promover la autogeneración solar y los contratos de suministro renovable para la industria y el comercio, siguiendo el modelo de clientes empresariales de Faro de San Marco, en plena crisis eléctrica por El Niño."
     },
     "068": {
       "nombre": "Bolivia",
       "principal": {
-        "texto": "En Madrid, Rodrigo Paz dijo que Bolivia no quiere solo exportar minerales y anunció para 2027 una plataforma para fabricar tecnología en el país.",
-        "fuente": "Los Tiempos (ABI)",
-        "fecha": "2026-11-04",
-        "url": "https://www.lostiempos.com/actualidad/pais/20261104/paz-madrid-no-queremos-solo-entregar-minerales",
+        "texto": "Bata seguirá vendiendo en Bolivia con un nuevo licenciatario, pero ya no habrá fabricación local de calzado tras el cierre de Manaco.",
+        "fuente": "El Deber",
+        "fecha": "2026-11-05",
+        "url": "https://eldeber.com.bo/economia/bata-seguira-vendiendo-bolivia-no-fabricara-calzados-traves-manaco_1793890041",
         "en_boletin": true,
         "en_ventana": true
       },
       "financiamiento": {
-        "texto": "El Senado aprobó un crédito del BID de US$ 30,2 millones para modernizar el alumbrado público con tecnología LED y medición inteligente.",
+        "texto": "El BID aprobó un paquete de US$ 750 millones para apoyar el plan de estabilización económica; el calendario de desembolsos aún no se conoce.",
         "institucion": "BID (público)",
-        "monto": "US$ 30,2 M",
-        "fecha": "2026-10-22",
-        "url": "https://www.opinion.com.bo/pais/senado-aprueba-credito-bid-us-302-millones-modernizar-alumbrado-publico/20261022191207998045.html",
-        "fuente": "ABI (vía Opinión)"
+        "monto": "US$ 750 millones",
+        "fecha": "2026-11-05",
+        "url": "https://eldeber.com.bo/economia/bid-aprueba-us-750-millones-apoyar-estabilizacion-economica-bolivia_1793891368",
+        "fuente": "El Deber"
       },
-      "oportunidades": "Apoyar el diseño de la plataforma para agregar valor a los minerales, con estudios de cadenas de valor del estaño y otros minerales y formación técnica para la manufactura."
+      "oportunidades": "Apoyar la reconversión de la industria manufacturera afectada por cierres como el de Manaco y vincular parte del nuevo financiamiento multilateral con programas de reactivación productiva y empleo."
     },
     "076": {
       "nombre": "Brasil",
       "principal": {
-        "texto": "El Banco Central mantuvo por sorpresa la Selic en 13,75 % ante la inflación sobre la meta, y la CNI criticó la decisión.",
+        "texto": "Brasil aprobó su primera lista de 27 minerales críticos, con tierras raras, cobre y litio como prioridad, para orientar hasta R$ 7.000 millones en incentivos al procesamiento.",
         "fuente": "Agência Brasil",
-        "fecha": "2026-11-04",
-        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bc-surpreende-e-mantem-juros-basicos-em-1375-ao-ano",
+        "fecha": "2026-11-05",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-define-minerais-criticos-prioritarios-para-investimentos",
         "en_boletin": true,
         "en_ventana": true
       },
@@ -102,16 +102,16 @@
         "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/com-muita-disputa-aneel-leiloou-oito-lotes-de-transmissao-de-energia",
         "fuente": "Agência Brasil"
       },
-      "oportunidades": "Seguir el efecto de las tasas altas en la inversión industrial y compartir con los países andinos experiencias de financiamiento productivo de largo plazo."
+      "oportunidades": "Usar la lista de minerales críticos de Brasil como referencia regional para políticas de agregación de valor, y explorar cooperación técnica con los países andinos en procesamiento de minerales y cadenas de baterías."
     },
     "152": {
       "nombre": "Chile",
       "principal": {
-        "texto": "Blumar confirmó negociaciones para vender su negocio salmonero a Agrosuper por un valor empresa de US$ 540 millones.",
-        "fuente": "Diario Financiero",
-        "fecha": "2026-11-04",
-        "url": "https://www.df.cl/empresas/industria/blumar-confirma-negociaciones-con-agrosuper-para-vender-negocio-salmonero-y",
-        "en_boletin": false,
+        "texto": "Codelco prepara una reestructuración que irá más allá del gobierno corporativo tras el escándalo por sus cifras de producción infladas.",
+        "fuente": "Bloomberg Línea",
+        "fecha": "2026-11-05",
+        "url": "https://www.bloomberglinea.com/latinoamerica/chile/codelco-prepara-una-reestructuracion-para-recuperar-la-confianza-tras-escandalo-de-produccion/",
+        "en_boletin": true,
         "en_ventana": true
       },
       "financiamiento": {
@@ -122,16 +122,16 @@
         "url": "https://www.df.cl/empresas/industria/blumar-confirma-negociaciones-con-agrosuper-para-vender-negocio-salmonero-y",
         "fuente": "Diario Financiero"
       },
-      "oportunidades": "Analizar la consolidación de la industria salmonera como referencia para la agregación de valor y los estándares en la acuicultura de la costa del Pacífico."
+      "oportunidades": "Compartir lecciones de gobernanza y transparencia en empresas mineras estatales, útiles para las empresas públicas de recursos naturales de la región andina."
     },
     "032": {
       "nombre": "Argentina",
       "principal": {
-        "texto": "La producción automotriz cayó 14,4 % anual en octubre y las exportaciones del sector retrocedieron 6,2 %, según ADEFA.",
+        "texto": "En el Foro ABECEB, empresarios valoraron el RIGI como una certeza, pero pusieron en pausa inversiones por el ruido electoral y miran a 2028.",
         "fuente": "Infobae",
-        "fecha": "2026-11-04",
-        "url": "https://www.infobae.com/economia/2026/11/04/se-freno-el-repunte-de-la-actividad-automotriz-la-produccion-y-las-exportaciones-volvieron-a-caer-en-octubre/",
-        "en_boletin": true,
+        "fecha": "2026-11-05",
+        "url": "https://www.infobae.com/economia/2026/11/06/los-empresarios-ven-en-el-rigi-una-certeza-pero-piden-mas-medidas-y-ponen-en-pausa-las-inversiones-por-el-ruido-electoral/",
+        "en_boletin": false,
         "en_ventana": true
       },
       "financiamiento": {
@@ -142,15 +142,15 @@
         "url": "https://www.bloomberglinea.com/latinoamerica/argentina/hitachi-ve-a-argentina-como-pais-estrategico-en-su-plan-global-inversion-millonaria-y-3000-nuevos-empleos/",
         "fuente": "Bloomberg Línea"
       },
-      "oportunidades": "Aprovechar la llegada de inversión en servicios digitales y de ingeniería para programas de competencias y proveedores locales, en un contexto de caída de la producción automotriz."
+      "oportunidades": "Seguir la experiencia del RIGI como régimen de incentivos a grandes inversiones y sus límites ante la incertidumbre, junto con el plan de Hitachi, como referencia para los marcos de inversión andinos."
     },
     "484": {
       "nombre": "México",
       "principal": {
-        "texto": "Las exportaciones de México a EE. UU. alcanzaron un récord de US$ 62.200 millones en septiembre, 40 % más que un año antes.",
+        "texto": "Banxico recortó por sorpresa su tasa de interés a 6,25 %, la más baja desde 2022, con una Junta de Gobierno dividida.",
         "fuente": "El Financiero",
-        "fecha": "2026-11-04",
-        "url": "https://www.elfinanciero.com.mx/economia/2026/11/04/exportaciones-de-mexico-a-eu-imponen-record-en-septiembre-de-cuanto-fue/",
+        "fecha": "2026-11-05",
+        "url": "https://www.elfinanciero.com.mx/economia/2026/11/05/tasa-de-interes-del-banco-de-mexico-en-cuanto-quedo-hoy-5-de-noviembre/",
         "en_boletin": false,
         "en_ventana": true
       },
@@ -162,7 +162,7 @@
         "url": "https://www.infobae.com/america/agencias/2026/10/22/mexico-invertira-763-millones-de-dolares-en-20-parques-industriales/",
         "fuente": "Infobae (EFE)"
       },
-      "oportunidades": "Usar el récord exportador de México como referencia sobre integración en cadenas norteamericanas y atracción de inversión manufacturera para los países andinos."
+      "oportunidades": "Seguir si el menor costo del crédito acompaña la inversión manufacturera del Plan México, una referencia para las políticas de atracción de inversión en la región."
     },
     "862": {
       "nombre": "Venezuela",
@@ -172,7 +172,7 @@
         "fecha": "2026-11-05",
         "url": "https://www.bloomberglinea.com/latinoamerica/industriales-venezolanos-tienen-mapeadas-902-empresas-expropiadas-y-piden-acelerar-su-devolucion/",
         "en_boletin": false,
-        "en_ventana": true
+        "en_ventana": false
       },
       "financiamiento": {
         "texto": "Venezuela negocia con organismos multilaterales unos US$ 17.000 millones en cinco años para sectores productivos.",
@@ -207,15 +207,15 @@
     "600": {
       "nombre": "Paraguay",
       "principal": {
-        "texto": "El BCP nombró presidente interino y fijó la devolución anticipada de depósitos de Ueno Bank a unos 1,9 millones de ahorristas desde el 5 de noviembre.",
-        "fuente": "ABC Color",
-        "fecha": "2026-11-04",
-        "url": "https://www.abc.com.py/economia/2026/11/04/bcp-designa-nuevo-presidente-interino-y-detalla-como-devolvera-la-plata-a-ahorristas-de-ueno/",
-        "en_boletin": false,
+        "texto": "El presidente Santiago Peña renunció mientras Diputados debatía su juicio político, en medio de protestas por la quiebra de Ueno Bank.",
+        "fuente": "Bloomberg Línea",
+        "fecha": "2026-11-05",
+        "url": "https://www.bloomberglinea.com/latinoamerica/el-presidente-de-paraguay-santiago-pena-renuncia-tras-la-quiebra-de-ueno-bank/",
+        "en_boletin": true,
         "en_ventana": true
       },
       "financiamiento": null,
-      "oportunidades": "Seguir la estabilidad del sistema financiero, condición para el crédito a mipymes, y orientar la energía hidroeléctrica hacia usos industriales de mayor valor."
+      "oportunidades": "Seguir el impacto de la crisis financiera sobre el crédito a las mipymes y, cuando se estabilice, apoyar mecanismos de financiamiento productivo que reduzcan la dependencia de una sola entidad."
     },
     "222": {
       "nombre": "El Salvador",
@@ -225,7 +225,7 @@
         "fecha": "2026-11-04",
         "url": "https://www.infobae.com/el-salvador/2026/11/04/la-restriccion-migratoria-amenaza-las-remesas-que-sostienen-hasta-el-27-del-pib-en-centroamerica-segun-informe/",
         "en_boletin": false,
-        "en_ventana": true
+        "en_ventana": false
       },
       "financiamiento": {
         "texto": "El BCIE amplió en US$ 50 millones el financiamiento al Fondo Social para la Vivienda.",
@@ -258,7 +258,7 @@
         "fecha": "2026-11-05",
         "url": "https://www.prensalibre.com/economia/zafra-azucarera-2026-2027-en-guatemala-asazgua-preve-una-baja-en-la-produccion-por-efectos-de-fenomeno-de-el-nino/",
         "en_boletin": false,
-        "en_ventana": true
+        "en_ventana": false
       },
       "financiamiento": {
         "texto": "El BCIE amplió en US$ 8,8 millones su línea de crédito a Cofinsa para medianas empresas.",
@@ -298,7 +298,7 @@
         "fecha": "2026-11-04",
         "url": "https://www.infobae.com/honduras/2026/11/04/honduras-exporta-667-millones-de-sacos-de-cafe-y-genera-mas-de-2000-millones-de-dolares-en-ocho-meses/",
         "en_boletin": false,
-        "en_ventana": true
+        "en_ventana": false
       },
       "financiamiento": {
         "texto": "Honduras alcanzó con el FMI un acuerdo técnico que habilitaría un desembolso de unos US$ 120 millones.",
@@ -318,7 +318,7 @@
         "fecha": "2026-11-05",
         "url": "https://www.nacion.com/economia/banco-central-compra-cifra-historica-de-divisas-en/NR6K4RZGHVDHBNHHZO2NLPYWXU/story/",
         "en_boletin": false,
-        "en_ventana": true
+        "en_ventana": false
       },
       "financiamiento": null,
       "oportunidades": "Apoyar la competitividad de la industria exportadora frente a la apreciación del colón, con eficiencia y productividad en las empresas."

@@ -4,7 +4,7 @@ Log of every scan and of the stories published in bulletins. `/radar` reads this
 
 ## Daily issues
 
-Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oct 2026 the issue of 23 Oct is N.º 17 (formerly N.º 1) and the issue of 26 Oct is N.º 18 (formerly N.º 2). Issues N.º 1–12 (1–16 Oct) were prepared retrospectively and published on 26 Oct 2026. The next issue is N.º 27.
+Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oct 2026 the issue of 23 Oct is N.º 17 (formerly N.º 1) and the issue of 26 Oct is N.º 18 (formerly N.º 2). Issues N.º 1–12 (1–16 Oct) were prepared retrospectively and published on 26 Oct 2026. The next issue is N.º 28.
 
 | N.º | Fecha | Ventana | Noticias | Boletín | Estado |
 |---|---|---|---|---|---|
@@ -34,6 +34,7 @@ Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oc
 | 24 | 2026-11-03 | 2 nov 07:01 → 3 nov 07:00 | 15 | output/radar/2026-11-03/boletin.html | final |
 | 25 | 2026-11-04 | 3 nov 07:01 → 4 nov 07:00 | 18 | output/radar/2026-11-04/boletin.html | final |
 | 26 | 2026-11-05 | 4 nov 07:01 → 5 nov 07:00 | 20 | output/radar/2026-11-05/boletin.html | final |
+| 27 | 2026-11-06 | 5 nov 07:01 → 6 nov 07:00 | 20 | output/radar/2026-11-06/boletin.html | final |
 
 ## Weekly scans (earlier format)
 
@@ -364,6 +365,26 @@ Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oc
 | 2026-11-04 | La producción automotriz argentina cae 14,4 % anual en octubre y las exportaciones del sector retroceden 6,2 % (Diario N.º 26) | Infobae | https://www.infobae.com/economia/2026/11/04/se-freno-el-repunte-de-la-actividad-automotriz-la-produccion-y-las-exportaciones-volvieron-a-caer-en-octubre/ | Política industrial y coyuntura | Argentina |
 | 2026-11-05 | Hitachi invertirá US$ 300 millones en América Latina —más de US$ 225 millones en Argentina— y duplicará su plantilla en el país (Diario N.º 26) | Bloomberg Línea | https://www.bloomberglinea.com/latinoamerica/argentina/hitachi-ve-a-argentina-como-pais-estrategico-en-su-plan-global-inversion-millonaria-y-3000-nuevos-empleos/ | Innovación, digitalización y MiPymes | Argentina |
 | 2026-11-05 | El BCB adelanta la devolución de depósitos de hasta US$ 50.000 y moviliza más de US$ 330 millones para reactivar el ahorro en dólares (Diario N.º 26) | El Deber | https://eldeber.com.bo/economia/bcb-restituye-depositos-us-50-000-apunta-reactivar-ahorros-dolares_1793875977 | Política industrial y coyuntura | Bolivia |
+| 2026-11-05 | Renuncia el presidente de Paraguay, Santiago Peña, en plena crisis por la quiebra de Ueno Bank, el sexto banco del país (Diario N.º 27) | Bloomberg Línea | https://www.bloomberglinea.com/latinoamerica/el-presidente-de-paraguay-santiago-pena-renuncia-tras-la-quiebra-de-ueno-bank/ | Política industrial y coyuntura | Paraguay |
+| 2026-11-05 | Arranca en Santa Elena Faro de San Marco, de 82 MW, el mayor parque solar privado de Ecuador (Diario N.º 27) | El Universo | https://www.eluniverso.com/economia/industrias/energia-solar-difare-faro-de-san-marco-megavatios-santa-elena-ecuador-2026-nota/ | Energía | Ecuador |
+| 2026-11-05 | Brasil aprueba su primera lista de 27 minerales críticos y prioriza tierras raras, cobre y litio para atraer inversión en procesamiento (Diario N.º 27) | Agência Brasil (portugués) | https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-define-minerais-criticos-prioritarios-para-investimentos | Minerales críticos | Brasil |
+| 2026-11-05 | Bata seguirá vendiendo en Bolivia con un nuevo licenciatario, pero ya no habrá fabricación local tras el cierre de Manaco (Diario N.º 27) | El Deber | https://eldeber.com.bo/economia/bata-seguira-vendiendo-bolivia-no-fabricara-calzados-traves-manaco_1793890041 | Política industrial y coyuntura | Bolivia |
+| 2026-11-05 | El Grupo Banco Mundial (MIGA) garantiza por $2,8 billones el crédito de BNP Paribas a Bogotá para la Línea 1 del Metro (Diario N.º 27) | La República | https://www.larepublica.co/economia/grupo-banco-mundial-dara-garantia-de-2-8-billones-el-credito-de-la-linea-1-del-metro-4518643 | Megaproyectos e infraestructura | Colombia |
+| 2026-11-05 | GeoPark y Drummond Energy plantean que Colombia puede perforar su primer pozo de fracking en 2027 sin pasar por pilotos (Diario N.º 27) | La República | https://www.larepublica.co/economia/geopark-y-drummond-energy-plantean-que-colombia-esta-lista-para-el-fracking-en-2027-4518238 | Energía | Colombia |
+| 2026-11-06 | Tecnoglass eleva a US$ 1.140 millones su previsión de ventas para 2026 y estudia una planta en Florida, aunque los aranceles recortan su utilidad (Diario N.º 27) | La República | https://www.larepublica.co/empresas/tecnoglass-elevo-su-proyeccion-de-ventas-a-us-1-140-millones-para-2026-4518766 | Inversión, comercio e integración | Colombia |
+| 2026-11-05 | Noboa autoriza por decreto que bancos y cooperativas difieran las cuotas de créditos de los afectados por El Niño (Diario N.º 27) | Primicias | https://www.primicias.ec/politica/daniel-noboa-decreto-diferimiento-obligaciones-creditos-damnificados-fenomeno-nino-136476/ | Innovación, digitalización y MiPymes | Ecuador |
+| 2026-11-06 | ENDE debe hasta Bs 18.000 millones al Banco Central de Bolivia y denuncia a 23 personas por tres termoeléctricas con 86 % de su crédito impago (Diario N.º 27) | El Deber | https://eldeber.com.bo/economia/ende-debe-bs-18-000-millones-banco-central_1793961703 | Energía | Bolivia |
+| 2026-11-05 | La Comisión Bicameral aprueba el dictamen del Presupuesto 2027 del Perú, de más de S/ 266.000 millones (Diario N.º 27) | Gestión | https://gestion.pe/economia/presupuesto-publico-2027-comision-bicameral-da-luz-verde-a-dictamen-que-pedidos-incluyeron-noticia/ | Política industrial y coyuntura | Perú |
+| 2026-11-05 | El BID aprueba US$ 750 millones para apoyar el plan de estabilización económica de Bolivia (Diario N.º 27) | El Deber | https://eldeber.com.bo/economia/bid-aprueba-us-750-millones-apoyar-estabilizacion-economica-bolivia_1793891368 | Organismos multilaterales | Bolivia |
+| 2026-11-06 | La española MAXAM duplica su capacidad en el sur del Perú con una planta de emulsiones para minería de US$ 5 millones en La Joya (Arequipa) (Diario N.º 27) | Gestión | https://gestion.pe/economia/empresas/espanola-de-explosivos-maxam-afina-su-estrategia-en-el-sur-con-nueva-planta-en-la-joya-arequipa-y-busca-acercarse-a-tia-maria-noticia/ | Minerales críticos | Perú |
+| 2026-11-05 | Holcim lanza una OPA para comprar el 49,99 % de Cementos Pacasmayo que aún no controla (Diario N.º 27) | Gestión [pago] | https://gestion.pe/economia/empresas/cementos-pacasmayo-holcim-lanza-opa-para-comprar-las-acciones-que-aun-no-controla-cual-es-el-precio-ofrecido-noticia/ | Inversión, comercio e integración | Perú |
+| 2026-11-05 | La plata y el oro explican siete de cada diez dólares adicionales de las exportaciones de Bolivia, que crecen 54 % hasta septiembre (Diario N.º 27) | Los Tiempos | https://www.lostiempos.com/actualidad/economia/20261105/plata-oro-generan-7-cada-10-dolares-adicionales-exportaciones | Minerales críticos | Bolivia |
+| 2026-11-05 | Bolivia abre su mercado a la pitahaya peruana: es el producto vegetal n.º 31 del Perú autorizado para entrar al país vecino (Diario N.º 27) | Gestión | https://gestion.pe/economia/pitahaya-mercado-boliviano-se-abre-para-este-cultivo-en-peru-la-nueva-ruta-comercial-para-pequenos-productores-noticia/ | Agroindustria y cadenas de valor | Perú, Bolivia |
+| 2026-11-05 | La banca pública de Ecuador ha colocado unos US$ 458 millones en créditos verdes y sostenibles desde 2023, incluidos US$ 64 millones de la CFN para tecnologías limpias (Diario N.º 27) | El Universo | https://www.eluniverso.com/economia/finanzas/banca-publica-entrega-458-millones-creditos-verdes-proyectos-ecuador-nota/ | Innovación, digitalización y MiPymes | Ecuador |
+| 2026-11-06 | Las lluvias de El Niño retrasan cuatro meses, hasta noviembre de 2027, el inicio de producción de la mina El Domo en Ecuador (Diario N.º 27) | El Universo | https://www.eluniverso.com/economia/industrias/mineria-lluvias-intensas-retrasan-cuatro-meses-el-inicio-de-produccion-de-el-domo-nota/ | Minerales críticos | Ecuador |
+| 2026-11-06 | Electroperú advierte que El Niño podría afectar la generación hidroeléctrica del Perú más allá de abril de 2027 (Diario N.º 27) | Gestión | https://gestion.pe/economia/el-nino-a-partir-de-abril-2027-hidroelectricas-en-peru-podrian-ser-mas-afectadas-por-esta-razon-la-advertencia-de-electroperu-noticia/ | Energía | Perú |
+| 2026-11-06 | Colombia activa el «Plan Energía Ya» ante El Niño: con embalses en 77,87 %, el Gobierno pide ahorrar energía en la franja de 6 a 9 p. m. (Diario N.º 27) | El Tiempo | https://www.eltiempo.com/economia/sectores/como-y-cuando-ahorrar-energia-en-casa-gobierno-activa-el-plan-energia-ya-para-asegurar-el-suministro-electrico-ante-el-fenomeno-de-el-nino-3598906 | Energía | Colombia |
+| 2026-11-05 | Codelco prepara una reestructuración que irá más allá del gobierno corporativo tras el escándalo por sus cifras de producción infladas (Diario N.º 27) | Bloomberg Línea | https://www.bloomberglinea.com/latinoamerica/chile/codelco-prepara-una-reestructuracion-para-recuperar-la-confianza-tras-escandalo-de-produccion/ | Minerales críticos | Chile |
 
 ## Research featured
 
@@ -443,6 +464,10 @@ Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oc
 | 2026-11-05 | Monitor de comercio e integración 2026 | Giordano | BID — Monitor de Comercio e Integración | https://doi.org/10.18235/0014581 | Documento de trabajo |
 | 2026-11-05 | The Rise of Viet Nam's Solar Panel Industry: Inputs, FDI and Spillovers | Ngov | The World Economy | https://doi.org/10.1111/twec.70172 | Artículo |
 | 2026-11-05 | Public R&D and the Automation of Manufacturing: Evidence from the Space Race | Babbar | NBER Working Paper 35966 | https://doi.org/10.3386/w35966 | Documento de trabajo |
+| 2026-11-06 | Moving the Goalposts: The Changing Objectives of Industrial Policy | Kóczán | The World Economy | https://doi.org/10.1111/twec.70179 | Artículo |
+| 2026-11-06 | The Transparency Tax: Discouraging Firm Ownership via Tax Havens | Brounstein | Banco Mundial — Policy Research Working Paper 11493 | https://doi.org/10.1596/1813-9450-11493 | Documento de trabajo |
+| 2026-11-06 | Does access to credit improve labour productivity? | Liu | Small Business Economics | https://doi.org/10.1007/s11187-026-01294-5 | Artículo |
+| 2026-11-06 | Scaling up to the cloud: Cloud technology use and growth rates in small and large firms | Caldarola | Research Policy | https://doi.org/10.1016/j.respol.2026.105644 | Artículo |
 
 ## Stories proposed but not selected
 
