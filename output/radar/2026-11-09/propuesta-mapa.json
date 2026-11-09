@@ -1,0 +1,327 @@
+{
+ "actualizado": "2026-11-09",
+ "ventana": "6 nov 07:01 → 9 nov 07:00 (ventana del N.º 28)",
+ "fuente": "Noticia del día por país (incluida o no en el boletín, solo fuentes de confianza) y financiamiento de los últimos 30 días",
+ "nota_oportunidades": "Las oportunidades son un análisis orientativo del Radar a partir de la noticia y el financiamiento del país; no constituyen una posición oficial de la ONUDI.",
+ "paises": {
+  "604": {
+   "nombre": "Perú",
+   "principal": {
+    "texto": "El MEF planteó reducir aportes a salud y pensiones de trabajadores de menores ingresos, ajustando la ley de microempresas, para favorecer la formalización.",
+    "fuente": "RPP",
+    "fecha": "2026-11-08",
+    "url": "https://rpp.pe/economia/economia/elmer-cuba-descarta-recortes-de-beneficios-laborales-en-microempresas-y-preve-ajustes-en-aportes-al-seguro-y-pensiones-noticia-1716729",
+    "en_boletin": true,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "La Universidad Norbert Wiener prevé invertir US$ 25 millones en una nueva sede hacia 2028.",
+    "institucion": "Universidad Norbert Wiener (privado)",
+    "monto": "US$ 25 millones",
+    "fecha": "2026-11-09",
+    "url": "https://gestion.pe/economia/empresas/universidad-norbert-wiener-desarrollara-nueva-sede-hacia-2028-donde-apunta-a-invertir-us-25-millones-noticia/",
+    "fuente": "Gestión"
+   },
+   "oportunidades": "Apoyar el diseño de la formalización de microempresas con programas de productividad, y acompañar con capacidades técnicas la formación ligada a la demanda industrial."
+  },
+  "170": {
+   "nombre": "Colombia",
+   "principal": {
+    "texto": "Gobierno y congresistas abrieron mesas técnicas sobre la Ley de Rescate, que busca recaudar $46 billones en 2027, en medio de reparos al alza del IVA.",
+    "fuente": "La República",
+    "fecha": "2026-11-07",
+    "url": "https://www.larepublica.co/economia/asi-fue-la-primera-reunion-entre-miembros-del-congreso-y-gobierno-sobre-la-tributaria-4519991",
+    "en_boletin": true,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "Drim Duit lanzó Molinos 7, un parque industrial en el corredor Cali-Palmira.",
+    "institucion": "Drim Duit (privado)",
+    "monto": "$350.000 a $500.000 millones (COP)",
+    "fecha": "2026-11-09",
+    "url": "https://www.larepublica.co/empresas/el-parque-industrial-molinos-7-busca-impulsar-la-economia-del-valle-del-cauca-4519630",
+    "fuente": "La República"
+   },
+   "oportunidades": "Aportar evidencia sobre el efecto de las medidas tributarias en la industria y promover criterios de parque industrial sostenible en proyectos como Molinos 7."
+  },
+  "218": {
+   "nombre": "Ecuador",
+   "principal": {
+    "texto": "Los vehículos ensamblados en Ecuador crecieron 29,2 % hasta octubre, a 14.895 unidades, aunque perdieron cuota frente a los importados.",
+    "fuente": "El Universo",
+    "fecha": "2026-11-08",
+    "url": "https://www.eluniverso.com/economia/industrias/ensamblaje-produccion-nacional-vehiculos-crecimiento-cifras-cinae-ecuador-2026-nota/",
+    "en_boletin": true,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "Barka Capital prevé tres hidroeléctricas privadas de 200 MW en total, tras poner en marcha Hidroquest.",
+    "institucion": "Barka Capital (privado)",
+    "monto": "US$ 400 millones",
+    "fecha": "2026-11-07",
+    "url": "https://www.eluniverso.com/economia/industrias/central-hidroelectrica-hidroquest-barka-capital-nuevos-proyectos-inversion-ecuador-nota/",
+    "fuente": "El Universo"
+   },
+   "oportunidades": "Fortalecer la competitividad y la integración de proveedores locales del ensamblaje automotor, y vincular la nueva generación privada con el suministro a la industria."
+  },
+  "068": {
+   "nombre": "Bolivia",
+   "principal": {
+    "texto": "Rodrigo Paz cumplió un año de gobierno con más financiamiento externo, mientras economistas advierten que la inversión y el empleo tardan en despegar.",
+    "fuente": "El Deber",
+    "fecha": "2026-11-08",
+    "url": "https://eldeber.com.bo/economia/balance-economico-hay-financiamiento-externo-falta-revertir-crisis_1794098896",
+    "en_boletin": true,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "El BID aprobó un paquete de US$ 750 millones para apoyar el plan de estabilización económica; el calendario de desembolsos aún no se conoce.",
+    "institucion": "BID (público)",
+    "monto": "US$ 750 millones",
+    "fecha": "2026-11-05",
+    "url": "https://eldeber.com.bo/economia/bid-aprueba-us-750-millones-apoyar-estabilizacion-economica-bolivia_1793891368",
+    "fuente": "El Deber"
+   },
+   "oportunidades": "Orientar parte del financiamiento externo hacia la reactivación productiva, con asistencia a la industria manufacturera afectada por costos e importaciones."
+  },
+  "076": {
+   "nombre": "Brasil",
+   "principal": {
+    "texto": "CSN acordó vender su negocio de cemento a la china Huaxin por unos US$ 2.300 millones; sería la primera entrada de un cementero chino en Brasil.",
+    "fuente": "La República",
+    "fecha": "2026-11-08",
+    "url": "https://www.larepublica.co/globoeconomia/brasilena-csn-acuerda-venta-de-su-division-de-cemento-a-china-huaxin-por-us-2-300-millones-4520166",
+    "en_boletin": true,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "Huaxin comprará CSN Cimentos, cerca de 21 % del mercado brasileño de cemento.",
+    "institucion": "Huaxin Cement (privado)",
+    "monto": "R$ 12.700 millones (US$ 2.310 millones)",
+    "fecha": "2026-11-08",
+    "url": "https://www.larepublica.co/globoeconomia/brasilena-csn-acuerda-venta-de-su-division-de-cemento-a-china-huaxin-por-us-2-300-millones-4520166",
+    "fuente": "La República"
+   },
+   "oportunidades": "Referencia para analizar cómo la inversión extranjera en insumos básicos puede acompañarse de eficiencia energética y encadenamientos locales."
+  },
+  "032": {
+   "nombre": "Argentina",
+   "principal": {
+    "texto": "El RIGI suma 27 proyectos aprobados por USD 76.173 millones, compromisos que se desembolsarían sobre todo hasta 2035.",
+    "fuente": "Infobae",
+    "fecha": "2026-11-09",
+    "url": "https://www.infobae.com/economia/2026/11/09/los-dolares-del-rigi-cuanto-tardaran-en-concretarse-los-usd-76000-millones-de-las-inversiones-aprobadas/",
+    "en_boletin": false,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "Hitachi invertirá US$ 300 millones en América Latina, más de US$ 225 millones de ellos en Argentina.",
+    "institucion": "Hitachi (privado)",
+    "monto": "US$ 300 millones para América Latina, de los cuales más de US$ 225 millones en Argentina",
+    "fecha": "2026-11-05",
+    "url": "https://www.bloomberglinea.com/latinoamerica/argentina/hitachi-ve-a-argentina-como-pais-estrategico-en-su-plan-global-inversion-millonaria-y-3000-nuevos-empleos/",
+    "fuente": "Bloomberg Línea"
+   },
+   "oportunidades": "Referencia para diseñar regímenes de grandes inversiones que incorporen desde el inicio el desarrollo de proveedores locales y pymes."
+  },
+  "152": {
+   "nombre": "Chile",
+   "principal": {
+    "texto": "La inflación anual de Chile subió a 4,5 % en octubre, igualando su nivel más alto en más de un año.",
+    "fuente": "La República",
+    "fecha": "2026-11-08",
+    "url": "https://www.larepublica.co/globoeconomia/la-inflacion-anual-de-chile-alcanza-su-nivel-mas-alto-en-mas-de-un-ano-4520206",
+    "en_boletin": false,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "Agrosuper negocia comprar Salmones Blumar por un valor empresa de US$ 540 millones.",
+    "institucion": "Empresas Agrosuper (privado)",
+    "monto": "US$ 540 millones (valor empresa)",
+    "fecha": "2026-11-04",
+    "url": "https://www.df.cl/empresas/industria/blumar-confirma-negociaciones-con-agrosuper-para-vender-negocio-salmonero-y",
+    "fuente": "Diario Financiero"
+   },
+   "oportunidades": "Observar el efecto de los costos sobre la agroindustria acuícola y las oportunidades de mejora de eficiencia en procesos ante operaciones de consolidación como la de Blumar."
+  },
+  "484": {
+   "nombre": "México",
+   "principal": {
+    "texto": "México aprobó seis permisos solares privados por US$ 750 millones, que añadirán 649 MW entre 2028 y 2029.",
+    "fuente": "El Financiero",
+    "fecha": "2026-11-07",
+    "url": "https://www.elfinanciero.com.mx/economia/2026/11/07/dan-luz-verde-al-sol-mexico-tendra-seis-nuevas-plantas-solares-tras-aprobacion-de-la-cne/",
+    "en_boletin": true,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "La CNE autorizó seis proyectos fotovoltaicos de Cox, Invex y Viva el Sol.",
+    "institucion": "Cox, Invex y Viva el Sol (privado)",
+    "monto": "US$ 750 millones",
+    "fecha": "2026-11-07",
+    "url": "https://www.elfinanciero.com.mx/economia/2026/11/07/dan-luz-verde-al-sol-mexico-tendra-seis-nuevas-plantas-solares-tras-aprobacion-de-la-cne/",
+    "fuente": "El Financiero"
+   },
+   "oportunidades": "Intercambiar la experiencia de convocatorias públicas de generación privada con potencial de abastecer parques industriales."
+  },
+  "862": {
+   "nombre": "Venezuela",
+   "principal": {
+    "texto": "Summa Consulting proyecta que Venezuela crecería 12,8 % en 2027, sin recuperar aún los niveles de producción de 2012.",
+    "fuente": "Bloomberg Línea",
+    "fecha": "2026-11-06",
+    "url": "https://www.bloomberglinea.com/latinoamerica/venezuela/venezuela-creceria-128-en-2027-pero-su-economia-aun-estaria-lejos-de-recuperar-los-niveles-de-2012/",
+    "en_boletin": false,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "Venezuela negocia con organismos multilaterales unos US$ 17.000 millones en cinco años para sectores productivos.",
+    "institucion": "Organismos multilaterales (no identificados) (público)",
+    "monto": "Unos US$ 17.000 millones en cinco años",
+    "fecha": "2026-11-03",
+    "url": "https://www.bancaynegocios.com/venezuela-negocia-con-organismos-multilaterales-financiamiento-por-us17000-millones-para-sectores-productivos/",
+    "fuente": "Banca y Negocios (EFE)"
+   },
+   "oportunidades": "Preparar diagnósticos de capacidades industriales que orienten una eventual reconstrucción con financiamiento multilateral."
+  },
+  "858": {
+   "nombre": "Uruguay",
+   "principal": {
+    "texto": "El proyecto de centros de datos y energía solar de Solaria en Uruguay prevé una inversión de US$ 5.700 millones.",
+    "fuente": "Bloomberg Línea",
+    "fecha": "2026-10-25",
+    "url": "https://www.bloomberglinea.com/latinoamerica/uruguay/que-impacto-pueden-tener-los-data-centers-en-al-economia-uruguaya/",
+    "en_boletin": false,
+    "en_ventana": false
+   },
+   "financiamiento": {
+    "texto": "La española Solaria destinará US$ 5.700 millones a un complejo de centros de datos en zona franca y una planta solar de 350 MW en Canelones, San José y Florida.",
+    "institucion": "Solaria (privado)",
+    "monto": "US$ 5.700 M",
+    "fecha": "2026-10-15",
+    "url": "https://www.infobae.com/america/america-latina/2026/10/15/uruguay-anuncio-una-inversion-de-usd-5700-millones-para-instalar-centros-de-datos-cinco-claves-del-proyecto/",
+    "fuente": "Infobae"
+   },
+   "oportunidades": "Referencia para atraer inversión digital asociada a energía renovable y vincular proveedores locales con grandes proyectos."
+  },
+  "600": {
+   "nombre": "Paraguay",
+   "principal": {
+    "texto": "El Senado destituyó a Santiago Peña y un juez le dictó prisión preventiva por el colapso de Ueno Bank; Pedro Alliana asumió la presidencia.",
+    "fuente": "La República",
+    "fecha": "2026-11-08",
+    "url": "https://www.larepublica.co/globoeconomia/juez-ordena-prision-preventiva-al-expresidente-de-paraguay-santiago-pena-4520192",
+    "en_boletin": true,
+    "en_ventana": true
+   },
+   "financiamiento": null,
+   "oportunidades": "Dar seguimiento al efecto de la crisis bancaria sobre el crédito a mipymes y las cadenas comerciales con Bolivia, antes de definir cualquier apoyo."
+  },
+  "222": {
+   "nombre": "El Salvador",
+   "principal": {
+    "texto": "Un informe de desarrollo humano indica que el ingreso per cápita de los salvadoreños en Estados Unidos creció 54,2 % en una década.",
+    "fuente": "Infobae",
+    "fecha": "2026-11-08",
+    "url": "https://www.infobae.com/el-salvador/2026/11/09/el-ingreso-per-capita-de-los-salvadorenos-en-estados-unidos-crecio-542-en-una-decada/",
+    "en_boletin": false,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "El BCIE amplió en US$ 50 millones el financiamiento al Fondo Social para la Vivienda.",
+    "institucion": "BCIE (público)",
+    "monto": "US$ 50 M",
+    "fecha": "2026-10-19",
+    "url": "https://www.elsalvador.com/dinero-y-negocios/entorno-economico/bcie-financiamiento-vivienda/1299513/2026/",
+    "fuente": "elsalvador.com"
+   },
+   "oportunidades": "Explorar cómo canalizar vínculos con la diáspora hacia emprendimiento productivo, junto con la formación técnica en construcción."
+  },
+  "591": {
+   "nombre": "Panamá",
+   "principal": {
+    "texto": "La Cámara de Comercio de Panamá pidió priorizar la reconstrucción tras el terremoto y traducir el presupuesto de USD 35.111 millones en obras y empleo.",
+    "fuente": "Infobae",
+    "fecha": "2026-11-08",
+    "url": "https://www.infobae.com/panama/2026/11/09/camara-de-comercio-exige-que-la-reconstruccion-tras-el-terremoto-en-panama-sea-una-prioridad-inmediata/",
+    "en_boletin": false,
+    "en_ventana": true
+   },
+   "financiamiento": null,
+   "oportunidades": "Considerar criterios de resiliencia y construcción sostenible en la reconstrucción, en diálogo con el sector empresarial."
+  },
+  "320": {
+   "nombre": "Guatemala",
+   "principal": {
+    "texto": "EEGSA advirtió que permisos y plazos de equipos frenan inversiones de más de Q200 millones en expansión eléctrica en Guatemala.",
+    "fuente": "Prensa Libre",
+    "fecha": "2026-11-09",
+    "url": "https://www.prensalibre.com/economia/estancadas-inversiones-por-q200-millones-en-expansion-electrica-por-falta-de-permisos/",
+    "en_boletin": false,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "El BCIE amplió en US$ 8,8 millones su línea de crédito a Cofinsa para medianas empresas.",
+    "institucion": "BCIE (público)",
+    "monto": "US$ 8,8 M",
+    "fecha": "2026-10-23",
+    "url": "https://www.infobae.com/guatemala/2026/10/25/el-banco-centroamericano-de-integracion-economica-eleva-a-usd-388-millones-la-linea-de-credito-para-medianas-empresas-de-guatemala/",
+    "fuente": "Infobae"
+   },
+   "oportunidades": "Apoyar la agilización de permisos para infraestructura eléctrica y el financiamiento a medianas empresas industriales."
+  },
+  "558": {
+   "nombre": "Nicaragua",
+   "principal": {
+    "texto": "Nicaragua autorizó negociar con China un protocolo fitosanitario para exportar tabaco, sin fechas ni volúmenes definidos.",
+    "fuente": "Infobae",
+    "fecha": "2026-11-08",
+    "url": "https://www.infobae.com/nicaragua/2026/11/09/el-mito-del-mercado-chino-ortega-cede-ventajas-a-beijing-a-cambio-de-exportaciones-tabacaleras-inexistentes/",
+    "en_boletin": false,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "El BCIE financia con US$ 170 millones obras de agua potable en cuatro ciudades.",
+    "institucion": "BCIE (público)",
+    "monto": "US$ 170 M",
+    "fecha": "2026-10-22",
+    "url": "https://www.articulo66.com/2026/10/22/regimen-orteguista-suma-otra-multimillonaria-deusa-bcie-170-millones/",
+    "fuente": "Artículo 66"
+   },
+   "oportunidades": "Observar los requisitos de calidad y normas que enfrenta la agroindustria para acceder a nuevos mercados."
+  },
+  "340": {
+   "nombre": "Honduras",
+   "principal": {
+    "texto": "Honduras exportó 6,67 millones de sacos de café hasta agosto (+16,3 %), pero el precio medio cayó 14,2 % y los ingresos sumaron US$ 2.067 millones.",
+    "fuente": "Infobae",
+    "fecha": "2026-11-04",
+    "url": "https://www.infobae.com/honduras/2026/11/04/honduras-exporta-667-millones-de-sacos-de-cafe-y-genera-mas-de-2000-millones-de-dolares-en-ocho-meses/",
+    "en_boletin": false,
+    "en_ventana": false
+   },
+   "financiamiento": {
+    "texto": "Honduras alcanzó con el FMI un acuerdo técnico que habilitaría un desembolso de unos US$ 120 millones.",
+    "institucion": "FMI (público)",
+    "monto": "Unos US$ 120 millones",
+    "fecha": "2026-11-01",
+    "url": "https://www.laprensa.hn/economia/honduras-acuerdo-fmi-desembolso-120-millones-2026-BE32509769",
+    "fuente": "La Prensa (Honduras)"
+   },
+   "oportunidades": "Apoyar la agregación de valor en el café ante la caída de precios, en un marco macroeconómico acompañado por el FMI."
+  },
+  "188": {
+   "nombre": "Costa Rica",
+   "principal": {
+    "texto": "Europa pasó del cuarto al segundo lugar entre los socios comerciales de Costa Rica en dos años, según la Presidencia.",
+    "fuente": "Infobae",
+    "fecha": "2026-11-08",
+    "url": "https://www.infobae.com/costa-rica/2026/11/09/europa-se-consolido-como-el-segundo-socio-comercial-de-costa-rica-segun-el-gobierno/",
+    "en_boletin": false,
+    "en_ventana": true
+   },
+   "financiamiento": null,
+   "oportunidades": "Referencia de diversificación exportadora y de cumplimiento de normas de calidad para acceder a mercados europeos."
+  }
+ }
+}

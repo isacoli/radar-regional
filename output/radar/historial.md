@@ -4,7 +4,7 @@ Log of every scan and of the stories published in bulletins. `/radar` reads this
 
 ## Daily issues
 
-Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oct 2026 the issue of 23 Oct is N.º 17 (formerly N.º 1) and the issue of 26 Oct is N.º 18 (formerly N.º 2). Issues N.º 1–12 (1–16 Oct) were prepared retrospectively and published on 26 Oct 2026. The next issue is N.º 28.
+Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oct 2026 the issue of 23 Oct is N.º 17 (formerly N.º 1) and the issue of 26 Oct is N.º 18 (formerly N.º 2). Issues N.º 1–12 (1–16 Oct) were prepared retrospectively and published on 26 Oct 2026. The next issue is N.º 29.
 
 | N.º | Fecha | Ventana | Noticias | Boletín | Estado |
 |---|---|---|---|---|---|
@@ -35,6 +35,7 @@ Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oc
 | 25 | 2026-11-04 | 3 nov 07:01 → 4 nov 07:00 | 18 | output/radar/2026-11-04/boletin.html | final |
 | 26 | 2026-11-05 | 4 nov 07:01 → 5 nov 07:00 | 20 | output/radar/2026-11-05/boletin.html | final |
 | 27 | 2026-11-06 | 5 nov 07:01 → 6 nov 07:00 | 20 | output/radar/2026-11-06/boletin.html | final |
+| 28 | 2026-11-09 | 6 nov 07:01 → 9 nov 07:00 | 19 | output/radar/2026-11-09/boletin.html | final |
 
 ## Weekly scans (earlier format)
 
@@ -385,6 +386,25 @@ Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oc
 | 2026-11-06 | Electroperú advierte que El Niño podría afectar la generación hidroeléctrica del Perú más allá de abril de 2027 (Diario N.º 27) | Gestión | https://gestion.pe/economia/el-nino-a-partir-de-abril-2027-hidroelectricas-en-peru-podrian-ser-mas-afectadas-por-esta-razon-la-advertencia-de-electroperu-noticia/ | Energía | Perú |
 | 2026-11-06 | Colombia activa el «Plan Energía Ya» ante El Niño: con embalses en 77,87 %, el Gobierno pide ahorrar energía en la franja de 6 a 9 p. m. (Diario N.º 27) | El Tiempo | https://www.eltiempo.com/economia/sectores/como-y-cuando-ahorrar-energia-en-casa-gobierno-activa-el-plan-energia-ya-para-asegurar-el-suministro-electrico-ante-el-fenomeno-de-el-nino-3598906 | Energía | Colombia |
 | 2026-11-05 | Codelco prepara una reestructuración que irá más allá del gobierno corporativo tras el escándalo por sus cifras de producción infladas (Diario N.º 27) | Bloomberg Línea | https://www.bloomberglinea.com/latinoamerica/chile/codelco-prepara-una-reestructuracion-para-recuperar-la-confianza-tras-escandalo-de-produccion/ | Minerales críticos | Chile |
+| 2026-11-08 | El Senado de Paraguay destituye a Santiago Peña y un juez le dicta prisión preventiva por el colapso de Ueno Bank (Diario N.º 28) | La República | https://www.larepublica.co/globoeconomia/juez-ordena-prision-preventiva-al-expresidente-de-paraguay-santiago-pena-4520192 | Política industrial y coyuntura | Paraguay |
+| 2026-11-07 | Gobierno y congresistas de Colombia abren mesas técnicas sobre la Ley de Rescate, mientras el Centro Democrático rechaza subir el IVA y propone vender más de Ecopetrol (Diario N.º 28) | La República | https://www.larepublica.co/economia/asi-fue-la-primera-reunion-entre-miembros-del-congreso-y-gobierno-sobre-la-tributaria-4519991 | Política industrial y coyuntura | Colombia |
+| 2026-11-08 | Bolivia cumple un año de gobierno de Rodrigo Paz con más financiamiento externo, pero con inversión y empleo que tardan en despegar (Diario N.º 28) | El Deber | https://eldeber.com.bo/economia/balance-economico-hay-financiamiento-externo-falta-revertir-crisis_1794098896 | Política industrial y coyuntura | Bolivia |
+| 2026-11-08 | El MEF del Perú plantea bajar los aportes a salud y pensiones de los trabajadores de menores ingresos para impulsar la formalización en microempresas (Diario N.º 28) | RPP | https://rpp.pe/economia/economia/elmer-cuba-descarta-recortes-de-beneficios-laborales-en-microempresas-y-preve-ajustes-en-aportes-al-seguro-y-pensiones-noticia-1716729 | Innovación, digitalización y MiPymes | Perú |
+| 2026-11-06 | La confianza empresarial del Perú a tres meses cae a 49,5 puntos en octubre y entra en terreno pesimista, según la encuesta del BCRP (Diario N.º 28) | RPP | https://rpp.pe/economia/economia/confianza-empresarial-sobre-la-economia-cae-a-nivel-pesimista-por-primera-vez-desde-el-inicio-del-gobierno-de-keiko-fujimori-noticia-1716355 | Política industrial y coyuntura | Perú |
+| 2026-11-07 | Tres consorcios internacionales, de Portugal, China y España, superan la precalificación y pasan a la licitación de la Línea 2 del Metro de Bogotá (Diario N.º 28) | La República | https://www.larepublica.co/economia/las-tres-companias-de-la-linea-2-del-metro-de-bogota-pasaran-a-licitacion-4519879 | Megaproyectos e infraestructura | Colombia |
+| 2026-11-06 | La Anla elimina tres exigencias ambientales a Ecopetrol y Anadarko para perforar el pozo Komodo-X1 en el Caribe colombiano (Diario N.º 28) | La República | https://www.larepublica.co/economia/anla-elimino-tres-exigencias-ambientales-a-ecopetrol-para-perforar-el-pozo-komodo-x1-4519379 | Energía | Colombia |
+| 2026-11-07 | El Perú superaría a Chile en 2027 y sería la cuarta economía de Sudamérica, según proyecciones del FMI (Diario N.º 28) | La República | https://www.larepublica.co/globoeconomia/en-2027-peru-superaria-el-pib-de-chile-y-seria-la-cuarta-economia-mas-grande-de-la-region-4519897 | Política industrial y coyuntura | Perú, Chile |
+| 2026-11-07 | México aprueba seis permisos solares privados por US$ 750 millones, que sumarán 649 MW entre 2028 y 2029 (Diario N.º 28) | El Financiero | https://www.elfinanciero.com.mx/economia/2026/11/07/dan-luz-verde-al-sol-mexico-tendra-seis-nuevas-plantas-solares-tras-aprobacion-de-la-cne/ | Energía | México |
+| 2026-11-08 | La brasileña CSN vende su negocio de cemento a la china Huaxin por unos US$ 2.300 millones, primera entrada de un cementero chino en el país (Diario N.º 28) | La República | https://www.larepublica.co/globoeconomia/brasilena-csn-acuerda-venta-de-su-division-de-cemento-a-china-huaxin-por-us-2-300-millones-4520166 | Inversión, comercio e integración | Brasil |
+| 2026-11-08 | Colombia anuncia una inversión de US$ 340 millones ligada a Netflix para desarrollar la Bogotá Content City, centro de la industria audiovisual (Diario N.º 28) | La República | https://www.larepublica.co/empresas/netflix-anuncia-inversion-de-us-340-millones-en-colombia-desde-madrid-4520077 | Inversión, comercio e integración | Colombia |
+| 2026-11-06 | Bolivia traslada por decreto todo el peaje de la red eléctrica troncal a quienes retiran energía, entre ellos las distribuidoras (Diario N.º 28) | El Deber | https://eldeber.com.bo/economia/gobierno-cambia-quien-paga-peaje-electrico-pasa-factura-luz_1793980028 | Energía | Bolivia |
+| 2026-11-08 | Las metalmecánicas peruanas prevén un repunte en 2027 por la minería, la reconstrucción tras El Niño y clientes de Estados Unidos (Diario N.º 28) | Gestión | https://gestion.pe/economia/empresas/metalmecanicas-preven-boom-en-2027-por-mineria-reconstruccion-por-el-nino-y-demanda-de-eeuu-noticia/ | Política industrial y coyuntura | Perú |
+| 2026-11-08 | Los vehículos ensamblados en Ecuador crecen 29,2 % hasta octubre, pero pierden cuota frente a un mercado de importados que se expande con mayor rapidez (Diario N.º 28) | El Universo | https://www.eluniverso.com/economia/industrias/ensamblaje-produccion-nacional-vehiculos-crecimiento-cifras-cinae-ecuador-2026-nota/ | Política industrial y coyuntura | Ecuador |
+| 2026-11-09 | Drim Duit lanza Molinos 7, un parque industrial de $350.000 a $500.000 millones en el corredor Cali-Palmira (Diario N.º 28) | La República | https://www.larepublica.co/empresas/el-parque-industrial-molinos-7-busca-impulsar-la-economia-del-valle-del-cauca-4519630 | Megaproyectos e infraestructura | Colombia |
+| 2026-11-06 | La Asamblea de Ecuador aprueba la Proforma 2027, de US$ 50.213 millones, con 83 votos a favor y 61 en contra (Diario N.º 28) | Primicias | https://www.primicias.ec/economia/pleno-asamblea-informe-proforma2027-primer-debate-noviembre-136575/ | Política industrial y coyuntura | Ecuador |
+| 2026-11-07 | El acuerdo con Emiratos Árabes supera su primer debate en el Senado: 85 % de los productos colombianos entraría sin aranceles (Diario N.º 28) | La República | https://www.larepublica.co/economia/colombia-tendra-acceso-sin-aranceles-para-85-de-sus-productos-en-emiratos-arabes-4519866 | Inversión, comercio e integración | Colombia |
+| 2026-11-08 | Un decreto obliga a los exportadores bolivianos a acreditar el depósito de sus divisas y pone fin a la compra obligatoria de oro por el BCB (Diario N.º 28) | Los Tiempos | https://www.lostiempos.com/actualidad/economia/20261108/decreto-ordena-que-exportadores-acrediten-deposito-divisas | Inversión, comercio e integración | Bolivia |
+| 2026-11-07 | APM Terminals Callao alista una propuesta para extender su concesión a cambio de inversiones, incluso fuera del terminal (Diario N.º 28) | Gestión [pago] | https://gestion.pe/economia/empresas/el-nino-y-mas-concesion-el-plan-de-apm-terminals-para-el-puerto-del-callao-hacia-2027-noticia/ | Megaproyectos e infraestructura | Perú |
 
 ## Research featured
 
@@ -468,6 +488,8 @@ Numbering: N.º 1 = Thursday 1 October 2026, one number per weekday. Since 26 Oc
 | 2026-11-06 | The Transparency Tax: Discouraging Firm Ownership via Tax Havens | Brounstein | Banco Mundial — Policy Research Working Paper 11493 | https://doi.org/10.1596/1813-9450-11493 | Documento de trabajo |
 | 2026-11-06 | Does access to credit improve labour productivity? | Liu | Small Business Economics | https://doi.org/10.1007/s11187-026-01294-5 | Artículo |
 | 2026-11-06 | Scaling up to the cloud: Cloud technology use and growth rates in small and large firms | Caldarola | Research Policy | https://doi.org/10.1016/j.respol.2026.105644 | Artículo |
+| 2026-11-09 | Payroll Subsidies for SMEs in Informal Labour Markets: Evidence from Colombia | Bonilla-Mejía | Journal of Development Studies | https://doi.org/10.1080/00220388.2026.2744429 | Artículo |
+| 2026-11-09 | Selective industrial policy for the EU open strategic autonomy: The role of products' relatedness | Bontadini | Research Policy | https://doi.org/10.1016/j.respol.2026.105656 | Artículo |
 
 ## Stories proposed but not selected
 
