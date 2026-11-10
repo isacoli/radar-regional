@@ -1,0 +1,327 @@
+{
+  "actualizado": "2026-11-10",
+  "ventana": "9 nov 07:01 → 10 nov 07:00 (ventana del N.º 29)",
+  "fuente": "Noticia del día por país (incluida o no en el boletín, solo fuentes de confianza) y financiamiento de los últimos 30 días",
+  "nota_oportunidades": "Las oportunidades son un análisis orientativo del Radar a partir de la noticia y el financiamiento del país; no constituyen una posición oficial de la ONUDI.",
+  "paises": {
+    "604": {
+      "nombre": "Perú",
+      "principal": {
+        "texto": "El Perú colocó US$ 4.500 millones en bonos sostenibles y globales a 12 y 30 años, su primera emisión internacional en más de un año.",
+        "fuente": "El Comercio",
+        "fecha": "2026-11-09",
+        "url": "https://elcomercio.pe/economia/peru/mef-alista-emisiones-de-bonos-con-citigroup-credit-agricole-deutsche-bank-y-santander-l-ultimas-noticia/",
+        "en_boletin": true,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "El MEF colocó US$ 4.500 millones en bonos sostenibles y globales a 12 y 30 años.",
+        "institucion": "Gobierno del Perú — MEF (público)",
+        "monto": "US$ 4.500 millones",
+        "fecha": "2026-11-09",
+        "url": "https://elcomercio.pe/economia/peru/mef-alista-emisiones-de-bonos-con-citigroup-credit-agricole-deutsche-bank-y-santander-l-ultimas-noticia/",
+        "fuente": "El Comercio"
+      },
+      "oportunidades": "Acompañar la reconstrucción tras El Niño con criterios de resiliencia industrial y proponer líneas para que parte del financiamiento llegue a mipymes manufactureras afectadas."
+    },
+    "170": {
+      "nombre": "Colombia",
+      "principal": {
+        "texto": "La inflación anual de Colombia subió a 6,30 % en octubre, tercer mes al alza, con restaurantes, educación y salud a la cabeza, según el DANE.",
+        "fuente": "El Tiempo",
+        "fecha": "2026-11-09",
+        "url": "https://www.eltiempo.com/economia/sectores/inflacion-en-colombia-no-da-tregua-y-llego-al-6-30-en-octubre-los-detalles-que-revelo-el-dane-3599737",
+        "en_boletin": true,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "Paquete de financiación liderado por el BEI para ampliar la planta de vacunas de VaxThera (hasta 250 millones de dosis al año); monto no informado.",
+        "institucion": "Banco Europeo de Inversiones (público)",
+        "monto": "Sin monto informado",
+        "fecha": "2026-11-10",
+        "url": "https://www.portafolio.co/negocios/empresas/vaxthera-proyecta-producir-hasta-700-millones-de-dosis-de-vacunas-en-colombia-ante-futuras-emergencias-sanitarias-506035",
+        "fuente": "Portafolio"
+      },
+      "oportunidades": "Con costos al alza, apoyar la productividad y la eficiencia energética de las mipymes, y usar el caso VaxThera como referencia de manufactura de alto valor con financiamiento europeo."
+    },
+    "218": {
+      "nombre": "Ecuador",
+      "principal": {
+        "texto": "Ecuador alcanzó un acuerdo técnico con el FMI por la sexta revisión de su programa y un nuevo crédito de US$ 710 millones para reformas climáticas y energéticas.",
+        "fuente": "El Universo",
+        "fecha": "2026-11-09",
+        "url": "https://www.eluniverso.com/economia/finanzas/ecuador-alcanza-acuerdo-tecnico-con-el-fmi-por-la-sexta-revision-y-por-nuevo-credito-de-710-millones-nota/",
+        "en_boletin": true,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "El FMI acordó a nivel técnico un crédito de US$ 710 millones bajo el Servicio de Resiliencia y Sostenibilidad; falta la aprobación del Directorio.",
+        "institucion": "FMI (público)",
+        "monto": "US$ 710 millones",
+        "fecha": "2026-11-09",
+        "url": "https://www.eluniverso.com/economia/finanzas/ecuador-alcanza-acuerdo-tecnico-con-el-fmi-por-la-sexta-revision-y-por-nuevo-credito-de-710-millones-nota/",
+        "fuente": "El Universo"
+      },
+      "oportunidades": "Las reformas climáticas y energéticas ligadas al crédito pueden abrir espacio a cooperación técnica en eficiencia energética industrial y adaptación productiva frente a El Niño."
+    },
+    "068": {
+      "nombre": "Bolivia",
+      "principal": {
+        "texto": "Las regalías mineras de Bolivia alcanzaron Bs 2.905 millones hasta septiembre, 103 % más que un año antes, según el informe del Ministerio de Minería.",
+        "fuente": "El Deber",
+        "fecha": "2026-11-10",
+        "url": "https://eldeber.com.bo/economia/regalias-mineras-aumentaron-103-primer-ano-gestion-gobierno_1794311404",
+        "en_boletin": true,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "El BID aprobó un paquete de US$ 750 millones para apoyar el plan de estabilización económica; el calendario de desembolsos aún no se conoce.",
+        "institucion": "BID (público)",
+        "monto": "US$ 750 millones",
+        "fecha": "2026-11-05",
+        "url": "https://eldeber.com.bo/economia/bid-aprueba-us-750-millones-apoyar-estabilizacion-economica-bolivia_1793891368",
+        "fuente": "El Deber"
+      },
+      "oportunidades": "Con más ingresos mineros y un Código Minero en debate, aportar experiencias de valor agregado y encadenamientos productivos en minerales."
+    },
+    "076": {
+      "nombre": "Brasil",
+      "principal": {
+        "texto": "La Aneel propuso la Tarifa Hora Certa, que cobrará la energía según el horario para clientes residenciales, rurales y comerciales en baja tensión, desde 2028.",
+        "fuente": "Agência Brasil",
+        "fecha": "2026-11-09",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/aneel-propoe-tarifa-hora-certa-para-reduzir-valor-em-funcao-do-horario",
+        "en_boletin": false,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "Huaxin comprará CSN Cimentos, cerca de 21 % del mercado brasileño de cemento.",
+        "institucion": "Huaxin Cement (privado)",
+        "monto": "R$ 12.700 millones (US$ 2.310 millones)",
+        "fecha": "2026-11-08",
+        "url": "https://www.larepublica.co/globoeconomia/brasilena-csn-acuerda-venta-de-su-division-de-cemento-a-china-huaxin-por-us-2-300-millones-4520166",
+        "fuente": "La República"
+      },
+      "oportunidades": "Referencia de tarifas horarias para gestionar la demanda eléctrica, útil para programas de eficiencia energética en pequeñas industrias de la región."
+    },
+    "152": {
+      "nombre": "Chile",
+      "principal": {
+        "texto": "El presidente de Codelco advirtió que la producción de cobre de la estatal seguirá cayendo si no se asocia con privados para desarrollar nuevos proyectos.",
+        "fuente": "La República (Reuters)",
+        "fecha": "2026-11-09",
+        "url": "https://www.larepublica.co/globoeconomia/jefe-de-chilena-codelco-dice-produccion-seguira-cayendo-a-menos-que-se-asocie-con-privados-4520499",
+        "en_boletin": true,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "Agrosuper negocia comprar Salmones Blumar por un valor empresa de US$ 540 millones.",
+        "institucion": "Empresas Agrosuper (privado)",
+        "monto": "US$ 540 millones (valor empresa)",
+        "fecha": "2026-11-04",
+        "url": "https://www.df.cl/empresas/industria/blumar-confirma-negociaciones-con-agrosuper-para-vender-negocio-salmonero-y",
+        "fuente": "Diario Financiero"
+      },
+      "oportunidades": "Seguir el modelo de asociación público-privada en el cobre como referencia para la gestión de minerales críticos en los países andinos."
+    },
+    "032": {
+      "nombre": "Argentina",
+      "principal": {
+        "texto": "Las petroleras en Argentina ganaron US$ 5.165 millones adicionales entre enero y agosto por precios y producción en Vaca Muerta; los ingresos subieron 42 %.",
+        "fuente": "Infobae",
+        "fecha": "2026-11-10",
+        "url": "https://www.infobae.com/economia/2026/11/10/por-la-suba-del-crudo-las-petroleras-argentinas-aumentaron-sus-ingresos-en-mas-de-usd-5100-millones-en-ocho-meses/",
+        "en_boletin": false,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "Hitachi invertirá US$ 300 millones en América Latina, más de US$ 225 millones de ellos en Argentina.",
+        "institucion": "Hitachi (privado)",
+        "monto": "US$ 300 millones para América Latina, de los cuales más de US$ 225 millones en Argentina",
+        "fecha": "2026-11-05",
+        "url": "https://www.bloomberglinea.com/latinoamerica/argentina/hitachi-ve-a-argentina-como-pais-estrategico-en-su-plan-global-inversion-millonaria-y-3000-nuevos-empleos/",
+        "fuente": "Bloomberg Línea"
+      },
+      "oportunidades": "Observar cómo el auge de Vaca Muerta se traduce en demanda para proveedores industriales locales, como referencia para cadenas energéticas andinas."
+    },
+    "484": {
+      "nombre": "México",
+      "principal": {
+        "texto": "La inflación anual de México se aceleró a 3,75 % en octubre, por encima de lo esperado, días después de que Banxico recortara su tasa.",
+        "fuente": "El Financiero",
+        "fecha": "2026-11-09",
+        "url": "https://www.elfinanciero.com.mx/economia/2026/11/09/inflacion-en-mexico-se-acelera-a-375-mas-de-lo-esperado-en-octubre/",
+        "en_boletin": false,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "La CNE autorizó seis proyectos fotovoltaicos de Cox, Invex y Viva el Sol.",
+        "institucion": "Cox, Invex y Viva el Sol (privado)",
+        "monto": "US$ 750 millones",
+        "fecha": "2026-11-07",
+        "url": "https://www.elfinanciero.com.mx/economia/2026/11/07/dan-luz-verde-al-sol-mexico-tendra-seis-nuevas-plantas-solares-tras-aprobacion-de-la-cne/",
+        "fuente": "El Financiero"
+      },
+      "oportunidades": "Seguir el entorno de precios y tasas para la inversión manufacturera vinculada a la relocalización en México como referencia regional."
+    },
+    "862": {
+      "nombre": "Venezuela",
+      "principal": {
+        "texto": "ExxonMobil firmó con Pdvsa un memorando no vinculante para explorar oportunidades de exploración y producción en Venezuela, casi dos décadas después de su salida.",
+        "fuente": "La República",
+        "fecha": "2026-11-09",
+        "url": "https://www.larepublica.co/globoeconomia/exxon-firma-acuerdo-preliminar-con-venezuela-para-evaluar-oportunidades-petroleras-4521039",
+        "en_boletin": false,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "Venezuela negocia con organismos multilaterales unos US$ 17.000 millones en cinco años para sectores productivos.",
+        "institucion": "Organismos multilaterales (no identificados) (público)",
+        "monto": "Unos US$ 17.000 millones en cinco años",
+        "fecha": "2026-11-03",
+        "url": "https://www.bancaynegocios.com/venezuela-negocia-con-organismos-multilaterales-financiamiento-por-us17000-millones-para-sectores-productivos/",
+        "fuente": "Banca y Negocios (EFE)"
+      },
+      "oportunidades": "Seguir el posible regreso de grandes petroleras y su efecto en el suministro energético y las cadenas de servicios con Colombia."
+    },
+    "858": {
+      "nombre": "Uruguay",
+      "principal": {
+        "texto": "El proyecto de centros de datos y energía solar de Solaria en Uruguay prevé una inversión de US$ 5.700 millones.",
+        "fuente": "Bloomberg Línea",
+        "fecha": "2026-10-25",
+        "url": "https://www.bloomberglinea.com/latinoamerica/uruguay/que-impacto-pueden-tener-los-data-centers-en-al-economia-uruguaya/",
+        "en_boletin": false,
+        "en_ventana": false
+      },
+      "financiamiento": {
+        "texto": "La española Solaria destinará US$ 5.700 millones a un complejo de centros de datos en zona franca y una planta solar de 350 MW en Canelones, San José y Florida.",
+        "institucion": "Solaria (privado)",
+        "monto": "US$ 5.700 M",
+        "fecha": "2026-10-15",
+        "url": "https://www.infobae.com/america/america-latina/2026/10/15/uruguay-anuncio-una-inversion-de-usd-5700-millones-para-instalar-centros-de-datos-cinco-claves-del-proyecto/",
+        "fuente": "Infobae"
+      },
+      "oportunidades": "Referencia para atraer inversión digital asociada a energía renovable y vincular proveedores locales con grandes proyectos."
+    },
+    "600": {
+      "nombre": "Paraguay",
+      "principal": {
+        "texto": "Itaipú Binacional informó que tenía US$ 182 millones depositados en Ueno Bank, el banco paraguayo que colapsó, e inició acciones legales para recuperarlos.",
+        "fuente": "La República",
+        "fecha": "2026-11-09",
+        "url": "https://www.larepublica.co/globoeconomia/la-electrica-itaipu-tiene-us-182-millones-depositados-en-ueno-bank-4520785",
+        "en_boletin": false,
+        "en_ventana": true
+      },
+      "financiamiento": null,
+      "oportunidades": "Dar seguimiento al efecto de la crisis bancaria en empresas y proveedores, incluidas las cadenas textiles y comerciales con la región, antes de definir apoyos."
+    },
+    "222": {
+      "nombre": "El Salvador",
+      "principal": {
+        "texto": "Turismo pidió unos US$ 73 millones para 2027, con un préstamo del BID de US$ 23 millones, en su plan para recibir cinco millones de turistas en 2030.",
+        "fuente": "Infobae",
+        "fecha": "2026-11-09",
+        "url": "https://www.infobae.com/el-salvador/2026/11/10/el-plan-de-el-salvador-para-llegar-a-cinco-millones-de-turistas-en-2030-y-lo-que-se-necesita-invertir-para-lograrlo/",
+        "en_boletin": false,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "El BCIE amplió en US$ 50 millones el financiamiento al Fondo Social para la Vivienda.",
+        "institucion": "BCIE (público)",
+        "monto": "US$ 50 M",
+        "fecha": "2026-10-19",
+        "url": "https://www.elsalvador.com/dinero-y-negocios/entorno-economico/bcie-financiamiento-vivienda/1299513/2026/",
+        "fuente": "elsalvador.com"
+      },
+      "oportunidades": "Vincular proveedores locales y mipymes a la cadena turística como referencia de encadenamientos de servicios."
+    },
+    "591": {
+      "nombre": "Panamá",
+      "principal": {
+        "texto": "El Canal de Panamá elevó a 34 los tránsitos diarios y a 15,24 metros el calado autorizado en las esclusas Neopanamax por el mayor nivel de los lagos.",
+        "fuente": "Infobae",
+        "fecha": "2026-11-09",
+        "url": "https://www.infobae.com/panama/2026/11/10/canal-de-panama-aumenta-a-34-los-transitos-diarios-y-eleva-el-calado-autorizado-en-las-esclusas-neopanamax/",
+        "en_boletin": false,
+        "en_ventana": true
+      },
+      "financiamiento": null,
+      "oportunidades": "Más capacidad del Canal favorece la logística de exportaciones andinas por el Pacífico; seguir sus efectos en costos de transporte."
+    },
+    "320": {
+      "nombre": "Guatemala",
+      "principal": {
+        "texto": "La inflación de Guatemala bajó a 4,38 % en octubre, desde 4,69 % en septiembre, con presión del gas propano y los alimentos, según el INE.",
+        "fuente": "Prensa Libre",
+        "fecha": "2026-11-09",
+        "url": "https://www.prensalibre.com/economia/inflacion-baja-a-4-38-en-octubre-gas-propano-y-alimentos-presionaron-los-precios-mientras-bajo-la-gasolina/",
+        "en_boletin": false,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "El BCIE amplió en US$ 8,8 millones su línea de crédito a Cofinsa para medianas empresas.",
+        "institucion": "BCIE (público)",
+        "monto": "US$ 8,8 M",
+        "fecha": "2026-10-23",
+        "url": "https://www.infobae.com/guatemala/2026/10/25/el-banco-centroamericano-de-integracion-economica-eleva-a-usd-388-millones-la-linea-de-credito-para-medianas-empresas-de-guatemala/",
+        "fuente": "Infobae"
+      },
+      "oportunidades": "Seguir el costo de la energía y los alimentos para las mipymes agroindustriales, como referencia de cadenas centroamericanas."
+    },
+    "558": {
+      "nombre": "Nicaragua",
+      "principal": {
+        "texto": "El costo de la canasta básica en Nicaragua llegó a C$ 21.474,94 (US$ 579,82) en julio y absorbió los aumentos del salario mínimo, según un informe de coyuntura.",
+        "fuente": "Infobae",
+        "fecha": "2026-11-10",
+        "url": "https://www.infobae.com/nicaragua/2026/11/10/el-encarecimiento-de-los-alimentos-absorbio-el-aumento-del-salario-minimo-en-nicaragua/",
+        "en_boletin": false,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "El BCIE financia con US$ 170 millones obras de agua potable en cuatro ciudades.",
+        "institucion": "BCIE (público)",
+        "monto": "US$ 170 M",
+        "fecha": "2026-10-22",
+        "url": "https://www.articulo66.com/2026/10/22/regimen-orteguista-suma-otra-multimillonaria-deusa-bcie-170-millones/",
+        "fuente": "Artículo 66"
+      },
+      "oportunidades": "Referencia sobre el peso del precio de los alimentos en el ingreso; útil para programas de productividad agroalimentaria."
+    },
+    "340": {
+      "nombre": "Honduras",
+      "principal": {
+        "texto": "El BID aprobó US$ 101,68 millones para rehabilitar y mantener carreteras y caminos rurales productivos en el noroccidente de Honduras.",
+        "fuente": "Infobae",
+        "fecha": "2026-11-09",
+        "url": "https://www.infobae.com/honduras/2026/11/09/honduras-recibira-financiamiento-bid-para-rehabilitar-carreteras-y-mejorar-rutas-agricolas/",
+        "en_boletin": false,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "El BID aprobó US$ 101,68 millones para rehabilitar carreteras y caminos rurales productivos en la región noroccidental.",
+        "institucion": "BID (público)",
+        "monto": "US$ 101,68 millones",
+        "fecha": "2026-11-09",
+        "url": "https://www.infobae.com/honduras/2026/11/09/honduras-recibira-financiamiento-bid-para-rehabilitar-carreteras-y-mejorar-rutas-agricolas/",
+        "fuente": "Infobae"
+      },
+      "oportunidades": "La mejor conectividad rural puede apoyarse con programas de valor agregado y acceso a mercados para productores agroindustriales."
+    },
+    "188": {
+      "nombre": "Costa Rica",
+      "principal": {
+        "texto": "La Sala Constitucional ordenó a la Asamblea no votar en segundo debate el presupuesto 2027, de unos ₡12,4 billones, antes del 29 de noviembre.",
+        "fuente": "Infobae",
+        "fecha": "2026-11-09",
+        "url": "https://www.infobae.com/costa-rica/2026/11/10/sala-constitucional-frena-aprobacion-del-presupuesto-2027-en-costa-rica-y-prohibe-a-diputados-votarlo-antes-del-29-de-noviembre/",
+        "en_boletin": false,
+        "en_ventana": true
+      },
+      "financiamiento": null,
+      "oportunidades": "Seguir la aprobación del presupuesto y su efecto en la inversión pública en innovación y apoyo productivo."
+    }
+  }
+}
