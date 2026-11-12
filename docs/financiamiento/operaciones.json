@@ -1,8 +1,8 @@
 {
-  "actualizado": "2026-11-11",
-  "periodo": "26 sep – 11 nov 2026",
+  "actualizado": "2026-11-12",
+  "periodo": "26 sep – 12 nov 2026",
   "periodo_desde": "2026-09-26",
-  "periodo_hasta": "2026-11-11",
+  "periodo_hasta": "2026-11-12",
   "nota": "Operaciones aprobadas, firmadas o anunciadas (préstamos, donaciones e inversiones). Los montos son los informados por las fuentes; las inversiones privadas son compromisos anunciados, no desembolsos. El histórico se conserva desde el 26 de septiembre de 2026.",
   "operaciones": [
     {
@@ -1657,6 +1657,63 @@
       "estado": "Anunciado",
       "relevancia_onudi": "Baja",
       "lectura": "Inversión turística de gran escala; su efecto productivo depende de los encadenamientos con proveedores locales."
+    },
+    {
+      "fecha": "2026-11-10",
+      "pais": "El Salvador",
+      "iso": "SV",
+      "institucion": "BCIE",
+      "tipo_institucion": "Multilateral",
+      "publico_privado": "Público",
+      "monto_usd_millones": 0.5,
+      "monto_original": "US$ 500.000",
+      "sector": "Clima y gestión de riesgos",
+      "descripcion": "Ayuda de emergencia para la respuesta a la sequía asociada a El Niño, para proteger la producción de alimentos y el acceso al agua",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/el-salvador/2026/11/11/bcie-aprobo-usd-500000-para-la-respuesta-de-el-salvador-ante-la-sequia-vinculada-a-el-nino/",
+      "nota": "El BCIE informó la aprobación el martes 10 de noviembre.",
+      "instrumento": "Donación / no reembolsable",
+      "estado": "Aprobado",
+      "relevancia_onudi": "Baja",
+      "lectura": "Apoyo de emergencia a la producción de alimentos frente a la sequía."
+    },
+    {
+      "fecha": "2026-11-11",
+      "pais": "Bolivia",
+      "iso": "BO",
+      "institucion": "KfW (Alemania)",
+      "tipo_institucion": "Cooperación internacional",
+      "publico_privado": "Público",
+      "monto_usd_millones": null,
+      "monto_original": "Cerca de 250 millones de euros",
+      "sector": "Clima y gestión de riesgos",
+      "descripcion": "Paquete inicial de financiamiento para la protección de bosques y del agua, acordado en el marco de la COP31",
+      "fuente": "Los Tiempos",
+      "url": "https://www.lostiempos.com/actualidad/economia/20261111/paz-anuncia-paquete-inicial-250-millones-euros-alemania-cuidar-bosques",
+      "nota": "Anuncio del presidente Rodrigo Paz; la nota no detalla instrumentos ni plazos. Monto en euros, sin conversión a US$ en la fuente.",
+      "instrumento": "Préstamo",
+      "estado": "Anunciado",
+      "relevancia_onudi": "Media",
+      "lectura": "Cooperación alemana para clima y agua que puede abrir espacio a cadenas productivas sostenibles."
+    },
+    {
+      "fecha": "2026-11-11",
+      "pais": "Brasil",
+      "iso": "BR",
+      "institucion": "Banco do Brasil y KfW",
+      "tipo_institucion": "Cooperación internacional",
+      "publico_privado": "Público",
+      "monto_usd_millones": null,
+      "monto_original": "100 millones de euros",
+      "sector": "MiPymes y financiamiento productivo",
+      "descripcion": "Financiamiento para refinanciar créditos del BB a pequeños productores, cooperativas y mipymes de cadenas de bioeconomía en la Amazonía",
+      "fuente": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bb-e-banco-alemao-farao-aporte-de-100-milhoes-de-euros-em-bioeconomia",
+      "nota": "Operación en estructuración, anunciada en la COP31. Monto en euros, sin conversión a US$ en la fuente.",
+      "instrumento": "Línea de crédito o contingente",
+      "estado": "En trámite",
+      "relevancia_onudi": "Alta",
+      "lectura": "Crédito para mipymes de bioeconomía: una referencia de financiamiento verde a pequeñas empresas."
     }
   ]
 }

@@ -1,16 +1,16 @@
 {
-  "actualizado": "2026-11-11",
-  "ventana": "10 nov 07:01 → 11 nov 07:00 (ventana del N.º 30)",
+  "actualizado": "2026-11-12",
+  "ventana": "11 nov 07:01 → 12 nov 07:00 (ventana del N.º 31)",
   "fuente": "Noticia del día por país (incluida o no en el boletín, solo fuentes de confianza) y financiamiento de los últimos 30 días",
   "nota_oportunidades": "Las oportunidades son un análisis orientativo del Radar a partir de la noticia y el financiamiento del país; no constituyen una posición oficial de la ONUDI.",
   "paises": {
     "604": {
       "nombre": "Perú",
       "principal": {
-        "texto": "El Consejo Fiscal respaldó flexibilizar las reglas fiscales por El Niño, pero pidió no suspender la regla de gasto y limitar los recursos a la emergencia.",
-        "fuente": "RPP",
-        "fecha": "2026-11-10",
-        "url": "https://rpp.pe/economia/economia/gobierno-pide-al-congreso-flexibilizar-reglas-fiscales-por-el-nino-consejo-fiscal-advierte-que-podrian-abrir-paso-a-gastos-ajenos-a-la-emergencia-noticia-1717100",
+        "texto": "La Encuesta de Opinión Industrial de la SNI mostró expectativas positivas en octubre: 41 % espera que la economía mejore y cerca de la mitad prevé invertir.",
+        "fuente": "El Comercio",
+        "fecha": "2026-11-11",
+        "url": "https://elcomercio.pe/economia/peru/sni-expectativas-empresariales-de-la-industria-se-mantienen-en-terreno-positivo-en-octubre-del-2026-l-ultimas-noticia/",
         "en_boletin": true,
         "en_ventana": true
       },
@@ -22,15 +22,15 @@
         "url": "https://gestion.pe/economia/empresas/mina-justa-obtiene-luz-verde-para-proyecto-subterraneo-de-us-2000-millones-noticia/",
         "fuente": "Gestión"
       },
-      "oportunidades": "Ayudar a que el gasto extraordinario por El Niño se oriente a reconstrucción productiva y resiliencia de mipymes, y seguir la demanda de proveedores que abre Mina Justa."
+      "oportunidades": "Con expectativas industriales positivas, apoyar planes de inversión en productividad y resiliencia de mipymes manufactureras frente a El Niño."
     },
     "170": {
       "nombre": "Colombia",
       "principal": {
-        "texto": "Luz Stella Murgas fue elegida como la primera mujer en presidir la Andi, en un momento de manufactura estancada y empleo industrial en caída.",
-        "fuente": "La República",
-        "fecha": "2026-11-10",
-        "url": "https://www.larepublica.co/empresas/humo-blanco-en-la-andi-luz-stella-murgas-fue-elegida-para-presidir-la-asociacion-4521528",
+        "texto": "Anif respaldó la Ley de Rescate y propuso vender la participación estatal en ISA y subir el diésel; sin ajuste, el déficit superaría 9 % del PIB en 2027.",
+        "fuente": "El Tiempo",
+        "fecha": "2026-11-11",
+        "url": "https://www.eltiempo.com/economia/sectores/anif-respalda-venta-de-isa-y-aumento-del-diesel-para-aliviar-crisis-fiscal-pide-ajustes-a-la-reforma-tributaria-del-gobierno-3600346",
         "en_boletin": true,
         "en_ventana": true
       },
@@ -42,15 +42,15 @@
         "url": "https://www.portafolio.co/negocios/empresas/vaxthera-proyecta-producir-hasta-700-millones-de-dosis-de-vacunas-en-colombia-ante-futuras-emergencias-sanitarias-506035",
         "fuente": "Portafolio"
       },
-      "oportunidades": "La nueva dirección de la Andi abre una ventana para dialogar sobre productividad industrial, empleo formal y transición energética en la manufactura."
+      "oportunidades": "Ante el alza de la energía para la industria, ofrecer asistencia en eficiencia energética y autogeneración, y seguir el debate sobre estabilidad de grandes inversiones."
     },
     "218": {
       "nombre": "Ecuador",
       "principal": {
-        "texto": "Ecuador redujo a 0 % el IVA y el ISD para importar equipos y maquinaria del sector eléctrico, incluidas tecnologías renovables y de hidrógeno verde.",
+        "texto": "La Enami prepara para 2027 la licitación internacional de Llurimagua, proyecto de cobre y molibdeno en Imbabura, con apoyo de banca de inversión.",
         "fuente": "El Universo",
-        "fecha": "2026-11-10",
-        "url": "https://www.eluniverso.com/economia/industrias/reforman-marco-tributario-incentivos-fiscales-importacion-equipos-electricos-reduccion-0-iva-isd-daniel-noboa-decreto-ejecutivo-530-ecuador-2026-nota/",
+        "fecha": "2026-11-11",
+        "url": "https://www.eluniverso.com/economia/industrias/proyecto-minero-llurimagua-saldra-a-licitacion-internacional-en-2027-nota/",
         "en_boletin": true,
         "en_ventana": true
       },
@@ -62,55 +62,55 @@
         "url": "https://www.eluniverso.com/economia/finanzas/ecuador-alcanza-acuerdo-tecnico-con-el-fmi-por-la-sexta-revision-y-por-nuevo-credito-de-710-millones-nota/",
         "fuente": "El Universo"
       },
-      "oportunidades": "Los incentivos a equipos eléctricos pueden acompañarse de asistencia técnica en eficiencia energética y autogeneración renovable para la industria."
+      "oportunidades": "Proponer que la licitación de Llurimagua incluya criterios de encadenamiento con proveedores locales y estándares ambientales."
     },
     "068": {
       "nombre": "Bolivia",
       "principal": {
-        "texto": "Empresarios de Cochabamba denunciaron bloqueos y amenazas de sindicatos de transporte en el Parque Industrial Santiváñez y pidieron intervención estatal.",
-        "fuente": "El Deber",
-        "fecha": "2026-11-10",
-        "url": "https://eldeber.com.bo/economia/empresarios-denuncian-amenazas-danos-transportistas-santivanez-exigen-intervencion-estatal_1794344647",
+        "texto": "El presidente Rodrigo Paz anunció un paquete inicial de cerca de 250 millones de euros del KfW alemán para cuidar bosques y agua.",
+        "fuente": "Los Tiempos",
+        "fecha": "2026-11-11",
+        "url": "https://www.lostiempos.com/actualidad/economia/20261111/paz-anuncia-paquete-inicial-250-millones-euros-alemania-cuidar-bosques",
         "en_boletin": true,
         "en_ventana": true
       },
       "financiamiento": {
-        "texto": "El Gobierno garantizó US$ 25 millones para una nueva terminal del aeropuerto internacional de Potosí.",
-        "institucion": "Gobierno de Bolivia (Ministerio de Obras Públicas) (público)",
-        "monto": "US$ 25 millones",
-        "fecha": "2026-11-10",
-        "url": "https://www.lostiempos.com/actualidad/economia/20261110/avion-ecojet-aterriza-potosi-garantizan-us-25-millones-nueva-terminal",
+        "texto": "El KfW acordó un paquete inicial de cerca de 250 millones de euros para la protección de bosques y agua.",
+        "institucion": "KfW (Alemania) (público)",
+        "monto": "Cerca de 250 millones de euros",
+        "fecha": "2026-11-11",
+        "url": "https://www.lostiempos.com/actualidad/economia/20261111/paz-anuncia-paquete-inicial-250-millones-euros-alemania-cuidar-bosques",
         "fuente": "Los Tiempos"
       },
-      "oportunidades": "Seguir las condiciones logísticas de los parques industriales y, con la nueva conectividad de Potosí, explorar encadenamientos de valor en la minería."
+      "oportunidades": "Vincular el financiamiento alemán con cadenas productivas sostenibles, como la recuperación del algodón y el uso eficiente del agua en la agroindustria."
     },
     "076": {
       "nombre": "Brasil",
       "principal": {
-        "texto": "El MDIC lanzó una plataforma para que empresas brasileñas aprovechen el comercio con la Unión Europea y amplió su ventanilla única de inversiones.",
+        "texto": "El Gobierno presentó un paquete de ajuste fiscal que ahorraría entre R$ 50.000 y R$ 60.000 millones en 2027, mediante un proyecto de ley complementaria.",
         "fuente": "Agência Brasil",
-        "fecha": "2026-11-10",
-        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/nova-plataforma-do-mdic-identificara-oportunidades-de-comercio-com-ue",
+        "fecha": "2026-11-11",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-anuncia-medidas-de-ajuste-para-economia-de-ate-r-60-bilhoes",
         "en_boletin": true,
         "en_ventana": true
       },
       "financiamiento": {
-        "texto": "Huaxin comprará CSN Cimentos, cerca de 21 % del mercado brasileño de cemento.",
-        "institucion": "Huaxin Cement (privado)",
-        "monto": "R$ 12.700 millones (US$ 2.310 millones)",
-        "fecha": "2026-11-08",
-        "url": "https://www.larepublica.co/globoeconomia/brasilena-csn-acuerda-venta-de-su-division-de-cemento-a-china-huaxin-por-us-2-300-millones-4520166",
-        "fuente": "La República"
+        "texto": "Banco do Brasil y el KfW estructuran 100 millones de euros para refinanciar créditos a mipymes de la bioeconomía amazónica.",
+        "institucion": "Banco do Brasil y KfW (público)",
+        "monto": "100 millones de euros",
+        "fecha": "2026-11-11",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bb-e-banco-alemao-farao-aporte-de-100-milhoes-de-euros-em-bioeconomia",
+        "fuente": "Agência Brasil"
       },
-      "oportunidades": "Referencia de herramientas digitales de facilitación del comercio y la inversión, replicables en las agencias de promoción andinas."
+      "oportunidades": "La línea BB–KfW para mipymes de bioeconomía es una referencia replicable de financiamiento verde a pequeñas empresas en la Amazonía andina."
     },
     "152": {
       "nombre": "Chile",
       "principal": {
-        "texto": "Camioneros bloquearon rutas en Chile en protesta por el alza de los combustibles; el Gobierno busca usar ahorros fiscales para el mecanismo Mepco.",
+        "texto": "El Gobierno de Chile retiró su proyecto de alivio a los precios de los combustibles mientras continuaba el paro de camioneros, que negociaban en La Moneda.",
         "fuente": "La República",
-        "fecha": "2026-11-10",
-        "url": "https://www.larepublica.co/globoeconomia/camioneros-bloquean-rutas-en-chile-en-protesta-por-alza-de-combustible-4521566",
+        "fecha": "2026-11-11",
+        "url": "https://www.larepublica.co/globoeconomia/chile-retira-proyecto-de-alivio-a-precios-de-combustibles-mientras-paro-continua-4522601",
         "en_boletin": false,
         "en_ventana": true
       },
@@ -122,16 +122,16 @@
         "url": "https://www.df.cl/empresas/industria/blumar-confirma-negociaciones-con-agrosuper-para-vender-negocio-salmonero-y",
         "fuente": "Diario Financiero"
       },
-      "oportunidades": "Seguir el efecto del precio del combustible en la logística y los costos industriales, como referencia para mecanismos de estabilización."
+      "oportunidades": "Seguir el efecto del paro y del precio del combustible en la logística exportadora, como referencia de riesgos para cadenas agroindustriales."
     },
     "032": {
       "nombre": "Argentina",
       "principal": {
-        "texto": "Los 27 proyectos aprobados del RIGI suman US$ 76.174 millones y generarían unos dos empleos por cada millón invertido, según la consultora Paspartú.",
+        "texto": "Las exportaciones de autos argentinos a Brasil cayeron 7,8 % hasta octubre por el auge de los vehículos chinos, que desplazan la producción del Mercosur.",
         "fuente": "Infobae",
-        "fecha": "2026-11-10",
-        "url": "https://www.infobae.com/economia/2026/11/10/el-rigi-generara-solo-2-puestos-de-trabajo-por-cada-millon-de-dolares-de-inversion/",
-        "en_boletin": false,
+        "fecha": "2026-11-11",
+        "url": "https://www.infobae.com/economia/2026/11/12/alerta-en-el-mercosur-los-autos-chinos-desplazan-a-la-produccion-regional-y-cae-el-comercio-entre-argentina-y-brasil/",
+        "en_boletin": true,
         "en_ventana": true
       },
       "financiamiento": {
@@ -142,15 +142,15 @@
         "url": "https://www.bloomberglinea.com/latinoamerica/argentina/hitachi-ve-a-argentina-como-pais-estrategico-en-su-plan-global-inversion-millonaria-y-3000-nuevos-empleos/",
         "fuente": "Bloomberg Línea"
       },
-      "oportunidades": "Referencia sobre los límites del empleo en regímenes para grandes inversiones; sugiere sumar programas de proveedores y capacidades locales."
+      "oportunidades": "Seguir la competencia china en la industria automotriz regional como referencia para políticas de proveedores y competitividad."
     },
     "484": {
       "nombre": "México",
       "principal": {
-        "texto": "CFE Fibra E inició reuniones con inversionistas para una oferta de US$ 580 millones, ampliable a US$ 867 millones, para modernizar las redes eléctricas.",
+        "texto": "La Cámara de Diputados aprobó el Presupuesto 2027 de México, de MXN 10,6 billones, con un gasto social elevado y la meta de reanimar la economía.",
         "fuente": "Bloomberg Línea",
-        "fecha": "2026-11-10",
-        "url": "https://www.bloomberglinea.com/latinoamerica/mexico/cfe-fibra-e-inicia-reuniones-con-inversionistas-por-nueva-emision-de-hasta-us867-millones/",
+        "fecha": "2026-11-11",
+        "url": "https://www.bloomberglinea.com/latinoamerica/mexico/mexico-aprueba-presupuesto-2027-para-reanimar-la-economia-y-con-gasto-billonario-en-programas-sociales/",
         "en_boletin": false,
         "en_ventana": true
       },
@@ -162,16 +162,16 @@
         "url": "https://www.bloomberglinea.com/latinoamerica/mexico/cfe-fibra-e-inicia-reuniones-con-inversionistas-por-nueva-emision-de-hasta-us867-millones/",
         "fuente": "Bloomberg Línea"
       },
-      "oportunidades": "Referencia de financiamiento de mercado para infraestructura eléctrica pública, útil para la expansión de redes ligada a la industria."
+      "oportunidades": "Seguir la inversión pública en infraestructura y el entorno fiscal para la relocalización manufacturera en México."
     },
     "862": {
       "nombre": "Venezuela",
       "principal": {
-        "texto": "La Asamblea Nacional aprobó por unanimidad una ley que permite a empresas privadas generar, transmitir, distribuir y vender electricidad con acuerdos de hasta 25 años.",
+        "texto": "Tras aprobar la reforma eléctrica, Venezuela prepara un nuevo esquema de tarifas para financiar el servicio con participación privada.",
         "fuente": "Bloomberg Línea",
-        "fecha": "2026-11-10",
-        "url": "https://www.bloomberglinea.com/latinoamerica/venezuela/venezuela-aprueba-ley-para-atraer-inversion-privada-y-aliviar-la-crisis-de-su-sistema-electrico/",
-        "en_boletin": true,
+        "fecha": "2026-11-11",
+        "url": "https://www.bloomberglinea.com/latinoamerica/venezuela/venezuela-prepara-un-nuevo-esquema-de-tarifas-electricas-que-podria-cambiar-para-los-usuarios/",
+        "en_boletin": false,
         "en_ventana": true
       },
       "financiamiento": {
@@ -182,15 +182,15 @@
         "url": "https://www.bancaynegocios.com/venezuela-negocia-con-organismos-multilaterales-financiamiento-por-us17000-millones-para-sectores-productivos/",
         "fuente": "Banca y Negocios (EFE)"
       },
-      "oportunidades": "La apertura eléctrica puede crear demanda de equipos y servicios; seguir su reglamentación y sus efectos en la cooperación energética con Colombia."
+      "oportunidades": "Seguir la reglamentación eléctrica y las tarifas, que condicionarán la inversión y la recuperación industrial."
     },
     "858": {
       "nombre": "Uruguay",
       "principal": {
-        "texto": "El FMI destacó la estabilidad macroeconómica de Uruguay y proyectó un crecimiento de 1,3 % en 2026, pero advirtió presiones de gasto.",
-        "fuente": "La República",
-        "fecha": "2026-11-10",
-        "url": "https://www.larepublica.co/globoeconomia/fmi-resalto-estabilidad-economica-uruguayo-pero-advirtio-presiones-de-gasto-4521390",
+        "texto": "Uruguay ofreció a Bolivia una salida al Atlántico por el puerto de Nueva Palmira, vía la hidrovía Paraguay-Paraná, con almacenamiento y tarifas preferenciales.",
+        "fuente": "El Deber",
+        "fecha": "2026-11-11",
+        "url": "https://eldeber.com.bo/economia/uruguay-ofrece-bolivia-salida-atlantico-ventajas-operativas-enclave-nueva-palmira_1794409457",
         "en_boletin": false,
         "en_ventana": true
       },
@@ -202,61 +202,61 @@
         "url": "https://www.infobae.com/america/america-latina/2026/10/15/uruguay-anuncio-una-inversion-de-usd-5700-millones-para-instalar-centros-de-datos-cinco-claves-del-proyecto/",
         "fuente": "Infobae"
       },
-      "oportunidades": "Referencia de estabilidad institucional; el desafío del crecimiento sugiere seguir sus políticas de inversión y diversificación productiva."
+      "oportunidades": "Referencia de integración logística regional que puede abaratar las exportaciones bolivianas; seguir su concreción."
     },
     "600": {
       "nombre": "Paraguay",
       "principal": {
-        "texto": "El colapso de Ueno Bank dejó a millones de paraguayos sin acceso a sus cuentas y expuso unos US$ 850 millones en fondos públicos, según Bloomberg Línea.",
-        "fuente": "Bloomberg Línea",
+        "texto": "Fitch colocó en vigilancia negativa la calificación soberana de Paraguay (BB+) por el riesgo de contagio de la quiebra de Ueno Bank.",
+        "fuente": "El Comercio",
         "fecha": "2026-11-11",
-        "url": "https://www.bloomberglinea.com/latinoamerica/argentina/la-caida-de-ueno-bank-en-paraguay-diferencias-clave-frente-al-corralito-argentino-de-2001/",
+        "url": "https://elcomercio.pe/economia/mundo/crisis-de-ueno-bank-pone-en-riesgo-la-calificacion-crediticia-de-paraguay-fitch-coloca-nota-en-vigilancia-negativa-noticia/",
         "en_boletin": false,
         "en_ventana": true
       },
       "financiamiento": null,
-      "oportunidades": "Dar seguimiento al efecto de la crisis bancaria en el crédito a mipymes y en las cadenas comerciales con Bolivia y Brasil, antes de definir apoyos."
+      "oportunidades": "Dar seguimiento al efecto de la crisis bancaria en el crédito a mipymes y en el costo de financiamiento del país antes de definir apoyos."
     },
     "222": {
       "nombre": "El Salvador",
       "principal": {
-        "texto": "The Estate by sbe, con Marc Anthony entre sus socios, anunció un megaproyecto turístico e inmobiliario en la costa salvadoreña dentro de una inversión de más de US$ 1.000 millones.",
+        "texto": "El BCIE aprobó US$ 500.000 de ayuda de emergencia para la respuesta de El Salvador a la sequía asociada a El Niño.",
         "fuente": "Infobae",
         "fecha": "2026-11-10",
-        "url": "https://www.infobae.com/el-salvador/2026/11/10/marc-anthony-se-suma-a-un-megaproyecto-de-lujo-en-el-salvador-con-una-inversion-que-supera-los-usd-1000-millones/",
+        "url": "https://www.infobae.com/el-salvador/2026/11/11/bcie-aprobo-usd-500000-para-la-respuesta-de-el-salvador-ante-la-sequia-vinculada-a-el-nino/",
         "en_boletin": false,
         "en_ventana": true
       },
       "financiamiento": {
-        "texto": "The Estate by sbe anunció una inversión inmobiliaria de más de US$ 1.000 millones, con El Salvador como su mayor proyecto.",
-        "institucion": "The Estate by sbe (privado)",
-        "monto": "Más de US$ 1.000 millones",
+        "texto": "El BCIE aprobó US$ 500.000 de ayuda de emergencia frente a la sequía.",
+        "institucion": "BCIE (público)",
+        "monto": "US$ 500.000",
         "fecha": "2026-11-10",
-        "url": "https://www.infobae.com/el-salvador/2026/11/10/marc-anthony-se-suma-a-un-megaproyecto-de-lujo-en-el-salvador-con-una-inversion-que-supera-los-usd-1000-millones/",
+        "url": "https://www.infobae.com/el-salvador/2026/11/11/bcie-aprobo-usd-500000-para-la-respuesta-de-el-salvador-ante-la-sequia-vinculada-a-el-nino/",
         "fuente": "Infobae"
       },
-      "oportunidades": "Vincular proveedores locales y mipymes a la cadena turística e inmobiliaria para que la inversión deje capacidades productivas."
+      "oportunidades": "La sequía refuerza la necesidad de programas de agroindustria resiliente al clima y uso eficiente del agua."
     },
     "591": {
       "nombre": "Panamá",
       "principal": {
-        "texto": "Los nuevos créditos del sistema bancario de Panamá sumaron US$ 21.413 millones hasta septiembre, 8,2 % más que un año antes, según la Superintendencia.",
+        "texto": "El aeropuerto de Tocumen fijó el calendario para precalificar a los interesados en administrar los aeropuertos de David y Río Hato; la lista saldrá en febrero de 2027.",
         "fuente": "Infobae",
-        "fecha": "2026-11-10",
-        "url": "https://www.infobae.com/panama/2026/11/10/nuevos-creditos-del-sistema-bancario-panameno-suman-usd-21413-millones-a-septiembre-con-un-crecimiento-interanual-de-82/",
+        "fecha": "2026-11-11",
+        "url": "https://www.infobae.com/panama/2026/11/11/panama-confirma-fechas-de-licitacion-para-la-administracion-de-dos-aeropuertos-regionales/",
         "en_boletin": false,
         "en_ventana": true
       },
       "financiamiento": null,
-      "oportunidades": "Referencia de profundidad financiera regional; seguir cuánto crédito llega a la industria y las mipymes."
+      "oportunidades": "Referencia de gestión de infraestructura aeroportuaria regional con participación privada."
     },
     "320": {
       "nombre": "Guatemala",
       "principal": {
-        "texto": "Guatemala autorizó importar sin aranceles otras 60.000 toneladas de maíz blanco, la tercera autorización del año, por la sequía.",
-        "fuente": "Prensa Libre",
-        "fecha": "2026-11-10",
-        "url": "https://www.prensalibre.com/economia/guatemala-autoriza-la-importacion-de-otras-60-mil-toneladas-de-maiz-sin-aranceles-ante-la-sequia-breaking/",
+        "texto": "Guatemala amplió a 175.000 toneladas el cupo de maíz blanco sin aranceles en 2026, la tercera ampliación del año por la sequía.",
+        "fuente": "Infobae",
+        "fecha": "2026-11-11",
+        "url": "https://www.infobae.com/guatemala/2026/11/11/el-gobierno-de-guatemala-amplia-a-175-mil-toneladas-el-cupo-de-maiz-blanco-sin-aranceles-en-2026/",
         "en_boletin": false,
         "en_ventana": true
       },
@@ -268,15 +268,15 @@
         "url": "https://www.infobae.com/guatemala/2026/10/25/el-banco-centroamericano-de-integracion-economica-eleva-a-usd-388-millones-la-linea-de-credito-para-medianas-empresas-de-guatemala/",
         "fuente": "Infobae"
       },
-      "oportunidades": "Referencia sobre el impacto de la sequía en cadenas de granos; útil para programas de agroindustria resiliente al clima."
+      "oportunidades": "Referencia sobre el impacto de la sequía en cadenas de granos básicos; útil para programas de agroindustria resiliente."
     },
     "558": {
       "nombre": "Nicaragua",
       "principal": {
-        "texto": "El 52,16 % de los jóvenes de Nicaragua no estudiaba ni trabajaba en 2025, frente a cerca de 48 % en 2011, según un análisis citado por Divergentes.",
+        "texto": "Nicaragua sumó 11.577 afiliados al seguro social hasta septiembre, mientras el sector público redujo su nómina y el empleo formal crece poco.",
         "fuente": "Infobae",
-        "fecha": "2026-11-10",
-        "url": "https://www.infobae.com/nicaragua/2026/11/10/mas-de-la-mitad-de-los-jovenes-en-nicaragua-no-estudia-ni-trabaja/",
+        "fecha": "2026-11-11",
+        "url": "https://www.infobae.com/nicaragua/2026/11/11/el-sector-publico-reduce-su-nomina-mientras-la-creacion-de-empleo-formal-sigue-limitada-en-nicaragua/",
         "en_boletin": false,
         "en_ventana": true
       },
@@ -288,15 +288,15 @@
         "url": "https://www.articulo66.com/2026/10/22/regimen-orteguista-suma-otra-multimillonaria-deusa-bcie-170-millones/",
         "fuente": "Artículo 66"
       },
-      "oportunidades": "Referencia sobre la brecha de capacidades juveniles; relevante para programas de formación técnica ligados a la industria."
+      "oportunidades": "Referencia sobre la debilidad del empleo formal; relevante para programas de capacidades y empleo industrial."
     },
     "340": {
       "nombre": "Honduras",
       "principal": {
-        "texto": "El presidente Nasry Asfura viajará a Washington para negociar un nuevo acuerdo con el FMI y retomar el acceso a la Cuenta del Milenio.",
+        "texto": "Empresarios del Valle de Sula pidieron más inversión en infraestructura durante la socialización del Presupuesto 2027 de Honduras.",
         "fuente": "Infobae",
-        "fecha": "2026-11-10",
-        "url": "https://www.infobae.com/honduras/2026/11/11/asfura-viajara-a-estados-unidos-para-negociar-nuevo-acuerdo-con-el-fmi-y-avanzar-con-cuenta-del-milenio/",
+        "fecha": "2026-11-11",
+        "url": "https://www.infobae.com/honduras/2026/11/11/honduras-empresarios-exigen-inversion-en-infraestructura-durante-discusion-del-presupuesto-2027/",
         "en_boletin": false,
         "en_ventana": true
       },
@@ -308,20 +308,20 @@
         "url": "https://www.infobae.com/honduras/2026/11/09/honduras-recibira-financiamiento-bid-para-rehabilitar-carreteras-y-mejorar-rutas-agricolas/",
         "fuente": "Infobae"
       },
-      "oportunidades": "Seguir el nuevo programa con el FMI y el financiamiento de infraestructura rural del BID para alinear apoyos a la agroindustria."
+      "oportunidades": "Acompañar la demanda de infraestructura con programas de productividad para la industria del Valle de Sula."
     },
     "188": {
       "nombre": "Costa Rica",
       "principal": {
-        "texto": "El ICE lidera un plan de siete plantas solares en Costa Rica valorado en US$ 200 millones, según un recuento de Forbes Centroamérica.",
+        "texto": "La presidenta Laura Fernández analiza convocar un referéndum para resolver la crisis de la minería ilegal de oro en Crucitas.",
         "fuente": "Infobae",
-        "fecha": "2026-11-10",
-        "url": "https://www.infobae.com/el-salvador/2026/11/11/centroamerica-capta-cerca-de-usd-2585-millones-para-energia-solar-salud-y-reciclaje/",
+        "fecha": "2026-11-11",
+        "url": "https://www.infobae.com/costa-rica/2026/11/12/laura-fernandez-analiza-convocar-a-referendum-para-resolver-crisis-minera-en-crucitas-ante-falta-de-acuerdos-en-el-congreso/",
         "en_boletin": false,
         "en_ventana": true
       },
       "financiamiento": null,
-      "oportunidades": "La expansión solar del ICE es una referencia de transición energética pública con posibles proveedores locales."
+      "oportunidades": "Seguir el debate sobre minería y formalización como referencia para la gestión de la minería artesanal en la región."
     }
   }
 }
