@@ -1,76 +1,76 @@
 {
-  "actualizado": "2026-11-13",
-  "ventana": "12 nov 07:01 → 13 nov 07:00 (ventana del N.º 32)",
+  "actualizado": "2026-11-16",
+  "ventana": "13 nov 07:01 → 16 nov 07:00 (ventana del N.º 33)",
   "fuente": "Noticia del día por país (incluida o no en el boletín, solo fuentes de confianza) y financiamiento de los últimos 30 días",
   "nota_oportunidades": "Las oportunidades son un análisis orientativo del Radar a partir de la noticia y el financiamiento del país; no constituyen una posición oficial de la ONUDI.",
   "paises": {
     "604": {
       "nombre": "Perú",
       "principal": {
-        "texto": "El BCRP subió su tasa de referencia a 4,50 %, el primer aumento desde 2023, ante una inflación de 5,3 % en octubre por alimentos y energía.",
+        "texto": "La economía peruana creció 2,43 % en septiembre, su menor ritmo en tres meses, por las caídas de la minería (−6,32 %) y el agro (−5,44 %), según el INEI.",
         "fuente": "El Comercio",
-        "fecha": "2026-11-12",
-        "url": "https://elcomercio.pe/economia/bcr-sube-su-tasa-de-interes-a-450-por-primera-vez-desde-2023-que-efectos-tendra-noticia/",
+        "fecha": "2026-11-15",
+        "url": "https://elcomercio.pe/economia/peru/pbi-inei-el-pbi-crecio-243-en-setiembre-con-mal-desempeno-de-la-mineria-y-el-agro-noticia/",
         "en_boletin": true,
         "en_ventana": true
       },
       "financiamiento": {
-        "texto": "Mina Justa obtuvo la aprobación ambiental para una mina subterránea de sulfuros, con una inversión cercana a US$ 2.000 millones.",
-        "institucion": "Marcobre (Mina Justa) (privado)",
-        "monto": "Cerca de US$ 2.000 millones",
-        "fecha": "2026-11-10",
-        "url": "https://gestion.pe/economia/empresas/mina-justa-obtiene-luz-verde-para-proyecto-subterraneo-de-us-2000-millones-noticia/",
+        "texto": "Logistic Properties of the Americas alista un parque logístico de cuatro edificios en Lurín, cuya construcción arrancaría en el primer trimestre de 2027.",
+        "institucion": "Logistic Properties of the Americas (privado)",
+        "monto": "US$ 85 millones",
+        "fecha": "2026-11-15",
+        "url": "https://gestion.pe/economia/empresas/logistic-properties-tras-vender-parque-lima-sur-alista-parque-logistico-en-lurin-por-us-85-millones-noticia/",
         "fuente": "Gestión"
       },
-      "oportunidades": "Con crédito más caro y la mina Justa invirtiendo cerca de US$ 2.000 millones, apoyar a proveedores industriales locales de la minería en productividad y acceso a financiamiento."
+      "oportunidades": "Con la minería y el agro en caída y nueva inversión en parques logísticos al sur de Lima, apoyar a proveedores industriales y agroindustriales para que aprovechen esa infraestructura y diversifiquen su producción."
     },
     "170": {
       "nombre": "Colombia",
       "principal": {
-        "texto": "Ecopetrol ganó $13,7 billones hasta septiembre (82,7 % más) por mejores precios y refinación, pese a una caída de 3,3 % en su producción.",
+        "texto": "Ecopetrol negocia con PDVSA comprar gas venezolano durante diez años y busca operar el tramo colombiano del gasoducto, que Venezuela promete reparar antes de marzo.",
         "fuente": "El Tiempo",
-        "fecha": "2026-11-12",
-        "url": "https://www.eltiempo.com/economia/empresas/mayores-precios-del-petroleo-impulsan-utilidades-de-ecopetrol-que-sumaron-13-7-billones-a-septiembre-3600622",
+        "fecha": "2026-11-15",
+        "url": "https://www.eltiempo.com/economia/sectores/ecopetrol-negocia-con-pdvsa-compra-de-gas-a-10-anos-y-busca-operar-tramo-del-gasoducto-con-venezuela-3600837",
         "en_boletin": true,
         "en_ventana": true
       },
       "financiamiento": {
-        "texto": "Skandia y Solé desarrollan 16 minigranjas solares (21,12 MWp) con capital de los socios y crédito de Bancóldex; dos ya generan energía en el Cesar.",
-        "institucion": "Skandia/Solé (privado) y Bancóldex (público)",
-        "monto": "Más de $68.000 millones (pesos colombianos)",
-        "fecha": "2026-11-12",
-        "url": "https://www.eltiempo.com/economia/empresas/skandia-entra-al-negocio-de-minigranjas-solares-y-las-primeras-plantas-de-un-plan-de-68-000-millones-ya-generan-energia-3600583",
-        "fuente": "El Tiempo"
+        "texto": "Avianca anunció en la Milagro Week de Nueva York una inversión de US$ 3.000 millones en 61 aviones durante los próximos tres años.",
+        "institucion": "Avianca (privado)",
+        "monto": "US$ 3.000 millones",
+        "fecha": "2026-11-15",
+        "url": "https://www.portafolio.co/negocios/empresas/primicia-avianca-invertira-us-3-000-millones-en-61-aviones-durante-los-proximos-tres-anos-506432",
+        "fuente": "Portafolio"
       },
-      "oportunidades": "Con caída de producción de hidrocarburos y nueva inversión en solar distribuida financiada por Bancóldex, explorar apoyo a eficiencia energética y autogeneración renovable en la industria."
+      "oportunidades": "Con el gas importado como respuesta a la caída de la oferta y nuevas inversiones en conectividad aérea, acompañar a la industria en eficiencia energética y en el acceso a mercados que abre la mayor conectividad."
     },
     "218": {
       "nombre": "Ecuador",
       "principal": {
-        "texto": "Ecuador inició en la planta de Aymesa, en Quito, el ensamblaje de la camioneta Kia Tasman, primer país fuera de Corea del Sur en producirla.",
-        "fuente": "El Universo",
-        "fecha": "2026-11-12",
-        "url": "https://www.eluniverso.com/economia/industrias/kia-inicio-ensamblaje-modelo-tasman-aymesa-ecuador-2026-nota/",
+        "texto": "El Gobierno autorizó la fase de explotación de la mina La Plata (cobre, oro, plata y zinc), en Cotopaxi; Atico Mining prevé construirla desde el primer trimestre de 2027.",
+        "fuente": "Primicias",
+        "fecha": "2026-11-13",
+        "url": "https://www.primicias.ec/economia/proyecto-minero-plata-permiso-fase-explotacion-construccion-cobre-oro-136974/",
         "en_boletin": true,
         "en_ventana": true
       },
       "financiamiento": {
-        "texto": "El FMI acordó a nivel técnico un crédito de US$ 710 millones bajo el Servicio de Resiliencia y Sostenibilidad; falta la aprobación del Directorio.",
-        "institucion": "FMI (público)",
-        "monto": "US$ 710 millones",
-        "fecha": "2026-11-09",
-        "url": "https://www.eluniverso.com/economia/finanzas/ecuador-alcanza-acuerdo-tecnico-con-el-fmi-por-la-sexta-revision-y-por-nuevo-credito-de-710-millones-nota/",
+        "texto": "La CFN aprobó el reglamento para canalizar, a través de bancos privados, un programa del BID de US$ 203,2 millones en créditos de hasta US$ 1,5 millones para pymes.",
+        "institucion": "BID y CFN (público)",
+        "monto": "US$ 203,2 millones",
+        "fecha": "2026-11-14",
+        "url": "https://www.eluniverso.com/economia/finanzas/creditos-de-hasta-15-millones-para-pymes-cfn-aprueba-reglamento-para-canalizar-203-millones-del-bid-nota/",
         "fuente": "El Universo"
       },
-      "oportunidades": "Con una nueva línea de ensamblaje automotor y el respaldo reciente del FMI, apoyar el desarrollo de proveedores locales de autopartes y la calidad para la exportación."
+      "oportunidades": "Con nueva minería de mediana escala y crédito del BID para maquinaria y tecnología de pymes, apoyar a proveedores locales de la minería y a pymes industriales en la preparación de proyectos financiables."
     },
     "068": {
       "nombre": "Bolivia",
       "principal": {
-        "texto": "El Banco Mundial aprobó US$ 500 millones para fortalecer las finanzas públicas de Bolivia y abrir la economía a la inversión privada.",
-        "fuente": "El Deber",
-        "fecha": "2026-11-13",
-        "url": "https://eldeber.com.bo/economia/banco-mundial-aprueba-financiamiento-us-500-millones-bolivia_1794569615",
+        "texto": "Desde Turquía, Rodrigo Paz anunció que Bolivia reformará este año sus leyes de inversión, minería e hidrocarburos para dar garantías jurídicas a los inversores.",
+        "fuente": "Infobae",
+        "fecha": "2026-11-14",
+        "url": "https://www.infobae.com/america/america-latina/2026/11/14/rodrigo-paz-se-reunio-en-turquia-con-recep-tayyip-erdogan-y-anuncio-reformas-legislativas-para-atraer-a-inversiones-a-bolivia/",
         "en_boletin": true,
         "en_ventana": true
       },
@@ -82,16 +82,16 @@
         "url": "https://eldeber.com.bo/economia/banco-mundial-aprueba-financiamiento-us-500-millones-bolivia_1794569615",
         "fuente": "El Deber"
       },
-      "oportunidades": "La reforma apoyada por el Banco Mundial para atraer inversión privada y facilitar exportaciones agrícolas abre espacio para asistencia técnica en agroindustria y en el clima de inversión."
+      "oportunidades": "Las reformas para atraer inversión y el apoyo del Banco Mundial a la apertura económica abren espacio para promover encadenamientos productivos y agregación de valor en minería e hidrocarburos."
     },
     "076": {
       "nombre": "Brasil",
       "principal": {
-        "texto": "El Senado aprobó por 45 votos contra 31 el texto base del paquete fiscal de Lula, que ahorraría entre R$ 50.000 y R$ 60.000 millones en 2027.",
-        "fuente": "Agência Brasil",
-        "fecha": "2026-11-12",
-        "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/senado-aprova-texto-base-de-pacote-que-preve-economia-de-ate-r-60-bi",
-        "en_boletin": true,
+        "texto": "Nubank recibió autorización para operar como banco en Brasil, su principal mercado, donde suma la mayor parte de sus 143 millones de clientes en la región.",
+        "fuente": "El Espectador",
+        "fecha": "2026-11-14",
+        "url": "https://www.elespectador.com/economia/empresas/nubank-obtiene-licencia-bancaria-en-brasil-y-refuerza-su-expansion-en-america/",
+        "en_boletin": false,
         "en_ventana": true
       },
       "financiamiento": {
@@ -102,15 +102,15 @@
         "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bb-e-banco-alemao-farao-aporte-de-100-milhoes-de-euros-em-bioeconomia",
         "fuente": "Agência Brasil"
       },
-      "oportunidades": "En un contexto de ajuste fiscal, la cooperación del KfW para bioeconomía amazónica muestra un modelo replicable de financiamiento a mipymes rurales en los países andinos."
+      "oportunidades": "La expansión de la banca digital y la cooperación del KfW con Banco do Brasil son referencias para ampliar el financiamiento a mipymes industriales con instrumentos digitales y verdes."
     },
     "152": {
       "nombre": "Chile",
       "principal": {
-        "texto": "El Gobierno acordó con parte de los transportistas levantar el paro: congela las alzas de combustibles hasta marzo de 2027 y rebaja 100 pesos por litro de diésel.",
-        "fuente": "Infobae",
+        "texto": "Chile estudia abrir a socios privados la explotación de yacimientos y la infraestructura de Codelco, ante la caída de su producción y su deuda récord.",
+        "fuente": "Gestión",
         "fecha": "2026-11-13",
-        "url": "https://www.infobae.com/america/america-latina/2026/11/13/el-gobierno-de-chile-acordo-con-los-transportistas-poner-fin-al-paro-por-el-aumento-del-precio-de-los-combustibles/",
+        "url": "https://gestion.pe/mundo/internacional/chile-evalua-incorporar-capital-privado-a-operaciones-mineras-e-infraestructura-de-codelco-noticia/",
         "en_boletin": false,
         "en_ventana": true
       },
@@ -122,15 +122,15 @@
         "url": "https://www.df.cl/empresas/industria/blumar-confirma-negociaciones-con-agrosuper-para-vender-negocio-salmonero-y",
         "fuente": "Diario Financiero"
       },
-      "oportunidades": "La presión del precio de los combustibles sobre el transporte de carga refuerza el interés en eficiencia y electromovilidad logística; la venta de Agrosuper confirma el atractivo agroindustrial."
+      "oportunidades": "La apertura de Codelco a socios privados es una referencia para los países andinos sobre modelos de asociación en minería y procesamiento que agreguen valor local."
     },
     "032": {
       "nombre": "Argentina",
       "principal": {
-        "texto": "La inflación de octubre fue de 2,2 %, por encima de lo esperado, con lo que la tasa interanual llegó a 33,1 %, según el Indec.",
-        "fuente": "Bloomberg Línea",
-        "fecha": "2026-11-12",
-        "url": "https://www.bloomberglinea.com/latinoamerica/argentina/inflacion-argentina-reboto-en-octubre-22-segun-el-indec/",
+        "texto": "Neuquén firmó acuerdos preliminares con dos empresas brasileñas para exportar gas de Vaca Muerta a Brasil, cuyo gasoducto clave estaría listo en 2029.",
+        "fuente": "Infobae",
+        "fecha": "2026-11-15",
+        "url": "https://www.infobae.com/economia/2026/11/15/de-la-patagonia-a-san-pablo-empieza-a-tomar-forma-el-proyecto-de-exportar-gas-de-vaca-muerta-a-brasil/",
         "en_boletin": false,
         "en_ventana": true
       },
@@ -142,16 +142,16 @@
         "url": "https://www.bloomberglinea.com/latinoamerica/argentina/hitachi-ve-a-argentina-como-pais-estrategico-en-su-plan-global-inversion-millonaria-y-3000-nuevos-empleos/",
         "fuente": "Bloomberg Línea"
       },
-      "oportunidades": "Con inflación aún alta y la inversión de Hitachi en la región, observar oportunidades de modernización tecnológica en la industria y de cooperación en digitalización."
+      "oportunidades": "La exportación de gas de Vaca Muerta a Brasil y la inversión de Hitachi en la región muestran oportunidades de integración energética e industrial; relevante para Bolivia, que pierde ese mercado."
     },
     "484": {
       "nombre": "México",
       "principal": {
-        "texto": "La brasileña WEG invertirá US$ 250 millones entre 2027 y 2030 en una planta en Hidalgo de generadores y transformadores para centros de datos.",
-        "fuente": "Bloomberg Línea",
-        "fecha": "2026-11-12",
-        "url": "https://www.bloomberglinea.com/latinoamerica/mexico/brasilena-weg-invertira-us250-millones-hacia-2030-para-una-nueva-planta-en-mexico/",
-        "en_boletin": true,
+        "texto": "Claudia Sheinbaum viajó a Shenzhen para la cumbre de APEC, donde se reunirá con Xi Jinping y con empresarios de las 21 economías del foro.",
+        "fuente": "La República",
+        "fecha": "2026-11-15",
+        "url": "https://www.larepublica.co/globoeconomia/sheinbaum-se-reunira-con-xi-jinping-en-china-para-explorar-nuevas-oportunidades-de-cooperacion-4525665",
+        "en_boletin": false,
         "en_ventana": true
       },
       "financiamiento": {
@@ -162,15 +162,15 @@
         "url": "https://www.bloomberglinea.com/latinoamerica/mexico/brasilena-weg-invertira-us250-millones-hacia-2030-para-una-nueva-planta-en-mexico/",
         "fuente": "Bloomberg Línea"
       },
-      "oportunidades": "La inversión de WEG muestra cómo la demanda de centros de datos atrae manufactura de equipos eléctricos; referencia para estrategias andinas de proveeduría industrial."
+      "oportunidades": "El acercamiento con China en APEC y la nueva planta de WEG para centros de datos muestran la competencia por inversión manufacturera; referencia para atraer proveedores industriales a la región."
     },
     "862": {
       "nombre": "Venezuela",
       "principal": {
-        "texto": "Las fallas eléctricas pasaron a ser el principal obstáculo de la industria venezolana, cuya producción creció 12,8 % en el tercer trimestre (Conindustria).",
+        "texto": "Venezuela se comprometió a reparar antes de marzo el gasoducto binacional con Colombia, que se abastecería del proyecto Cardón IV, según PDVSA.",
         "fuente": "Bloomberg Línea",
-        "fecha": "2026-11-13",
-        "url": "https://www.bloomberglinea.com/latinoamerica/venezuela/fallas-electricas-desplazan-a-los-impuestos-como-principal-obstaculo-de-la-industria-venezolana/",
+        "fecha": "2026-11-14",
+        "url": "https://www.bloomberglinea.com/latinoamerica/venezuela/venezuela-promete-reparar-gasoducto-con-colombia-antes-de-marzo-para-reactivar-el-suministro-de-gas/",
         "en_boletin": true,
         "en_ventana": true
       },
@@ -182,50 +182,43 @@
         "url": "https://www.bancaynegocios.com/venezuela-negocia-con-organismos-multilaterales-financiamiento-por-us17000-millones-para-sectores-productivos/",
         "fuente": "Banca y Negocios (EFE)"
       },
-      "oportunidades": "Con una manufactura que crece pero depende de un servicio eléctrico inestable, la eficiencia energética y la autogeneración en planta serían prioridades de apoyo."
+      "oportunidades": "La reactivación del gasoducto con Colombia podría aliviar la falta de energía que frena a la industria venezolana; seguir su efecto sobre la cooperación industrial fronteriza."
     },
     "858": {
       "nombre": "Uruguay",
       "principal": {
-        "texto": "Uruguay ofreció a Bolivia una salida al Atlántico por el puerto de Nueva Palmira, vía la hidrovía Paraguay-Paraná, con almacenamiento y tarifas preferenciales.",
-        "fuente": "El Deber",
-        "fecha": "2026-11-11",
-        "url": "https://eldeber.com.bo/economia/uruguay-ofrece-bolivia-salida-atlantico-ventajas-operativas-enclave-nueva-palmira_1794409457",
-        "en_boletin": false,
-        "en_ventana": false
-      },
-      "financiamiento": {
-        "texto": "La española Solaria destinará US$ 5.700 millones a un complejo de centros de datos en zona franca y una planta solar de 350 MW en Canelones, San José y Florida.",
-        "institucion": "Solaria (privado)",
-        "monto": "US$ 5.700 M",
-        "fecha": "2026-10-15",
-        "url": "https://www.infobae.com/america/america-latina/2026/10/15/uruguay-anuncio-una-inversion-de-usd-5700-millones-para-instalar-centros-de-datos-cinco-claves-del-proyecto/",
-        "fuente": "Infobae"
-      },
-      "oportunidades": "Referencia de integración logística regional que puede abaratar las exportaciones bolivianas; seguir su concreción."
-    },
-    "600": {
-      "nombre": "Paraguay",
-      "principal": {
-        "texto": "Fitch puso en vigilancia negativa la calificación de Paraguay (BB+) por los riesgos de la quiebra de Ueno Bank, sexta entidad crediticia del país.",
-        "fuente": "Gestión",
-        "fecha": "2026-11-12",
-        "url": "https://gestion.pe/mundo/internacional/fitch-advierte-sobre-paraguay-por-impacto-financiero-y-politico-de-crisis-de-ueno-noticia/",
+        "texto": "La desaprobación del gobierno de Yamandú Orsi bajó cinco puntos, aunque se mantiene en 52 %, según Opción Consultores.",
+        "fuente": "La República",
+        "fecha": "2026-11-13",
+        "url": "https://www.larepublica.co/globoeconomia/la-desaprobacion-del-gobierno-de-orsi-baja-cinco-puntos-pero-sigue-en-52-4524268",
         "en_boletin": false,
         "en_ventana": true
       },
       "financiamiento": null,
-      "oportunidades": "Seguir el efecto de la crisis bancaria en el crédito a mipymes y en los ahorristas de países vecinos, como Bolivia, antes de definir apoyos."
+      "oportunidades": "Sin financiamiento reciente ni noticia económica nueva, seguir la agenda logística con Bolivia (salida por Nueva Palmira) como referencia de integración regional."
+    },
+    "600": {
+      "nombre": "Paraguay",
+      "principal": {
+        "texto": "El director jurídico del Banco Central de Paraguay se entregó a la Fiscalía, que lo investiga por presuntos documentos falsos para proteger a Ueno Bank.",
+        "fuente": "La República",
+        "fecha": "2026-11-15",
+        "url": "https://www.larepublica.co/globoeconomia/director-del-banco-central-de-paraguay-se-entrega-por-escandalo-de-ueno-bank-4525674",
+        "en_boletin": false,
+        "en_ventana": true
+      },
+      "financiamiento": null,
+      "oportunidades": "Seguir el efecto de la crisis bancaria en el crédito a mipymes; referencia sobre la importancia de la supervisión financiera para el financiamiento productivo."
     },
     "222": {
       "nombre": "El Salvador",
       "principal": {
-        "texto": "El BCIE aprobó US$ 500.000 de ayuda de emergencia para la respuesta de El Salvador a la sequía asociada a El Niño.",
+        "texto": "Los costos de producción de las empresas salvadoreñas subieron 4,05 % en doce meses hasta octubre, impulsados por la energía y el transporte, según el BCR.",
         "fuente": "Infobae",
-        "fecha": "2026-11-10",
-        "url": "https://www.infobae.com/el-salvador/2026/11/11/bcie-aprobo-usd-500000-para-la-respuesta-de-el-salvador-ante-la-sequia-vinculada-a-el-nino/",
+        "fecha": "2026-11-14",
+        "url": "https://www.infobae.com/el-salvador/2026/11/14/energia-y-transporte-impulsan-alza-del-405-en-costos-de-produccion-salvadorenos/",
         "en_boletin": false,
-        "en_ventana": false
+        "en_ventana": true
       },
       "financiamiento": {
         "texto": "El BCIE aprobó US$ 500.000 de ayuda de emergencia frente a la sequía.",
@@ -235,30 +228,30 @@
         "url": "https://www.infobae.com/el-salvador/2026/11/11/bcie-aprobo-usd-500000-para-la-respuesta-de-el-salvador-ante-la-sequia-vinculada-a-el-nino/",
         "fuente": "Infobae"
       },
-      "oportunidades": "La sequía refuerza la necesidad de programas de agroindustria resiliente al clima y uso eficiente del agua."
+      "oportunidades": "El alza de los costos energéticos de las empresas refuerza la utilidad de programas de eficiencia energética industrial; referencia para la región."
     },
     "591": {
       "nombre": "Panamá",
       "principal": {
-        "texto": "El aeropuerto de Tocumen fijó el calendario para precalificar a los interesados en administrar los aeropuertos de David y Río Hato; la lista saldrá en febrero de 2027.",
+        "texto": "S&P mantuvo en BBB+ la calificación del Canal de Panamá y prevé que conserve un bajo endeudamiento pese a sus planes de expansión.",
         "fuente": "Infobae",
-        "fecha": "2026-11-11",
-        "url": "https://www.infobae.com/panama/2026/11/11/panama-confirma-fechas-de-licitacion-para-la-administracion-de-dos-aeropuertos-regionales/",
+        "fecha": "2026-11-14",
+        "url": "https://www.infobae.com/panama/2026/11/14/sp-preve-que-el-canal-de-panama-mantenga-un-bajo-endeudamiento-pese-a-sus-planes-de-expansion/",
         "en_boletin": false,
-        "en_ventana": false
+        "en_ventana": true
       },
       "financiamiento": null,
-      "oportunidades": "Referencia de gestión de infraestructura aeroportuaria regional con participación privada."
+      "oportunidades": "La solidez del Canal y sus planes de expansión son referencia para la logística de exportación de los países andinos hacia Asia y la costa este de EE. UU."
     },
     "320": {
       "nombre": "Guatemala",
       "principal": {
-        "texto": "Guatemala amplió a 175.000 toneladas el cupo de maíz blanco sin aranceles en 2026, la tercera ampliación del año por la sequía.",
+        "texto": "El Gobierno de Guatemala decretó el estado de sitio por 30 días en Zacapa e Izabal para reforzar la seguridad frente al crimen organizado.",
         "fuente": "Infobae",
-        "fecha": "2026-11-11",
-        "url": "https://www.infobae.com/guatemala/2026/11/11/el-gobierno-de-guatemala-amplia-a-175-mil-toneladas-el-cupo-de-maiz-blanco-sin-aranceles-en-2026/",
+        "fecha": "2026-11-14",
+        "url": "https://www.infobae.com/guatemala/2026/11/15/el-gobierno-de-guatemala-decreta-estado-de-sitio-por-30-dias-en-zacapa-e-izabal-para-reforzar-la-seguridad/",
         "en_boletin": false,
-        "en_ventana": false
+        "en_ventana": true
       },
       "financiamiento": {
         "texto": "El BCIE amplió en US$ 8,8 millones su línea de crédito a Cofinsa para medianas empresas.",
@@ -268,17 +261,17 @@
         "url": "https://www.infobae.com/guatemala/2026/10/25/el-banco-centroamericano-de-integracion-economica-eleva-a-usd-388-millones-la-linea-de-credito-para-medianas-empresas-de-guatemala/",
         "fuente": "Infobae"
       },
-      "oportunidades": "Referencia sobre el impacto de la sequía en cadenas de granos básicos; útil para programas de agroindustria resiliente."
+      "oportunidades": "La inseguridad en Izabal, departamento portuario, recuerda el peso de la seguridad en la logística y el clima de inversión; seguir su efecto sobre las cadenas agroexportadoras."
     },
     "558": {
       "nombre": "Nicaragua",
       "principal": {
-        "texto": "Nicaragua sumó 11.577 afiliados al seguro social hasta septiembre, mientras el sector público redujo su nómina y el empleo formal crece poco.",
+        "texto": "Las tarjetas de pago movilizaron 53,6 millones de operaciones en el tercer trimestre en Nicaragua, 11,1 % más que un año antes, según el Banco Central.",
         "fuente": "Infobae",
-        "fecha": "2026-11-11",
-        "url": "https://www.infobae.com/nicaragua/2026/11/11/el-sector-publico-reduce-su-nomina-mientras-la-creacion-de-empleo-formal-sigue-limitada-en-nicaragua/",
+        "fecha": "2026-11-14",
+        "url": "https://www.infobae.com/nicaragua/2026/11/14/las-tarjetas-de-pago-en-nicaragua-superaron-los-53-millones-de-operaciones-en-el-tercer-trimestre-segun-el-banco-central/",
         "en_boletin": false,
-        "en_ventana": false
+        "en_ventana": true
       },
       "financiamiento": {
         "texto": "El BCIE financia con US$ 170 millones obras de agua potable en cuatro ciudades.",
@@ -288,40 +281,40 @@
         "url": "https://www.articulo66.com/2026/10/22/regimen-orteguista-suma-otra-multimillonaria-deusa-bcie-170-millones/",
         "fuente": "Artículo 66"
       },
-      "oportunidades": "Referencia sobre la debilidad del empleo formal; relevante para programas de capacidades y empleo industrial."
+      "oportunidades": "El avance de los pagos electrónicos es una base para la digitalización de mipymes; referencia limitada por el contexto político del país."
     },
     "340": {
       "nombre": "Honduras",
       "principal": {
-        "texto": "Empresarios del Valle de Sula pidieron más inversión en infraestructura durante la socialización del Presupuesto 2027 de Honduras.",
+        "texto": "La Asociación Hondureña de Maquiladores prevé otra caída de las exportaciones de maquila en 2026 por la menor demanda de EE. UU. y el traslado de pedidos a otros países.",
         "fuente": "Infobae",
-        "fecha": "2026-11-11",
-        "url": "https://www.infobae.com/honduras/2026/11/11/honduras-empresarios-exigen-inversion-en-infraestructura-durante-discusion-del-presupuesto-2027/",
+        "fecha": "2026-11-15",
+        "url": "https://www.infobae.com/honduras/2026/11/15/honduras-podria-perder-mas-exportaciones-de-maquila-mientras-empresas-trasladan-pedidos-a-otros-paises/",
         "en_boletin": false,
-        "en_ventana": false
+        "en_ventana": true
       },
       "financiamiento": {
-        "texto": "El BID aprobó US$ 101,68 millones para rehabilitar carreteras y caminos rurales productivos en la región noroccidental.",
-        "institucion": "BID (público)",
-        "monto": "US$ 101,68 millones",
-        "fecha": "2026-11-09",
-        "url": "https://www.infobae.com/honduras/2026/11/09/honduras-recibira-financiamiento-bid-para-rehabilitar-carreteras-y-mejorar-rutas-agricolas/",
+        "texto": "Japón financiará con US$ 2 millones de cooperación técnica un plan maestro de obras contra inundaciones en el Valle de Sula, listo hacia mediados de 2027.",
+        "institucion": "Gobierno de Japón (público)",
+        "monto": "US$ 2 millones",
+        "fecha": "2026-11-14",
+        "url": "https://www.infobae.com/honduras/2026/11/15/japon-destinara-us2-millones-para-disenar-obras-contra-inundaciones-en-el-norte-de-honduras/",
         "fuente": "Infobae"
       },
-      "oportunidades": "Acompañar la demanda de infraestructura con programas de productividad para la industria del Valle de Sula."
+      "oportunidades": "La caída de la maquila en el Valle de Sula, que además prepara obras contra inundaciones, muestra la utilidad de apoyar la diversificación y la resiliencia climática de los parques industriales."
     },
     "188": {
       "nombre": "Costa Rica",
       "principal": {
-        "texto": "La presidenta Laura Fernández analiza convocar un referéndum para resolver la crisis de la minería ilegal de oro en Crucitas.",
+        "texto": "El café de Costa Rica gana valor en los mercados externos por los mejores precios, aunque la cosecha prevista se redujo a casi la mitad frente a 1998-1999.",
         "fuente": "Infobae",
-        "fecha": "2026-11-11",
-        "url": "https://www.infobae.com/costa-rica/2026/11/12/laura-fernandez-analiza-convocar-a-referendum-para-resolver-crisis-minera-en-crucitas-ante-falta-de-acuerdos-en-el-congreso/",
+        "fecha": "2026-11-15",
+        "url": "https://www.infobae.com/costa-rica/2026/11/15/el-cafe-costarricense-gana-valor-en-los-mercados-externos-mientras-la-cosecha-pierde-volumen-en-los-ultimos-anos/",
         "en_boletin": false,
-        "en_ventana": false
+        "en_ventana": true
       },
       "financiamiento": null,
-      "oportunidades": "Seguir el debate sobre minería y formalización como referencia para la gestión de la minería artesanal en la región."
+      "oportunidades": "La apuesta por valor en lugar de volumen en el café costarricense es referencia para las cadenas de café de Colombia, Perú y Ecuador."
     }
   }
 }
