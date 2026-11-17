@@ -1,0 +1,320 @@
+{
+  "actualizado": "2026-11-17",
+  "ventana": "16 nov 07:01 → 17 nov 07:00 (ventana del N.º 34)",
+  "fuente": "Noticia del día por país (incluida o no en el boletín, solo fuentes de confianza) y financiamiento de los últimos 30 días",
+  "nota_oportunidades": "Las oportunidades son un análisis orientativo del Radar a partir de la noticia y el financiamiento del país; no constituyen una posición oficial de la ONUDI.",
+  "paises": {
+    "604": {
+      "nombre": "Perú",
+      "principal": {
+        "texto": "Las agroexportaciones peruanas sumaron casi US$ 9.900 millones entre enero y septiembre, 1,2 % más, impulsadas por arándanos, paltas, uvas y espárragos.",
+        "fuente": "Midagri",
+        "fecha": "2026-11-16",
+        "url": "https://www.gob.pe/institucion/midagri/noticias/1474367-midagri-agroexportaciones-alcanzan-casi-us-10-mil-millones-en-ventas-de-alimentos-al-mundo",
+        "en_boletin": true,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "Logistic Properties of the Americas alista un parque logístico de cuatro edificios en Lurín, cuya construcción arrancaría en el primer trimestre de 2027.",
+        "institucion": "Logistic Properties of the Americas (privado)",
+        "monto": "US$ 85 millones",
+        "fecha": "2026-11-15",
+        "url": "https://gestion.pe/economia/empresas/logistic-properties-tras-vender-parque-lima-sur-alista-parque-logistico-en-lurin-por-us-85-millones-noticia/",
+        "fuente": "Gestión"
+      },
+      "oportunidades": "Con agroexportaciones estables pero empleo agrícola golpeado por El Niño, apoyar la adaptación climática y el valor agregado de las cadenas agroexportadoras."
+    },
+    "170": {
+      "nombre": "Colombia",
+      "principal": {
+        "texto": "El presidente De la Espriella descartó extender el IVA a la canasta básica y a los insumos agrícolas; Hacienda estudia bajar la tarifa general al 17 % o 18 %.",
+        "fuente": "Bloomberg Línea",
+        "fecha": "2026-11-16",
+        "url": "https://www.bloomberglinea.com/latinoamerica/colombia/colombia-descarta-ampliar-el-iva-a-productos-basicos-y-evalua-bajar-la-tarifa-al-17-o-18/",
+        "en_boletin": true,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "Grupo Plata elevará a US$ 400 millones su inversión en Colombia, con foco en crédito para pequeños empresarios.",
+        "institucion": "Grupo Plata (privado)",
+        "monto": "US$ 400 millones",
+        "fecha": "2026-11-16",
+        "url": "https://www.eltiempo.com/economia/milagro-week-grupo-plata-aumentara-su-inversion-en-colombia-a-us-400-millones-y-busca-impulsar-el-credito-para-pequenos-empresarios-3601441",
+        "fuente": "El Tiempo"
+      },
+      "oportunidades": "Aprovechar los compromisos anunciados en la Milagro Week para proponer proyectos de productividad y crédito a mipymes manufactureras."
+    },
+    "218": {
+      "nombre": "Ecuador",
+      "principal": {
+        "texto": "El Banco Mundial aprobó US$ 30 millones para Ecuador, que recibirá a medida que demuestre reducciones verificadas de emisiones, el primer esquema así en América Latina.",
+        "fuente": "Primicias",
+        "fecha": "2026-11-16",
+        "url": "https://www.primicias.ec/economia/banco-mundial-programa-ecuador-reduccion-emision-gases-prestamo-137302/",
+        "en_boletin": true,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "El Banco Mundial (fondo TCAF) aprobó US$ 30 millones en pagos por resultados ligados a reducir emisiones.",
+        "institucion": "Banco Mundial (TCAF) (público)",
+        "monto": "US$ 30 millones",
+        "fecha": "2026-11-16",
+        "url": "https://www.primicias.ec/economia/banco-mundial-programa-ecuador-reduccion-emision-gases-prestamo-137302/",
+        "fuente": "Primicias"
+      },
+      "oportunidades": "Apoyar la medición y reducción de emisiones en la industria, que puede aportar resultados verificables al programa con el Banco Mundial."
+    },
+    "068": {
+      "nombre": "Bolivia",
+      "principal": {
+        "texto": "YPFB identificó una cartera exploratoria con potencial de 14,6 TCF para reactivar la producción de gas, frente a reservas probadas de 2,3 TCF.",
+        "fuente": "El Deber",
+        "fecha": "2026-11-16",
+        "url": "https://eldeber.com.bo/economia/ypfb-identifica-potencial-14-6-tcf-reactivar-produccion-gas_1794863998",
+        "en_boletin": true,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "El Gobierno destinó Bs 350 millones a insumos y asistencia técnica para 11.400 familias productoras de maíz y arroz.",
+        "institucion": "Gobierno de Bolivia (Ministerio de Producción Sostenible) (público)",
+        "monto": "Bs 350 millones",
+        "fecha": "2026-11-16",
+        "url": "https://eldeber.com.bo/economia/gobierno-destina-bs-350-millones-impulsar-produccion-maiz-arroz_1794865403",
+        "fuente": "El Deber"
+      },
+      "oportunidades": "Vincular el apoyo a maíz y arroz con agroindustria y almacenamiento, y seguir la exploración de gas por su peso en la energía para la industria."
+    },
+    "076": {
+      "nombre": "Brasil",
+      "principal": {
+        "texto": "El dólar subió a R$ 5,77 en Brasil, su mayor valor desde abril de 2025, en medio de dudas del mercado sobre el gasto público.",
+        "fuente": "Agência Brasil",
+        "fecha": "2026-11-16",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-sobe-para-r-577-e-fecha-no-maior-valor-desde-abril-de-2025",
+        "en_boletin": false,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "Banco do Brasil y el KfW estructuran 100 millones de euros para refinanciar créditos a mipymes de la bioeconomía amazónica.",
+        "institucion": "Banco do Brasil y KfW (público)",
+        "monto": "100 millones de euros",
+        "fecha": "2026-11-11",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bb-e-banco-alemao-farao-aporte-de-100-milhoes-de-euros-em-bioeconomia",
+        "fuente": "Agência Brasil"
+      },
+      "oportunidades": "El estudio de la CNI sobre economía circular (hasta R$ 90.700 millones) es referencia para programas de circularidad industrial en la región andina."
+    },
+    "152": {
+      "nombre": "Chile",
+      "principal": {
+        "texto": "Falabella invertirá más de US$ 1.100 millones en 2027 en tiendas, logística y tecnología, con foco en la región andina.",
+        "fuente": "La República",
+        "fecha": "2026-11-16",
+        "url": "https://www.larepublica.co/globoeconomia/falabella-invertira-us-1-100-millones-en-2027-para-expandir-su-operacion-en-la-region-4525905",
+        "en_boletin": true,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "Agrosuper negocia comprar Salmones Blumar por un valor empresa de US$ 540 millones.",
+        "institucion": "Empresas Agrosuper (privado)",
+        "monto": "US$ 540 millones (valor empresa)",
+        "fecha": "2026-11-04",
+        "url": "https://www.df.cl/empresas/industria/blumar-confirma-negociaciones-con-agrosuper-para-vender-negocio-salmonero-y",
+        "fuente": "Diario Financiero"
+      },
+      "oportunidades": "Seguir la expansión del comercio minorista chileno en la región andina como canal para proveedores locales y mipymes."
+    },
+    "032": {
+      "nombre": "Argentina",
+      "principal": {
+        "texto": "Toyota confirmó una planta de US$ 1.300 millones en Zárate para fabricar su primer vehículo híbrido en Argentina desde 2030.",
+        "fuente": "Bloomberg Línea",
+        "fecha": "2026-11-16",
+        "url": "https://www.bloomberglinea.com/latinoamerica/argentina/toyota-develo-como-sera-su-historica-inversion-de-us1300-millones-en-argentina-y-que-vehiculo-fabricara/",
+        "en_boletin": true,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "Toyota confirmó una inversión de US$ 1.300 millones en una planta de vehículos híbridos en Zárate.",
+        "institucion": "Toyota (privado)",
+        "monto": "US$ 1.300 millones",
+        "fecha": "2026-11-16",
+        "url": "https://www.bloomberglinea.com/latinoamerica/argentina/toyota-develo-como-sera-su-historica-inversion-de-us1300-millones-en-argentina-y-que-vehiculo-fabricara/",
+        "fuente": "Bloomberg Línea"
+      },
+      "oportunidades": "Referencia de atracción de inversión automotriz en electromovilidad; útil para políticas de proveedores en los países andinos."
+    },
+    "484": {
+      "nombre": "México",
+      "principal": {
+        "texto": "Sheinbaum ofreció una «nueva era» en la relación entre México y China tras las tensiones por los aranceles, de cara a la cumbre de APEC.",
+        "fuente": "Bloomberg Línea",
+        "fecha": "2026-11-17",
+        "url": "https://www.bloomberglinea.com/latinoamerica/mexico/sheinbaum-ofrece-una-nueva-era-en-la-relacion-mexico-china-tras-tensiones-por-aranceles/",
+        "en_boletin": false,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "Nueva planta de WEG en Hidalgo para equipos eléctricos destinados a centros de datos, para el mercado local y la exportación a América del Norte.",
+        "institucion": "WEG (privado)",
+        "monto": "US$ 250 millones",
+        "fecha": "2026-11-12",
+        "url": "https://www.bloomberglinea.com/latinoamerica/mexico/brasilena-weg-invertira-us250-millones-hacia-2030-para-una-nueva-planta-en-mexico/",
+        "fuente": "Bloomberg Línea"
+      },
+      "oportunidades": "Seguir cómo la relación con China y la revisión del T-MEC afectan la relocalización manufacturera en México."
+    },
+    "862": {
+      "nombre": "Venezuela",
+      "principal": {
+        "texto": "Trabajadores venezolanos convocaron a un paro nacional de 12 horas para exigir aguinaldos y mejoras salariales.",
+        "fuente": "Bloomberg Línea",
+        "fecha": "2026-11-16",
+        "url": "https://www.bloomberglinea.com/latinoamerica/venezuela/trabajadores-venezolanos-convocan-a-paro-nacional-de-12-horas-por-aguinaldos-y-mejoras-salariales/",
+        "en_boletin": false,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "Venezuela negocia con organismos multilaterales unos US$ 17.000 millones en cinco años para sectores productivos.",
+        "institucion": "Organismos multilaterales (no identificados) (público)",
+        "monto": "Unos US$ 17.000 millones en cinco años",
+        "fecha": "2026-11-03",
+        "url": "https://www.bancaynegocios.com/venezuela-negocia-con-organismos-multilaterales-financiamiento-por-us17000-millones-para-sectores-productivos/",
+        "fuente": "Banca y Negocios (EFE)"
+      },
+      "oportunidades": "Seguir el clima laboral y salarial, que condiciona la recuperación industrial y la cooperación energética con Colombia."
+    },
+    "858": {
+      "nombre": "Uruguay",
+      "principal": {
+        "texto": "El Banco Central del Uruguay mantuvo su tasa de interés en 6 % ante el escenario de inflación.",
+        "fuente": "La República",
+        "fecha": "2026-11-16",
+        "url": "https://www.larepublica.co/globoeconomia/tasa-de-interes-de-uruguay-4525927",
+        "en_boletin": false,
+        "en_ventana": true
+      },
+      "financiamiento": null,
+      "oportunidades": "Referencia de estabilidad monetaria; seguir el costo del crédito para la inversión productiva."
+    },
+    "600": {
+      "nombre": "Paraguay",
+      "principal": {
+        "texto": "Tras la crisis de Ueno Bank, el Gobierno de Paraguay anunció recortes de gasto y garantizó el pago a los jubilados para recuperar la confianza.",
+        "fuente": "Infobae",
+        "fecha": "2026-11-16",
+        "url": "https://www.infobae.com/america/america-latina/2026/11/17/paraguay-busca-recuperar-la-confianza-tras-la-crisis-de-ueno-bank-el-gobierno-anuncio-recortes-y-garantizo-el-pago-a-jubilados/",
+        "en_boletin": false,
+        "en_ventana": true
+      },
+      "financiamiento": null,
+      "oportunidades": "Seguir el efecto de la crisis bancaria en el crédito a mipymes antes de definir apoyos."
+    },
+    "222": {
+      "nombre": "El Salvador",
+      "principal": {
+        "texto": "El Salvador proyecta 9.000 nuevas empresas inscritas en 2026, tras triplicar los registros desde 2018.",
+        "fuente": "Infobae",
+        "fecha": "2026-11-16",
+        "url": "https://www.infobae.com/el-salvador/2026/11/17/el-salvador-proyecta-9000-nuevas-empresas-inscritas-en-2026-tras-triplicar-los-registros-desde-2018/",
+        "en_boletin": false,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "El BCIE aprobó US$ 500.000 de ayuda de emergencia frente a la sequía.",
+        "institucion": "BCIE (público)",
+        "monto": "US$ 500.000",
+        "fecha": "2026-11-10",
+        "url": "https://www.infobae.com/el-salvador/2026/11/11/bcie-aprobo-usd-500000-para-la-respuesta-de-el-salvador-ante-la-sequia-vinculada-a-el-nino/",
+        "fuente": "Infobae"
+      },
+      "oportunidades": "Referencia de formalización empresarial; útil para programas de apoyo a nuevas mipymes."
+    },
+    "591": {
+      "nombre": "Panamá",
+      "principal": {
+        "texto": "El presidente Mulino ordenó negociar con First Quantum la reapertura de la mina de cobre, sin prórrogas de la concesión.",
+        "fuente": "Bloomberg Línea",
+        "fecha": "2026-11-16",
+        "url": "https://www.bloomberglinea.com/latinoamerica/panama/mulino-ordena-negociar-con-first-quantum-la-reapertura-de-la-mina-de-cobre-en-panama/",
+        "en_boletin": true,
+        "en_ventana": true
+      },
+      "financiamiento": null,
+      "oportunidades": "Seguir la negociación minera como referencia de gobernanza de grandes proyectos de cobre y de sus encadenamientos locales."
+    },
+    "320": {
+      "nombre": "Guatemala",
+      "principal": {
+        "texto": "Guatemala multó a cuatro distribuidoras de gas propano por concertar y distorsionar precios en el mercado nacional.",
+        "fuente": "Infobae",
+        "fecha": "2026-11-16",
+        "url": "https://www.infobae.com/guatemala/2026/11/17/multas-millonarias-a-cuatro-distribuidoras-de-gas-propano-en-guatemala-por-concertar-y-distorsionar-precios-en-el-mercado-nacional/",
+        "en_boletin": false,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "El BCIE amplió en US$ 8,8 millones su línea de crédito a Cofinsa para medianas empresas.",
+        "institucion": "BCIE (público)",
+        "monto": "US$ 8,8 M",
+        "fecha": "2026-10-23",
+        "url": "https://www.infobae.com/guatemala/2026/10/25/el-banco-centroamericano-de-integracion-economica-eleva-a-usd-388-millones-la-linea-de-credito-para-medianas-empresas-de-guatemala/",
+        "fuente": "Infobae"
+      },
+      "oportunidades": "Referencia de política de competencia en mercados energéticos que afectan los costos de las mipymes."
+    },
+    "558": {
+      "nombre": "Nicaragua",
+      "principal": {
+        "texto": "Las mineras de oro lograron ingresos récord en Nicaragua por los altos precios del metal.",
+        "fuente": "Infobae",
+        "fecha": "2026-11-16",
+        "url": "https://www.infobae.com/nicaragua/2026/11/17/mineras-de-oro-logran-ingresos-record-en-nicaragua/",
+        "en_boletin": false,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "El BCIE financia con US$ 170 millones obras de agua potable en cuatro ciudades.",
+        "institucion": "BCIE (público)",
+        "monto": "US$ 170 M",
+        "fecha": "2026-10-22",
+        "url": "https://www.articulo66.com/2026/10/22/regimen-orteguista-suma-otra-multimillonaria-deusa-bcie-170-millones/",
+        "fuente": "Artículo 66"
+      },
+      "oportunidades": "Referencia sobre la dependencia del oro; útil para comparar estrategias de valor agregado minero en la región."
+    },
+    "340": {
+      "nombre": "Honduras",
+      "principal": {
+        "texto": "Honduras busca recuperar fondos de la Cuenta del Milenio tras reforzar su acercamiento económico con Estados Unidos.",
+        "fuente": "Infobae",
+        "fecha": "2026-11-16",
+        "url": "https://www.infobae.com/honduras/2026/11/17/honduras-busca-recuperar-fondos-de-la-cuenta-del-milenio-tras-reforzar-acercamiento-economico-con-estados-unidos/",
+        "en_boletin": false,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "Japón financiará con US$ 2 millones de cooperación técnica un plan maestro de obras contra inundaciones en el Valle de Sula, listo hacia mediados de 2027.",
+        "institucion": "Gobierno de Japón (público)",
+        "monto": "US$ 2 millones",
+        "fecha": "2026-11-14",
+        "url": "https://www.infobae.com/honduras/2026/11/15/japon-destinara-us2-millones-para-disenar-obras-contra-inundaciones-en-el-norte-de-honduras/",
+        "fuente": "Infobae"
+      },
+      "oportunidades": "Seguir la cooperación con Estados Unidos como posible fuente para infraestructura y competitividad."
+    },
+    "188": {
+      "nombre": "Costa Rica",
+      "principal": {
+        "texto": "El café de Costa Rica gana valor en los mercados externos por los mejores precios, aunque la cosecha prevista se redujo a casi la mitad frente a 1998-1999.",
+        "fuente": "Infobae",
+        "fecha": "2026-11-15",
+        "url": "https://www.infobae.com/costa-rica/2026/11/15/el-cafe-costarricense-gana-valor-en-los-mercados-externos-mientras-la-cosecha-pierde-volumen-en-los-ultimos-anos/",
+        "en_boletin": false,
+        "en_ventana": false
+      },
+      "financiamiento": null,
+      "oportunidades": "La apuesta por valor en lugar de volumen en el café costarricense es referencia para las cadenas de café de Colombia, Perú y Ecuador."
+    }
+  }
+}
