@@ -57,6 +57,12 @@ A story can carry both tags, and many stories carry none.
 - **3:** Useful context on the regional economy, policy or infrastructure.
 - **2 or lower:** not included in the daily issue.
 
+**Always relevance 5** (top interest for the UNIDO Colombia and Andean offices):
+- Government programmes, credit lines, grants or strategies for industry, productivity, competitiveness or MSMEs in a core country (e.g. MinCIT's "Ruta Milagro", iNNpulsa, Bancóldex, Colombia Productiva, PRODUCE, MPCEIP), including regional (departmental) roll-outs.
+- Any story that mentions ONUDI / UNIDO or its cooperation with a government in the region.
+
+These usually come only from official press rooms and get little media pickup, so they rank low on popularity; the ⭐ rule and the cards make sure they still reach the top of the issue.
+
 ## Review
 
 Every issue is saved as a **draft** with the "BORRADOR" banner. The user reviews it and says when it is final; only then is the banner removed.

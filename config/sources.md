@@ -14,6 +14,18 @@ Where `/radar` looks, in order of preference. Search widely, but only publish st
 | **Ecuador** | Presidencia, Ministerio de Producción, Comercio Exterior, Inversiones y Pesca (MPCEIP), Ministerio de Economía y Finanzas, Ministerio de Ambiente y Energía | Banco Central del Ecuador, INEC | Invest Ecuador / ProEcuador |
 | **Regional benchmarks** | Brasil: MDIC, BNDES · Chile: Ministerio de Economía, CORFO · México: Secretaría de Economía | — | — |
 
+### Press rooms to read directly every day
+
+Media rarely cover government programmes for industry and MSMEs, so read these news pages on every run (not only web search), and keep any item published inside the window:
+
+- **Colombia:** MinCIT (mincit.gov.co/prensa/noticias), iNNpulsa, Bancóldex, Colombia Productiva, DNP, Presidencia
+- **Perú:** gob.pe news of PRODUCE, MINCETUR, MEF, MINEM, MIDAGRI and ProInversión; Andina
+- **Ecuador:** MPCEIP (Ministerio de Producción), Ministerio de Economía y Finanzas, Presidencia
+- **Bolivia:** Ministerio de Desarrollo Productivo y Economía Plural, ABI
+- **Organizations:** ONUDI (unido.org), BID, CAF, Banco Mundial
+
+Official pages often show only a date, not a time: if the date is the day the window starts or ends and the time cannot be read, note it in `notas.md` and decide by the release ID or the order in the news list.
+
 ### Official and public news agencies (Level 1 for official announcements)
 
 - **Perú:** Agencia Peruana de Noticias **Andina** (andina.pe)
