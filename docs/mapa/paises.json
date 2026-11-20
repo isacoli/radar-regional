@@ -1,56 +1,56 @@
 {
-  "actualizado": "2026-11-19",
-  "ventana": "18 nov 07:01 → 19 nov 07:00 (ventana del N.º 36)",
+  "actualizado": "2026-11-20",
+  "ventana": "19 nov 07:01 → 20 nov 07:00 (ventana del N.º 37)",
   "fuente": "Noticia del día por país (incluida o no en el boletín, solo fuentes de confianza) y financiamiento de los últimos 30 días",
   "nota_oportunidades": "Las oportunidades son un análisis orientativo del Radar a partir de la noticia y el financiamiento del país; no constituyen una posición oficial de la ONUDI.",
   "paises": {
     "604": {
       "nombre": "Perú",
       "principal": {
-        "texto": "El Minem declaró en emergencia por ocho meses el abastecimiento nacional de combustibles por el riesgo de El Niño.",
-        "fuente": "RPP",
-        "fecha": "2026-11-18",
-        "url": "https://rpp.pe/economia/economia/gobierno-declara-en-emergencia-el-abastecimiento-de-combustibles-a-nivel-nacional-por-el-fenomeno-el-nino-noticia-1718378",
+        "texto": "El Perú firmó en Shenzhen, durante la APEC, su acuerdo de libre comercio con Tailandia, tras diez años de negociación.",
+        "fuente": "Mincetur (gob.pe)",
+        "fecha": "2026-11-19",
+        "url": "https://www.gob.pe/institucion/mincetur/noticias/1475405-gobierno-de-la-presidenta-keiko-fujimori-suscribe-acuerdo-de-libre-comercio-con-tailandia",
         "en_boletin": true,
         "en_ventana": true
       },
       "financiamiento": {
-        "texto": "El Gobierno aprobó un bono de S/ 100 por trabajador para microempresas, con hasta S/ 29 millones.",
-        "institucion": "Gobierno del Perú (MEF y MTPE) (público)",
-        "monto": "Hasta S/ 29 millones",
-        "fecha": "2026-11-18",
-        "url": "https://rpp.pe/politica/gobierno/gobierno-otorga-subsidio-extraordinario-de-100-soles-por-trabajador-de-las-microempresas-noticia-1718326",
-        "fuente": "RPP"
+        "texto": "El Gobierno aprobó más de S/ 155 millones para la pesca artesanal e industrial frente a El Niño.",
+        "institucion": "Gobierno del Perú (PRODUCE) (público)",
+        "monto": "Más de S/ 155 millones",
+        "fecha": "2026-11-19",
+        "url": "https://www.gob.pe/institucion/produce/noticias/1475863-ministro-juan-carlos-requejo-anuncia-medidas-por-mas-de-s-155-millones-para-los-pescadores-frente-al-fenomeno-el-nino",
+        "fuente": "PRODUCE (gob.pe)"
       },
-      "oportunidades": "Con S/ 276 millones para mypes en el presupuesto de PRODUCE y la emergencia por El Niño, apoyar la continuidad productiva de las mypes ante cortes de combustible."
+      "oportunidades": "Con el TLC con Tailandia y el apoyo a la pesca ante El Niño, ayudar a mypes pesqueras y agroexportadoras a cumplir estándares para el sudeste asiático."
     },
     "170": {
       "nombre": "Colombia",
       "principal": {
-        "texto": "La Milagro Week cerró con compromisos de inversión y financiación por US$ 43.205 millones para Colombia, más del doble de la meta.",
-        "fuente": "La República",
+        "texto": "El peso colombiano se hundió frente al dólar, que superó los $3.400, y dejó de ser la moneda más apreciada de la región en 2026.",
+        "fuente": "Bloomberg Línea",
         "fecha": "2026-11-19",
-        "url": "https://www.larepublica.co/empresas/milagro-week-doblo-la-meta-y-alcanzo-inversiones-por-us-43-205-millones-4527975",
+        "url": "https://www.bloomberglinea.com/mercados/peso-colombiano-se-hunde-frente-al-dolar-y-deja-de-ser-la-moneda-mas-apreciada-de-latinoamerica-en-2026/",
         "en_boletin": true,
         "en_ventana": true
       },
       "financiamiento": {
-        "texto": "Transferport y Grupo Ortiz cerraron US$ 630 millones para modernizar el corredor férreo La Dorada–Chiriguaná.",
-        "institucion": "Transferport y Grupo Ortiz (con la FDN) (privado)",
-        "monto": "US$ 630 millones",
-        "fecha": "2026-11-18",
-        "url": "https://www.larepublica.co/empresas/transferport-y-grupo-ortiz-cerraron-financiacion-por-us-630-millones-en-corredor-ferreo-4527452",
-        "fuente": "La República"
+        "texto": "Swisscontact anunció su primer fondo en Colombia para conectar pymes con inversionistas, con una meta de hasta $100.000 millones.",
+        "institucion": "Swisscontact (privado)",
+        "monto": "Hasta $100.000 millones (meta de recursos)",
+        "fecha": "2026-11-19",
+        "url": "https://www.portafolio.co/negocios/empresas/mas-capital-para-pymes-en-colombia-estara-el-primer-fondo-de-swisscontact-para-conectarlas-con-inversionistas-506678",
+        "fuente": "Portafolio"
       },
-      "oportunidades": "Convertir los compromisos de la Milagro Week en proveedores locales y empleo industrial, y vincular el tren de carga a parques industriales y logísticos."
+      "oportunidades": "Con el dólar más caro y un nuevo fondo para pymes, apoyar a las mipymes en eficiencia y sustitución competitiva de insumos importados."
     },
     "218": {
       "nombre": "Ecuador",
       "principal": {
-        "texto": "Petroecuador buscará un socio privado para el campo de gas Amistad tras no alcanzar con CNPC la producción prometida.",
-        "fuente": "El Universo",
-        "fecha": "2026-11-18",
-        "url": "https://www.eluniverso.com/economia/industrias/explotacion-gas-natural-campo-amistad-suspension-operaciones-plataforma-jack-up-busqueda-socio-privado-petroecuador-ecuador-2026-nota/",
+        "texto": "CNEL volvió a cortar la electricidad a las industrias de mayor consumo de Guayaquil del 19 al 22 de noviembre por el estiaje y El Niño.",
+        "fuente": "Primicias",
+        "fecha": "2026-11-19",
+        "url": "https://www.primicias.ec/economia/industrias-consumo-electricidad-guayaquil-cortes-luz-noviembre-137578/",
         "en_boletin": true,
         "en_ventana": true
       },
@@ -62,15 +62,15 @@
         "url": "https://www.primicias.ec/economia/celec-proceso-contratacion-central-hidroelectrica-sanantonio-mazar-dudas-canar-137475/",
         "fuente": "Primicias"
       },
-      "oportunidades": "Con el gas y la hidroelectricidad en revisión, promover eficiencia energética y autogeneración limpia en la industria para reducir la exposición a cortes."
+      "oportunidades": "Con nuevos cortes a la gran industria, promover eficiencia energética y autogeneración limpia para reducir pérdidas productivas."
     },
     "068": {
       "nombre": "Bolivia",
       "principal": {
-        "texto": "Bolivia elevó de 11,5 % a 17 % la tasa máxima del crédito productivo a microempresas, y de 7 % a 12 % a las pequeñas.",
-        "fuente": "El Deber",
-        "fecha": "2026-11-18",
-        "url": "https://eldeber.com.bo/economia/gobierno-eleva-17-tasa-maxima-credito-microempresas_1795014819",
+        "texto": "La Gobernación de Tarija y las comunidades rechazaron el fallo que habilita el pozo Domo Oso X-3, mientras el campo Churumas ya produce gas en Tariquía.",
+        "fuente": "Visión 360",
+        "fecha": "2026-11-19",
+        "url": "https://www.vision360.bo/noticias/2026/11/19/78039-gobernacion-de-tarija-civicos-y-comunidades-que-habitan-en-tariquia-rechazan-decision-judicial-que-da-via-libre-al-proyecto-domo-oso-x-3",
         "en_boletin": true,
         "en_ventana": true
       },
@@ -82,15 +82,15 @@
         "url": "https://eldeber.com.bo/economia/gobierno-destina-bs-350-millones-impulsar-produccion-maiz-arroz_1794865403",
         "fuente": "El Deber"
       },
-      "oportunidades": "Acompañar el nuevo esquema de crédito productivo con asistencia técnica para que las micro y pequeñas empresas usen los préstamos en productividad."
+      "oportunidades": "Con la tensión entre gas y conservación, apoyar estándares ambientales e industriales en hidrocarburos y diversificación productiva, como el algodón exportado a Paraguay."
     },
     "076": {
       "nombre": "Brasil",
       "principal": {
-        "texto": "El desempleo de larga duración en Brasil bajó a 971.000 personas en el tercer trimestre, el menor nivel desde 2012.",
-        "fuente": "Agência Brasil",
-        "fecha": "2026-11-18",
-        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/numero-de-desempregados-ha-dois-anos-ou-mais-e-o-menor-ja-registrado",
+        "texto": "El Banco Central de Brasil vendió US$ 1.000 millones para frenar la caída del real, que acumula 16 % desde la reelección de Lula.",
+        "fuente": "Bloomberg Línea",
+        "fecha": "2026-11-19",
+        "url": "https://www.bloomberglinea.com/latinoamerica/brasil/brasil-interviene-para-frenar-la-caida-del-real-que-se-desploma-tras-la-reeleccion-de-lula/",
         "en_boletin": false,
         "en_ventana": true
       },
@@ -102,7 +102,7 @@
         "url": "https://www.bloomberglinea.com/negocios/blackrock-compra-sulamerica-de-brasil-para-ampliar-su-presencia-en-america-latina/",
         "fuente": "Bloomberg Línea"
       },
-      "oportunidades": "El mercado laboral brasileño más firme sostiene la demanda regional; seguir oportunidades de comercio industrial con los países andinos."
+      "oportunidades": "La volatilidad del real y el crédito del BNDES ofrecen referencias sobre financiamiento productivo en contextos de incertidumbre cambiaria."
     },
     "152": {
       "nombre": "Chile",
@@ -112,7 +112,7 @@
         "fecha": "2026-11-18",
         "url": "https://www.bloomberglinea.com/latinoamerica/chile/economia-de-chile-cae-11-interanual-en-el-tercer-trimestre-lastrada-por-desplome-de-la-mineria/",
         "en_boletin": true,
-        "en_ventana": true
+        "en_ventana": false
       },
       "financiamiento": {
         "texto": "Agrosuper negocia comprar Salmones Blumar por un valor empresa de US$ 540 millones.",
@@ -127,30 +127,30 @@
     "032": {
       "nombre": "Argentina",
       "principal": {
-        "texto": "El Gobierno impulsa que grandes empresas agilicen las facturas de sus proveedores pymes para que se financien a tasas más bajas.",
-        "fuente": "Infobae",
+        "texto": "Las exportaciones de Argentina marcaron un récord de US$ 10.061 millones en octubre y el superávit comercial llegó a US$ 3.394 millones.",
+        "fuente": "Bloomberg Línea",
         "fecha": "2026-11-19",
-        "url": "https://www.infobae.com/economia/2026/11/19/como-es-la-estrategia-que-planteo-caputo-para-que-las-pymes-se-financien-a-tasas-mas-bajas/",
+        "url": "https://www.bloomberglinea.com/latinoamerica/argentina/exportaciones-argentinas-marcaron-record-en-octubre-y-el-superavit-comercial-supero-los-us3000-millones/",
         "en_boletin": true,
         "en_ventana": true
       },
       "financiamiento": {
-        "texto": "Toyota confirmó una inversión de US$ 1.300 millones en una planta de vehículos híbridos en Zárate.",
-        "institucion": "Toyota (privado)",
-        "monto": "US$ 1.300 millones",
-        "fecha": "2026-11-16",
-        "url": "https://www.bloomberglinea.com/latinoamerica/argentina/toyota-develo-como-sera-su-historica-inversion-de-us1300-millones-en-argentina-y-que-vehiculo-fabricara/",
+        "texto": "Argentina LNG, de US$ 51.000 millones, espera su aprobación en el RIGI antes de la decisión final de inversión.",
+        "institucion": "YPF, Eni y XRG (Argentina LNG) (privado)",
+        "monto": "US$ 51.000 millones",
+        "fecha": "2026-11-20",
+        "url": "https://www.bloomberglinea.com/latinoamerica/argentina/argentina-lng-entra-en-cuenta-regresiva-se-define-el-rigi-para-la-inversion-record-de-us51000-millones/",
         "fuente": "Bloomberg Línea"
       },
-      "oportunidades": "El financiamiento de pymes con facturas de grandes compradores es un modelo replicable para programas de proveedores en la región andina."
+      "oportunidades": "El auge exportador y el GNL abren espacio para encadenar proveedores industriales y compartir aprendizaje sobre regímenes de incentivo a la inversión."
     },
     "484": {
       "nombre": "México",
       "principal": {
-        "texto": "CFE Fibra E colocó US$ 776 millones en capital para financiar redes eléctricas, la mayor emisión de México en ocho años.",
+        "texto": "Sheinbaum espera cerrar en diciembre un acuerdo arancelario con Trump y firmó memorandos de entendimiento con China en la APEC.",
         "fuente": "Bloomberg Línea",
-        "fecha": "2026-11-18",
-        "url": "https://www.bloomberglinea.com/latinoamerica/mexico/cfe-fibra-e-realiza-nueva-emision-de-capital-por-us776-millones-para-financiar-redes-electricas-de-mexico/",
+        "fecha": "2026-11-19",
+        "url": "https://www.bloomberglinea.com/latinoamerica/mexico/sheinbaum-espera-cerrar-acuerdo-arancelario-con-trump-en-diciembre-mientras-comienza-nueva-era-con-china/",
         "en_boletin": false,
         "en_ventana": true
       },
@@ -162,27 +162,27 @@
         "url": "https://www.bloomberglinea.com/latinoamerica/mexico/cfe-fibra-e-realiza-nueva-emision-de-capital-por-us776-millones-para-financiar-redes-electricas-de-mexico/",
         "fuente": "Bloomberg Línea"
       },
-      "oportunidades": "Referencia de financiamiento de mercado para redes eléctricas, clave para la relocalización manufacturera."
+      "oportunidades": "La negociación arancelaria con EE. UU. es referencia para la región sobre cadenas de valor y relocalización industrial."
     },
     "862": {
       "nombre": "Venezuela",
       "principal": {
-        "texto": "Las exportaciones de petróleo venezolano a EE.UU. promediaron 274.000 barriles diarios en noviembre, el nivel más bajo del año, por los altos fletes.",
-        "fuente": "Bloomberg Línea",
-        "fecha": "2026-11-18",
-        "url": "https://www.bloomberglinea.com/latinoamerica/venezuela/altos-costos-de-transporte-maritimo-reducen-demanda-de-eeuu-por-petroleo-venezolano/",
+        "texto": "Delcy Rodríguez promulgó la reforma de la ley eléctrica, que abre la generación a la inversión privada nacional y extranjera.",
+        "fuente": "Infobae",
+        "fecha": "2026-11-19",
+        "url": "https://www.infobae.com/venezuela/2026/11/20/delcy-rodriguez-promulgo-la-reforma-de-la-ley-del-servicio-electrico-y-abrio-el-sector-a-la-inversion-privada/",
         "en_boletin": false,
         "en_ventana": true
       },
       "financiamiento": {
-        "texto": "Venezuela negocia con organismos multilaterales unos US$ 17.000 millones en cinco años para sectores productivos.",
-        "institucion": "Organismos multilaterales (no identificados) (público)",
-        "monto": "Unos US$ 17.000 millones en cinco años",
-        "fecha": "2026-11-03",
-        "url": "https://www.bancaynegocios.com/venezuela-negocia-con-organismos-multilaterales-financiamiento-por-us17000-millones-para-sectores-productivos/",
-        "fuente": "Banca y Negocios (EFE)"
+        "texto": "Un fondo privado busca canalizar hasta US$ 100 millones a empresas venezolanas fuera del petróleo y la minería.",
+        "institucion": "PromoVEN LLC (privado)",
+        "monto": "Hasta US$ 100 millones",
+        "fecha": "2026-11-19",
+        "url": "https://www.bloomberglinea.com/latinoamerica/venezuela/un-fondo-privado-apuesta-us100-millones-por-empresas-venezolanas-fuera-del-circuito-petrolero/",
+        "fuente": "Bloomberg Línea"
       },
-      "oportunidades": "Seguir la recuperación petrolera y su efecto en la reactivación industrial venezolana."
+      "oportunidades": "La apertura eléctrica y el capital para empresas no petroleras pueden reactivar la manufactura, con posibles encadenamientos con Colombia."
     },
     "858": {
       "nombre": "Uruguay",
@@ -205,7 +205,7 @@
         "fecha": "2026-11-18",
         "url": "https://www.infobae.com/america/america-latina/2026/11/19/el-banco-central-de-paraguay-estimo-perdidas-que-superan-los-usd-1000-millones-por-el-escandalo-de-ueno-bank/",
         "en_boletin": false,
-        "en_ventana": true
+        "en_ventana": false
       },
       "financiamiento": null,
       "oportunidades": "Seguir el efecto de la crisis bancaria en el crédito a mipymes antes de definir apoyos."
@@ -213,10 +213,10 @@
     "222": {
       "nombre": "El Salvador",
       "principal": {
-        "texto": "La Asamblea autorizó un préstamo de hasta US$ 75 millones con la CAF para el programa «Dos escuelas por día».",
+        "texto": "La CEPAL estima que el cambio climático podría reducir más de 9 % el ingreso por habitante en países de Centroamérica como El Salvador hacia 2050.",
         "fuente": "Infobae",
-        "fecha": "2026-11-18",
-        "url": "https://www.infobae.com/el-salvador/2026/11/18/el-programa-dos-escuelas-por-dia-en-el-salvador-se-financiara-con-nueva-deuda-de-usd-75-millones-con-la-caf/",
+        "fecha": "2026-11-19",
+        "url": "https://www.infobae.com/el-salvador/2026/11/19/la-factura-economica-del-cambio-climatico-en-centroamerica-amenaza-con-recortar-hasta-9-del-pib/",
         "en_boletin": false,
         "en_ventana": true
       },
@@ -228,28 +228,28 @@
         "url": "https://www.infobae.com/el-salvador/2026/11/18/el-programa-dos-escuelas-por-dia-en-el-salvador-se-financiara-con-nueva-deuda-de-usd-75-millones-con-la-caf/",
         "fuente": "Infobae"
       },
-      "oportunidades": "La formación técnica vinculada a la infraestructura educativa puede apoyar capacidades para la industria."
+      "oportunidades": "La alerta climática de la CEPAL refuerza la agenda de adaptación de la industria y de eficiencia energética."
     },
     "591": {
       "nombre": "Panamá",
       "principal": {
-        "texto": "La economía de Panamá creció 6,27 % entre enero y septiembre, con cuatro meses seguidos por encima de 7 %, impulsada por el Canal y el comercio.",
+        "texto": "Diez presidentes, entre ellos los de Bolivia y Ecuador, confirmaron su asistencia al Foro Internacional CAF 2027, en enero en Panamá.",
         "fuente": "Infobae",
-        "fecha": "2026-11-18",
-        "url": "https://www.infobae.com/panama/2026/11/18/economia-panamena-encadeno-cuatro-meses-consecutivos-con-un-crecimiento-superior-al-7/",
-        "en_boletin": false,
+        "fecha": "2026-11-19",
+        "url": "https://www.infobae.com/panama/2026/11/19/diez-mandatarios-de-america-latina-y-el-caribe-asistiran-al-foro-internacional-de-la-caf-en-panama/",
+        "en_boletin": true,
         "en_ventana": true
       },
       "financiamiento": null,
-      "oportunidades": "El auge logístico panameño es referencia para servicios de logística y comercio vinculados a la industria andina."
+      "oportunidades": "El foro de CAF en Panamá es una vitrina para proponer cooperación regional en desarrollo productivo e inversión."
     },
     "320": {
       "nombre": "Guatemala",
       "principal": {
-        "texto": "Guatemala proyecta crecer 4,3 % en 2026, pero el sector privado advierte que el crecimiento no se traduce en empleo formal.",
+        "texto": "Guatemala confirmó daños por déficit hídrico en 118 de los 123 municipios en alerta agropecuaria máxima.",
         "fuente": "Infobae",
-        "fecha": "2026-11-18",
-        "url": "https://www.infobae.com/guatemala/2026/11/18/guatemala-proyecta-un-crecimiento-de-43-en-2026-pero-el-sector-privado-advierte-que-la-bonanza-no-se-transforma-en-empleo-formal-e-inversion/",
+        "fecha": "2026-11-20",
+        "url": "https://www.infobae.com/guatemala/2026/11/20/el-gobierno-de-guatemala-confirma-danos-por-deficit-hidrico-en-118-de-123-municipios-con-alerta-agropecuaria-maxima/",
         "en_boletin": false,
         "en_ventana": true
       },
@@ -261,15 +261,15 @@
         "url": "https://www.infobae.com/guatemala/2026/10/25/el-banco-centroamericano-de-integracion-economica-eleva-a-usd-388-millones-la-linea-de-credito-para-medianas-empresas-de-guatemala/",
         "fuente": "Infobae"
       },
-      "oportunidades": "La brecha entre crecimiento y empleo formal es referencia para programas de formalización y productividad de mipymes."
+      "oportunidades": "La sequía en el agro sugiere apoyar la resiliencia climática de la agroindustria y de los pequeños productores."
     },
     "558": {
       "nombre": "Nicaragua",
       "principal": {
-        "texto": "El aguinaldo de 2026 movilizará unos US$ 526 millones en Nicaragua, mientras la canasta básica ronda los US$ 594.",
+        "texto": "Nicaragua financiará en 2027 con impuestos la primera fase del puerto de aguas profundas de Bluefields, ante la caída del financiamiento externo.",
         "fuente": "Infobae",
-        "fecha": "2026-11-18",
-        "url": "https://www.infobae.com/nicaragua/2026/11/18/aguinaldo-de-2026-movera-usd-52639-millones-mientras-la-canasta-basica-roza-los-usd-594-en-nicaragua/",
+        "fecha": "2026-11-19",
+        "url": "https://www.infobae.com/nicaragua/2026/11/19/puerto-de-aguas-profundas-en-bluefields-cuanto-costara-la-primera-fase-y-de-donde-saldran-los-recursos-para-el-2027-en-nicaragua/",
         "en_boletin": false,
         "en_ventana": true
       },
@@ -281,17 +281,17 @@
         "url": "https://www.articulo66.com/2026/10/22/regimen-orteguista-suma-otra-multimillonaria-deusa-bcie-170-millones/",
         "fuente": "Artículo 66"
       },
-      "oportunidades": "Seguir el costo de vida y el consumo como señales para el comercio y las mipymes."
+      "oportunidades": "Un puerto en el Caribe podría bajar costos logísticos de exportadores; conviene seguir su avance y financiamiento."
     },
     "340": {
       "nombre": "Honduras",
       "principal": {
-        "texto": "Honduras recibirá esta semana a la vicepresidenta del Banco Mundial para abordar proyectos y préstamos.",
+        "texto": "El presidente Nasry Asfura confirmó su asistencia al Foro Internacional CAF 2027 en Panamá, con otros nueve mandatarios.",
         "fuente": "Infobae",
-        "fecha": "2026-11-17",
-        "url": "https://www.infobae.com/honduras/2026/11/18/honduras-recibira-esta-semana-a-vicepresidenta-del-banco-mundial-para-abordar-proyectos-y-prestamos/",
+        "fecha": "2026-11-19",
+        "url": "https://www.infobae.com/honduras/2026/11/20/nasry-asfura-confirma-asistencia-al-foro-caf-2027-en-panama-junto-a-otros-nueve-mandatarios-de-america-latina/",
         "en_boletin": false,
-        "en_ventana": false
+        "en_ventana": true
       },
       "financiamiento": {
         "texto": "Japón financiará con US$ 2 millones de cooperación técnica un plan maestro de obras contra inundaciones en el Valle de Sula, listo hacia mediados de 2027.",
@@ -301,20 +301,20 @@
         "url": "https://www.infobae.com/honduras/2026/11/15/japon-destinara-us2-millones-para-disenar-obras-contra-inundaciones-en-el-norte-de-honduras/",
         "fuente": "Infobae"
       },
-      "oportunidades": "Seguir la cartera con el Banco Mundial como posible fuente para programas productivos."
+      "oportunidades": "El foro de CAF puede servir para movilizar financiamiento hacia proyectos productivos y de integración regional."
     },
     "188": {
       "nombre": "Costa Rica",
       "principal": {
-        "texto": "Coopelesca ganó por quinto año seguido el Premio Oro CIER a la calidad del servicio eléctrico en América Latina y el Caribe.",
+        "texto": "Fitch elevó la calificación de Costa Rica a BB+ por su crecimiento, sus reservas y su capacidad de financiarse en el mercado local.",
         "fuente": "Infobae",
-        "fecha": "2026-11-18",
-        "url": "https://www.infobae.com/costa-rica/2026/11/18/costa-rica-logra-reconocimiento-internacional-por-calidad-del-servicio-electrico-por-quinto-ano-consecutivo/",
+        "fecha": "2026-11-19",
+        "url": "https://www.infobae.com/costa-rica/2026/11/19/fitch-eleva-la-calificacion-de-costa-rica-a-bb-y-mantiene-perspectiva-estable/",
         "en_boletin": false,
         "en_ventana": true
       },
       "financiamiento": null,
-      "oportunidades": "El modelo cooperativo de distribución eléctrica es referencia de servicio confiable para zonas productivas rurales."
+      "oportunidades": "Una mejor calificación abarata el financiamiento; Costa Rica sigue siendo referencia en atracción de manufactura avanzada."
     }
   }
 }
