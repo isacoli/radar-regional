@@ -1,0 +1,323 @@
+{
+  "actualizado": "2026-11-23",
+  "ventana": "20 nov 07:01 → 23 nov 07:00 (ventana del N.º 38)",
+  "fuente": "Noticia del día por país (incluida o no en el boletín, solo fuentes de confianza) y financiamiento de los últimos 30 días",
+  "nota_oportunidades": "Las oportunidades son un análisis orientativo del Radar a partir de la noticia y el financiamiento del país; no constituyen una posición oficial de la ONUDI.",
+  "paises": {
+    "604": {
+      "nombre": "Perú",
+      "principal": {
+        "texto": "El MEF publicó las reglas para canalizar hasta S/ 2.000 millones en garantías y reprogramar créditos de las mype afectadas por El Niño.",
+        "fuente": "MEF (gob.pe)",
+        "fecha": "2026-11-21",
+        "url": "https://www.gob.pe/institucion/mef/noticias/1477860-el-gobierno-pone-en-marcha-nuevas-garantias-y-facilidades-de-pago-para-proteger-a-las-mype-ante-el-fenomeno-el-nino",
+        "en_boletin": true,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "El Gobierno aprobó más de S/ 155 millones para la pesca artesanal e industrial frente a El Niño.",
+        "institucion": "Gobierno del Perú (PRODUCE) (público)",
+        "monto": "Más de S/ 155 millones",
+        "fecha": "2026-11-19",
+        "url": "https://www.gob.pe/institucion/produce/noticias/1475863-ministro-juan-carlos-requejo-anuncia-medidas-por-mas-de-s-155-millones-para-los-pescadores-frente-al-fenomeno-el-nino",
+        "fuente": "PRODUCE (gob.pe)"
+      },
+      "oportunidades": "Con garantías para mype ante El Niño y apoyo a la pesca, acompañar a las mype en planes de continuidad productiva y eficiencia ante el clima."
+    },
+    "170": {
+      "nombre": "Colombia",
+      "principal": {
+        "texto": "Los embalses bajaron a 76,46 %, lejos de la meta de 80 %, y el Gobierno y Bogotá llamaron a ahorrar energía ante El Niño.",
+        "fuente": "El Tiempo",
+        "fecha": "2026-11-23",
+        "url": "https://www.eltiempo.com/economia/sectores/el-reloj-corre-contra-los-embalses-colombia-se-aleja-de-la-meta-del-80-a-una-semana-de-iniciar-la-etapa-mas-critica-de-el-nino-3603110",
+        "en_boletin": true,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "Alcaldía de Cali, Cámara de Comercio y Fundación WWB inician apoyos por $10.300 millones a 867 negocios afectados por el sismo.",
+        "institucion": "Alcaldía de Cali, Cámara de Comercio de Cali y Fundación WWB Colombia (público)",
+        "monto": "$10.300 millones",
+        "fecha": "2026-11-20",
+        "url": "https://www.eltiempo.com/colombia/cali/arranca-la-reactivacion-de-867-negocios-afectados-por-el-terremoto-en-cali-con-la-entrega-de-apoyos-productivos-3602888",
+        "fuente": "El Tiempo"
+      },
+      "oportunidades": "Con riesgo de racionamiento y apoyos a negocios tras el sismo, impulsar eficiencia energética y recuperación productiva en mipymes."
+    },
+    "218": {
+      "nombre": "Ecuador",
+      "principal": {
+        "texto": "Petroecuador cumplió su meta anual al apagar 30 mecheros en la Amazonía y suma 200 de los 424 que debe eliminar hasta 2030.",
+        "fuente": "El Universo",
+        "fecha": "2026-11-20",
+        "url": "https://www.eluniverso.com/economia/produccion/petroecuador-apagado-de-mecheros-meta-anual-cumplida-ecuador-2026-nota/",
+        "en_boletin": true,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "CELEC abrió la contratación para reactivar la hidroeléctrica San Antonio, con US$ 19 millones.",
+        "institucion": "CELEC EP (público)",
+        "monto": "US$ 19 millones",
+        "fecha": "2026-11-18",
+        "url": "https://www.primicias.ec/economia/celec-proceso-contratacion-central-hidroelectrica-sanantonio-mazar-dudas-canar-137475/",
+        "fuente": "Primicias"
+      },
+      "oportunidades": "El aprovechamiento del gas antes quemado y la nueva hidroeléctrica abren espacio para apoyar eficiencia energética y uso del gas en la industria."
+    },
+    "068": {
+      "nombre": "Bolivia",
+      "principal": {
+        "texto": "El vocero presidencial anunció que Petrobras iniciará en tres a cuatro meses la exploración del megacampo Domo Oso X-3, en Tarija.",
+        "fuente": "Visión 360",
+        "fecha": "2026-11-22",
+        "url": "https://www.vision360.bo/noticias/2026/11/22/78480-vocero-presidencial-anuncia-que-petrobras-iniciara-en-cuatro-meses-la-exploracion-en-el-megacampo-domo-oso-x-3",
+        "en_boletin": true,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "El Gobierno destinó Bs 350 millones a insumos y asistencia técnica para 11.400 familias productoras de maíz y arroz.",
+        "institucion": "Gobierno de Bolivia (Ministerio de Producción Sostenible) (público)",
+        "monto": "Bs 350 millones",
+        "fecha": "2026-11-16",
+        "url": "https://eldeber.com.bo/economia/gobierno-destina-bs-350-millones-impulsar-produccion-maiz-arroz_1794865403",
+        "fuente": "El Deber"
+      },
+      "oportunidades": "Con la exploración de gas y programas para productores, apoyar el uso productivo del gas y el fortalecimiento de cadenas agroindustriales."
+    },
+    "076": {
+      "nombre": "Brasil",
+      "principal": {
+        "texto": "Cada real invertido en el Servicio Geológico de Brasil en 2025 devolvió R$ 14,47 a la sociedad, según su balance social.",
+        "fuente": "Agência Brasil",
+        "fecha": "2026-11-22",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/servico-geologico-do-brasil-traz-retorno-de-r-14-por-real-investido",
+        "en_boletin": false,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "BlackRock anunció la compra de la gestora SulAmérica Investimentos (monto no divulgado).",
+        "institucion": "BlackRock (privado)",
+        "monto": "No divulgado",
+        "fecha": "2026-11-18",
+        "url": "https://www.bloomberglinea.com/negocios/blackrock-compra-sulamerica-de-brasil-para-ampliar-su-presencia-en-america-latina/",
+        "fuente": "Bloomberg Línea"
+      },
+      "oportunidades": "El valor de la información geológica pública es una referencia para fortalecer la planificación de minerales críticos en los países andinos."
+    },
+    "152": {
+      "nombre": "Chile",
+      "principal": {
+        "texto": "Chile buscará fortalecer con Japón la cooperación en minerales críticos, tras la reunión de José Antonio Kast con Sanae Takaichi en Tokio.",
+        "fuente": "La República",
+        "fecha": "2026-11-21",
+        "url": "https://www.larepublica.co/globoeconomia/con-visita-de-kast-chile-busca-fortalecer-cooperacion-en-minerales-criticos-con-japon-4530154",
+        "en_boletin": false,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "Agrosuper negocia comprar Salmones Blumar por un valor empresa de US$ 540 millones.",
+        "institucion": "Empresas Agrosuper (privado)",
+        "monto": "US$ 540 millones (valor empresa)",
+        "fecha": "2026-11-04",
+        "url": "https://www.df.cl/empresas/industria/blumar-confirma-negociaciones-con-agrosuper-para-vender-negocio-salmonero-y",
+        "fuente": "Diario Financiero"
+      },
+      "oportunidades": "La cooperación con Japón en cobre y litio es un modelo de alianza para agregar valor a los minerales críticos en la región."
+    },
+    "032": {
+      "nombre": "Argentina",
+      "principal": {
+        "texto": "El Gobierno aprobó el ingreso de Argentina LNG al RIGI, con inversiones por US$ 50.750 millones para exportar gas de Vaca Muerta.",
+        "fuente": "Bloomberg Línea",
+        "fecha": "2026-11-20",
+        "url": "https://www.bloomberglinea.com/latinoamerica/argentina/vaca-muerta-ypf-consigue-la-aprobacion-del-rigi-para-la-millonaria-inversion-argentina-lng/",
+        "en_boletin": true,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "El Gobierno aprobó Argentina LNG (YPF, Eni y XRG) en el RIGI, con US$ 50.750 millones.",
+        "institucion": "YPF, Eni y XRG (Argentina LNG) (privado)",
+        "monto": "US$ 50.750 millones",
+        "fecha": "2026-11-20",
+        "url": "https://www.bloomberglinea.com/latinoamerica/argentina/vaca-muerta-ypf-consigue-la-aprobacion-del-rigi-para-la-millonaria-inversion-argentina-lng/",
+        "fuente": "Bloomberg Línea"
+      },
+      "oportunidades": "La exportación de GNL abre una oportunidad de integración gasífera regional y de proveedores industriales locales."
+    },
+    "484": {
+      "nombre": "México",
+      "principal": {
+        "texto": "Trump dijo que Estados Unidos está cerca de un acuerdo comercial con México tras reunirse con Claudia Sheinbaum.",
+        "fuente": "Bloomberg Línea",
+        "fecha": "2026-11-20",
+        "url": "https://www.bloomberglinea.com/latinoamerica/mexico/trump-ve-proximo-acuerdo-comercial-con-mexico-tras-hablar-con-sheinbaum-sobre-carteles-y-comercio/",
+        "en_boletin": false,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "CFE Fibra E colocó US$ 776 millones para redes eléctricas.",
+        "institucion": "CFE Fibra E (público)",
+        "monto": "US$ 776 millones",
+        "fecha": "2026-11-18",
+        "url": "https://www.bloomberglinea.com/latinoamerica/mexico/cfe-fibra-e-realiza-nueva-emision-de-capital-por-us776-millones-para-financiar-redes-electricas-de-mexico/",
+        "fuente": "Bloomberg Línea"
+      },
+      "oportunidades": "Un acuerdo comercial con EE. UU. y nuevas redes eléctricas sostienen el nearshoring; útil como referencia de integración en cadenas de valor."
+    },
+    "862": {
+      "nombre": "Venezuela",
+      "principal": {
+        "texto": "La canadiense Ensign planea pasar de dos a 15 taladros en Venezuela en dos años y ya trasladó un tercer equipo desde el Permian.",
+        "fuente": "La República",
+        "fecha": "2026-11-21",
+        "url": "https://www.larepublica.co/globoeconomia/canadiense-ensign-planea-ampliar-numero-de-equipos-de-perforacion-en-venezuela-4530136",
+        "en_boletin": false,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "Un fondo privado busca canalizar hasta US$ 100 millones a empresas venezolanas fuera del petróleo y la minería.",
+        "institucion": "PromoVEN LLC (privado)",
+        "monto": "Hasta US$ 100 millones",
+        "fecha": "2026-11-19",
+        "url": "https://www.bloomberglinea.com/latinoamerica/venezuela/un-fondo-privado-apuesta-us100-millones-por-empresas-venezolanas-fuera-del-circuito-petrolero/",
+        "fuente": "Bloomberg Línea"
+      },
+      "oportunidades": "La reactivación petrolera y el crédito para empresas no petroleras abren espacio para diversificar proveedores y la base industrial."
+    },
+    "858": {
+      "nombre": "Uruguay",
+      "principal": {
+        "texto": "Grupo RAS inauguró un servicio ferroviario de carga con una inversión de US$ 102 millones para llevar cargas regionales a Montevideo.",
+        "fuente": "La República",
+        "fecha": "2026-11-21",
+        "url": "https://www.larepublica.co/globoeconomia/se-inauguro-nuevo-servicio-ferroviario-de-carga-en-uruguay-con-millonaria-inversion-4530172",
+        "en_boletin": false,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "Grupo RAS invirtió US$ 102 millones en un nuevo servicio ferroviario de carga.",
+        "institucion": "Grupo RAS (privado)",
+        "monto": "US$ 102 millones",
+        "fecha": "2026-11-21",
+        "url": "https://www.larepublica.co/globoeconomia/se-inauguro-nuevo-servicio-ferroviario-de-carga-en-uruguay-con-millonaria-inversion-4530172",
+        "fuente": "La República"
+      },
+      "oportunidades": "La logística ferroviaria privada e integrada con el puerto es una referencia para reducir costos de exportación en corredores andinos."
+    },
+    "600": {
+      "nombre": "Paraguay",
+      "principal": {
+        "texto": "El perjuicio preliminar por la quiebra de Ueno Bank supera los US$ 1.300 millones, según datos oficiales citados por medios paraguayos.",
+        "fuente": "La República",
+        "fecha": "2026-11-22",
+        "url": "https://www.larepublica.co/globoeconomia/el-golpe-fiscal-tras-la-quiebra-de-ueno-bank-seria-de-mas-de-us-1-300-millones-4530390",
+        "en_boletin": false,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "Sin operaciones de financiamiento registradas en los últimos 30 días."
+      },
+      "oportunidades": "La crisis bancaria puede restringir el crédito a las pymes; hay espacio para apoyar instrumentos alternativos de financiamiento productivo."
+    },
+    "222": {
+      "nombre": "El Salvador",
+      "principal": {
+        "texto": "Nayib Bukele inscribió su candidatura a un tercer mandato para las elecciones del 28 de febrero.",
+        "fuente": "El Tiempo",
+        "fecha": "2026-11-20",
+        "url": "https://www.eltiempo.com/mundo/latinoamerica/nayib-bukele-inscribe-su-candidatura-para-un-tercer-mandato-presidencial-en-el-salvador-con-un-masivo-respaldo-y-en-plena-ofensiva-en-haiti-3602689",
+        "en_boletin": false,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "La Asamblea autorizó un préstamo de hasta US$ 75 millones con la CAF para escuelas.",
+        "institucion": "CAF (público)",
+        "monto": "Hasta US$ 75 millones",
+        "fecha": "2026-11-17",
+        "url": "https://www.infobae.com/el-salvador/2026/11/18/el-programa-dos-escuelas-por-dia-en-el-salvador-se-financiara-con-nueva-deuda-de-usd-75-millones-con-la-caf/",
+        "fuente": "Infobae"
+      },
+      "oportunidades": "En un año electoral y con financiamiento de la CAF para escuelas, apoyar la formación técnica vinculada a la demanda de la industria."
+    },
+    "591": {
+      "nombre": "Panamá",
+      "principal": {
+        "texto": "El riesgo país de Panamá bajó a 141 puntos básicos al 19 de noviembre, 36 menos que un año antes, entre los más bajos de la región.",
+        "fuente": "Infobae",
+        "fecha": "2026-11-22",
+        "url": "https://www.infobae.com/panama/2026/11/22/panama-se-ubica-entre-los-paises-con-menor-riesgo-de-america-latina-tras-mejorar-su-indicador-financiero/",
+        "en_boletin": false,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "Sin operaciones de financiamiento registradas en los últimos 30 días."
+      },
+      "oportunidades": "Una menor percepción de riesgo favorece la atracción de inversión; espacio para promover inversión industrial y logística sostenible."
+    },
+    "320": {
+      "nombre": "Guatemala",
+      "principal": {
+        "texto": "Guatemala lanzó un proyecto de cinco años para restaurar 61.000 hectáreas en el Trifinio, compartido con El Salvador y Honduras, con financiamiento internacional.",
+        "fuente": "Infobae",
+        "fecha": "2026-11-22",
+        "url": "https://www.infobae.com/guatemala/2026/11/22/guatemala-lanza-nuevo-proyecto-de-conservacion-forestal-en-la-region-trifinio-con-financiamiento-internacional/",
+        "en_boletin": false,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "Sin operaciones de financiamiento registradas en los últimos 30 días."
+      },
+      "oportunidades": "La restauración vinculada a comunidades abre espacio para cadenas de valor forestales y agroindustriales sostenibles."
+    },
+    "558": {
+      "nombre": "Nicaragua",
+      "principal": {
+        "texto": "Trabajadores de zonas francas nicaragüenses recurren a préstamos informales con intereses de 20 % mensual para cubrir gastos.",
+        "fuente": "Infobae",
+        "fecha": "2026-11-22",
+        "url": "https://www.infobae.com/nicaragua/2026/11/22/prestamos-informales-en-zonas-francas-deudas-que-crecen-con-intereses-mensuales-de-20/",
+        "en_boletin": false,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "Sin operaciones de financiamiento registradas en los últimos 30 días."
+      },
+      "oportunidades": "El endeudamiento informal en zonas francas muestra la necesidad de mejorar condiciones laborales y financieras en la manufactura de exportación."
+    },
+    "340": {
+      "nombre": "Honduras",
+      "principal": {
+        "texto": "La crisis camaronera de Honduras deja 207 fincas cerradas y unos 14.000 empleos perdidos, según los pequeños productores.",
+        "fuente": "Infobae",
+        "fecha": "2026-11-22",
+        "url": "https://www.infobae.com/honduras/2026/11/23/crisis-camaronera-en-honduras-deja-207-fincas-cerradas-y-14-mil-empleos-perdidos/",
+        "en_boletin": false,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "Japón financiará con US$ 2 millones de cooperación técnica un plan maestro de obras contra inundaciones en el Valle de Sula, listo hacia mediados de 2027.",
+        "institucion": "Gobierno de Japón (público)",
+        "monto": "US$ 2 millones",
+        "fecha": "2026-11-14",
+        "url": "https://www.infobae.com/honduras/2026/11/15/japon-destinara-us2-millones-para-disenar-obras-contra-inundaciones-en-el-norte-de-honduras/",
+        "fuente": "Infobae"
+      },
+      "oportunidades": "La crisis del camarón abre espacio para apoyar diversificación de mercados, calidad y financiamiento de pequeños acuicultores."
+    },
+    "188": {
+      "nombre": "Costa Rica",
+      "principal": {
+        "texto": "Comunidades rurales de Guanacaste llegaron a tener agua solo diez minutos al día en octubre por la sequía asociada a El Niño.",
+        "fuente": "Infobae",
+        "fecha": "2026-11-22",
+        "url": "https://www.infobae.com/costa-rica/2026/11/23/diez-minutos-de-agua-al-dia-la-crisis-que-enfrentan-comunidades-rurales-de-costa-rica-ante-el-fenomeno-del-nino/",
+        "en_boletin": false,
+        "en_ventana": true
+      },
+      "financiamiento": {
+        "texto": "Sin operaciones de financiamiento registradas en los últimos 30 días."
+      },
+      "oportunidades": "La escasez de agua por El Niño refuerza la agenda de uso eficiente del agua en la agroindustria y la industria."
+    }
+  }
+}
