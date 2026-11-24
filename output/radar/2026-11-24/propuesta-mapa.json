@@ -1,0 +1,348 @@
+{
+ "actualizado": "2026-11-24",
+ "ventana": "23 nov 07:01 → 24 nov 07:00 (ventana del N.º 39)",
+ "fuente": "Noticia del día por país (incluida o no en el boletín, solo fuentes de confianza) y financiamiento de los últimos 30 días",
+ "nota_oportunidades": "Las oportunidades son un análisis orientativo del Radar a partir de la noticia y el financiamiento del país; no constituyen una posición oficial de la ONUDI.",
+ "paises": {
+  "604": {
+   "nombre": "Perú",
+   "principal": {
+    "texto": "El PBI del Perú creció 3,1 % en el tercer trimestre, impulsado por el consumo y una inversión privada que subió 12,4 %.",
+    "fuente": "INEI (gob.pe)",
+    "fecha": "2026-11-23",
+    "url": "https://www.gob.pe/institucion/inei/noticias/1479605",
+    "en_boletin": true,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "Masificación del gas natural para más de 300.000 hogares de 15 ciudades en Cusco, Puno, Apurímac, Ayacucho, Huancavelica, Junín y Ucayali, mediante una adenda al contrato de Cálidd.",
+    "institucion": "Cálidda (concesionaria de distribución de gas natural) (privado)",
+    "monto": "US$ 550 millones",
+    "fecha": "2026-11-23",
+    "url": "https://www.gob.pe/institucion/minem/noticias/1479341",
+    "fuente": "Minem (gob.pe)"
+   },
+   "oportunidades": "Con inversión privada al alza y gas natural rumbo al sur andino, acompañar a mype y agroindustrias regionales en cambio de combustible y eficiencia energética."
+  },
+  "170": {
+   "nombre": "Colombia",
+   "principal": {
+    "texto": "El dólar superó los $3.500 en Colombia y cerró en $3.506,54, su nivel más alto en unos cinco meses, en medio del debate de la Ley de Rescate.",
+    "fuente": "La República",
+    "fecha": "2026-11-23",
+    "url": "https://www.larepublica.co/finanzas/precio-del-dolar-y-petroleo-hoy-23-de-noviembre-4530545",
+    "en_boletin": true,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "Inversión para ampliar la terminal de Buenaventura hasta mover un millón de contenedores de 20 pies al año.",
+    "institucion": "Sociedad Puerto Industrial Aguadulce (SPIA) (privado)",
+    "monto": "US$ 250 millones",
+    "fecha": "2026-11-23",
+    "url": "https://www.portafolio.co/economia/infraestructura/puerto-aguadulce-invertira-us-250-millones-para-mover-un-millon-de-contenedores-de-20-pies-al-ano-en-buenaventura-506910",
+    "fuente": "Portafolio"
+   },
+   "oportunidades": "Con el peso debilitado y la Ley de Rescate en debate, apoyar a la industria en eficiencia de costos y sustitución competitiva de insumos importados, y a los puertos del Caribe en logística."
+  },
+  "218": {
+   "nombre": "Ecuador",
+   "principal": {
+    "texto": "Ecuador fijó el salario básico de 2027 en US$ 500, un alza de US$ 18 que también rige para la pequeña industria y la microempresa.",
+    "fuente": "El Universo",
+    "fecha": "2026-11-23",
+    "url": "https://eluniverso.com/economia/finanzas/sueldo-basico-2027-decreto-ejecutivo-daniel-noboa-ecuador-2026-nota/",
+    "en_boletin": true,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "Proceso de contratación para retomar la construcción de la central hidroeléctrica San Antonio (7,19 MW), en Cañar, paralizada desde 2018.",
+    "institucion": "CELEC EP (público)",
+    "monto": "US$ 19 millones",
+    "fecha": "2026-11-18",
+    "url": "https://www.primicias.ec/economia/celec-proceso-contratacion-central-hidroelectrica-sanantonio-mazar-dudas-canar-137475/",
+    "fuente": "Primicias"
+   },
+   "oportunidades": "Con un salario básico mayor y desconexiones eléctricas a la industria, apoyar a las pymes en productividad laboral y en eficiencia y respaldo energético."
+  },
+  "068": {
+   "nombre": "Bolivia",
+   "principal": {
+    "texto": "El Gobierno denunció al expresidente de YPFB Yussef Akly por importar desde Arica un crudo que no cumpliría los estándares de calidad.",
+    "fuente": "Visión 360",
+    "fecha": "2026-11-23",
+    "url": "https://www.vision360.bo/noticias/2026/11/23/78642-gobierno-presenta-denuncia-penal-contra-el-expresidente-de-ypfb-yussef-akly-por-la-compra-de-crudo-que-no-cumpl",
+    "en_boletin": true,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "Programas de insumos y asistencia técnica para 11.400 familias productoras de maíz y arroz en cinco departamentos.",
+    "institucion": "Gobierno de Bolivia (Ministerio de Producción Sostenible) (público)",
+    "monto": "Bs 350 millones",
+    "fecha": "2026-11-16",
+    "url": "https://eldeber.com.bo/economia/gobierno-destina-bs-350-millones-impulsar-produccion-maiz-arroz_1794865403",
+    "fuente": "El Deber"
+   },
+   "oportunidades": "Con el diésel al alza y dudas sobre la calidad del crudo importado, apoyar la eficiencia energética de la industria y los estándares de calidad en la cadena de hidrocarburos."
+  },
+  "076": {
+   "nombre": "Brasil",
+   "principal": {
+    "texto": "Petrobras elevó 12 % su plan de inversión 2027-2031, hasta US$ 122.000 millones, con más recursos para producción y refinación.",
+    "fuente": "Bloomberg Línea",
+    "fecha": "2026-11-23",
+    "url": "https://www.bloomberglinea.com/negocios/petrobras-eleva-un-12-su-plan-de-inversion-a-us122000-millones-y-promete-mantener-dividendos/",
+    "en_boletin": true,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "Plan de negocios quinquenal 12 % mayor que el anterior (US$ 109.000 millones), con más recursos para producción y refinación de petróleo.",
+    "institucion": "Petrobras (público)",
+    "monto": "US$ 122.000 millones (plan 2027-2031)",
+    "fecha": "2026-11-23",
+    "url": "https://www.bloomberglinea.com/negocios/petrobras-eleva-un-12-su-plan-de-inversion-a-us122000-millones-y-promete-mantener-dividendos/",
+    "fuente": "Bloomberg Línea"
+   },
+   "oportunidades": "Con Petrobras ampliando inversión y comprando etanol de maíz, compartir con los países andinos experiencias de biocombustibles y proveedores industriales locales."
+  },
+  "152": {
+   "nombre": "Chile",
+   "principal": {
+    "texto": "La caída de más de 20 % del cobre desde su máximo de septiembre complica el plan del Gobierno de Kast para contener el déficit fiscal.",
+    "fuente": "La República",
+    "fecha": "2026-11-23",
+    "url": "https://www.larepublica.co/globoeconomia/desplome-del-cobre-pone-a-prueba-ofensiva-de-kast-para-contener-el-deficit-fiscal-4530739",
+    "en_boletin": false,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "Negociación para comprar el 100 % de Salmones Blumar; US$ 40 millones quedarían retenidos y sujetos a metas de crecimiento.",
+    "institucion": "Empresas Agrosuper (privado)",
+    "monto": "US$ 540 millones (valor empresa)",
+    "fecha": "2026-11-04",
+    "url": "https://www.df.cl/empresas/industria/blumar-confirma-negociaciones-con-agrosuper-para-vender-negocio-salmonero-y",
+    "fuente": "Diario Financiero"
+   },
+   "oportunidades": "Con el cobre a la baja y presión fiscal, explorar con Chile la agregación de valor minero y la cooperación andina en minerales críticos."
+  },
+  "032": {
+   "nombre": "Argentina",
+   "principal": {
+    "texto": "El riesgo país de Argentina superó los 1.000 puntos, su nivel más alto desde octubre de 2025, con nuevas caídas de los bonos.",
+    "fuente": "Bloomberg Línea",
+    "fecha": "2026-11-23",
+    "url": "https://www.bloomberglinea.com/latinoamerica/argentina/vuelven-a-hundirse-los-bonos-argentinos-y-el-riesgo-pais-supera-los-1000-puntos/",
+    "en_boletin": false,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "El Gobierno aprobó el ingreso del proyecto de gas natural licuado Argentina LNG al Régimen de Incentivo para Grandes Inversiones (RIGI).",
+    "institucion": "YPF, Eni y XRG (Argentina LNG) (privado)",
+    "monto": "US$ 50.750 millones",
+    "fecha": "2026-11-20",
+    "url": "https://www.bloomberglinea.com/latinoamerica/argentina/vaca-muerta-ypf-consigue-la-aprobacion-del-rigi-para-la-millonaria-inversion-argentina-lng/",
+    "fuente": "Bloomberg Línea"
+   },
+   "oportunidades": "Con el riesgo país al alza, la cooperación técnica puede enfocarse en la competitividad exportadora de pymes industriales que no dependa del crédito externo."
+  },
+  "484": {
+   "nombre": "México",
+   "principal": {
+    "texto": "El PIB de México creció 3,3 % anual en el tercer trimestre, su mejor ritmo en tres años, por la inversión pública y las exportaciones a EE. UU.",
+    "fuente": "Bloomberg Línea",
+    "fecha": "2026-11-23",
+    "url": "https://www.bloomberglinea.com/latinoamerica/mexico/pib-de-mexico-registra-ligera-revision-al-alza-y-confirma-mayor-crecimiento-en-tres-anos/",
+    "en_boletin": false,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "Emisión de capital para financiar redes eléctricas de transmisión, la mayor de México en ocho años según la CFE.",
+    "institucion": "CFE Fibra E (público)",
+    "monto": "US$ 776 millones",
+    "fecha": "2026-11-18",
+    "url": "https://www.bloomberglinea.com/latinoamerica/mexico/cfe-fibra-e-realiza-nueva-emision-de-capital-por-us776-millones-para-financiar-redes-electricas-de-mexico/",
+    "fuente": "Bloomberg Línea"
+   },
+   "oportunidades": "Con México creciendo por exportaciones, su experiencia de nearshoring es referencia para encadenamientos de proveedores en los países andinos."
+  },
+  "862": {
+   "nombre": "Venezuela",
+   "principal": {
+    "texto": "El BID fijó un límite indicativo de hasta US$ 6.000 millones para posibles préstamos al sector público venezolano en dos años.",
+    "fuente": "La República",
+    "fecha": "2026-11-23",
+    "url": "https://www.larepublica.co/globoeconomia/bid-establece-un-limite-maximo-indicativo-de-us-6-000-millones-para-prestamos-a-venezuela-4531259",
+    "en_boletin": false,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "Techo indicativo para posibles préstamos al sector público venezolano durante el compromiso previsto de dos años.",
+    "institucion": "BID (público)",
+    "monto": "Hasta US$ 6.000 millones (límite indicativo a dos años)",
+    "fecha": "2026-11-23",
+    "url": "https://www.larepublica.co/globoeconomia/bid-establece-un-limite-maximo-indicativo-de-us-6-000-millones-para-prestamos-a-venezuela-4531259",
+    "fuente": "La República"
+   },
+   "oportunidades": "Con el BID preparando préstamos a Venezuela, identificar proyectos de energía e integración fronteriza con Colombia donde la cooperación industrial pueda sumarse."
+  },
+  "858": {
+   "nombre": "Uruguay",
+   "principal": {
+    "texto": "El desempleo en Uruguay bajó a 6,5 % en octubre, 0,6 puntos menos que en septiembre, según el INE.",
+    "fuente": "EFE (Unitel)",
+    "fecha": "2026-11-23",
+    "url": "https://unitel.bo/noticias/agencias/el-desempleo-en-uruguay-baja-al-65-en-octubre-de-2026-HH25006256",
+    "en_boletin": false,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "Nuevo servicio ferroviario de carga con siete locomotoras Wabtec y terminales de transferencia, para llevar cargas de Argentina, Brasil y Paraguay al puerto de Montevideo.",
+    "institucion": "Grupo RAS (privado)",
+    "monto": "US$ 102 millones",
+    "fecha": "2026-11-21",
+    "url": "https://www.larepublica.co/globoeconomia/se-inauguro-nuevo-servicio-ferroviario-de-carga-en-uruguay-con-millonaria-inversion-4530172",
+    "fuente": "La República"
+   },
+   "oportunidades": "Con el desempleo a la baja, la experiencia uruguaya en formación técnica y logística ferroviaria sirve de referencia para la región."
+  },
+  "600": {
+   "nombre": "Paraguay",
+   "principal": {
+    "texto": "La Fiscalía ordenó detener al hermano del expresidente Santiago Peña por presunto lavado vinculado a la intervención de Ueno Bank.",
+    "fuente": "La República",
+    "fecha": "2026-11-23",
+    "url": "https://www.larepublica.co/globoeconomia/ordenan-captura-preventiva-contra-el-hermano-del-expresidente-santiago-pena-en-paraguay-4531294",
+    "en_boletin": false,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "No se registran operaciones de financiamiento en los últimos 30 días.",
+    "institucion": null,
+    "monto": null,
+    "fecha": null,
+    "url": null,
+    "fuente": null
+   },
+   "oportunidades": "Tras la crisis de Ueno Bank, la estabilidad del crédito a pymes productivas cobra importancia; hay espacio para compartir instrumentos de garantía."
+  },
+  "222": {
+   "nombre": "El Salvador",
+   "principal": {
+    "texto": "El Banco Central de Reserva calculó que 98,6 % de los hogares rurales salvadoreños tiene alguna carencia habitacional, frente a 51,2 % en las ciudades.",
+    "fuente": "Infobae",
+    "fecha": "2026-11-23",
+    "url": "https://www.infobae.com/el-salvador/2026/11/23/el-deficit-habitacional-rural-alcanza-al-986-de-los-hogares-salvadorenos-segun-el-banco-central-de-reserva/",
+    "en_boletin": false,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "Préstamo para el programa «Dos escuelas por día» de construcción y mejora de escuelas.",
+    "institucion": "CAF (público)",
+    "monto": "Hasta US$ 75 millones",
+    "fecha": "2026-11-17",
+    "url": "https://www.infobae.com/el-salvador/2026/11/18/el-programa-dos-escuelas-por-dia-en-el-salvador-se-financiara-con-nueva-deuda-de-usd-75-millones-con-la-caf/",
+    "fuente": "Infobae"
+   },
+   "oportunidades": "Con brechas habitacionales rurales tan amplias, la construcción con materiales locales y eficientes puede abrir oportunidades para mipymes."
+  },
+  "591": {
+   "nombre": "Panamá",
+   "principal": {
+    "texto": "El Gobierno comunicó a Minera Panamá, filial de First Quantum, cinco condiciones para dialogar sobre el futuro de la mina de cobre suspendida.",
+    "fuente": "Infobae",
+    "fecha": "2026-11-23",
+    "url": "https://www.infobae.com/panama/2026/11/24/gobierno-y-minera-panama-realizan-primer-acercamiento-informativo-sobre-futuro-de-la-mina-de-cobre/",
+    "en_boletin": false,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "No se registran operaciones de financiamiento en los últimos 30 días.",
+    "institucion": null,
+    "monto": null,
+    "fecha": null,
+    "url": null,
+    "fuente": null
+   },
+   "oportunidades": "Las condiciones para reabrir Cobre Panamá son un caso de gobernanza minera útil para los países andinos productores de cobre."
+  },
+  "320": {
+   "nombre": "Guatemala",
+   "principal": {
+    "texto": "A siete días del plazo legal, el Congreso no ha dictaminado el presupuesto 2027 de Guatemala, de unos US$ 25.137 millones.",
+    "fuente": "Infobae",
+    "fecha": "2026-11-24",
+    "url": "https://www.infobae.com/guatemala/2026/11/24/presupuesto-de-guatemala-2027-atrapado-entre-la-falta-de-acuerdos-varios-millones-en-ajustes-y-un-plazo-que-vence-en-siete-dias/",
+    "en_boletin": false,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "No se registran operaciones de financiamiento en los últimos 30 días.",
+    "institucion": null,
+    "monto": null,
+    "fecha": null,
+    "url": null,
+    "fuente": null
+   },
+   "oportunidades": "Con el presupuesto 2027 sin aprobar, conviene dar seguimiento a las partidas para desarrollo productivo y pymes antes de proponer cooperación."
+  },
+  "558": {
+   "nombre": "Nicaragua",
+   "principal": {
+    "texto": "El encargado de Negocios de EE. UU. afirmó que ese mercado, destino de 38 % de las exportaciones nicaragüenses, no tiene reemplazo.",
+    "fuente": "Infobae",
+    "fecha": "2026-11-23",
+    "url": "https://www.infobae.com/nicaragua/2026/11/23/encargado-de-negocios-de-estados-unidos-afirma-que-ese-mercado-no-tiene-reemplazo-para-nicaragua/",
+    "en_boletin": false,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "No se registran operaciones de financiamiento en los últimos 30 días.",
+    "institucion": null,
+    "monto": null,
+    "fecha": null,
+    "url": null,
+    "fuente": null
+   },
+   "oportunidades": "Con alta dependencia del mercado de EE. UU., la diversificación de exportaciones de zonas francas es un tema de cooperación técnica."
+  },
+  "340": {
+   "nombre": "Honduras",
+   "principal": {
+    "texto": "El Banco Mundial propuso un financiamiento de US$ 80 millones para que Honduras responda a desastres y proteja la seguridad alimentaria ante El Niño.",
+    "fuente": "Infobae",
+    "fecha": "2026-11-23",
+    "url": "https://www.infobae.com/honduras/2026/11/23/honduras-banco-mundial-anuncia-financiamiento-por-80-millones-de-dolares/",
+    "en_boletin": false,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "Propuesta de financiamiento para mejorar la respuesta ante desastres y reducir riesgos para la seguridad alimentaria, incluido El Niño.",
+    "institucion": "Banco Mundial (público)",
+    "monto": "US$ 80 millones (unos 2.100 millones de lempiras)",
+    "fecha": "2026-11-23",
+    "url": "https://www.infobae.com/honduras/2026/11/23/honduras-banco-mundial-anuncia-financiamiento-por-80-millones-de-dolares/",
+    "fuente": "Infobae"
+   },
+   "oportunidades": "Con financiamiento del Banco Mundial ante El Niño, hay espacio para sumar la resiliencia de cadenas agroalimentarias y de pequeñas agroindustrias."
+  },
+  "188": {
+   "nombre": "Costa Rica",
+   "principal": {
+    "texto": "Las exportaciones de bienes de Costa Rica crecieron 3 % hasta octubre, a US$ 19.621 millones, su mayor valor en cinco años.",
+    "fuente": "EFE (Unitel)",
+    "fecha": "2026-11-23",
+    "url": "https://unitel.bo/noticias/agencias/exportaciones-de-bienes-de-costa-rica-crecen-un-3-hasta-octubre-su-mayor-valor-en-5-anos-PH25008236",
+    "en_boletin": false,
+    "en_ventana": true
+   },
+   "financiamiento": {
+    "texto": "No se registran operaciones de financiamiento en los últimos 30 días.",
+    "institucion": null,
+    "monto": null,
+    "fecha": null,
+    "url": null,
+    "fuente": null
+   },
+   "oportunidades": "Con exportaciones en máximos de cinco años, el modelo costarricense de encadenamientos con multinacionales es una referencia para los andinos."
+  }
+ }
+}
