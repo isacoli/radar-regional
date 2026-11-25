@@ -53,6 +53,13 @@ def esc(t):
     return t.replace("&", "&amp;").replace('"', "&quot;").replace("<", "&lt;").replace(">", "&gt;")
 
 
+def marca_noticia(b, n, pos):
+    """Datos de la noticia en el enlace del titular (los usa el botón «Seguir» de la web; el correo los ignora)."""
+    datos = (f'class="rr-noticia" data-pos="{pos}" data-pais="{esc(n.get("pais") or "")}" '
+             f'data-fuente="{esc(n.get("fuente") or "")}" data-categoria="{esc(n.get("categoria") or "")}" ')
+    return b.replace('<a href="{{URL DEL ARTÍCULO ORIGINAL}}"', '<a ' + datos + 'href="{{URL DEL ARTÍCULO ORIGINAL}}"', 1)
+
+
 def cortar(t, n):
     """Primera mitad visible (cortada en una palabra completa) y el resto, sin perder la puntuación."""
     if len(t) <= n + 20:
@@ -160,6 +167,7 @@ def main():
         b = b.replace(tag_card, ('\n            <div style="font-size:11px; line-height:16px; padding-bottom:6px;">\n              ' + "\n              ".join(tg) + '\n            </div>') if tg else "")
         if i == 1:
             b = b.replace("margin-top:12px;", "margin-top:10px;")
+        b = marca_noticia(b, n, i)
         for k, v in {"{{N}}": str(i), "{{URL DEL ARTÍCULO ORIGINAL}}": n["url"], "{{TITULAR EN ESPAÑOL}}": n["titular"],
                      "{{UNA FRASE sobre qué pasó, con palabras propias}}": n.get("resumen") or "",
                      "{{FUENTE}}": n["fuente"], "{{PAÍS}}": n["pais"], "{{CATEGORÍA}}": n["categoria"]}.items():
@@ -172,6 +180,7 @@ def main():
         # reemplazar las etiquetas antes de limpiar comentarios: el bloque de ejemplo empieza con uno
         b = item.replace(tag_list, ('\n            <div style="font-size:10px; line-height:15px; padding-bottom:3px;">\n              ' + "\n              ".join(tg) + '\n            </div>') if tg else "")
         b = limpiar_comentarios(b)
+        b = marca_noticia(b, n, i)
         for k, v in {"{{N}}": str(i), "{{URL DEL ARTÍCULO ORIGINAL}}": n["url"], "{{TITULAR EN ESPAÑOL}}": n["titular"],
                      "{{FUENTE}}": n["fuente"], "{{PAÍS}}": n["pais"], "{{CATEGORÍA}}": n["categoria"]}.items():
             b = b.replace(k, v)
@@ -215,6 +224,7 @@ def main():
     }
     for k, v in reemplazos.items():
         out = out.replace(k, v)
+    out = out.replace("<title>", f'<meta name="rr-edicion" content="{ed["numero"]}|{ed["fecha"]}">\n<title>', 1)
     if final:
         out = re.sub(r"  <!-- BANNER DE BORRADOR.*?</tr>\n\n", "", out, count=1, flags=re.S)
     pendientes = re.findall(r"\{\{[^}]*\}\}", out)

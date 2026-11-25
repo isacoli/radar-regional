@@ -62,6 +62,15 @@ Follow `config/research.md`:
 - Verify each item: the DOI or official link resolves, the date is inside the window, and the journal's Q1 status is confirmed (record SJR or JCR, field and year) or the series is on the approved list. Read the abstract.
 - Rank by relevance. On ties, put first the item most applicable to current regional issues (even a working paper), then journal standing, then recency. Keep up to 5, with at most 2 working papers. Publish fewer if fewer qualify; drop the section if none do.
 
+### Step 4c — Follow-ups ("Seguimiento" tab)
+
+Readers mark stories on the website ("☆ Seguir" under each headline, plus a number of weeks, 1–52); they are stored in Supabase (`supabase/seguimiento.sql`) and shown in `docs/seguimiento/`. On every run:
+
+1. `python3 scripts/seguimiento.py listar` — active follow-ups and finished ones without a balance.
+2. For each active one, search the issue's window for **new developments on the same topic** (same outlet or other trusted sources, same rules as the scan: trusted levels, link opened, date inside the window, headline matches). Register each with `python3 scripts/seguimiento.py avance ID --fecha … --titular "…" --url … --fuente "…" [--edicion N]` (add `--edicion` when the story is also in today's issue). Headlines in Spanish, in your own words; never invent a development — if there is none, register nothing.
+3. For each finished one without a balance, write 2–3 sentences in Spanish on how the story evolved, only from its registered stories: `python3 scripts/seguimiento.py balance ID "…"`.
+4. Note in `notas.md` how many follow-ups were checked and which got updates.
+
 ### Step 5 — Build the draft
 
 - Fill `templates/radar-diario.html` and save it as `output/radar/YYYY-MM-DD/boletin.html`.
@@ -82,7 +91,7 @@ Follow `config/research.md`:
 
 ### Step 7 — Publish to the website (GitHub Pages)
 
-Follow `config/publish.md`: build the final issue with `python3 scripts/construir_boletin.py output/radar/AAAA-MM-DD --final`, then run `python3 scripts/publicar_sitio.py output/radar/AAAA-MM-DD` (copies it to `docs/index.html` and `docs/archivo/`, adds the site section bar below the banner on the web copies only, updates the archive list, and writes the issue's `ventana_fin` as "Última actualización: …" in small print in the section bar of every page; there is no public update button — on-demand runs are started from GitHub → Actions). The archive page (`docs/archivo/`) must always list **every published issue**: the script rebuilds the full list from all final daily issues on each run (newest first, with number, date and counts), so renumbered or corrected issues are reflected too; to refresh only the list, run `python3 scripts/publicar_sitio.py --archivo`. Then update the map (below) and commit.
+Follow `config/publish.md`: build the final issue with `python3 scripts/construir_boletin.py output/radar/AAAA-MM-DD --final`, then run `python3 scripts/publicar_sitio.py output/radar/AAAA-MM-DD` (copies it to `docs/index.html` and `docs/archivo/`, adds the site section bar below the banner and the "☆ Seguir" buttons (`docs/assets/seguir.js`) on the web copies only, updates the archive list, and writes the issue's `ventana_fin` as "Última actualización: …" in small print in the section bar of every page; there is no public update button — on-demand runs are started from GitHub → Actions). The archive page (`docs/archivo/`) must always list **every published issue**: the script rebuilds the full list from all final daily issues on each run (newest first, with number, date and counts), so renumbered or corrected issues are reflected too; to refresh only the list, run `python3 scripts/publicar_sitio.py --archivo`. Then update the map (below) and commit.
 
 **Map (`docs/mapa/paises.json`):** after each final issue, update the card of **all 17 continental countries** (México → Argentina); no country is left without a card. Three bullets:
 1. **Noticia principal del día:** the country's most important story (highest coverage, then relevance) **inside the issue's window** (07:01 the previous day → 07:00; or the on-demand cut-off). Search every country daily, not only the stories that made the issue — a story outside the issue is valid if it comes from a trusted source. If the country has no story in the window, use its **most recent** trusted story and show its date. One sentence of **at most 30 words**, with source, date and link, and `en_boletin` true/false.

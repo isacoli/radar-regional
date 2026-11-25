@@ -29,7 +29,7 @@ BARRA = """  <!-- BARRA DEL SITIO (solo versión web) -->
   </td></tr>
 """
 SECCIONES = [("Inicio", ""), ("Mapa", "mapa/"), ("Financiamiento", "financiamiento/"), ("Buscador", "buscar/"),
-             ("Estudios", "investigacion/"), ("Archivo", "archivo/")]
+             ("Seguimiento", "seguimiento/"), ("Estudios", "investigacion/"), ("Archivo", "archivo/")]
 MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"]
 ESTILO = ("display:inline-block; margin:3px; padding:7px 13px; border:1px solid #DCE6EF; border-radius:999px; "
           "font-size:13px; font-weight:bold; text-decoration:none; ")
@@ -81,6 +81,9 @@ def con_carrusel(html, ruta_assets):
     # Resumen por país: «más ›» despliega el texto en la caja (docs/assets/resumen.js)
     if 'class="rp-mas"' in html and "resumen.js" not in html:
         html = html.replace("</body>", f'<script src="{ruta_assets}resumen.js"></script>\n</body>', 1)
+    # Botón «☆ Seguir» bajo cada titular (pestaña Seguimiento; docs/assets/seguir.js)
+    if 'class="rr-noticia"' in html and "seguir.js" not in html:
+        html = html.replace("</body>", f'<script src="{ruta_assets}rr-datos.js"></script>\n<script src="{ruta_assets}seguir.js"></script>\n</body>', 1)
     return html
 
 

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seguimiento · Radar Regional</title>
+<link rel="stylesheet" href="../assets/sitio.css">
+<style>
+  .lbl { font-size:11px; font-weight:bold; letter-spacing:1px; text-transform:uppercase; color:var(--navy); margin-right:6px; }
+  .chip { font-size:11px; font-weight:bold; padding:2px 8px; border-radius:999px; white-space:nowrap; }
+  .kpis { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin:14px 0 16px; }
+  .kpis div { background:var(--tint); border-radius:8px; padding:10px 14px; }
+  .kpis b { display:block; font-size:24px; color:var(--navy); font-family:Georgia, serif; }
+  .kpis span { font-size:12px; color:var(--muted); }
+  .filtros { display:flex; flex-wrap:wrap; align-items:center; gap:6px; margin-bottom:10px; }
+  .fb { border:1px solid var(--line); background:#fff; border-radius:999px; padding:5px 11px; font-size:12px; font-weight:bold; color:var(--navy); cursor:pointer; }
+  .fb.on { background:var(--navy); color:#fff; border-color:var(--navy); }
+  .fb i { font-style:normal; opacity:.7; margin-left:3px; }
+  .cron { border:1px solid var(--line); border-radius:10px; }
+  .ejes, .cab { display:grid; grid-template-columns:270px 1fr 130px 22px; gap:12px; align-items:center; }
+  .ejes { padding:10px 14px 4px; font-size:10px; color:var(--muted); }
+  .ejes .track { height:16px; }
+  .track { position:relative; height:30px; display:block; }
+  .wk { position:absolute; transform:translateX(-50%); white-space:nowrap; }
+  .gl { position:absolute; top:0; bottom:0; border-left:1px solid #EEF2F6; }
+  .hoy { position:absolute; top:0; bottom:0; border-left:2px dashed #C0392B; z-index:3; pointer-events:none; }
+  .hoy em { position:absolute; top:-1px; left:4px; font-size:10px; color:#C0392B; font-style:normal; font-weight:bold; }
+  .fila { border-top:1px solid var(--line); }
+  .cab { width:100%; background:none; border:0; padding:10px 14px; text-align:left; font:inherit; color:inherit; cursor:pointer; }
+  .cab:hover { background:#F7FAFD; }
+  .lab { display:flex; gap:8px; align-items:center; font-size:14px; color:var(--navy); line-height:18px; }
+  .flag { border-radius:50%; flex:none; }
+  .sub { display:block; font-size:12px; color:var(--muted); font-weight:normal; margin-top:2px; }
+  .gbar { position:absolute; top:8px; height:14px; border:1px solid; border-radius:7px; overflow:hidden; }
+  .pct { display:block; height:100%; opacity:.25; }
+  .dot { position:absolute; top:9px; width:12px; height:12px; margin-left:-6px; border-radius:50%; background:var(--blue); border:2px solid #fff; box-shadow:0 0 0 1px var(--blue); z-index:2; }
+  .dot.origen { background:#fff; box-shadow:0 0 0 2px var(--navy); }
+  .dot .tip { display:none; position:absolute; bottom:18px; left:50%; transform:translateX(-50%); width:280px; background:var(--navy); color:#fff; font-size:12px; line-height:17px; padding:8px 10px; border-radius:6px; z-index:5; text-align:left; }
+  .dot:hover .tip, .dot:focus .tip { display:block; }
+  .est { text-align:right; }
+  .flecha { color:var(--muted); transition:transform .2s; }
+  .abierta .flecha { transform:rotate(180deg); }
+  .det { display:none; padding:2px 22px 16px 52px; background:#FBFDFF; border-top:1px dashed var(--line); }
+  .abierta .det { display:block; }
+  .meta { font-size:13px; color:var(--muted); padding-top:12px; }
+  .ult { font-size:14px; line-height:20px; margin-top:10px; }
+  .caja { display:inline-flex; align-items:center; gap:8px; font-size:14px; font-weight:bold; color:var(--navy); }
+  .caja input { width:70px; padding:7px 9px; border:1px solid var(--line); border-radius:6px; font-size:15px; font-weight:bold; color:var(--navy); background:#fff; text-align:center; }
+  .plazo-box { background:#fff; border:1px solid var(--line); border-radius:8px; padding:10px 12px; margin-top:12px; }
+  .plazo-box .nota { display:block; margin-top:6px; }
+  .guardado { color:#2E7D3E; font-weight:bold; }
+  .error { color:#C0392B; }
+  .tlist { list-style:none; margin:8px 0 0; padding:0 0 0 14px; border-left:2px solid var(--pale); }
+  .tl { position:relative; margin:0 0 10px; font-size:13px; line-height:19px; }
+  .tl:before { content:""; position:absolute; left:-20px; top:5px; width:10px; height:10px; border-radius:50%; background:var(--sky); }
+  .tl.origen:before { background:#fff; border:2px solid var(--navy); width:8px; height:8px; }
+  .tl .fecha { font-weight:bold; color:var(--navy); margin-right:6px; }
+  .tl a { color:var(--ink); text-decoration:none; }
+  .tl a:hover { color:var(--blue); text-decoration:underline; }
+  .mas-ant { margin:0 0 10px; font-size:13px; }
+  .mas-ant summary { cursor:pointer; color:var(--blue); font-weight:bold; }
+  .balance { background:var(--tint); border-left:3px solid var(--sky); padding:8px 12px; font-size:13px; line-height:19px; margin-top:10px; border-radius:4px; }
+  .leyenda { display:flex; flex-wrap:wrap; gap:14px; font-size:12px; color:var(--muted); margin-top:10px; }
+  .leyenda i { display:inline-block; position:static; margin:0 5px 0 0; vertical-align:-2px; }
+  .vacio { padding:28px 16px; text-align:center; color:var(--muted); font-size:14px; line-height:21px; }
+  @media (max-width:760px) {
+    .kpis { grid-template-columns:1fr 1fr; }
+    .ejes { display:none; }
+    .cab { grid-template-columns:1fr 22px; }
+    .cab .track { grid-column:1/2; grid-row:2; }
+    .cab .est { grid-column:1/2; grid-row:3; text-align:left; }
+    .det { padding-left:16px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="sitio-header">
+    <small>Oficina Andina de ONUDI</small>
+    <h1>Radar Regional · Seguimiento</h1>
+    <p>Noticias que el equipo decidió seguir, y cómo evolucionan semana a semana.</p>
+  </header>
+  <div class="stripe"><span></span><span></span><span></span><span></span><span></span></div>
+  <nav class="secciones">
+    <a href="../">Inicio</a>
+    <a href="../mapa/">Mapa</a>
+    <a href="../financiamiento/">Financiamiento</a>
+    <a href="../buscar/">Buscador</a>
+    <a href="../seguimiento/" class="activo">Seguimiento</a>
+    <a href="../investigacion/">Estudios</a>
+    <a href="../archivo/">Archivo</a>
+    <span class="act-editor">
+      <small class="ultima-act">Última actualización: 25 nov 2026, 07:00 (hora de Lima)</small>
+    </span>
+  </nav>
+  <main>
+    <p class="nota">Para seguir una noticia, pulse «☆ Seguir» bajo su titular en Inicio y escriba cuántas semanas (de 1 a 52). Cada mañana, el Radar busca novedades del mismo tema, en el mismo medio o en otros, y las agrega aquí. Al terminar el plazo escribe un balance.</p>
+    <div class="kpis" id="kpis"></div>
+    <div class="filtros" id="filtros"></div>
+    <div id="lista"><div class="vacio">Cargando seguimientos…</div></div>
+    <div class="leyenda" id="leyenda" hidden>
+      <span><i class="dot origen"></i>Noticia de origen</span>
+      <span><i class="dot"></i>Avance (pase el cursor para leerlo; clic para abrirlo)</span>
+      <span>La parte más oscura de cada barra es el tiempo ya transcurrido.</span>
+      <span>Haga clic en un tema para abrir su ficha.</span>
+    </div>
+  </main>
+</div>
+<script src="../assets/rr-datos.js"></script>
+<script src="../assets/seguimiento.js"></script>
+<script src="../assets/banner.js"></script>
+</body>
+</html>
