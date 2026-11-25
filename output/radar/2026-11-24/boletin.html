@@ -6,6 +6,7 @@
 <meta name="x-apple-disable-message-reformatting">
 <meta name="color-scheme" content="light">
 <meta name="supported-color-schemes" content="light">
+<meta name="rr-edicion" content="39|2026-11-24">
 <title>Radar Regional Diario · Martes 24 de noviembre de 2026</title>
 <style>
   body { margin:0; padding:0; }
@@ -14,6 +15,7 @@
     .container { width:100% !important; }
     .px { padding-left:18px !important; padding-right:18px !important; }
     .brand { font-size:30px !important; line-height:34px !important; }
+    .rp-col { display:block !important; width:100% !important; }
   }
 </style>
 </head>
@@ -68,13 +70,16 @@
   </tr>
 
   <!-- RESUMEN DEL DÍA -->
+  <!-- Resumen por país (diseño C1, 25 nov 2026): construir_boletin.py genera las cajas desde edicion.resumen_paises.
+       Orden: Perú, Colombia, Ecuador, Bolivia, Venezuela y Regional / Internacional (sin caja si el país no tuvo noticias).
+       Cada caja: bandera en círculo (docs/assets/banderas/), país en negrita, la mitad del texto y «más ›». -->
   <tr>
-    <td class="px" style="padding:26px 32px 4px 32px; font-family:Arial, Helvetica, sans-serif;">
-      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#EEF5FB; border-left:4px solid #009EDB; border-radius:4px;">
-        <tr><td style="padding:16px 20px;">
-          <div style="font-size:11px; line-height:16px; font-weight:bold; letter-spacing:1.5px; text-transform:uppercase; color:#003A70;">Resumen del día</div>
-          <p style="margin:8px 0 0 0; font-size:15px; line-height:23px; color:#1F2D3A;">La energía y las cuentas públicas marcaron la jornada. En Ecuador, una noche de apagones simultáneos en Quito, Guayaquil y Cuenca precedió a la orden de desconectar durante 72 horas a las industrias de alto consumo por el efecto de El Niño en los embalses, mientras el Gobierno fijó el salario básico de 2027 en US$ 500. En Colombia, el dólar superó los $3.500 y la Ley de Rescate concentró el debate: el Carf advirtió que no basta para estabilizar la deuda, que llegaría a 78,1 % del PIB en 2030, los distribuidores calcularon alzas de la gasolina de hasta $4.906 por galón y la Andi ofreció un aporte empresarial de $48,8 billones. En el Perú, el PBI creció 3,1 % en el tercer trimestre con una inversión privada al alza, avanzó el gas natural para siete regiones y ProInversión presentó una cartera de US$ 12.544 millones para el corredor Chancay–Callao–Pisco; ante la ONUDI, el ministro de la Producción pidió priorizar el financiamiento a las mype. Bolivia subió el diésel a Bs 20,57 por litro y denunció a un expresidente de YPFB por la compra de crudo. Para seguir: la duración de los cortes eléctricos en Ecuador, el primer debate de la Ley de Rescate y el freno al crédito para pymes en el Perú por El Niño.</p>
-        </td></tr>
+    <td class="px" style="padding:26px 27px 4px 27px; font-family:Arial, Helvetica, sans-serif;">
+      <div style="font-size:11px; line-height:16px; font-weight:bold; letter-spacing:1.5px; text-transform:uppercase; color:#003A70; padding:0 5px 4px 5px;">Resumen del día</div>
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr><td class="rp-col" width="50%" valign="top" style="padding:5px; height:1px;"><table role="presentation" id="resumen-peru" width="100%" height="100%" cellpadding="0" cellspacing="0" border="0" style="height:100%; background-color:#FDECEC; border-radius:8px;"><tr><td valign="top" style="padding:12px 14px; font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:19px; color:#1F2D3A;"><table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td valign="middle" style="padding-right:8px;"><img src="https://isacoli.github.io/radar-regional/assets/banderas/pe.png" width="22" height="22" alt="Bandera de Perú" style="display:block; width:22px; height:22px; border:0; border-radius:50%;"></td><td valign="middle" style="font-size:14px; line-height:20px; font-weight:bold; color:#1F2D3A;">Perú:</td></tr></table><div class="rp-texto" style="padding-top:6px;">Ante la Junta de Desarrollo Industrial de la ONUDI, en Viena, el ministro de la Producción pidió un apoyo diferenciado para los países de renta media alta y<span class="rp-puntos">…</span> <a class="rp-mas" href="https://isacoli.github.io/radar-regional/archivo/2026-11-24.html#resumen-peru" data-resto=" priorizar el financiamiento a las mype y su inserción en cadenas globales de valor. El PBI creció 3,1 % en el tercer trimestre, con una inversión privada que subió 12,4 %, aunque los bancos empiezan a moderar los créditos de consumo y para pymes por el riesgo de El Niño. En infraestructura, avanzó la adenda con Cálidda para llevar gas natural a siete regiones (US$ 550 millones) y ProInversión presentó el corredor Chancay–Callao–Pisco, con 29 proyectos y ocho adendas por US$ 12.544 millones." style="font-size:12px; font-weight:bold; color:#0067B1; text-decoration:none; white-space:nowrap;">más ›</a></div></td></tr></table></td><td class="rp-col" width="50%" valign="top" style="padding:5px; height:1px;"><table role="presentation" id="resumen-colombia" width="100%" height="100%" cellpadding="0" cellspacing="0" border="0" style="height:100%; background-color:#FFF5D6; border-radius:8px;"><tr><td valign="top" style="padding:12px 14px; font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:19px; color:#1F2D3A;"><table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td valign="middle" style="padding-right:8px;"><img src="https://isacoli.github.io/radar-regional/assets/banderas/co.png" width="22" height="22" alt="Bandera de Colombia" style="display:block; width:22px; height:22px; border:0; border-radius:50%;"></td><td valign="middle" style="font-size:14px; line-height:20px; font-weight:bold; color:#1F2D3A;">Colombia:</td></tr></table><div class="rp-texto" style="padding-top:6px;">El dólar superó los $3.500 y cerró en $3.506,54, su nivel más alto en unos cinco meses. La Ley de Rescate concentró el debate: el Carf advirtió que no basta para<span class="rp-puntos">…</span> <a class="rp-mas" href="https://isacoli.github.io/radar-regional/archivo/2026-11-24.html#resumen-colombia" data-resto=" frenar la deuda, que llegaría a 78,1 % del PIB en 2030; los distribuidores calcularon alzas de la gasolina de hasta $4.906 por galón hacia 2029, y la Andi propuso un aporte empresarial de $48,8 billones entre 2027 y 2030. Además, se destrabó el Canal del Dique, cuyas obras de restauración podrán empezar en 2027. Los Países Bajos financiarán un estudio para producir combustible sostenible de aviación a partir de caña de azúcar en el Valle del Cauca." style="font-size:12px; font-weight:bold; color:#0067B1; text-decoration:none; white-space:nowrap;">más ›</a></div></td></tr></table></td></tr>
+        <tr><td class="rp-col" width="50%" valign="top" style="padding:5px; height:1px;"><table role="presentation" id="resumen-ecuador" width="100%" height="100%" cellpadding="0" cellspacing="0" border="0" style="height:100%; background-color:#E6F1FB; border-radius:8px;"><tr><td valign="top" style="padding:12px 14px; font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:19px; color:#1F2D3A;"><table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td valign="middle" style="padding-right:8px;"><img src="https://isacoli.github.io/radar-regional/assets/banderas/ec.png" width="22" height="22" alt="Bandera de Ecuador" style="display:block; width:22px; height:22px; border:0; border-radius:50%;"></td><td valign="middle" style="font-size:14px; line-height:20px; font-weight:bold; color:#1F2D3A;">Ecuador:</td></tr></table><div class="rp-texto" style="padding-top:6px;">Tras una noche de cortes simultáneos en Quito, Guayaquil y Cuenca, la CNEL ordenó 72 horas de desconexión a las industrias de alto consumo desde el 24 de noviembre<span class="rp-puntos">…</span> <a class="rp-mas" href="https://isacoli.github.io/radar-regional/archivo/2026-11-24.html#resumen-ecuador" data-resto=" por el efecto de El Niño en los embalses. El Gobierno fijó el salario básico de 2027 en US$ 500, un alza de US$ 18 que rige también para la pequeña industria y la microempresa. China suspendió a otras nueve empacadoras de camarón por incumplir normas sanitarias, y en Cotacachi diecinueve familias construyen una minicentral hidroeléctrica de 300 kW para vender energía a industrias." style="font-size:12px; font-weight:bold; color:#0067B1; text-decoration:none; white-space:nowrap;">más ›</a></div></td></tr></table></td><td class="rp-col" width="50%" valign="top" style="padding:5px; height:1px;"><table role="presentation" id="resumen-bolivia" width="100%" height="100%" cellpadding="0" cellspacing="0" border="0" style="height:100%; background-color:#E7F5EA; border-radius:8px;"><tr><td valign="top" style="padding:12px 14px; font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:19px; color:#1F2D3A;"><table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td valign="middle" style="padding-right:8px;"><img src="https://isacoli.github.io/radar-regional/assets/banderas/bo.png" width="22" height="22" alt="Bandera de Bolivia" style="display:block; width:22px; height:22px; border:0; border-radius:50%;"></td><td valign="middle" style="font-size:14px; line-height:20px; font-weight:bold; color:#1F2D3A;">Bolivia:</td></tr></table><div class="rp-texto" style="padding-top:6px;">El Gobierno subió el diésel a Bs 20,57 por litro para cerrar la brecha con el costo de importación y frenar el contrabando. También denunció penalmente al<span class="rp-puntos">…</span> <a class="rp-mas" href="https://isacoli.github.io/radar-regional/archivo/2026-11-24.html#resumen-bolivia" data-resto=" expresidente de YPFB Yussef Akly por importar desde Arica un crudo que no cumpliría los estándares de calidad. Las importaciones crecieron 12 % en valor hasta septiembre, a US$ 8.113,7 millones, con más compras de bienes de capital." style="font-size:12px; font-weight:bold; color:#0067B1; text-decoration:none; white-space:nowrap;">más ›</a></div></td></tr></table></td></tr>
+        <tr><td colspan="2" valign="top" style="padding:5px;"><table role="presentation" id="resumen-regional" width="100%" height="100%" cellpadding="0" cellspacing="0" border="0" style="height:100%; background-color:#EEF1F4; border-radius:8px;"><tr><td valign="top" style="padding:12px 14px; font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:19px; color:#1F2D3A;"><table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td valign="middle" style="padding-right:8px;"><img src="https://isacoli.github.io/radar-regional/assets/banderas/regional.png" width="22" height="22" alt="Globo terráqueo" style="display:block; width:22px; height:22px; border:0; border-radius:50%;"></td><td valign="middle" style="font-size:14px; line-height:20px; font-weight:bold; color:#1F2D3A;">Regional / Internacional:</td></tr></table><div class="rp-texto" style="padding-top:6px;">Petrobras elevó 12 % su plan de inversión 2027-2031, hasta US$ 122.000 millones, con más recursos para producción y refinación.</div></td></tr></table></td></tr>
       </table>
     </td>
   </tr>
@@ -99,7 +104,7 @@
             <div style="font-size:11px; line-height:16px; padding-bottom:6px;">
               <span style="background-color:#FDEBD8; color:#9A4A00; padding:1px 6px; border-radius:3px; font-weight:bold;">🔥 Más difundida</span>
             </div>
-            <a href="https://www.larepublica.co/finanzas/precio-del-dolar-y-petroleo-hoy-23-de-noviembre-4530545" style="font-size:17px; line-height:23px; font-weight:bold; color:#003A70; text-decoration:none;">El dólar supera los $3.500 en Colombia y cierra en $3.506,54, su nivel más alto en unos cinco meses, con el peso entre las monedas más devaluadas</a>
+            <a class="rr-noticia" data-pos="1" data-pais="Colombia" data-fuente="La República" data-categoria="Política industrial y coyuntura" href="https://www.larepublica.co/finanzas/precio-del-dolar-y-petroleo-hoy-23-de-noviembre-4530545" style="font-size:17px; line-height:23px; font-weight:bold; color:#003A70; text-decoration:none;">El dólar supera los $3.500 en Colombia y cierra en $3.506,54, su nivel más alto en unos cinco meses, con el peso entre las monedas más devaluadas</a>
             <div style="font-size:14px; line-height:21px; color:#1F2D3A; padding-top:6px;">La divisa subió unos $44 el lunes frente al cierre del viernes ($3.463,18), mientras en el mundo el dólar retrocedía desde su nivel más alto en 19 meses por las menores apuestas a una subida de tasas de la Reserva Federal.</div>
             <div style="font-size:12px; line-height:17px; color:#6B7B8B; padding-top:6px;">La República · Colombia · Política industrial y coyuntura</div>
           </td>
@@ -114,7 +119,7 @@
               <span style="background-color:#FDEBD8; color:#9A4A00; padding:1px 6px; border-radius:3px; font-weight:bold;">🔥 Más difundida</span>
               <span style="background-color:#E1EEFA; color:#003A70; padding:1px 6px; border-radius:3px; font-weight:bold;">⭐ Más relevante</span>
             </div>
-            <a href="https://eluniverso.com/economia/finanzas/sueldo-basico-2027-decreto-ejecutivo-daniel-noboa-ecuador-2026-nota/" style="font-size:17px; line-height:23px; font-weight:bold; color:#003A70; text-decoration:none;">Ecuador fija el salario básico de 2027 en US$ 500, un alza de US$ 18 que rige también para la pequeña industria, la maquila y la microempresa</a>
+            <a class="rr-noticia" data-pos="2" data-pais="Ecuador" data-fuente="El Universo" data-categoria="Política industrial y coyuntura" href="https://eluniverso.com/economia/finanzas/sueldo-basico-2027-decreto-ejecutivo-daniel-noboa-ecuador-2026-nota/" style="font-size:17px; line-height:23px; font-weight:bold; color:#003A70; text-decoration:none;">Ecuador fija el salario básico de 2027 en US$ 500, un alza de US$ 18 que rige también para la pequeña industria, la maquila y la microempresa</a>
             <div style="font-size:14px; line-height:21px; color:#1F2D3A; padding-top:6px;">El presidente Daniel Noboa lo anunció a seis días de las elecciones seccionales y lo formalizó con el Decreto Ejecutivo 538, que pide al Consejo Nacional del Trabajo y Salarios aplicar el nuevo monto desde el 1 de enero.</div>
             <div style="font-size:12px; line-height:17px; color:#6B7B8B; padding-top:6px;">El Universo · Ecuador · Política industrial y coyuntura</div>
           </td>
@@ -128,7 +133,7 @@
             <div style="font-size:11px; line-height:16px; padding-bottom:6px;">
               <span style="background-color:#FDEBD8; color:#9A4A00; padding:1px 6px; border-radius:3px; font-weight:bold;">🔥 Más difundida</span>
             </div>
-            <a href="https://www.eltiempo.com/economia/sectores/reforma-tributaria-del-gobierno-de-la-espriella-dispararia-hasta-en-4-906-el-precio-de-la-gasolina-hacia-3603557" style="font-size:17px; line-height:23px; font-weight:bold; color:#003A70; text-decoration:none;">Distribuidores de combustibles advierten que la Ley de Rescate de Colombia podría encarecer el galón de gasolina hasta en $4.906 hacia 2029</a>
+            <a class="rr-noticia" data-pos="3" data-pais="Colombia" data-fuente="El Tiempo" data-categoria="Energía" href="https://www.eltiempo.com/economia/sectores/reforma-tributaria-del-gobierno-de-la-espriella-dispararia-hasta-en-4-906-el-precio-de-la-gasolina-hacia-3603557" style="font-size:17px; line-height:23px; font-weight:bold; color:#003A70; text-decoration:none;">Distribuidores de combustibles advierten que la Ley de Rescate de Colombia podría encarecer el galón de gasolina hasta en $4.906 hacia 2029</a>
             <div style="font-size:14px; line-height:21px; color:#1F2D3A; padding-top:6px;">Según el gremio Somos Uno, los cambios tributarios del proyecto sumarían hasta $2.328 por galón en pesos constantes y golpearían tanto a las estaciones de servicio como a los consumidores finales.</div>
             <div style="font-size:12px; line-height:17px; color:#6B7B8B; padding-top:6px;">El Tiempo · Colombia · Energía</div>
           </td>
@@ -142,7 +147,7 @@
             <div style="font-size:11px; line-height:16px; padding-bottom:6px;">
               <span style="background-color:#E1EEFA; color:#003A70; padding:1px 6px; border-radius:3px; font-weight:bold;">⭐ Más relevante</span>
             </div>
-            <a href="https://www.gob.pe/institucion/produce/noticias/1479316" style="font-size:17px; line-height:23px; font-weight:bold; color:#003A70; text-decoration:none;">Perú pide ante la ONUDI un apoyo diferenciado para los países de renta media alta y prioriza el financiamiento a las mype y su inserción en cadenas globales de valor</a>
+            <a class="rr-noticia" data-pos="4" data-pais="Perú" data-fuente="PRODUCE (gob.pe)" data-categoria="Organismos multilaterales" href="https://www.gob.pe/institucion/produce/noticias/1479316" style="font-size:17px; line-height:23px; font-weight:bold; color:#003A70; text-decoration:none;">Perú pide ante la ONUDI un apoyo diferenciado para los países de renta media alta y prioriza el financiamiento a las mype y su inserción en cadenas globales de valor</a>
             <div style="font-size:14px; line-height:21px; color:#1F2D3A; padding-top:6px;">En un mensaje a la 54.ª sesión de la Junta de Desarrollo Industrial, en Viena, el ministro Juan Carlos Requejo pidió medir las brechas tecnológicas y territoriales y la exposición a choques como El Niño, y propuso tres prioridades: financiamiento productivo para las mype, capacidades e infraestructura habilitante, e integración a cadenas de valor.</div>
             <div style="font-size:12px; line-height:17px; color:#6B7B8B; padding-top:6px;">PRODUCE (gob.pe) · Perú · Organismos multilaterales</div>
           </td>
@@ -156,7 +161,7 @@
             <div style="font-size:11px; line-height:16px; padding-bottom:6px;">
               <span style="background-color:#E1EEFA; color:#003A70; padding:1px 6px; border-radius:3px; font-weight:bold;">⭐ Más relevante</span>
             </div>
-            <a href="https://www.primicias.ec/economia/desconexion-electrica-empresas-alto-consumo-cnel-cortes-luz-ecuador-137805/" style="font-size:17px; line-height:23px; font-weight:bold; color:#003A70; text-decoration:none;">Ecuador ordena 72 horas de desconexión eléctrica a las industrias de alto consumo desde el 24 de noviembre, tras una noche de cortes simultáneos en Quito, Guayaquil y Cuenca</a>
+            <a class="rr-noticia" data-pos="5" data-pais="Ecuador" data-fuente="Primicias" data-categoria="Energía" href="https://www.primicias.ec/economia/desconexion-electrica-empresas-alto-consumo-cnel-cortes-luz-ecuador-137805/" style="font-size:17px; line-height:23px; font-weight:bold; color:#003A70; text-decoration:none;">Ecuador ordena 72 horas de desconexión eléctrica a las industrias de alto consumo desde el 24 de noviembre, tras una noche de cortes simultáneos en Quito, Guayaquil y Cuenca</a>
             <div style="font-size:14px; line-height:21px; color:#1F2D3A; padding-top:6px;">La CNEL notificó a los grandes consumidores de alto voltaje que deberán salir de la red por el impacto de El Niño en los embalses y las centrales hidroeléctricas, el mismo día en que varias ciudades sufrieron apagones repentinos.</div>
             <div style="font-size:12px; line-height:17px; color:#6B7B8B; padding-top:6px;">Primicias · Ecuador · Energía</div>
           </td>
@@ -179,7 +184,7 @@
               <span style="background-color:#FDEBD8; color:#9A4A00; padding:1px 5px; border-radius:3px; font-weight:bold;">🔥 Más difundida</span>
               <span style="background-color:#E1EEFA; color:#003A70; padding:1px 5px; border-radius:3px; font-weight:bold;">⭐ Más relevante</span>
             </div>
-            <a href="https://www.eltiempo.com/economia/sectores/se-destraba-el-canal-del-dique-ani-y-concesion-firman-acuerdo-para-iniciar-las-obras-tras-dos-anos-de-paralisis-3603522" style="font-size:14px; line-height:20px; font-weight:bold; color:#0067B1; text-decoration:none;">Se destraba el Canal del Dique: la ANI y la concesión firman el otrosí que permite iniciar en 2027 las obras de restauración, tras dos años de parálisis</a>
+            <a class="rr-noticia" data-pos="6" data-pais="Colombia" data-fuente="El Tiempo" data-categoria="Megaproyectos e infraestructura" href="https://www.eltiempo.com/economia/sectores/se-destraba-el-canal-del-dique-ani-y-concesion-firman-acuerdo-para-iniciar-las-obras-tras-dos-anos-de-paralisis-3603522" style="font-size:14px; line-height:20px; font-weight:bold; color:#0067B1; text-decoration:none;">Se destraba el Canal del Dique: la ANI y la concesión firman el otrosí que permite iniciar en 2027 las obras de restauración, tras dos años de parálisis</a>
             <div style="font-size:12px; line-height:17px; color:#6B7B8B; padding-top:2px;">El Tiempo · Colombia · Megaproyectos e infraestructura</div>
           </td>
         </tr>
@@ -192,7 +197,7 @@
             <div style="font-size:10px; line-height:15px; padding-bottom:3px;">
               <span style="background-color:#FDEBD8; color:#9A4A00; padding:1px 5px; border-radius:3px; font-weight:bold;">🔥 Más difundida</span>
             </div>
-            <a href="https://www.larepublica.co/economia/carf-advierte-que-ley-de-rescate-no-seria-suficiente-dejaria-un-faltante-de-9-6-billones-4531489" style="font-size:14px; line-height:20px; font-weight:bold; color:#0067B1; text-decoration:none;">El Carf advierte que la Ley de Rescate de Colombia no basta para frenar la deuda, que llegaría a 78,1 % del PIB en 2030, y que dejaría un faltante de hasta $9,6 billones</a>
+            <a class="rr-noticia" data-pos="7" data-pais="Colombia" data-fuente="La República" data-categoria="Política industrial y coyuntura" href="https://www.larepublica.co/economia/carf-advierte-que-ley-de-rescate-no-seria-suficiente-dejaria-un-faltante-de-9-6-billones-4531489" style="font-size:14px; line-height:20px; font-weight:bold; color:#0067B1; text-decoration:none;">El Carf advierte que la Ley de Rescate de Colombia no basta para frenar la deuda, que llegaría a 78,1 % del PIB en 2030, y que dejaría un faltante de hasta $9,6 billones</a>
             <div style="font-size:12px; line-height:17px; color:#6B7B8B; padding-top:2px;">La República · Colombia · Política industrial y coyuntura</div>
           </td>
         </tr>
@@ -202,7 +207,7 @@
         <tr>
           <td width="30" valign="top" style="padding:11px 8px 11px 0; font-family:Georgia, 'Times New Roman', serif; font-size:15px; line-height:21px; font-weight:bold; color:#9CB0C3;">8</td>
           <td valign="top" style="padding:11px 0;">
-            <a href="https://www.vision360.bo/noticias/2026/11/23/78642-gobierno-presenta-denuncia-penal-contra-el-expresidente-de-ypfb-yussef-akly-por-la-compra-de-crudo-que-no-cumpl" style="font-size:14px; line-height:20px; font-weight:bold; color:#0067B1; text-decoration:none;">Bolivia denuncia penalmente al expresidente de YPFB Yussef Akly por la importación desde Arica de un crudo que no cumpliría los estándares de calidad</a>
+            <a class="rr-noticia" data-pos="8" data-pais="Bolivia" data-fuente="Visión 360" data-categoria="Energía" href="https://www.vision360.bo/noticias/2026/11/23/78642-gobierno-presenta-denuncia-penal-contra-el-expresidente-de-ypfb-yussef-akly-por-la-compra-de-crudo-que-no-cumpl" style="font-size:14px; line-height:20px; font-weight:bold; color:#0067B1; text-decoration:none;">Bolivia denuncia penalmente al expresidente de YPFB Yussef Akly por la importación desde Arica de un crudo que no cumpliría los estándares de calidad</a>
             <div style="font-size:12px; line-height:17px; color:#6B7B8B; padding-top:2px;">Visión 360 · Bolivia · Energía</div>
           </td>
         </tr>
@@ -215,7 +220,7 @@
             <div style="font-size:10px; line-height:15px; padding-bottom:3px;">
               <span style="background-color:#E1EEFA; color:#003A70; padding:1px 5px; border-radius:3px; font-weight:bold;">⭐ Más relevante</span>
             </div>
-            <a href="https://www.larepublica.co/economia/andi-propuso-un-aporte-empresarial-de-48-8-billones-para-apoyar-el-ajuste-fiscal-4531587" style="font-size:14px; line-height:20px; font-weight:bold; color:#0067B1; text-decoration:none;">La Andi propone que las empresas aporten $48,8 billones al ajuste fiscal de Colombia entre 2027 y 2030, manteniendo la renta corporativa en 35 % hasta 2030</a>
+            <a class="rr-noticia" data-pos="9" data-pais="Colombia" data-fuente="La República" data-categoria="Política industrial y coyuntura" href="https://www.larepublica.co/economia/andi-propuso-un-aporte-empresarial-de-48-8-billones-para-apoyar-el-ajuste-fiscal-4531587" style="font-size:14px; line-height:20px; font-weight:bold; color:#0067B1; text-decoration:none;">La Andi propone que las empresas aporten $48,8 billones al ajuste fiscal de Colombia entre 2027 y 2030, manteniendo la renta corporativa en 35 % hasta 2030</a>
             <div style="font-size:12px; line-height:17px; color:#6B7B8B; padding-top:2px;">La República · Colombia · Política industrial y coyuntura</div>
           </td>
         </tr>
@@ -225,7 +230,7 @@
         <tr>
           <td width="30" valign="top" style="padding:11px 8px 11px 0; font-family:Georgia, 'Times New Roman', serif; font-size:15px; line-height:21px; font-weight:bold; color:#9CB0C3;">10</td>
           <td valign="top" style="padding:11px 0;">
-            <a href="https://eldeber.com.bo/economia/sube-bs-20-57-precio-litro-diesel-este-martes_1795514247" style="font-size:14px; line-height:20px; font-weight:bold; color:#0067B1; text-decoration:none;">Bolivia sube el precio del diésel a Bs 20,57 por litro desde este martes para cerrar la brecha con el costo de importación y frenar el contrabando</a>
+            <a class="rr-noticia" data-pos="10" data-pais="Bolivia" data-fuente="El Deber" data-categoria="Energía" href="https://eldeber.com.bo/economia/sube-bs-20-57-precio-litro-diesel-este-martes_1795514247" style="font-size:14px; line-height:20px; font-weight:bold; color:#0067B1; text-decoration:none;">Bolivia sube el precio del diésel a Bs 20,57 por litro desde este martes para cerrar la brecha con el costo de importación y frenar el contrabando</a>
             <div style="font-size:12px; line-height:17px; color:#6B7B8B; padding-top:2px;">El Deber · Bolivia · Energía</div>
           </td>
         </tr>
@@ -235,7 +240,7 @@
         <tr>
           <td width="30" valign="top" style="padding:11px 8px 11px 0; font-family:Georgia, 'Times New Roman', serif; font-size:15px; line-height:21px; font-weight:bold; color:#9CB0C3;">11</td>
           <td valign="top" style="padding:11px 0;">
-            <a href="https://www.gob.pe/institucion/inei/noticias/1479605" style="font-size:14px; line-height:20px; font-weight:bold; color:#0067B1; text-decoration:none;">El PBI del Perú crece 3,1 % en el tercer trimestre, impulsado por el consumo y una inversión privada que sube 12,4 %</a>
+            <a class="rr-noticia" data-pos="11" data-pais="Perú" data-fuente="INEI (gob.pe)" data-categoria="Política industrial y coyuntura" href="https://www.gob.pe/institucion/inei/noticias/1479605" style="font-size:14px; line-height:20px; font-weight:bold; color:#0067B1; text-decoration:none;">El PBI del Perú crece 3,1 % en el tercer trimestre, impulsado por el consumo y una inversión privada que sube 12,4 %</a>
             <div style="font-size:12px; line-height:17px; color:#6B7B8B; padding-top:2px;">INEI (gob.pe) · Perú · Política industrial y coyuntura</div>
           </td>
         </tr>
@@ -245,7 +250,7 @@
         <tr>
           <td width="30" valign="top" style="padding:11px 8px 11px 0; font-family:Georgia, 'Times New Roman', serif; font-size:15px; line-height:21px; font-weight:bold; color:#9CB0C3;">12</td>
           <td valign="top" style="padding:11px 0;">
-            <a href="https://www.gob.pe/institucion/minem/noticias/1479341" style="font-size:14px; line-height:20px; font-weight:bold; color:#0067B1; text-decoration:none;">El Perú da el paso previo a la adenda con Cálidda para llevar gas natural a más de 300.000 hogares de 15 ciudades en siete regiones del centro y sur, con US$ 550 millones</a>
+            <a class="rr-noticia" data-pos="12" data-pais="Perú" data-fuente="Minem (gob.pe)" data-categoria="Energía" href="https://www.gob.pe/institucion/minem/noticias/1479341" style="font-size:14px; line-height:20px; font-weight:bold; color:#0067B1; text-decoration:none;">El Perú da el paso previo a la adenda con Cálidda para llevar gas natural a más de 300.000 hogares de 15 ciudades en siete regiones del centro y sur, con US$ 550 millones</a>
             <div style="font-size:12px; line-height:17px; color:#6B7B8B; padding-top:2px;">Minem (gob.pe) · Perú · Energía</div>
           </td>
         </tr>
@@ -255,7 +260,7 @@
         <tr>
           <td width="30" valign="top" style="padding:11px 8px 11px 0; font-family:Georgia, 'Times New Roman', serif; font-size:15px; line-height:21px; font-weight:bold; color:#9CB0C3;">13</td>
           <td valign="top" style="padding:11px 0;">
-            <a href="https://www.gob.pe/institucion/proinversion/noticias/1479365" style="font-size:14px; line-height:20px; font-weight:bold; color:#0067B1; text-decoration:none;">ProInversión presenta el Corredor Estratégico Centro Chancay–Callao–Pisco, con 29 proyectos y ocho adendas por US$ 12.544 millones para unir puertos, aeropuertos y zonas productivas</a>
+            <a class="rr-noticia" data-pos="13" data-pais="Perú" data-fuente="ProInversión (gob.pe)" data-categoria="Megaproyectos e infraestructura" href="https://www.gob.pe/institucion/proinversion/noticias/1479365" style="font-size:14px; line-height:20px; font-weight:bold; color:#0067B1; text-decoration:none;">ProInversión presenta el Corredor Estratégico Centro Chancay–Callao–Pisco, con 29 proyectos y ocho adendas por US$ 12.544 millones para unir puertos, aeropuertos y zonas productivas</a>
             <div style="font-size:12px; line-height:17px; color:#6B7B8B; padding-top:2px;">ProInversión (gob.pe) · Perú · Megaproyectos e infraestructura</div>
           </td>
         </tr>
@@ -265,7 +270,7 @@
         <tr>
           <td width="30" valign="top" style="padding:11px 8px 11px 0; font-family:Georgia, 'Times New Roman', serif; font-size:15px; line-height:21px; font-weight:bold; color:#9CB0C3;">14</td>
           <td valign="top" style="padding:11px 0;">
-            <a href="https://www.bloomberglinea.com/negocios/petrobras-eleva-un-12-su-plan-de-inversion-a-us122000-millones-y-promete-mantener-dividendos/" style="font-size:14px; line-height:20px; font-weight:bold; color:#0067B1; text-decoration:none;">Petrobras eleva 12 % su plan de inversión 2027-2031, hasta US$ 122.000 millones, con más recursos para producción y refinación</a>
+            <a class="rr-noticia" data-pos="14" data-pais="Regional" data-fuente="Bloomberg Línea" data-categoria="Energía" href="https://www.bloomberglinea.com/negocios/petrobras-eleva-un-12-su-plan-de-inversion-a-us122000-millones-y-promete-mantener-dividendos/" style="font-size:14px; line-height:20px; font-weight:bold; color:#0067B1; text-decoration:none;">Petrobras eleva 12 % su plan de inversión 2027-2031, hasta US$ 122.000 millones, con más recursos para producción y refinación</a>
             <div style="font-size:12px; line-height:17px; color:#6B7B8B; padding-top:2px;">Bloomberg Línea · Regional · Energía</div>
           </td>
         </tr>
@@ -275,7 +280,7 @@
         <tr>
           <td width="30" valign="top" style="padding:11px 8px 11px 0; font-family:Georgia, 'Times New Roman', serif; font-size:15px; line-height:21px; font-weight:bold; color:#9CB0C3;">15</td>
           <td valign="top" style="padding:11px 0;">
-            <a href="https://www.elespectador.com/economia/paises-bajos-financiara-estudio-para-producir-combustible-de-aviacion-con-cana-en-colombia/" style="font-size:14px; line-height:20px; font-weight:bold; color:#0067B1; text-decoration:none;">Países Bajos financiará un estudio para producir combustible sostenible de aviación (SAF) a partir de caña de azúcar en el Valle del Cauca</a>
+            <a class="rr-noticia" data-pos="15" data-pais="Colombia" data-fuente="El Espectador" data-categoria="Industria verde y economía circular" href="https://www.elespectador.com/economia/paises-bajos-financiara-estudio-para-producir-combustible-de-aviacion-con-cana-en-colombia/" style="font-size:14px; line-height:20px; font-weight:bold; color:#0067B1; text-decoration:none;">Países Bajos financiará un estudio para producir combustible sostenible de aviación (SAF) a partir de caña de azúcar en el Valle del Cauca</a>
             <div style="font-size:12px; line-height:17px; color:#6B7B8B; padding-top:2px;">El Espectador · Colombia · Industria verde y economía circular</div>
           </td>
         </tr>
@@ -285,7 +290,7 @@
         <tr>
           <td width="30" valign="top" style="padding:11px 8px 11px 0; font-family:Georgia, 'Times New Roman', serif; font-size:15px; line-height:21px; font-weight:bold; color:#9CB0C3;">16</td>
           <td valign="top" style="padding:11px 0;">
-            <a href="https://www.primicias.ec/economia/empresas/china-suspende-nueve-empacadoras-camaron-ecuador-controles-sanitarios-137722/" style="font-size:14px; line-height:20px; font-weight:bold; color:#0067B1; text-decoration:none;">China suspende a otras nueve empacadoras de camarón de Ecuador por incumplir normas sanitarias, un nuevo cerco en su principal mercado</a>
+            <a class="rr-noticia" data-pos="16" data-pais="Ecuador" data-fuente="Primicias" data-categoria="Agroindustria y cadenas de valor" href="https://www.primicias.ec/economia/empresas/china-suspende-nueve-empacadoras-camaron-ecuador-controles-sanitarios-137722/" style="font-size:14px; line-height:20px; font-weight:bold; color:#0067B1; text-decoration:none;">China suspende a otras nueve empacadoras de camarón de Ecuador por incumplir normas sanitarias, un nuevo cerco en su principal mercado</a>
             <div style="font-size:12px; line-height:17px; color:#6B7B8B; padding-top:2px;">Primicias · Ecuador · Agroindustria y cadenas de valor</div>
           </td>
         </tr>
@@ -295,7 +300,7 @@
         <tr>
           <td width="30" valign="top" style="padding:11px 8px 11px 0; font-family:Georgia, 'Times New Roman', serif; font-size:15px; line-height:21px; font-weight:bold; color:#9CB0C3;">17</td>
           <td valign="top" style="padding:11px 0;">
-            <a href="https://gestion.pe/tu-dinero/bancos-empiezan-a-restringir-creditos-de-consumo-y-para-pymes-por-el-nino-toman-4-medidas-noticia/" style="font-size:14px; line-height:20px; font-weight:bold; color:#0067B1; text-decoration:none;">Los bancos del Perú empiezan a moderar los créditos de consumo y para pymes ante el mayor riesgo por El Niño</a>
+            <a class="rr-noticia" data-pos="17" data-pais="Perú" data-fuente="Gestión" data-categoria="Innovación, digitalización y MiPymes" href="https://gestion.pe/tu-dinero/bancos-empiezan-a-restringir-creditos-de-consumo-y-para-pymes-por-el-nino-toman-4-medidas-noticia/" style="font-size:14px; line-height:20px; font-weight:bold; color:#0067B1; text-decoration:none;">Los bancos del Perú empiezan a moderar los créditos de consumo y para pymes ante el mayor riesgo por El Niño</a>
             <div style="font-size:12px; line-height:17px; color:#6B7B8B; padding-top:2px;">Gestión · Perú · Innovación, digitalización y MiPymes</div>
           </td>
         </tr>
@@ -305,7 +310,7 @@
         <tr>
           <td width="30" valign="top" style="padding:11px 8px 11px 0; font-family:Georgia, 'Times New Roman', serif; font-size:15px; line-height:21px; font-weight:bold; color:#9CB0C3;">18</td>
           <td valign="top" style="padding:11px 0;">
-            <a href="https://gestion.pe/economia/peru-solo-supera-a-venezuela-en-la-region-sobre-adopcion-digital-y-uso-de-la-ia-por-que-noticia/" style="font-size:14px; line-height:20px; font-weight:bold; color:#0067B1; text-decoration:none;">El Perú ocupa el puesto 65 de 70 en el Ranking Mundial Digital y de IA 2026 del IMD y en la región solo supera a Venezuela</a>
+            <a class="rr-noticia" data-pos="18" data-pais="Perú" data-fuente="Gestión" data-categoria="Innovación, digitalización y MiPymes" href="https://gestion.pe/economia/peru-solo-supera-a-venezuela-en-la-region-sobre-adopcion-digital-y-uso-de-la-ia-por-que-noticia/" style="font-size:14px; line-height:20px; font-weight:bold; color:#0067B1; text-decoration:none;">El Perú ocupa el puesto 65 de 70 en el Ranking Mundial Digital y de IA 2026 del IMD y en la región solo supera a Venezuela</a>
             <div style="font-size:12px; line-height:17px; color:#6B7B8B; padding-top:2px;">Gestión · Perú · Innovación, digitalización y MiPymes</div>
           </td>
         </tr>
@@ -315,7 +320,7 @@
         <tr>
           <td width="30" valign="top" style="padding:11px 8px 11px 0; font-family:Georgia, 'Times New Roman', serif; font-size:15px; line-height:21px; font-weight:bold; color:#9CB0C3;">19</td>
           <td valign="top" style="padding:11px 0;">
-            <a href="https://www.primicias.ec/economia/familias-cotacachi-construccion-hidroelectrica-electricidad-hidroaguagrun-ecuador-137765/" style="font-size:14px; line-height:20px; font-weight:bold; color:#0067B1; text-decoration:none;">Diecinueve familias de Cotacachi construyen una minicentral hidroeléctrica de 300 kW para vender energía limpia a industrias, la primera de la economía popular y solidaria de Ecuador</a>
+            <a class="rr-noticia" data-pos="19" data-pais="Ecuador" data-fuente="Primicias" data-categoria="Industria verde y economía circular" href="https://www.primicias.ec/economia/familias-cotacachi-construccion-hidroelectrica-electricidad-hidroaguagrun-ecuador-137765/" style="font-size:14px; line-height:20px; font-weight:bold; color:#0067B1; text-decoration:none;">Diecinueve familias de Cotacachi construyen una minicentral hidroeléctrica de 300 kW para vender energía limpia a industrias, la primera de la economía popular y solidaria de Ecuador</a>
             <div style="font-size:12px; line-height:17px; color:#6B7B8B; padding-top:2px;">Primicias · Ecuador · Industria verde y economía circular</div>
           </td>
         </tr>
@@ -325,7 +330,7 @@
         <tr>
           <td width="30" valign="top" style="padding:11px 8px 11px 0; font-family:Georgia, 'Times New Roman', serif; font-size:15px; line-height:21px; font-weight:bold; color:#9CB0C3;">20</td>
           <td valign="top" style="padding:11px 0;">
-            <a href="https://eldeber.com.bo/economia/bolivia-aumenta-12-valor-importaciones-pese-caida-volumen_1795472724" style="font-size:14px; line-height:20px; font-weight:bold; color:#0067B1; text-decoration:none;">Las importaciones de Bolivia suben 12 % en valor hasta septiembre, a US$ 8.113,7 millones, pese a una caída de 6 % en volumen; crecen las de bienes de capital</a>
+            <a class="rr-noticia" data-pos="20" data-pais="Bolivia" data-fuente="El Deber" data-categoria="Inversión, comercio e integración" href="https://eldeber.com.bo/economia/bolivia-aumenta-12-valor-importaciones-pese-caida-volumen_1795472724" style="font-size:14px; line-height:20px; font-weight:bold; color:#0067B1; text-decoration:none;">Las importaciones de Bolivia suben 12 % en valor hasta septiembre, a US$ 8.113,7 millones, pese a una caída de 6 % en volumen; crecen las de bienes de capital</a>
             <div style="font-size:12px; line-height:17px; color:#6B7B8B; padding-top:2px;">El Deber · Bolivia · Inversión, comercio e integración</div>
           </td>
         </tr>
