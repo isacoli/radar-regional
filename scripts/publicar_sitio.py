@@ -78,6 +78,9 @@ def con_carrusel(html, ruta_assets):
     html = html.replace(TD_BANNER, TD_BANNER.replace('class="px"', 'class="px banner"'), 1)
     if "banner.js" not in html:
         html = html.replace("</body>", f'<script src="{ruta_assets}banner.js"></script>\n</body>', 1)
+    # Resumen por país: «más ›» despliega el texto en la caja (docs/assets/resumen.js)
+    if 'class="rp-mas"' in html and "resumen.js" not in html:
+        html = html.replace("</body>", f'<script src="{ruta_assets}resumen.js"></script>\n</body>', 1)
     return html
 
 

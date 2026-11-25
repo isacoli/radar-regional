@@ -12,6 +12,12 @@ Campos extra de `datos.json` que usa este script (además de los de la base de d
   edicion.ventana_texto_inicio ("viernes 23 de octubre, 07:01"),
   edicion.ventana_texto_fin ("lunes 26 de octubre de 2026, 02:21")
 Las noticias con "destacada": true van como tarjetas (en el orden de la lista), el resto en «Más titulares».
+
+Resumen del día por país (desde el N.º 40): edicion.resumen_paises = [{"pais": "Perú", "texto": "..."}, ...],
+con países de PAISES_RESUMEN (Perú, Colombia, Ecuador, Bolivia, Venezuela, "Regional / Internacional").
+Cada caja muestra la mitad del texto y «más ›» (en el correo enlaza a la web; en la web despliega el texto,
+docs/assets/resumen.js). Si falta edicion.resumen, se arma uniendo los textos por país. Sin resumen_paises
+se usa el párrafo único de antes.
 """
 import json
 import re
@@ -27,6 +33,83 @@ Ds = D.replace("padding:1px 6px", "padding:1px 5px")
 Rs = R.replace("padding:1px 6px", "padding:1px 5px")
 G = lambda x: f'<span style="background-color:#EEF1F4; color:#4A5A6A; padding:1px 6px; border-radius:3px;">{x}</span>'
 REG = lambda x: f'<span style="background-color:#E0F2F3; color:#00666D; padding:1px 6px; border-radius:3px; font-weight:bold;">{x}</span>'
+
+
+# Resumen del día por país (diseño C1, aprobado el 25 nov 2026). Orden fijo; un país sin noticias no lleva caja.
+# (nombre en datos.json, ancla, archivo de bandera en docs/assets/banderas/, fondo pastel)
+PAISES_RESUMEN = [
+    ("Perú", "peru", "pe", "#FDECEC"),
+    ("Colombia", "colombia", "co", "#FFF5D6"),
+    ("Ecuador", "ecuador", "ec", "#E6F1FB"),
+    ("Bolivia", "bolivia", "bo", "#E7F5EA"),
+    ("Venezuela", "venezuela", "ve", "#F0EAF8"),
+    ("Regional / Internacional", "regional", "regional", "#EEF1F4"),
+]
+CORTE_MEDIA, CORTE_ANCHA = 165, 250  # caracteres visibles: caja de media columna / de ancho completo
+MAS = "font-size:12px; font-weight:bold; color:#0067B1; text-decoration:none; white-space:nowrap;"
+
+
+def esc(t):
+    return t.replace("&", "&amp;").replace('"', "&quot;").replace("<", "&lt;").replace(">", "&gt;")
+
+
+def cortar(t, n):
+    """Primera mitad visible (cortada en una palabra completa) y el resto, sin perder la puntuación."""
+    if len(t) <= n + 20:
+        return t, ""
+    i = t.rfind(" ", 0, n)
+    a = t[:i].rstrip(" ,;:.")
+    return a, t[len(a):]
+
+
+def caja_pais(nombre, ancla, bandera, fondo, texto, n, url_web):
+    corto, resto = cortar(texto, n)
+    if resto:
+        cola = (f'<span class="rp-puntos">…</span> <a class="rp-mas" href="{url_web}#resumen-{ancla}" data-resto="{esc(resto)}" '
+                f'style="{MAS}">más ›</a>')
+    else:
+        cola = ""
+    img = (f'<img src="{CONF_URL}assets/banderas/{bandera}.png" width="22" height="22" alt="Bandera de {nombre}" '
+           f'style="display:block; width:22px; height:22px; border:0; border-radius:50%;">')
+    if bandera == "regional":
+        img = img.replace(f'alt="Bandera de {nombre}"', 'alt="Globo terráqueo"')
+    return (f'<table role="presentation" id="resumen-{ancla}" width="100%" height="100%" cellpadding="0" cellspacing="0" border="0" '
+            f'style="height:100%; background-color:{fondo}; border-radius:8px;"><tr><td valign="top" style="padding:12px 14px; '
+            f'font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:19px; color:#1F2D3A;">'
+            f'<table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>'
+            f'<td valign="middle" style="padding-right:8px;">{img}</td>'
+            f'<td valign="middle" style="font-size:14px; line-height:20px; font-weight:bold; color:#1F2D3A;">{nombre}:</td></tr></table>'
+            f'<div class="rp-texto" style="padding-top:6px;">{esc(corto)}{cola}</div></td></tr></table>')
+
+
+def resumen_paises(ed, url_web):
+    """Cuadrícula de dos columnas: países de dos en dos; el último país impar y Regional van a lo ancho."""
+    textos = {r["pais"]: r["texto"].strip() for r in ed["resumen_paises"] if r.get("texto", "").strip()}
+    desconocidos = set(textos) - {p[0] for p in PAISES_RESUMEN}
+    if desconocidos:
+        sys.exit(f"resumen_paises: países no previstos {sorted(desconocidos)} (use {[p[0] for p in PAISES_RESUMEN]})")
+    paises = [p for p in PAISES_RESUMEN[:-1] if p[0] in textos]
+    regional = PAISES_RESUMEN[-1] if PAISES_RESUMEN[-1][0] in textos else None
+    filas = []
+    for i in range(0, len(paises), 2):
+        par = paises[i:i + 2]
+        if len(par) == 2:
+            celdas = "".join(f'<td class="rp-col" width="50%" valign="top" style="padding:5px; height:1px;">'
+                             f'{caja_pais(*p, textos[p[0]], CORTE_MEDIA, url_web)}</td>' for p in par)
+        else:
+            celdas = f'<td colspan="2" valign="top" style="padding:5px;">{caja_pais(*par[0], textos[par[0][0]], CORTE_ANCHA, url_web)}</td>'
+        filas.append(f"<tr>{celdas}</tr>")
+    if regional:
+        filas.append(f'<tr><td colspan="2" valign="top" style="padding:5px;">{caja_pais(*regional, textos[regional[0]], CORTE_ANCHA, url_web)}</td></tr>')
+    return ('      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">\n        '
+            + "\n        ".join(filas) + "\n      </table>")
+
+
+def resumen_parrafo(texto):
+    """Formato anterior (un solo párrafo), para ediciones sin resumen_paises."""
+    return ('      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#EEF5FB; '
+            'border-left:4px solid #009EDB; border-radius:4px;"><tr><td style="padding:16px 20px;">'
+            f'<p style="margin:0; font-size:15px; line-height:23px; color:#1F2D3A;">{texto}</p></td></tr></table>')
 
 
 def bloque(tpl, inicio, fin):
@@ -55,6 +138,9 @@ def main():
     final = "--final" in sys.argv
     datos = json.loads((carpeta / "datos.json").read_text(encoding="utf-8"))
     ed = datos["edicion"]
+    if ed.get("resumen_paises") and not ed.get("resumen"):
+        ed["resumen"] = " ".join(f'{r["pais"]}: {r["texto"].strip()}' for r in ed["resumen_paises"] if r.get("texto"))
+        (carpeta / "datos.json").write_text(json.dumps(datos, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     tpl = (RAIZ / "templates" / "radar-diario.html").read_text(encoding="utf-8")
 
     cs, ce, card = bloque(tpl, "TARJETA", "FIN TARJETA")
@@ -121,7 +207,8 @@ def main():
         "{{NÚMERO}}": str(ed["numero"]),
         "{{Día DD de mes de AAAA}} · {{N}} noticias · {{N}} investigaciones":
             f'{ed["fecha_larga"]} · {len(datos["noticias"])} noticias · {len(datos["investigaciones"])} investigaciones',
-        "{{RESUMEN: un párrafo de 4–6 frases, en español y con palabras propias, que sintetice lo más importante del día en la región}}": ed["resumen"],
+        "{{RESUMEN_PAISES}}": (resumen_paises(ed, ed.get("url_web") or f'{CONF_URL}archivo/{ed["fecha"]}.html')
+                               if ed.get("resumen_paises") else resumen_parrafo(ed["resumen"])),
         "{{día DD de mes, 07:01}}": ed["ventana_texto_inicio"],
         "{{día DD de mes, 07:00}}": ed["ventana_texto_fin"],
         "{{URL_SITIO}}": CONF_URL,

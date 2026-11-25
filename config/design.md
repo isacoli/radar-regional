@@ -43,7 +43,18 @@ Tags keep their own colors so they stand out: 🔥 Más difundida `#FDEBD8` on `
 ## Layout
 
 1. Banner and stripe
-2. **Resumen del día** in a tinted box
+2. **Resumen del día** by country (design C1, approved 25 Nov 2026): a two-column grid of pastel boxes, one per country in the order Perú, Colombia, Ecuador, Bolivia, Venezuela, then "Regional / Internacional" across the full width (an odd last country also goes full width). Each box: 22 px round flag, country name in bold, about half of the text (165 characters; 250 in full-width boxes, cut at a whole word) and a small bold "más ›" (`#0067B1`). In email, "más" links to the web copy (`#resumen-<país>`); on the website it opens the rest of the text in the box (`docs/assets/resumen.js`). On phones (≤ 620 px) the columns stack where the client allows it.
+
+   | Country | Background | Flag file |
+   |---|---|---|
+   | Perú | `#FDECEC` (soft red) | `pe.png` |
+   | Colombia | `#FFF5D6` (soft yellow) | `co.png` |
+   | Ecuador | `#E6F1FB` (soft blue) | `ec.png` |
+   | Bolivia | `#E7F5EA` (soft green) | `bo.png` |
+   | Venezuela | `#F0EAF8` (soft lavender) | `ve.png` |
+   | Regional / Internacional | `#EEF1F4` (grey) | `regional.png` (navy globe) |
+
+   Flags: `docs/assets/banderas/` (88 px PNG, circle-flags, MIT; see its `LEEME.md`), linked with absolute `https://` URLs. Outlook for Windows shows them square.
 3. Tag legend
 4. **Lo más destacado:** 5 cards
 5. **Más titulares:** the remaining headlines as a compact numbered list (numbering continues from 6)
