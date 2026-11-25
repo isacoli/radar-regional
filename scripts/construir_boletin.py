@@ -32,6 +32,10 @@ R = '<span style="background-color:#E1EEFA; color:#003A70; padding:1px 6px; bord
 Ds = D.replace("padding:1px 6px", "padding:1px 5px")
 Rs = R.replace("padding:1px 6px", "padding:1px 5px")
 G = lambda x: f'<span style="background-color:#EEF1F4; color:#4A5A6A; padding:1px 6px; border-radius:3px;">{x}</span>'
+S = '<span style="background-color:#E7F5EA; color:#2E7D3E; padding:1px 6px; border-radius:3px; font-weight:bold;">🔁 En seguimiento</span>'
+Ss = S.replace("padding:1px 6px", "padding:1px 5px")
+LEYENDA_SEG = ('&nbsp;&nbsp;\n      <span style="background-color:#E7F5EA; color:#2E7D3E; padding:2px 6px; border-radius:3px; font-weight:bold;">'
+               '🔁 En seguimiento</span>&nbsp;novedad de un tema que el equipo sigue')
 REG = lambda x: f'<span style="background-color:#E0F2F3; color:#00666D; padding:1px 6px; border-radius:3px; font-weight:bold;">{x}</span>'
 
 
@@ -135,6 +139,8 @@ def etiquetas(n, small=False):
         t.append(Ds if small else D)
     if n.get("mas_relevante"):
         t.append(Rs if small else R)
+    if n.get("en_seguimiento"):
+        t.append(Ss if small else S)
     return t
 
 
@@ -224,6 +230,8 @@ def main():
     }
     for k, v in reemplazos.items():
         out = out.replace(k, v)
+    if any(n.get("en_seguimiento") for n in datos["noticias"]):
+        out = out.replace("mayor interés para la oficina\n", "mayor interés para la oficina" + LEYENDA_SEG + "\n", 1)
     out = out.replace("<title>", f'<meta name="rr-edicion" content="{ed["numero"]}|{ed["fecha"]}">\n<title>', 1)
     if final:
         out = re.sub(r"  <!-- BANNER DE BORRADOR.*?</tr>\n\n", "", out, count=1, flags=re.S)

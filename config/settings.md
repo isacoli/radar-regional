@@ -63,6 +63,16 @@ A story can carry both tags, and many stories carry none.
 
 These usually come only from official press rooms and get little media pickup, so they rank low on popularity; the ⭐ rule and the cards make sure they still reach the top of the issue.
 
+### Followed topics ("Seguimiento", since 25 Nov 2026)
+
+When readers follow a story on the website (tab "Seguimiento"), the team wants to see how that topic evolves in the following issues:
+
+- **Search every active follow-up on every run**, not only through the general scan: look for new developments on the same topic inside the window, on the same outlet's site or on any other trusted source (`config/sources.md`).
+- **Include each verified new development in the issue**, even when it would not make the top 20 on popularity: it takes the place of the lowest-ranked story that is not a follow-up (also within the 6-per-country cap). Score it at least 3 on relevance. It still has to pass every trust and verification rule; nothing is added just to fill the topic.
+- **It does not need to be a card:** it goes where its ranking puts it — usually "Más titulares". It becomes a card only if it earns it (top 3 or ⭐).
+- **A new development** adds a new fact (a decision, a figure, an approval, a reaction, a date). A repeat of an already published story is not one.
+- In `datos.json`, mark it with `"en_seguimiento": true`; the issue shows a green **🔁 En seguimiento** tag next to the headline. Register it as an advance with `--edicion N` (see CLAUDE.md, Step 4c).
+
 ## Review
 
 Every issue is saved as a **draft** with the "BORRADOR" banner. The user reviews it and says when it is final; only then is the banner removed.
