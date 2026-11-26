@@ -1,97 +1,97 @@
 {
- "actualizado": "2026-11-25",
- "ventana": "24 nov 07:01 → 25 nov 07:00 (ventana del N.º 40)",
+ "actualizado": "2026-11-26",
+ "ventana": "25 nov 07:01 → 26 nov 07:00 (ventana del N.º 41)",
  "fuente": "Noticia del día por país (incluida o no en el boletín, solo fuentes de confianza) y financiamiento de los últimos 30 días",
  "nota_oportunidades": "Las oportunidades son un análisis orientativo del Radar a partir de la noticia y el financiamiento del país; no constituyen una posición oficial de la ONUDI.",
  "paises": {
   "604": {
    "nombre": "Perú",
    "principal": {
-    "texto": "El MEF rebajó a 3,1 % el crecimiento del Perú en 2026 por El Niño, mantuvo 3,4 % para 2027 y pidió flexibilizar temporalmente las reglas fiscales.",
-    "fuente": "MEF (gob.pe)",
-    "fecha": "2026-11-24",
-    "url": "https://www.gob.pe/institucion/mef/noticias/1480772",
+    "texto": "El Banco Mundial advirtió en CADE 2026 que el Perú acumula S/ 654.000 millones en inversión pública pendiente, unos 70.000 proyectos paralizados.",
+    "fuente": "Infobae Perú",
+    "fecha": "2026-11-25",
+    "url": "https://www.infobae.com/peru/2026/11/25/cade-ejecutivos-2026-banco-mundial-advierte-que-peru-acumula-s654000-millones-en-inversiones-pendientes-de-ejecucion/",
     "en_boletin": true,
     "en_ventana": true
    },
    "financiamiento": {
-    "texto": "Novena adenda aprobada: extiende la concesión a Ucayali, Junín, Huancavelica, Ayacucho, Apurímac, Cusco y Puno, con 201.411 conexiones residenciales iniciales y 3.738,9 km de redes; plazo hasta 2043.",
-    "institucion": "Cálidda (concesionaria de distribución de gas natural) (privado)",
-    "monto": "US$ 590 millones",
-    "fecha": "2026-11-25",
-    "url": "https://www.infobae.com/peru/2026/11/25/minem-aprueba-la-novena-adenda-de-calidda-para-expandir-la-red-de-gas-natural/",
-    "fuente": "Infobae"
+    "texto": "Previsión de financiamiento para 2027-2031 para el sector privado, el sistema financiero, empresas públicas, municipios y el Gobierno, con el Perú como centro logístico del Pacífico Sur.",
+    "institucion": "CAF (público)",
+    "monto": "Entre US$ 6.000 y 9.000 millones (estimado a cinco años)",
+    "fecha": "2026-11-26",
+    "url": "https://gestion.pe/economia/caf-preve-destinar-entre-us-6000-millones-y-us-9000-millones-al-peru-en-cinco-anos-noticia/",
+    "fuente": "Gestión"
    },
-   "oportunidades": "Con garantías de ProInnóvate para innovación en mipymes y gas natural rumbo al sur andino, apoyar la modernización y el cambio de combustible de mype y agroindustrias regionales afectadas por El Niño."
+   "oportunidades": "Con obras públicas paralizadas y un nuevo marco de CAF en preparación, proponer que la hoja de ruta 2027 incluya componentes de desarrollo productivo regional, parques industriales y apoyo técnico a mipymes proveedoras."
   },
   "170": {
    "nombre": "Colombia",
    "principal": {
-    "texto": "El Senado aprobó una adición presupuestal de $3,8 billones para adultos mayores y la reconstrucción tras el terremoto; pasa a la Cámara.",
-    "fuente": "El Tiempo",
-    "fecha": "2026-11-24",
-    "url": "https://www.eltiempo.com/economia/sectores/colombia-mayor-fondo-milagro-y-air-e-asi-quedo-la-adicion-presupuestal-de-3-8-billones-que-aprobo-el-senado-3604000",
+    "texto": "El DANE informó que la productividad total de los factores solo aportó 0,15 puntos al crecimiento de 2,07 % hasta el tercer trimestre, frente a 0,75 en 2025.",
+    "fuente": "La República",
+    "fecha": "2026-11-25",
+    "url": "https://www.larepublica.co/economia/la-productividad-total-de-los-factores-llego-a-0-15-para-el-tercer-trimestre-del-ano-2026-4533235",
     "en_boletin": true,
     "en_ventana": true
    },
    "financiamiento": {
-    "texto": "Aporte para impulsar la interconexión eléctrica Colombia–Panamá y la seguridad energética.",
-    "institucion": "Gobierno de Dinamarca",
-    "monto": "US$ 4,5 millones",
-    "fecha": "2026-11-24",
-    "url": "https://www.larepublica.co/economia/dinamarca-realizara-aporte-de-us-4-5-millones-para-la-interconexion-entre-colombia-y-panama-4532681",
+    "texto": "El Congreso aprobó la adición presupuestal: unos $2,7 billones para el Fondo Milagro (reconstrucción tras el terremoto) y $1,1 billones para Colombia Mayor; pasa a sanción.",
+    "institucion": "Gobierno de Colombia (Congreso) (público)",
+    "monto": "$3,8 billones (pesos colombianos)",
+    "fecha": "2026-11-25",
+    "url": "https://www.larepublica.co/economia/camara-acogio-el-texto-de-senado-y-aprobo-el-proyecto-de-adicion-presupuestal-4533363",
     "fuente": "La República"
    },
-   "oportunidades": "Con recursos de reconstrucción en trámite y una industria presionada por el costo de la energía, acompañar la recuperación productiva de negocios afectados por el sismo y la eficiencia energética industrial."
+   "oportunidades": "Con una productividad casi estancada y recursos de reconstrucción aprobados, apoyar programas de mejora productiva y de eficiencia en las empresas y mipymes de las zonas afectadas por el sismo."
   },
   "218": {
    "nombre": "Ecuador",
    "principal": {
-    "texto": "El FMI aprobó un crédito de resiliencia de US$ 703 millones para Ecuador y liberó US$ 377 millones tras la sexta revisión del programa.",
+    "texto": "El grupo francés SEB recibió autorización para comprar UMCO, Indalum y otras empresas ecuatorianas de utensilios y aluminio.",
     "fuente": "Primicias",
-    "fecha": "2026-11-24",
-    "url": "https://www.primicias.ec/economia/directorio-fmi-aprueba-nuevo-credito-ecuador-resiliencia-fenomeno-nino-137826/",
+    "fecha": "2026-11-25",
+    "url": "https://www.primicias.ec/economia/empresas/umco-gigante-frances-grupo-seb-empresas-ecuador-137928/",
     "en_boletin": true,
     "en_ventana": true
    },
    "financiamiento": {
-    "texto": "Servicio de Resiliencia y Sostenibilidad (RSF) a 18 meses para reformas que reduzcan riesgos externos y en el sector energético y refuercen la resiliencia frente a desastres como El Niño.",
-    "institucion": "Fondo Monetario Internacional (FMI)",
-    "monto": "US$ 703 millones",
-    "fecha": "2026-11-23",
-    "url": "https://www.primicias.ec/economia/directorio-fmi-aprueba-nuevo-credito-ecuador-resiliencia-fenomeno-nino-137826/",
-    "fuente": "Primicias"
+    "texto": "Adjudicada a la india Kalpataru la construcción de la interconexión eléctrica Ecuador–Perú a 500 kV, con más de 280 km de líneas y 1.090 días de plazo.",
+    "institucion": "Gobierno del Ecuador (público)",
+    "monto": "US$ 324,6 millones",
+    "fecha": "2026-11-25",
+    "url": "https://www.eluniverso.com/economia/industrias/ecuador-adjudica-a-empresa-india-la-construccion-de-la-linea-electrica-de-500-kv-con-peru-nota/",
+    "fuente": "El Universo"
    },
-   "oportunidades": "Con reformas energéticas ligadas al nuevo crédito del FMI, apoyar a la industria en eficiencia energética, autogeneración limpia y economía circular, como el reciclaje de baterías."
+   "oportunidades": "Con inversión extranjera en la manufactura de aluminio y una interconexión eléctrica en marcha, acompañar la eficiencia energética y la modernización de proveedores industriales ante los cortes por El Niño."
   },
   "068": {
    "nombre": "Bolivia",
    "principal": {
-    "texto": "El Banco Central de Bolivia informó que la inflación bajó a 7,1 % y las reservas subieron a US$ 3.965 millones; prevé cerrar 2026 con 9,2 %.",
+    "texto": "Tras subir el diésel a Bs 20,57 por litro, el Gobierno evalúa compensaciones para sectores vulnerables; productores y transportistas advierten por la campaña agrícola.",
     "fuente": "El Deber",
-    "fecha": "2026-11-24",
-    "url": "https://eldeber.com.bo/economia/informe-bcb-reporta-inflacion-7-1-reservas-subieron-us-3-965-millones_1795536012",
+    "fecha": "2026-11-25",
+    "url": "https://eldeber.com.bo/economia/gobierno-evalua-compensaciones-sectores-vulnerables-alza-diesel-bs-20-57_1795625301",
     "en_boletin": true,
     "en_ventana": true
    },
    "financiamiento": {
-    "texto": "Inversión en la línea de salsas y aderezos «Artesano», producida en Santa Cruz.",
-    "institucion": "Luri (empresa de alimentos de Santa Cruz) (privado)",
-    "monto": "US$ 8 millones",
-    "fecha": "2026-11-24",
-    "url": "https://eldeber.com.bo/economia/artesano-apuesta-us-8-millones-luri-competir-mercado-salsas_1795536764",
-    "fuente": "El Deber"
+    "texto": "Tres créditos aprobados por el gabinete (BID: US$ 500 y 250 millones; Banco Mundial: US$ 500 millones) para reforzar las reservas líquidas; falta el aval de la Asamblea.",
+    "institucion": "BID y Banco Mundial (público)",
+    "monto": "US$ 1.250 millones",
+    "fecha": "2026-11-25",
+    "url": "https://www.lostiempos.com/actualidad/economia/20261125/gobierno-aprueba-tres-creditos-externos-us-1250-millones-engrosar",
+    "fuente": "Los Tiempos"
    },
-   "oportunidades": "Con precios más estables e inversión agroindustrial privada como la de Luri, apoyar a proveedores locales para agregar valor y cumplir estándares en cadenas alimentarias."
+   "oportunidades": "Con el diésel más caro y nuevos créditos multilaterales en trámite, apoyar la eficiencia energética y el cambio de combustible en agroindustrias y transportistas de carga."
   },
   "076": {
    "nombre": "Brasil",
    "principal": {
-    "texto": "El real brasileño subió hasta 2,2 % tras señales de que Lula enviará al Congreso una propuesta para frenar el gasto obligatorio.",
-    "fuente": "Bloomberg Línea",
-    "fecha": "2026-11-24",
-    "url": "https://www.bloomberglinea.com/latinoamerica/brasil/el-real-brasileno-sube-22-tras-senales-de-lula-de-un-ajuste-del-gasto-publico/",
-    "en_boletin": false,
+    "texto": "Brasil rechazó la propuesta de EE. UU. de un recargo de 10 % a sus aviones terminados y cambios para el azúcar, y advirtió con represalias.",
+    "fuente": "Infobae",
+    "fecha": "2026-11-25",
+    "url": "https://www.infobae.com/america/mundo/2026/11/26/brasil-y-la-union-europea-rechazaron-los-nuevos-aranceles-de-trump-y-exigieron-respetar-los-acuerdos-comerciales/",
+    "en_boletin": true,
     "en_ventana": true
    },
    "financiamiento": {
@@ -102,16 +102,16 @@
     "url": "https://www.bloomberglinea.com/negocios/petrobras-eleva-un-12-su-plan-de-inversion-a-us122000-millones-y-promete-mantener-dividendos/",
     "fuente": "Bloomberg Línea"
    },
-   "oportunidades": "Con el real en recuperación y un debate sobre el gasto público, seguir los instrumentos de política industrial de Brasil como referencia comparativa para los programas andinos."
+   "oportunidades": "La disputa por aranceles a aviones y azúcar muestra la exposición de las cadenas industriales al mercado estadounidense; una referencia para diversificar mercados en la región andina."
   },
   "152": {
    "nombre": "Chile",
    "principal": {
-    "texto": "Codelco ofrece primas más bajas a compradores chinos de cobre para reequilibrar sus ventas hacia Asia tras volcar volúmenes a Estados Unidos.",
-    "fuente": "Bloomberg Línea",
-    "fecha": "2026-11-24",
-    "url": "https://www.bloomberglinea.com/latinoamerica/chile/codelco-ofrece-menores-primas-a-compradores-chinos-de-cobre-para-recuperar-ventas-en-asia/",
-    "en_boletin": true,
+    "texto": "El Congreso de Chile aprobó el presupuesto de 2027 del gobierno de Kast, con un alza del gasto público de 1,7 % y ajustes en educación, salud y cultura.",
+    "fuente": "Infobae",
+    "fecha": "2026-11-26",
+    "url": "https://www.infobae.com/america/america-latina/2026/11/26/el-congreso-de-chile-aprobo-los-presupuestos-generales-de-kast-para-2027-preven-ajustes-en-educacion-salud-y-cultura/",
+    "en_boletin": false,
     "en_ventana": true
    },
    "financiamiento": {
@@ -122,15 +122,15 @@
     "url": "https://www.df.cl/empresas/industria/blumar-confirma-negociaciones-con-agrosuper-para-vender-negocio-salmonero-y",
     "fuente": "Diario Financiero"
    },
-   "oportunidades": "Con Codelco reorientando ventas de cobre hacia Asia, explorar cooperación en valor agregado y trazabilidad del cobre que también interesa al Perú."
+   "oportunidades": "Con un presupuesto 2027 más austero ya aprobado, seguir cómo se priorizan los fondos de fomento productivo e innovación como referencia de gasto público eficiente para la región."
   },
   "032": {
    "nombre": "Argentina",
    "principal": {
-    "texto": "YPF y Chevron pidieron el RIGI para el desarrollo Narambuena, en Vaca Muerta, con US$ 11.688 millones y 606 pozos.",
-    "fuente": "Bloomberg Línea",
-    "fecha": "2026-11-24",
-    "url": "https://www.bloomberglinea.com/latinoamerica/argentina/vaca-muerta-ypf-presenta-otro-megaproyecto-al-rigi-por-us11688-millones/",
+    "texto": "Stellantis, que advirtió que podría cerrar sus dos plantas en Argentina, pidió limitar los beneficios a los importadores de vehículos.",
+    "fuente": "Infobae",
+    "fecha": "2026-11-25",
+    "url": "https://www.infobae.com/economia/2026/11/25/despues-de-avisar-que-podria-cerrar-sus-plantas-el-numero-uno-regional-de-stellantis-pidio-limitar-los-beneficios-a-los-importadores/",
     "en_boletin": true,
     "en_ventana": true
    },
@@ -142,15 +142,15 @@
     "url": "https://www.bloomberglinea.com/latinoamerica/argentina/vaca-muerta-ypf-presenta-otro-megaproyecto-al-rigi-por-us11688-millones/",
     "fuente": "Bloomberg Línea"
    },
-   "oportunidades": "Con grandes inversiones en hidrocarburos bajo el RIGI, explorar programas de desarrollo de proveedores locales y de reducción de emisiones en la cadena de Vaca Muerta."
+   "oportunidades": "La presión sobre las plantas automotrices y la gran inversión energética en trámite muestran la tensión entre apertura y producción local; una referencia para las políticas de contenido local andinas."
   },
   "484": {
    "nombre": "México",
    "principal": {
-    "texto": "México registró una IED récord de US$ 43.090 millones entre enero y septiembre, impulsada por la manufactura; solo 9 % es inversión nueva.",
-    "fuente": "Bloomberg Línea",
-    "fecha": "2026-11-24",
-    "url": "https://www.bloomberglinea.com/latinoamerica/mexico/mexico-reporta-cifra-record-de-inversion-extranjera-directa-9-es-nueva/",
+    "texto": "México quedó fuera, por ahora, de la nueva ronda de aranceles de hasta 20 % que EE. UU. propuso a 14 economías; su caso sigue en revisión.",
+    "fuente": "Infobae (AFP)",
+    "fecha": "2026-11-25",
+    "url": "https://www.infobae.com/estados-unidos/2026/11/25/estados-unidos-propuso-nuevos-aranceles-de-hasta-20-a-14-economias-entre-ellas-china-la-ue-e-india/",
     "en_boletin": true,
     "en_ventana": true
    },
@@ -162,15 +162,15 @@
     "url": "https://www.bloomberglinea.com/latinoamerica/mexico/cfe-fibra-e-realiza-nueva-emision-de-capital-por-us776-millones-para-financiar-redes-electricas-de-mexico/",
     "fuente": "Bloomberg Línea"
    },
-   "oportunidades": "La IED récord en manufactura ofrece referencias sobre atracción de inversión y desarrollo de proveedores que pueden inspirar a los países andinos."
+   "oportunidades": "Mientras su caso arancelario sigue en revisión, el impulso a la manufactura con nueva infraestructura energética es una referencia para atraer inversión industrial de relocalización."
   },
   "862": {
    "nombre": "Venezuela",
    "principal": {
-    "texto": "Venezuela proyecta duplicar su PIB hacia 2031, con crecimiento de 5 % en 2026 y 7,3 % en 2027, según un documento oficial.",
-    "fuente": "Bloomberg Línea",
-    "fecha": "2026-11-24",
-    "url": "https://www.bloomberglinea.com/latinoamerica/venezuela/venezuela-proyecta-duplicar-su-pib-para-2031-desde-los-us98100-millones-estimados-en-2025/",
+    "texto": "Venezuela y Siemens Energy firmaron en Caracas dos acuerdos para recuperar el sistema eléctrico y la generación propia del sector de hidrocarburos.",
+    "fuente": "Infobae",
+    "fecha": "2026-11-25",
+    "url": "https://www.infobae.com/venezuela/2026/11/26/venezuela-y-siemens-energy-formalizaron-una-alianza-para-recuperar-el-sistema-electrico-y-la-infraestructura-energetica-petrolera/",
     "en_boletin": false,
     "en_ventana": true
    },
@@ -182,7 +182,7 @@
     "url": "https://www.larepublica.co/globoeconomia/bid-establece-un-limite-maximo-indicativo-de-us-6-000-millones-para-prestamos-a-venezuela-4531259",
     "fuente": "La República"
    },
-   "oportunidades": "Ante proyecciones oficiales de fuerte crecimiento, seguir posibles oportunidades de cooperación técnica en reactivación industrial, sin asumir compromisos."
+   "oportunidades": "La recuperación eléctrica con Siemens Energy y el interés del BID abren espacio para proponer eficiencia energética y reactivación de la industria nacional."
   },
   "858": {
    "nombre": "Uruguay",
@@ -192,7 +192,7 @@
     "fecha": "2026-11-24",
     "url": "https://www.bloomberglinea.com/latinoamerica/uruguay/un-proyecto-inmobiliario-en-uruguay-busca-atraer-a-jovenes-profesionales-que-trabajan-en-buenos-aires/",
     "en_boletin": false,
-    "en_ventana": true
+    "en_ventana": false
    },
    "financiamiento": {
     "texto": "Nuevo servicio ferroviario de carga con siete locomotoras Wabtec y terminales de transferencia, para llevar cargas de Argentina, Brasil y Paraguay al puerto de Montevideo.",
@@ -227,30 +227,30 @@
   "222": {
    "nombre": "El Salvador",
    "principal": {
-    "texto": "El Banco Central de Reserva calculó que 98,6 % de los hogares rurales salvadoreños tiene alguna carencia habitacional, frente a 51,2 % en las ciudades.",
+    "texto": "El Banco Mundial aprobó US$ 230 millones para un programa habitacional que beneficiaría a unas 39.000 familias de ingresos bajos y medios entre 2027 y 2031.",
     "fuente": "Infobae",
-    "fecha": "2026-11-23",
-    "url": "https://www.infobae.com/el-salvador/2026/11/23/el-deficit-habitacional-rural-alcanza-al-986-de-los-hogares-salvadorenos-segun-el-banco-central-de-reserva/",
+    "fecha": "2026-11-25",
+    "url": "https://www.infobae.com/el-salvador/2026/11/26/banco-mundial-aprobo-un-programa-habitacional-en-el-salvador-donde-el-deficit-afecta-al-68-de-los-hogares/",
     "en_boletin": false,
-    "en_ventana": false
+    "en_ventana": true
    },
    "financiamiento": {
-    "texto": "Préstamo para el programa «Dos escuelas por día» de construcción y mejora de escuelas.",
-    "institucion": "CAF (público)",
-    "monto": "Hasta US$ 75 millones",
-    "fecha": "2026-11-17",
-    "url": "https://www.infobae.com/el-salvador/2026/11/18/el-programa-dos-escuelas-por-dia-en-el-salvador-se-financiara-con-nueva-deuda-de-usd-75-millones-con-la-caf/",
+    "texto": "Programa habitacional para unas 39.000 familias de ingresos bajos y medios entre 2027 y 2031.",
+    "institucion": "Banco Mundial (público)",
+    "monto": "US$ 230 millones (primera etapa)",
+    "fecha": "2026-11-25",
+    "url": "https://www.infobae.com/el-salvador/2026/11/26/banco-mundial-aprobo-un-programa-habitacional-en-el-salvador-donde-el-deficit-afecta-al-68-de-los-hogares/",
     "fuente": "Infobae"
    },
-   "oportunidades": "Con brechas habitacionales rurales tan amplias, la construcción con materiales locales y eficientes puede abrir oportunidades para mipymes."
+   "oportunidades": "El programa de vivienda puede abrir demanda para fabricantes locales de materiales de construcción; una oportunidad para promover materiales eficientes y de bajo carbono."
   },
   "591": {
    "nombre": "Panamá",
    "principal": {
-    "texto": "Panamá negocia la posible reapertura de la mayor mina de cobre de Centroamérica, que llegó a representar 5 % de su economía.",
-    "fuente": "Bloomberg Línea",
-    "fecha": "2026-11-24",
-    "url": "https://www.bloomberglinea.com/latinoamerica/panama/donde-queda-y-cuanto-vale-la-mayor-mina-de-cobre-de-centroamerica-que-planea-reabrir-panama/",
+    "texto": "Los puertos de Panamá movilizaron más de 8,4 millones de TEU entre enero y octubre de 2026; SSA Marine MIT lideró con un alza de 16,9 %.",
+    "fuente": "Infobae",
+    "fecha": "2026-11-25",
+    "url": "https://www.infobae.com/panama/2026/11/25/puertos-en-panama-movilizan-mas-de-84-millones-de-teu-durante-los-primeros-diez-meses-de-2026/",
     "en_boletin": false,
     "en_ventana": true
    },
@@ -262,17 +262,17 @@
     "url": null,
     "fuente": null
    },
-   "oportunidades": "La posible reapertura minera abre preguntas sobre estándares ambientales y encadenamientos locales donde la cooperación técnica podría aportar."
+   "oportunidades": "El dinamismo portuario refuerza a Panamá como centro logístico; una oportunidad para conectar exportadores andinos con servicios logísticos y de valor agregado."
   },
   "320": {
    "nombre": "Guatemala",
    "principal": {
-    "texto": "A siete días del plazo legal, el Congreso no ha dictaminado el presupuesto 2027 de Guatemala, de unos US$ 25.137 millones.",
+    "texto": "Guatemala colocó eurobonos por US$ 800 millones con un diferencial récord de 185 puntos básicos, mientras su deuda pública supera los US$ 33.000 millones.",
     "fuente": "Infobae",
-    "fecha": "2026-11-24",
-    "url": "https://www.infobae.com/guatemala/2026/11/24/presupuesto-de-guatemala-2027-atrapado-entre-la-falta-de-acuerdos-varios-millones-en-ajustes-y-un-plazo-que-vence-en-siete-dias/",
+    "fecha": "2026-11-25",
+    "url": "https://www.infobae.com/guatemala/2026/11/25/guatemala-coloca-eurobonos-por-us800-millones-mientras-su-deuda-publica-supera-los-us33000-millones/",
     "en_boletin": false,
-    "en_ventana": false
+    "en_ventana": true
    },
    "financiamiento": {
     "texto": "No se registran operaciones de financiamiento en los últimos 30 días.",
@@ -282,7 +282,7 @@
     "url": null,
     "fuente": null
    },
-   "oportunidades": "Con el presupuesto 2027 sin aprobar, conviene dar seguimiento a las partidas para desarrollo productivo y pymes antes de proponer cooperación."
+   "oportunidades": "Con mejor acceso a los mercados de deuda, el país podría financiar infraestructura productiva; seguir si parte de los recursos se orienta a parques industriales y mipymes."
   },
   "558": {
    "nombre": "Nicaragua",
@@ -327,12 +327,12 @@
   "188": {
    "nombre": "Costa Rica",
    "principal": {
-    "texto": "Las exportaciones de bienes de Costa Rica crecieron 3 % hasta octubre, a US$ 19.621 millones, su mayor valor en cinco años.",
-    "fuente": "EFE (Unitel)",
-    "fecha": "2026-11-23",
-    "url": "https://unitel.bo/noticias/agencias/exportaciones-de-bienes-de-costa-rica-crecen-un-3-hasta-octubre-su-mayor-valor-en-5-anos-PH25008236",
+    "texto": "Costa Rica habría perdido unos US$ 2.000 millones por la extracción ilegal de oro en Crucitas; la presidenta pidió endurecer las sanciones.",
+    "fuente": "Infobae",
+    "fecha": "2026-11-25",
+    "url": "https://www.infobae.com/costa-rica/2026/11/25/costa-rica-habria-perdido-usd-2000-millones-por-la-extraccion-ilegal-de-oro-en-crucitas-se-nos-esta-saliendo-de-las-manos/",
     "en_boletin": false,
-    "en_ventana": false
+    "en_ventana": true
    },
    "financiamiento": {
     "texto": "No se registran operaciones de financiamiento en los últimos 30 días.",
@@ -342,7 +342,7 @@
     "url": null,
     "fuente": null
    },
-   "oportunidades": "Con exportaciones en máximos de cinco años, el modelo costarricense de encadenamientos con multinacionales es una referencia para los andinos."
+   "oportunidades": "La minería ilegal de oro, también presente en los países andinos, abre espacio para cooperar en formalización, trazabilidad y alternativas productivas en zonas mineras."
   }
  }
 }
