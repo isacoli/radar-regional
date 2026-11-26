@@ -195,6 +195,23 @@
    "por_que_importa": null,
    "proposito": null,
    "resumen": null,
+   "titular": "Colombia descarta ingresar a los BRICS y a su Nuevo Banco de Desarrollo, y revoca la gestión del gobierno anterior",
+   "url": "https://www.larepublica.co/economia/colombia-descarto-ingresar-al-grupo-de-los-brics-y-al-nuevo-banco-de-desarrollo-4533594",
+   "fuente": "La República",
+   "pais": "Colombia",
+   "categoria": "Organismos multilaterales",
+   "mas_difundida": false,
+   "mas_relevante": false,
+   "difusion": 2,
+   "relevancia": 3,
+   "fecha_publicacion": "2026-11-25",
+   "posicion": 10,
+   "destacada": false
+  },
+  {
+   "por_que_importa": null,
+   "proposito": null,
+   "resumen": null,
    "titular": "MinCIT: 11 de los 15 principales departamentos exportadores de bienes no minero-energéticos de Colombia aumentaron sus ventas en septiembre y concentraron el 70,3 % de esa canasta",
    "url": "https://www.mincit.gov.co/prensa/noticias/comercio/exportadores-no-mineros-aumentaron-sus-ventas",
    "fuente": "MinCIT",
@@ -205,7 +222,7 @@
    "difusion": 1,
    "relevancia": 4,
    "fecha_publicacion": "2026-11-25",
-   "posicion": 10,
+   "posicion": 11,
    "destacada": false
   },
   {
@@ -222,7 +239,7 @@
    "difusion": 1,
    "relevancia": 4,
    "fecha_publicacion": "2026-11-25",
-   "posicion": 11,
+   "posicion": 12,
    "destacada": false
   },
   {
@@ -239,7 +256,7 @@
    "difusion": 1,
    "relevancia": 4,
    "fecha_publicacion": "2026-11-25",
-   "posicion": 12,
+   "posicion": 13,
    "destacada": false
   },
   {
@@ -256,7 +273,7 @@
    "difusion": 1,
    "relevancia": 4,
    "fecha_publicacion": "2026-11-25",
-   "posicion": 13,
+   "posicion": 14,
    "destacada": false
   },
   {
@@ -273,23 +290,6 @@
    "difusion": 1,
    "relevancia": 4,
    "fecha_publicacion": "2026-11-26",
-   "posicion": 14,
-   "destacada": false
-  },
-  {
-   "por_que_importa": null,
-   "proposito": null,
-   "resumen": null,
-   "titular": "Colombia descarta ingresar a los BRICS y a su Nuevo Banco de Desarrollo, y revoca la gestión del gobierno anterior",
-   "url": "https://www.larepublica.co/economia/colombia-descarto-ingresar-al-grupo-de-los-brics-y-al-nuevo-banco-de-desarrollo-4533594",
-   "fuente": "La República",
-   "pais": "Colombia",
-   "categoria": "Organismos multilaterales",
-   "mas_difundida": false,
-   "mas_relevante": false,
-   "difusion": 1,
-   "relevancia": 3,
-   "fecha_publicacion": "2026-11-25",
    "posicion": 15,
    "destacada": false
   },
