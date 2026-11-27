@@ -1,36 +1,36 @@
 {
- "actualizado": "2026-11-26",
- "ventana": "25 nov 07:01 → 26 nov 07:00 (ventana del N.º 41)",
+ "actualizado": "2026-11-27",
+ "ventana": "26 nov 07:01 → 27 nov 07:00 (ventana del N.º 42)",
  "fuente": "Noticia del día por país (incluida o no en el boletín, solo fuentes de confianza) y financiamiento de los últimos 30 días",
  "nota_oportunidades": "Las oportunidades son un análisis orientativo del Radar a partir de la noticia y el financiamiento del país; no constituyen una posición oficial de la ONUDI.",
  "paises": {
   "604": {
    "nombre": "Perú",
    "principal": {
-    "texto": "El Banco Mundial advirtió en CADE 2026 que el Perú acumula S/ 654.000 millones en inversión pública pendiente, unos 70.000 proyectos paralizados.",
-    "fuente": "Infobae Perú",
-    "fecha": "2026-11-25",
-    "url": "https://www.infobae.com/peru/2026/11/25/cade-ejecutivos-2026-banco-mundial-advierte-que-peru-acumula-s654000-millones-en-inversiones-pendientes-de-ejecucion/",
+    "texto": "El Minem y Cálidda suscribieron la adenda que inicia la masificación del gas natural en siete regiones del centro y sur, con US$ 550 millones.",
+    "fuente": "Minem (gob.pe)",
+    "fecha": "2026-11-26",
+    "url": "https://www.gob.pe/institucion/minem/noticias/1481524",
     "en_boletin": true,
     "en_ventana": true
    },
    "financiamiento": {
-    "texto": "Previsión de financiamiento para 2027-2031 para el sector privado, el sistema financiero, empresas públicas, municipios y el Gobierno, con el Perú como centro logístico del Pacífico Sur.",
-    "institucion": "CAF (público)",
-    "monto": "Entre US$ 6.000 y 9.000 millones (estimado a cinco años)",
-    "fecha": "2026-11-26",
-    "url": "https://gestion.pe/economia/caf-preve-destinar-entre-us-6000-millones-y-us-9000-millones-al-peru-en-cinco-anos-noticia/",
+    "texto": "El BID pone a disposición del Perú unos US$ 10.000 millones en cuatro años, US$ 4.000 millones de ellos para el sector privado vía BID Invest.",
+    "institucion": "BID y BID Invest (público)",
+    "monto": "Unos US$ 10.000 millones (indicativo, 2027-2030)",
+    "fecha": "2026-11-27",
+    "url": "https://gestion.pe/economia/bid-pone-a-disposicion-del-peru-us-10-mil-millones-los-5-frentes-de-interes-noticia/",
     "fuente": "Gestión"
    },
-   "oportunidades": "Con obras públicas paralizadas y un nuevo marco de CAF en preparación, proponer que la hoja de ruta 2027 incluya componentes de desarrollo productivo regional, parques industriales y apoyo técnico a mipymes proveedoras."
+   "oportunidades": "Con el gas natural llegando a siete regiones y un nuevo marco del BID para el sector privado, explorar apoyo técnico para la conversión energética de mipymes industriales del centro y sur."
   },
   "170": {
    "nombre": "Colombia",
    "principal": {
-    "texto": "El DANE informó que la productividad total de los factores solo aportó 0,15 puntos al crecimiento de 2,07 % hasta el tercer trimestre, frente a 0,75 en 2025.",
+    "texto": "Arrancó la negociación del salario mínimo de 2027 con las cifras de productividad del DANE: la productividad por hora subió y por persona ocupada cayó.",
     "fuente": "La República",
-    "fecha": "2026-11-25",
-    "url": "https://www.larepublica.co/economia/la-productividad-total-de-los-factores-llego-a-0-15-para-el-tercer-trimestre-del-ano-2026-4533235",
+    "fecha": "2026-11-26",
+    "url": "https://www.larepublica.co/economia/mintrabajo-dio-inicio-a-la-negociacion-que-definira-salario-minimo-para-2027-4534284",
     "en_boletin": true,
     "en_ventana": true
    },
@@ -42,56 +42,56 @@
     "url": "https://www.larepublica.co/economia/camara-acogio-el-texto-de-senado-y-aprobo-el-proyecto-de-adicion-presupuestal-4533363",
     "fuente": "La República"
    },
-   "oportunidades": "Con una productividad casi estancada y recursos de reconstrucción aprobados, apoyar programas de mejora productiva y de eficiencia en las empresas y mipymes de las zonas afectadas por el sismo."
+   "oportunidades": "El debate salarial pone la productividad en el centro: ofrecer evidencia y programas de mejora productiva en planta, con recursos de reconstrucción del Fondo Milagro para la industria afectada."
   },
   "218": {
    "nombre": "Ecuador",
    "principal": {
-    "texto": "El grupo francés SEB recibió autorización para comprar UMCO, Indalum y otras empresas ecuatorianas de utensilios y aluminio.",
-    "fuente": "Primicias",
-    "fecha": "2026-11-25",
-    "url": "https://www.primicias.ec/economia/empresas/umco-gigante-frances-grupo-seb-empresas-ecuador-137928/",
+    "texto": "El Gobierno publicó la lista de equipos del sector eléctrico que pagarán 0 % de IVA y de impuesto a la salida de divisas.",
+    "fuente": "El Universo",
+    "fecha": "2026-11-26",
+    "url": "https://www.eluniverso.com/economia/industrias/estos-son-los-equipos-electricos-exentos-de-iva-e-isd-ecuador-gobierno-nota/",
     "en_boletin": true,
     "en_ventana": true
    },
    "financiamiento": {
-    "texto": "Adjudicada a la india Kalpataru la construcción de la interconexión eléctrica Ecuador–Perú a 500 kV, con más de 280 km de líneas y 1.090 días de plazo.",
-    "institucion": "Gobierno del Ecuador (público)",
-    "monto": "US$ 324,6 millones",
-    "fecha": "2026-11-25",
-    "url": "https://www.eluniverso.com/economia/industrias/ecuador-adjudica-a-empresa-india-la-construccion-de-la-linea-electrica-de-500-kv-con-peru-nota/",
+    "texto": "Celec EP inició la construcción del sistema de transmisión Palestina (Guayas), para abastecer actividades productivas, sobre todo camaroneras.",
+    "institucion": "Celec EP (público)",
+    "monto": "US$ 43,1 millones",
+    "fecha": "2026-11-26",
+    "url": "https://www.eluniverso.com/economia/industrias/construccion-sistema-de-transmision-palestina-inversion-431-millones-ecuador-2026-nota/",
     "fuente": "El Universo"
    },
-   "oportunidades": "Con inversión extranjera en la manufactura de aluminio y una interconexión eléctrica en marcha, acompañar la eficiencia energética y la modernización de proveedores industriales ante los cortes por El Niño."
+   "oportunidades": "Las exenciones a equipos eléctricos y la nueva transmisión en Guayas crean margen para proyectos de eficiencia energética y electrificación en la agroindustria y la acuicultura."
   },
   "068": {
    "nombre": "Bolivia",
    "principal": {
-    "texto": "Tras subir el diésel a Bs 20,57 por litro, el Gobierno evalúa compensaciones para sectores vulnerables; productores y transportistas advierten por la campaña agrícola.",
+    "texto": "El Gobierno y el FMI acordaron la primera revisión del programa de US$ 1.900 millones, lo que habilita un segundo desembolso de US$ 212 millones.",
     "fuente": "El Deber",
-    "fecha": "2026-11-25",
-    "url": "https://eldeber.com.bo/economia/gobierno-evalua-compensaciones-sectores-vulnerables-alza-diesel-bs-20-57_1795625301",
+    "fecha": "2026-11-26",
+    "url": "https://eldeber.com.bo/economia/bolivia-accede-segundo-desembolso-fmi-us-212-millones_1795744614",
     "en_boletin": true,
     "en_ventana": true
    },
    "financiamiento": {
-    "texto": "Tres créditos aprobados por el gabinete (BID: US$ 500 y 250 millones; Banco Mundial: US$ 500 millones) para reforzar las reservas líquidas; falta el aval de la Asamblea.",
-    "institucion": "BID y Banco Mundial (público)",
-    "monto": "US$ 1.250 millones",
-    "fecha": "2026-11-25",
-    "url": "https://www.lostiempos.com/actualidad/economia/20261125/gobierno-aprueba-tres-creditos-externos-us-1250-millones-engrosar",
-    "fuente": "Los Tiempos"
+    "texto": "Segundo desembolso del programa del Servicio Ampliado, sujeto a la aprobación del Directorio del FMI (esperado en diciembre).",
+    "institucion": "FMI (público)",
+    "monto": "US$ 212 millones",
+    "fecha": "2026-11-26",
+    "url": "https://eldeber.com.bo/economia/bolivia-accede-segundo-desembolso-fmi-us-212-millones_1795744614",
+    "fuente": "El Deber"
    },
-   "oportunidades": "Con el diésel más caro y nuevos créditos multilaterales en trámite, apoyar la eficiencia energética y el cambio de combustible en agroindustrias y transportistas de carga."
+   "oportunidades": "Con la estabilización avanzando y tensiones por el diésel en el sector productivo, explorar apoyo a eficiencia energética y logística exportadora, incluido el uso de puertos peruanos."
   },
   "076": {
    "nombre": "Brasil",
    "principal": {
-    "texto": "Brasil rechazó la propuesta de EE. UU. de un recargo de 10 % a sus aviones terminados y cambios para el azúcar, y advirtió con represalias.",
-    "fuente": "Infobae",
-    "fecha": "2026-11-25",
-    "url": "https://www.infobae.com/america/mundo/2026/11/26/brasil-y-la-union-europea-rechazaron-los-nuevos-aranceles-de-trump-y-exigieron-respetar-los-acuerdos-comerciales/",
-    "en_boletin": true,
+    "texto": "Lula nombró al banquero Luiz Carlos Trabuco ministro de Hacienda para 2027, ante la creciente preocupación por el déficit fiscal.",
+    "fuente": "Bloomberg Línea",
+    "fecha": "2026-11-26",
+    "url": "https://www.bloomberglinea.com/latinoamerica/brasil/lula-nombra-a-luiz-carlos-trabuco-ministro-de-hacienda-ante-el-creciente-deficit-fiscal-de-brasil/",
+    "en_boletin": false,
     "en_ventana": true
    },
    "financiamiento": {
@@ -102,16 +102,16 @@
     "url": "https://www.bloomberglinea.com/negocios/petrobras-eleva-un-12-su-plan-de-inversion-a-us122000-millones-y-promete-mantener-dividendos/",
     "fuente": "Bloomberg Línea"
    },
-   "oportunidades": "La disputa por aranceles a aviones y azúcar muestra la exposición de las cadenas industriales al mercado estadounidense; una referencia para diversificar mercados en la región andina."
+   "oportunidades": "Un ajuste fiscal en Brasil puede afectar el financiamiento de Nova Indústria Brasil: seguir de cerca sus instrumentos como referencia para la región andina."
   },
   "152": {
    "nombre": "Chile",
    "principal": {
-    "texto": "El Congreso de Chile aprobó el presupuesto de 2027 del gobierno de Kast, con un alza del gasto público de 1,7 % y ajustes en educación, salud y cultura.",
-    "fuente": "Infobae",
+    "texto": "Iansa dejará de producir azúcar de remolacha después de más de 70 años y adaptará su última fábrica para procesar caña en bruto.",
+    "fuente": "Bloomberg Línea",
     "fecha": "2026-11-26",
-    "url": "https://www.infobae.com/america/america-latina/2026/11/26/el-congreso-de-chile-aprobo-los-presupuestos-generales-de-kast-para-2027-preven-ajustes-en-educacion-salud-y-cultura/",
-    "en_boletin": false,
+    "url": "https://www.bloomberglinea.com/latinoamerica/chile/chile-pone-fin-a-mas-de-70-anos-de-produccion-de-azucar-de-remolacha-tras-decision-de-iansa/",
+    "en_boletin": true,
     "en_ventana": true
    },
    "financiamiento": {
@@ -122,15 +122,15 @@
     "url": "https://www.df.cl/empresas/industria/blumar-confirma-negociaciones-con-agrosuper-para-vender-negocio-salmonero-y",
     "fuente": "Diario Financiero"
    },
-   "oportunidades": "Con un presupuesto 2027 más austero ya aprobado, seguir cómo se priorizan los fondos de fomento productivo e innovación como referencia de gasto público eficiente para la región."
+   "oportunidades": "El cierre de una cadena agroindustrial histórica es un caso para estudiar reconversión productiva de agricultores y plantas, útil para cadenas andinas expuestas a precios internacionales."
   },
   "032": {
    "nombre": "Argentina",
    "principal": {
-    "texto": "Stellantis, que advirtió que podría cerrar sus dos plantas en Argentina, pidió limitar los beneficios a los importadores de vehículos.",
+    "texto": "232 empresas iniciaron en 2026 un procedimiento preventivo de crisis para despedir o suspender personal, el peor registro de la década.",
     "fuente": "Infobae",
-    "fecha": "2026-11-25",
-    "url": "https://www.infobae.com/economia/2026/11/25/despues-de-avisar-que-podria-cerrar-sus-plantas-el-numero-uno-regional-de-stellantis-pidio-limitar-los-beneficios-a-los-importadores/",
+    "fecha": "2026-11-26",
+    "url": "https://www.infobae.com/economia/2026/11/26/mas-de-230-empresas-recurrieron-al-procedimiento-preventivo-de-crisis-en-2026-es-el-peor-registro-de-la-ultima-decada/",
     "en_boletin": true,
     "en_ventana": true
    },
@@ -142,16 +142,16 @@
     "url": "https://www.bloomberglinea.com/latinoamerica/argentina/vaca-muerta-ypf-presenta-otro-megaproyecto-al-rigi-por-us11688-millones/",
     "fuente": "Bloomberg Línea"
    },
-   "oportunidades": "La presión sobre las plantas automotrices y la gran inversión energética en trámite muestran la tensión entre apertura y producción local; una referencia para las políticas de contenido local andinas."
+   "oportunidades": "La ola de crisis en sectores intensivos en empleo muestra el valor de programas de reconversión y productividad para pymes industriales, aplicables también en los países andinos."
   },
   "484": {
    "nombre": "México",
    "principal": {
-    "texto": "México quedó fuera, por ahora, de la nueva ronda de aranceles de hasta 20 % que EE. UU. propuso a 14 economías; su caso sigue en revisión.",
-    "fuente": "Infobae (AFP)",
-    "fecha": "2026-11-25",
-    "url": "https://www.infobae.com/estados-unidos/2026/11/25/estados-unidos-propuso-nuevos-aranceles-de-hasta-20-a-14-economias-entre-ellas-china-la-ue-e-india/",
-    "en_boletin": true,
+    "texto": "Banxico subió a 1,9 % su pronóstico de crecimiento para 2026, cerca de la estimación del Gobierno.",
+    "fuente": "Bloomberg Línea",
+    "fecha": "2026-11-26",
+    "url": "https://www.bloomberglinea.com/latinoamerica/mexico/banxico-sube-a-19-pronostico-de-crecimiento-para-2026-y-se-acerca-a-estimado-del-gobierno/",
+    "en_boletin": false,
     "en_ventana": true
    },
    "financiamiento": {
@@ -162,15 +162,15 @@
     "url": "https://www.bloomberglinea.com/latinoamerica/mexico/cfe-fibra-e-realiza-nueva-emision-de-capital-por-us776-millones-para-financiar-redes-electricas-de-mexico/",
     "fuente": "Bloomberg Línea"
    },
-   "oportunidades": "Mientras su caso arancelario sigue en revisión, el impulso a la manufactura con nueva infraestructura energética es una referencia para atraer inversión industrial de relocalización."
+   "oportunidades": "Con un crecimiento moderado, el nearshoring mexicano sigue siendo un referente para atraer proveedores industriales; útil como comparación para la región andina."
   },
   "862": {
    "nombre": "Venezuela",
    "principal": {
-    "texto": "Venezuela y Siemens Energy firmaron en Caracas dos acuerdos para recuperar el sistema eléctrico y la generación propia del sector de hidrocarburos.",
-    "fuente": "Infobae",
-    "fecha": "2026-11-25",
-    "url": "https://www.infobae.com/venezuela/2026/11/26/venezuela-y-siemens-energy-formalizaron-una-alianza-para-recuperar-el-sistema-electrico-y-la-infraestructura-energetica-petrolera/",
+    "texto": "Se reportó un incendio en la refinería de Amuay (Falcón); versiones locales apuntan a la Planta 1 y a una posible fuga de combustible.",
+    "fuente": "Bloomberg Línea",
+    "fecha": "2026-11-26",
+    "url": "https://www.bloomberglinea.com/latinoamerica/venezuela/amuay-que-esta-pasando-con-el-incendio-en-la-refineria-de-falcon-hoy-26-de-noviembre/",
     "en_boletin": false,
     "en_ventana": true
    },
@@ -182,7 +182,7 @@
     "url": "https://www.larepublica.co/globoeconomia/bid-establece-un-limite-maximo-indicativo-de-us-6-000-millones-para-prestamos-a-venezuela-4531259",
     "fuente": "La República"
    },
-   "oportunidades": "La recuperación eléctrica con Siemens Energy y el interés del BID abren espacio para proponer eficiencia energética y reactivación de la industria nacional."
+   "oportunidades": "Los incidentes en refinerías muestran la necesidad de seguridad industrial y mantenimiento; una línea de cooperación técnica a seguir, junto con el financiamiento del BID ya registrado."
   },
   "858": {
    "nombre": "Uruguay",
@@ -232,7 +232,7 @@
     "fecha": "2026-11-25",
     "url": "https://www.infobae.com/el-salvador/2026/11/26/banco-mundial-aprobo-un-programa-habitacional-en-el-salvador-donde-el-deficit-afecta-al-68-de-los-hogares/",
     "en_boletin": false,
-    "en_ventana": true
+    "en_ventana": false
    },
    "financiamiento": {
     "texto": "Programa habitacional para unas 39.000 familias de ingresos bajos y medios entre 2027 y 2031.",
@@ -252,7 +252,7 @@
     "fecha": "2026-11-25",
     "url": "https://www.infobae.com/panama/2026/11/25/puertos-en-panama-movilizan-mas-de-84-millones-de-teu-durante-los-primeros-diez-meses-de-2026/",
     "en_boletin": false,
-    "en_ventana": true
+    "en_ventana": false
    },
    "financiamiento": {
     "texto": "No se registran operaciones de financiamiento en los últimos 30 días.",
@@ -267,10 +267,10 @@
   "320": {
    "nombre": "Guatemala",
    "principal": {
-    "texto": "Guatemala colocó eurobonos por US$ 800 millones con un diferencial récord de 185 puntos básicos, mientras su deuda pública supera los US$ 33.000 millones.",
-    "fuente": "Infobae",
-    "fecha": "2026-11-25",
-    "url": "https://www.infobae.com/guatemala/2026/11/25/guatemala-coloca-eurobonos-por-us800-millones-mientras-su-deuda-publica-supera-los-us33000-millones/",
+    "texto": "El presidente Arévalo vetará el presupuesto 2027 aprobado por el Congreso por los recortes a educación, salud y seguridad.",
+    "fuente": "Bloomberg Línea",
+    "fecha": "2026-11-26",
+    "url": "https://www.bloomberglinea.com/latinoamerica/guatemala/las-consecuencias-de-que-arevalo-vete-el-presupuesto-2027-aprobado-por-el-congreso-de-guatemala/",
     "en_boletin": false,
     "en_ventana": true
    },
@@ -282,7 +282,7 @@
     "url": null,
     "fuente": null
    },
-   "oportunidades": "Con mejor acceso a los mercados de deuda, el país podría financiar infraestructura productiva; seguir si parte de los recursos se orienta a parques industriales y mipymes."
+   "oportunidades": "La incertidumbre presupuestaria puede frenar programas productivos públicos; conviene priorizar iniciativas con financiamiento de cooperación ya asegurado."
   },
   "558": {
    "nombre": "Nicaragua",
@@ -332,7 +332,7 @@
     "fecha": "2026-11-25",
     "url": "https://www.infobae.com/costa-rica/2026/11/25/costa-rica-habria-perdido-usd-2000-millones-por-la-extraccion-ilegal-de-oro-en-crucitas-se-nos-esta-saliendo-de-las-manos/",
     "en_boletin": false,
-    "en_ventana": true
+    "en_ventana": false
    },
    "financiamiento": {
     "texto": "No se registran operaciones de financiamiento en los últimos 30 días.",
